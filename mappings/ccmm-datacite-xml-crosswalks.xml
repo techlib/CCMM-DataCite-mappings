@@ -20,7 +20,7 @@
                 <source>./ccmm:funder/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:iri</source>
                 <target>
                 ./datacite:funderIdentifier/@funderIdentifierType
-                <target>
+                </target>
             </mapping>
         </children>
     </mapping>
