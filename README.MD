@@ -219,11 +219,9 @@ The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-cro
 
 `\dataset\metadata_identification`
 
-    `.\iri`
-
-    `.\language` (iri, label)
-
-    `.\date_updated`
+-    `.\iri`
+-   `.\language` (iri, label)
+-   `.\date_updated`
 
 
 `\dataset\identifier`
@@ -238,21 +236,18 @@ The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-cro
 
 `\dataset\subject`
 
-    `.\classification_code`
-
-    `.\subject_scheme`
+-    `.\classification_code`
+-    `.\subject_scheme`
 
 `\dataset\funding_reference`
 
-    `.\funder`
-
-    .\organization` (name)
+-    `.\funder`
+-    .\organization` (name)
 
 `\dataset\description`
 
-    `\.description_text`
-
-    `.\description_type`
+-    `\.description_text`
+-    `.\description_type`
 
 
 ### Mandatory elements in DataCite
