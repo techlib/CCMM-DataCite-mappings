@@ -267,6 +267,8 @@ The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-cro
 
 ## XSLT transformation
 
+### CCMM to DataCite
+
 According to step 3.:
 
 TODO
@@ -276,6 +278,8 @@ The XSLT template with fixed structure prepared according to DataCite metadata s
 Variants:
 - based on crosswalks and according to mandatory elements in DataCite schema
 
+### DataCite to CCMM
 
+TODO
 
 
