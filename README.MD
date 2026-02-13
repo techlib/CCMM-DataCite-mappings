@@ -213,6 +213,63 @@ NOTE mandatory elemment in CCMM
 ````
 The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-crosswalks.xml).
 
+### Mandatory elements in CCMM
+
+`\dataset\iri`
+
+`\dataset\metadata_identification`
+
+    `.\iri`
+
+    `.\language` (iri, label)
+
+    `.\date_updated`
+
+
+`\dataset\identifier`
+
+`\dataset\title`
+
+`\dataset\publication_year`
+
+`\dataset\resource_type`
+
+`\dataset\primary_language`
+
+`\dataset\subject`
+
+    `.\classification_code`
+
+    `.\subject_scheme`
+
+`\dataset\funding_reference`
+
+    `.\funder`
+
+    .\organization` (name)
+
+`\dataset\description`
+
+    `\.description_text`
+
+    `.\description_type`
+
+
+### Mandatory elements in DataCite
+
+`\resource\identifier`
+
+`\resource\creators`
+
+`\resource\titles`
+
+`\resource\publisher`
+
+`\resource\publicationYear`
+
+`\resource\resourceType`
+
+
 ## XSLT transformation
 
 According to step 3.: TODO
