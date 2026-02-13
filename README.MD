@@ -46,7 +46,7 @@ CCMM DataCite Mapping Methodology is as follows
 
 ## Vocabulary-level CCMM DataCite Mapping
 
-According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1.ttl
+According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1.ttl)
 
 | CCMM | DataCite |
 | :--- | :--- |
@@ -211,7 +211,7 @@ NOTE mandatory elemment in CCMM
 ==
 /datacite:resource/dates/datacite:date[@dateType='Created']
 ````
-
+The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-crosswalks.xml).
 
 ## XSLT transformation
 
