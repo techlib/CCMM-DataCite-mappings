@@ -267,9 +267,14 @@ The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-cro
 
 ## XSLT transformation
 
-According to step 3.: TODO
+According to step 3.:
 
+TODO
 
+The XSLT template with fixed structure prepared according to DataCite metadata schema and CCMM metadata will be properly added using instructions in XML crosswalks.
+
+Variants:
+- based on crosswalks and according to mandatory elements in DataCite schema
 
 
 
