@@ -38,7 +38,7 @@ CCMM DataCite Mapping Methodology is as follows
 
 2. XML crosswalks based on sample examples for CCMM metadata and DataCite metadata.
 
-3. XSLT transformation aiming at transforming metadata:
+3. Operationalize XML crosswalks using XSLT transformation aiming at transforming metadata:
 
     3.1. CCMM metadata to DataCite metadata, i.e. DataCite-compliant representation of CCMM metadata
 
@@ -46,11 +46,60 @@ CCMM DataCite Mapping Methodology is as follows
 
 ## Vocabulary-level CCMM DataCite Mapping
 
-According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1.ttl)
+According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1.ttl
+
+| CCMM | DataCite |
+| :--- | :--- |
+| FundingReference | FundingReference |
+| Location | Geolocation |
+| Subject | Subject |
+| Description | Description |
+| TermsOfUse | Rights |
+| DescriptionType | DescriptionType |
+| Dataset.hasDescription | hasDescription |
+| Dataset.hasFundingReference | hasFundingReference |
+| Dataset.hasSubject | hasSubject |
+| Dataset.hasTermsOfUse | hasRights |
+| Dataset.publicationYear | relatedItemPublicationYear |
+| Description.descriptionText | descriptionText |
+| Description.hasDescriptionType | hasDescriptionType |
+| FundingReference.awardTitle | awardTitle |
+| FundingReference.hasFunder | hasFunderIdentifier |
+| FundingReference.localIdentifier | awardNumber |
+| Subject.classificationCode | subjectClassificationCode |
+| TimeReference.dateInformation | dateInformation |
 
 ## XML-level crosswalks
 
-According to step 2.: TODO
+According to step 2.:
+
+| FundingReference | FundingReference |
+
+````
+/ccmm:dataset/ccmm:funding_reference
+==
+/datacite:resource/datacite:fundingReferences/datacite:fundingReference
+````
+
+| Location | Geolocation |
+
+````
+/ccmm:dataset/ccmm:location
+==
+/datacite:resource/datacite:geoLocations/datacite:geoLocation
+````
+
+| Subject | Subject |
+
+NOTE mandatory elemment in CCMM
+
+````
+/ccmm:dataset/ccmm:subject
+==
+/datacite:resource/datacite:subjects/datacite:subject
+````
+
+
 
 ## XSLT transformation
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crosswalk
+    xmlns:ccmm="https://schema.ccmm.cz/research-data/1.1"
+    xmlns:datacite="http://datacite.org/schema/kernel-4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <mapping>
+        <source>/ccmm:dataset/ccmm:funding_reference</source>
+        <target>/datacite:resource/datacite:fundingReferences/datacite:fundingReference</target>
+    </mapping>
+
+    <mapping>
+        <source>/ccmm:dataset/ccmm:location</source>
+        <target>/datacite:resource/datacite:geoLocations/datacite:geoLocation</target>
+    </mapping>
+
+</crosswalk>
