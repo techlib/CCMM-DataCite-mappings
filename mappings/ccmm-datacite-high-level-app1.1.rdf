@@ -1,0 +1,28 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rd: <https://model.ccmm.cz/research-data/> .
+@prefix dc: <https://model.ccmm.cz/vocabulary/datacite#> .
+
+### Mapování tříd (Classes)
+rd:FundingReference    owl:equivalentClass    dc:FundingReference .
+rd:Location            owl:equivalentClass    dc:Geolocation .
+rd:Subject             owl:equivalentClass    dc:Subject .
+rd:Description         owl:equivalentClass    dc:Description .
+rd:TermsOfUse          owl:equivalentClass    dc:Rights .
+rd:DescriptionType     owl:equivalentClass    dc:DescriptionType .
+
+### Mapování vlastností (Properties)
+rd:Dataset.hasDescription           owl:equivalentProperty    dc:hasDescription .
+rd:Dataset.hasFundingReference      owl:equivalentProperty    dc:hasFundingReference .
+rd:Dataset.hasSubject               owl:equivalentProperty    dc:hasSubject .
+rd:Dataset.hasTermsOfUse            owl:equivalentProperty    dc:hasRights .
+rd:Dataset.publicationYear          owl:equivalentProperty    dc:relatedItemPublicationYear .
+
+rd:Description.descriptionText      owl:equivalentProperty    dc:descriptionText .
+rd:Description.hasDescriptionType   owl:equivalentProperty    dc:hasDescriptionType .
+
+rd:FundingReference.awardTitle      owl:equivalentProperty    dc:awardTitle .
+rd:FundingReference.hasFunder       owl:equivalentProperty    dc:hasFunderIdentifier .
+rd:FundingReference.localIdentifier owl:equivalentProperty    dc:awardNumber .
+
+rd:Subject.classificationCode       owl:equivalentProperty    dc:subjectClassificationCode .
+rd:TimeReference.dateInformation    owl:equivalentProperty    dc:dateInformation .

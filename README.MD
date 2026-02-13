@@ -1,0 +1,63 @@
+# CCMM to DataCite Mapping
+
+This repository contains material related to CCMM to DataCite mutual mapping.
+
+## Introduction
+
+This document describes the background and the methodology for the design of CCMM and DataCite mapping. The motivation for mapping of CCMM and DataCite is the need of aligning CCMM metadata with DataCite metadata and vice versa, i.e. DataCite-compliant representation of CCMM metadata and CCMM-compliant representation of DataCite metadata. The need stems from the fact that metadata catalogues can support either CCMM model or DataCite model.
+
+## Background
+
+### CCMM (version 1.1.0)
+
+"The Czech Core Metadata Model for Research Data (abbreviated as CCMM) is a core metadata model for research data description in the Czech Republic, it is an output of the Czech Academic and Research Discovery Services project, hereinafter referred to as CARDS." [https://www.ccmm.cz/en/core-model-ccmm/model-purpose-and-objectives/]
+
+- Web: https://model.ccmm.cz/research-data/en/#Dataset
+- XML Schema: https://model.ccmm.cz/research-data/dataset/schema.xsd
+- Examples: https://github.com/techlib/CCMM/tree/main/metadata-samples/xml
+
+
+### DataCite
+
+"The DataCite Metadata Schema is a list of core metadata properties chosen for accurate and consistent identification of a resource for citation and retrieval purposes, with recommended use instructions in the documentation. The DataCite Metadata Schema is suitable for a wide range of resource types—from samples and images to data and preprints." [https://datacite-metadata-schema.readthedocs.io/en/4.6/introduction/about-schema/] It is currently, one of the most widely used Semantic Web vocabularies for describing datasets and data catalogues.
+
+- Web: https://datacite-metadata-schema.readthedocs.io/en/4.6/
+- Examples and XML Schema: https://datacite-metadata-schema.readthedocs.io/en/4.6/xml/
+    - The XML Schema: https://schema.datacite.org/meta/kernel-4.6/metadata.xsd
+    - Full Example: https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-full-v4.xml
+
+## Methodology
+
+CCMM DataCite Mapping Methodology is as follows
+
+1. Initial alignment is based on high-level (vocabulary-level) comparison of the metadata elements defined in CCMM 1.1.0 (https://model.ccmm.cz/research-data/en/dsv.ttl) and in DataCite in-house vocabulary representation in OWL (https://model.ccmm.cz/vocabulary/datacite/model.owl.ttl)
+
+    1.1. **Straightforwad approach**: CCMM is partly derived from DataCite vocabulary. Precisely, several CCMM elements are profiled from Datacite elements. This inital straightforwad approach simply takes CCMM elements and their being-profiled-from DataCite elements counterparts as mappings.
+
+    1.2. **Exhaustive approach** considers the full list of CCMM elements and search for their possible mapping DataCite elements counterparts.
+
+2. XML crosswalks based on sample examples for CCMM metadata and DataCite metadata.
+
+3. XSLT transformation aiming at transforming metadata:
+
+    3.1. CCMM metadata to DataCite metadata, i.e. DataCite-compliant representation of CCMM metadata
+
+    3.2. DataCite metadata to CCMM metadata, i.e. CCMM-compliant representation of DataCite metadata
+
+## Vocabulary-level CCMM DataCite Mapping
+
+According to approach 1.1: TODO
+
+## XML-level crosswalks
+
+According to step 2.: TODO
+
+## XSLT transformation
+
+According to step 3.: TODO
+
+
+
+
+
+
