@@ -46,7 +46,7 @@ CCMM DataCite Mapping Methodology is as follows
 
 ## Vocabulary-level CCMM DataCite Mapping
 
-According to approach 1.1: TODO
+According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1.ttl)
 
 ## XML-level crosswalks
 
