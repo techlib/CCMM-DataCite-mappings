@@ -4,14 +4,87 @@
     xmlns:datacite="http://datacite.org/schema/kernel-4"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <mapping>
+    <mapping name="FundingReference">
         <source>/ccmm:dataset/ccmm:funding_reference</source>
         <target>/datacite:resource/datacite:fundingReferences/datacite:fundingReference</target>
+        <children>
+            <mapping>
+                <source>./ccmm:award_title</source>
+                <target>./datacite:awardTitle</target>
+            </mapping>
+            <mapping>
+                <source>./ccmm:local_identifier</source>
+                <target>./datacite:awardNumber</target>
+            </mapping>
+            <mapping>
+                <source>./ccmm:funder/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:iri</source>
+                <target>
+                ./datacite:funderIdentifier/@funderIdentifierType
+                <target>
+            </mapping>
+        </children>
     </mapping>
 
-    <mapping>
+    <mapping name="Subject">
+        <source>/ccmm:dataset/ccmm:subject</source>
+        <target>/datacite:resource/datacite:subjects/datacite:subject</target>
+        <children>
+            <mapping>
+                <source>./ccmm:classification_code</source>
+                <target>./@classificationCode</target>
+            </mapping>
+        </children>
+    </mapping>
+
+    <mapping name="Description">
+        <source>/ccmm:dataset/ccmm:description</source>
+        <target>/datacite:resource/datacite:descriptions/datacite:description</target>
+        <children>
+            <mapping>
+                <source>./ccmm:description_text</source>
+                <target>./text()</target>
+            </mapping>
+            <mapping>
+                <source>./ccmm:description_type/ccmm:label[@xml:lang='en']</source>
+                <target>./@descriptionType</target>
+            </mapping>
+        </children>
+    </mapping>
+
+    <mapping name="TermsOfUse">
+        <source>/ccmm:dataset/ccmm:terms_of_use/ccmm:license</source>
+        <target>/datacite:resource/datacite:rightsList/datacite:rights</target>
+
+        <children>
+            <mapping>
+                <source>./ccmm:iri</source>
+                <target>./@rightsURI</target>
+            </mapping>
+            <mapping>
+                <source>./ccmm:label[@xml:lang='en']</source>
+                <target>./text()</target>
+            </mapping>
+        </children>
+    </mapping>
+
+    <mapping name="Location">
         <source>/ccmm:dataset/ccmm:location</source>
         <target>/datacite:resource/datacite:geoLocations/datacite:geoLocation</target>
+    </mapping>
+
+    <mapping name="PublicationYear">
+        <source>/ccmm:dataset/ccmm:publication_year</source>
+        <target>/datacite:resource/datacite:publicationYear</target>
+    </mapping>
+
+    <mapping name="DateUpdated">
+        <source>/ccmm:dataset/ccmm:metadata_identification/ccmm:date_updated</source>
+        <target>/datacite:resource/dates/datacite:date[@dateType='Updated']</target>
+    </mapping>
+
+    <mapping name="DateCreated">
+        <source>/ccmm:dataset/ccmm:metadata_identification/ccmm:date_created</source>
+        <target>/datacite:resource/dates/datacite:date[@dateType='Created']</target>
     </mapping>
 
 </crosswalk>

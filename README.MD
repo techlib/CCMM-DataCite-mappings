@@ -73,12 +73,49 @@ According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1
 
 According to step 2.:
 
+| Dataset.publicationYear | relatedItemPublicationYear |
+(incorrect - not related item)
+
+````
+/ccmm:dataset/ccmm:publication_year
+==
+/datacite:resource/datacite:publicationYear
+````
+
+| Dataset.hasFundingReference | hasFundingReference |
+
 | FundingReference | FundingReference |
 
 ````
 /ccmm:dataset/ccmm:funding_reference
 ==
 /datacite:resource/datacite:fundingReferences/datacite:fundingReference
+````
+
+| FundingReference.awardTitle | awardTitle |
+
+
+````
+./ccmm:award_title
+==
+./datacite:awardTitle
+````
+
+| FundingReference.localIdentifier | awardNumber |
+
+
+````
+./ccmm:local_identifier
+==
+./datacite:awardNumber
+````
+
+| FundingReference.hasFunder | hasFunderIdentifier |
+
+````
+./ccmm:funder/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:iri
+==
+./datacite:funderIdentifier/@funderIdentifierType
 ````
 
 | Location | Geolocation |
@@ -88,6 +125,8 @@ According to step 2.:
 ==
 /datacite:resource/datacite:geoLocations/datacite:geoLocation
 ````
+
+| Dataset.hasSubject | hasSubject |
 
 | Subject | Subject |
 
@@ -99,6 +138,79 @@ NOTE mandatory elemment in CCMM
 /datacite:resource/datacite:subjects/datacite:subject
 ````
 
+| Subject.classificationCode | subjectClassificationCode |
+
+````
+./ccmm:classification_code
+==
+./@classificationCode
+````
+
+| Description | Description |
+
+| Dataset.hasDescription | hasDescription |
+
+````
+/ccmm:dataset/ccmm:description
+==
+/datacite:resource/datacite:descriptions/datacite:description
+
+````
+
+| Description.descriptionText | descriptionText |
+
+
+````
+./ccmm:description_text
+==
+./text()
+````
+
+| DescriptionType | DescriptionType |
+
+| Description.hasDescriptionType | hasDescriptionType |
+
+````
+./ccmm:description_type/ccmm:label[@xml:lang='en']
+==
+./@descriptionType
+````
+| Dataset.hasTermsOfUse | hasRights |
+
+| TermsOfUse | Rights |
+
+````
+/ccmm:dataset/ccmm:terms_of_use/ccmm:license
+==
+/datacite:resource/datacite:rightsList/datacite:rights
+````
+
+````
+./ccmm:iri
+==
+./@rightsURI
+````
+
+
+````
+./ccmm:label[@xml:lang='en']
+==
+./text()
+````
+
+| TimeReference.dateInformation | dateInformation |
+
+````
+/ccmm:dataset/ccmm:metadata_identification/ccmm:date_updated
+==
+/datacite:resource/dates/datacite:date[@dateType='Updated']
+````
+
+````
+/ccmm:dataset/ccmm:metadata_identification/ccmm:date_created
+==
+/datacite:resource/dates/datacite:date[@dateType='Created']
+````
 
 
 ## XSLT transformation
