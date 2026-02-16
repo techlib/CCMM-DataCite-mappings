@@ -87,4 +87,48 @@
         <target>/datacite:resource/dates/datacite:date[@dateType='Created']</target>
     </mapping>
 
+<!--  The following XML crosswalks added based on the analysis of mandatory elements of DataCite   -->
+
+    <mapping name="Identifier">
+        <source>/ccmm:dataset/ccmm:identifier[ccmm:scheme/ccmm:label='DOI']/ccmm:value</source>
+        <target>/datacite:resource/datacite:identifier[@identifierType='DOI']</target>
+    </mapping>
+
+    <mapping name="Creators">
+        <source>/ccmm:dataset/ccmm:qualified_relation[ccmm:role/ccmm:label[@xml:lang='en']='Creator']</source>
+        <target>/datacite:resource/datacite:creators/datacite:creator</target>
+        <children>
+            <mapping>
+                <source>concat(./ccmm:relation/ccmm:person/ccmm:family_name, ', ', ./ccmm:relation/ccmm:person/ccmm:given_name)</source>
+                <target>./datacite:creatorName</target>
+            </mapping>
+        </children>
+    </mapping>
+
+    <mapping name="Title">
+        <source>/ccmm:dataset/ccmm:title</source>
+        <target>/datacite:resource/datacite:titles/datacite:title[@xml:lang='cs']</target>
+    </mapping>
+
+    <mapping name="Publisher">
+        <source>/ccmm:dataset/ccmm:qualified_relation[ccmm:role/ccmm:label[@xml:lang='en']='Publisher']/ccmm:relation/ccmm:person/ccmm:affiliation/ccmm:name</source>
+        <target>/datacite:resource/datacite:publisher</target>
+    </mapping>
+
+    <mapping name="PublicationYear">
+        <source>/ccmm:dataset/ccmm:publication_year</source>
+        <target>/datacite:resource/datacite:publicationYear</target>
+    </mapping>
+
+    <mapping name="ResourceType">
+        <source>/ccmm:dataset/ccmm:resource_type/ccmm:label[@xml:lang='en']</source>
+        <target>/datacite:resource/datacite:resourceType</target>
+        <children>
+            <mapping>
+                <source>"Dataset"</source>
+                <target>./@resourceTypeGeneral</target>
+            </mapping>
+        </children>
+    </mapping>
+
 </crosswalk>
