@@ -36,6 +36,8 @@ CCMM DataCite Mapping Methodology is as follows
 
     1.2. **Exhaustive approach** considers the full list of CCMM elements and search for their possible mapping DataCite elements counterparts.
 
+NOTE Approaches 1.1. and 1.2. are not alternatives but they rather complement each other.
+
 2. XML crosswalks based on sample examples for CCMM metadata and DataCite metadata.
 
 3. Operationalize XML crosswalks using XSLT transformation aiming at transforming metadata:
@@ -43,6 +45,8 @@ CCMM DataCite Mapping Methodology is as follows
     3.1. CCMM metadata to DataCite metadata, i.e. DataCite-compliant representation of CCMM metadata
 
     3.2. DataCite metadata to CCMM metadata, i.e. CCMM-compliant representation of DataCite metadata
+
+The whole approach is iterative.
 
 ## Vocabulary-level CCMM DataCite Mapping
 
@@ -68,6 +72,8 @@ According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1
 | FundingReference.localIdentifier | awardNumber |
 | Subject.classificationCode | subjectClassificationCode |
 | TimeReference.dateInformation | dateInformation |
+
+TODO I will add 1.2. exhaustive approach for adding other mappings too.
 
 ## XML-level crosswalks
 
@@ -211,6 +217,71 @@ NOTE mandatory elemment in CCMM
 ==
 /datacite:resource/dates/datacite:date[@dateType='Created']
 ````
+
+The following XML crosswalks added based on the analysis of mandatory elements of DataCite:
+
+Identifier
+
+````
+/ccmm:dataset/ccmm:identifier[ccmm:scheme/ccmm:label='DOI']/ccmm:value
+==
+/datacite:resource/datacite:identifier[@identifierType='DOI']
+````
+
+
+
+Creators
+
+````
+/ccmm:dataset/ccmm:qualified_relation[ccmm:role/ccmm:label[@xml:lang='en']='Creator']
+==
+/datacite:resource/datacite:creators/datacite:creator
+````
+
+````
+concat(./ccmm:relation/ccmm:person/ccmm:family_name, ', ', ./ccmm:relation/ccmm:person/ccmm:given_name)
+==
+./datacite:creatorName
+````
+
+Title
+
+````
+/ccmm:dataset/ccmm:title
+==
+/datacite:resource/datacite:titles/datacite:title[@xml:lang='cs']
+````
+
+Publisher
+
+````
+/ccmm:dataset/ccmm:qualified_relation[ccmm:role/ccmm:label[@xml:lang='en']='Publisher']/ccmm:relation/ccmm:person/ccmm:affiliation/ccmm:name
+==
+/datacite:resource/datacite:publisher
+````
+
+PublicationYear
+
+````
+/ccmm:dataset/ccmm:publication_year
+==
+/datacite:resource/datacite:publicationYear
+````
+
+ResourceType
+
+````
+/ccmm:dataset/ccmm:resource_type/ccmm:label[@xml:lang='en']
+==
+/datacite:resource/datacite:resourceType
+````
+
+````
+"Dataset"
+==
+./@resourceTypeGeneral
+````
+
 The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-crosswalks.xml).
 
 ### Mandatory elements in CCMM
@@ -271,12 +342,12 @@ The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-cro
 
 According to step 3.:
 
-TODO
-
 The XSLT template with fixed structure prepared according to DataCite metadata schema and CCMM metadata will be properly added using instructions in XML crosswalks.
 
 Variants:
 - based on crosswalks and according to mandatory elements in DataCite schema
+
+The [XSLT transformation is available](./mappings/ccmm-datacite-template1.xsl).
 
 ### DataCite to CCMM
 

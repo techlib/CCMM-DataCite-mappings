@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4"
+          xmlns:datacite="http://datacite.org/schema/kernel-4"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4/metadata.xsd">
+   <identifier identifierType="DOI">10.45321/as36sl</identifier>
+   <creators>
+      <creator>
+         <creatorName>Novák, Jan</creatorName>
+      </creator>
+   </creators>
+   <titles>
+      <title xml:lang="cs">Kvalita ovzduší ve středních čechách 2024</title>
+   </titles>
+   <publisher>Masarykova Univerzita</publisher>
+   <publicationYear>2025</publicationYear>
+   <subjects>
+      <subject classificationCode="10509">Meteorology and atmospheric sciences</subject>
+      <subject/>
+      <subject classificationCode="EF">Environmental monitoring facilities</subject>
+   </subjects>
+   <dates>
+      <date dateType="Updated">2025-07-25</date>
+      <date dateType="Created">2025-04-28</date>
+   </dates>
+   <resourceType resourceTypeGeneral="Dataset">dataset</resourceType>
+   <rightsList>
+      <rights rightsURI="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</rights>
+   </rightsList>
+   <descriptions>
+      <description descriptionType="Abstract">Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
+            roce 2024.</description>
+   </descriptions>
+   <geoLocations>
+      <geoLocation>
+         <geoLocationPlace>Středočeský kraj</geoLocationPlace>
+      </geoLocation>
+   </geoLocations>
+   <fundingReferences>
+      <fundingReference>
+         <funderName>Grantová agentura České republiky</funderName>
+         <funderIdentifier funderIdentifierType="ROR">01pv73b02</funderIdentifier>
+         <awardNumber>https://doi.org/award-identifier</awardNumber>
+         <awardTitle>Program for air pollution research</awardTitle>
+      </fundingReference>
+      <fundingReference>
+         <funderName>Grantová agentura České republiky</funderName>
+         <funderIdentifier funderIdentifierType="ROR">01pv73b02</funderIdentifier>
+         <awardNumber>https://doi.org/award-identifier</awardNumber>
+         <awardTitle>Program for air pollution research</awardTitle>
+      </fundingReference>
+   </fundingReferences>
+</resource>
