@@ -73,7 +73,7 @@ According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1
 | Subject.classificationCode | subjectClassificationCode |
 | TimeReference.dateInformation | dateInformation |
 
-TODO I will add 1.2. exhaustive approach for adding other mappings too.
+TODO I will add 1.2. exhaustive approach for adding other mappings too. Map all entities using string-based techniques.
 
 ## XML-level crosswalks
 
