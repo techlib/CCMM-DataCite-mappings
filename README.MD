@@ -286,39 +286,69 @@ The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-cro
 
 ### Mandatory elements in CCMM
 
-`\dataset\iri`
+Agent.name
 
-`\dataset\metadata_identification`
+AlternateTitle.title
 
--    `.\iri`
--   `.\language` (iri, label)
--   `.\date_updated`
+Checksum.checksumValue
 
+Checksum.usesAlgorithm
 
-`\dataset\identifier`
+DataService.endpointUrl
 
-`\dataset\title`
+Dataset.hasIdentifier
 
-`\dataset\publication_year`
+Dataset.hasSubject
 
-`\dataset\resource_type`
+Dataset.hasTermsOfUse
 
-`\dataset\primary_language`
+Dataset.hasTimeReference
 
-`\dataset\subject`
+Dataset.isDescribedBy
 
--    `.\classification_code`
--    `.\subject_scheme`
+Dataset.publicationYear
 
-`\dataset\funding_reference`
+Dataset.title
 
--    `.\funder`
--    .\organization` (name)
+Description.descriptionText
 
-`\dataset\description`
+Distribution.title
 
--    `\.description_text`
--    `.\description_type`
+Distribution-DownloadableFile.byteSize
+
+Distribution-DownloadableFile.hasFormat
+
+FundingReference.hasFunder
+
+Identifier.inScheme
+
+Identifier.value
+
+Location.hasLocationRelationType
+
+MetadataRecord.conformsToStandard
+
+MetadataRecord.hasOriginalRepository
+
+MetadataRecord.qualifiedRelation
+
+ResourceToAgentRelationship.hadRole
+
+ResourceToAgentRelationship.hasRelatedAgent
+
+Subject.title
+
+TermsOfUse.accessRights
+
+TermsOfUse.license
+
+TimeInterval.hasBeginning
+
+TimeInterval.hasEnd
+
+TimeReference.hasDateType
+
+TimeReference.hasTemporalRepresentation
 
 
 ### Mandatory elements in DataCite
