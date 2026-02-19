@@ -1,5 +1,7 @@
 # CCMM to DataCite Mapping
 
+NOTE work in progress: towards exhaustive mappings
+
 This repository contains material related to CCMM to DataCite mutual mapping.
 
 ## Introduction
