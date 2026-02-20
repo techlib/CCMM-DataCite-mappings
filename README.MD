@@ -16,6 +16,74 @@ This document describes the background and the methodology for the design of CCM
 - XML Schema: https://model.ccmm.cz/research-data/dataset/schema.xsd
 - Examples: https://github.com/techlib/CCMM/tree/main/metadata-samples/xml
 
+#### CCMM: Mandatory elements
+
+![CCMM mandatory elements](./utils/CCMM-mandatory-elements3.png)
+
+Agent.name
+
+AlternateTitle.title
+
+Checksum.checksumValue
+
+Checksum.usesAlgorithm
+
+DataService.endpointUrl
+
+Dataset.hasIdentifier
+
+Dataset.hasSubject
+
+Dataset.hasTermsOfUse
+
+Dataset.hasTimeReference
+
+Dataset.isDescribedBy
+
+Dataset.publicationYear
+
+Dataset.title
+
+Description.descriptionText
+
+Distribution.title
+
+Distribution-DownloadableFile.byteSize
+
+Distribution-DownloadableFile.hasFormat
+
+FundingReference.hasFunder
+
+Identifier.inScheme
+
+Identifier.value
+
+Location.hasLocationRelationType
+
+MetadataRecord.conformsToStandard
+
+MetadataRecord.hasOriginalRepository
+
+MetadataRecord.qualifiedRelation
+
+ResourceToAgentRelationship.hadRole
+
+ResourceToAgentRelationship.hasRelatedAgent
+
+Subject.title
+
+TermsOfUse.accessRights
+
+TermsOfUse.license
+
+TimeInterval.hasBeginning
+
+TimeInterval.hasEnd
+
+TimeReference.hasDateType
+
+TimeReference.hasTemporalRepresentation
+
 
 ### DataCite
 
@@ -25,6 +93,20 @@ This document describes the background and the methodology for the design of CCM
 - Examples and XML Schema: https://datacite-metadata-schema.readthedocs.io/en/4.6/xml/
     - The XML Schema: https://schema.datacite.org/meta/kernel-4.6/metadata.xsd
     - Full Example: https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-full-v4.xml
+
+#### Mandatory elements in DataCite
+
+`\resource\identifier`
+
+`\resource\creators`
+
+`\resource\titles`
+
+`\resource\publisher`
+
+`\resource\publicationYear`
+
+`\resource\resourceType`
 
 ## Methodology
 
@@ -38,7 +120,11 @@ CCMM DataCite Mapping Methodology is as follows
 
 NOTE Approaches 1.1. and 1.2. are not alternatives but they rather complement each other.
 
-2. XML crosswalks based on sample examples for CCMM metadata and DataCite metadata.
+2. XML crosswalks
+
+    2.1. XML crosswalks based on sample examples for CCMM metadata and DataCite metadata (initial-mappings, initial crosswalks).
+
+    2.2. XML crosswalks based similarity comparison (in progress)
 
 3. Operationalize XML crosswalks using XSLT transformation aiming at transforming metadata:
 
@@ -50,6 +136,7 @@ The whole approach is iterative.
 
 ## Vocabulary-level CCMM DataCite Mapping
 
+### 1.1. Straightforwad approach
 According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1.ttl)
 
 | CCMM | DataCite |
@@ -73,11 +160,22 @@ According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1
 | Subject.classificationCode | subjectClassificationCode |
 | TimeReference.dateInformation | dateInformation |
 
+### 1.2. Exhaustive approach
+
 TODO (in progress) I will add 1.2. exhaustive approach for adding other mappings too. Match all entities using string-based techniques.
+
+Based on string-based comparison using the Levenshtein edit distance algorithm (via fuzz.ratio)
+
+[Classes similarities](./mappings/classes_similarity_results.csv)
+
+[Object properties similarities](./mappings/objectproperties_similarity_results.csv)
+
+[Datatype properties similarities](./mappings/datacite-datatypeproperty.csv)
+
 
 ## XML-level crosswalks
 
-According to step 2.:
+### 2.1. Initial crosswalks based on initial mappings:
 
 | Dataset.publicationYear | relatedItemPublicationYear |
 (incorrect - not related item)
@@ -284,91 +382,14 @@ ResourceType
 
 The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-crosswalks.xml).
 
-### Mandatory elements in CCMM
+### 2.2. XML crosswalks based on similarity comparison
 
-Agent.name
-
-AlternateTitle.title
-
-Checksum.checksumValue
-
-Checksum.usesAlgorithm
-
-DataService.endpointUrl
-
-Dataset.hasIdentifier
-
-Dataset.hasSubject
-
-Dataset.hasTermsOfUse
-
-Dataset.hasTimeReference
-
-Dataset.isDescribedBy
-
-Dataset.publicationYear
-
-Dataset.title
-
-Description.descriptionText
-
-Distribution.title
-
-Distribution-DownloadableFile.byteSize
-
-Distribution-DownloadableFile.hasFormat
-
-FundingReference.hasFunder
-
-Identifier.inScheme
-
-Identifier.value
-
-Location.hasLocationRelationType
-
-MetadataRecord.conformsToStandard
-
-MetadataRecord.hasOriginalRepository
-
-MetadataRecord.qualifiedRelation
-
-ResourceToAgentRelationship.hadRole
-
-ResourceToAgentRelationship.hasRelatedAgent
-
-Subject.title
-
-TermsOfUse.accessRights
-
-TermsOfUse.license
-
-TimeInterval.hasBeginning
-
-TimeInterval.hasEnd
-
-TimeReference.hasDateType
-
-TimeReference.hasTemporalRepresentation
-
-
-### Mandatory elements in DataCite
-
-`\resource\identifier`
-
-`\resource\creators`
-
-`\resource\titles`
-
-`\resource\publisher`
-
-`\resource\publicationYear`
-
-`\resource\resourceType`
+TODO (in progress)
 
 
 ## XSLT transformation
 
-### CCMM to DataCite
+### CCMM to DataCite: initial transformation based on initial mappings and crosswalks
 
 According to step 3.:
 
@@ -378,6 +399,10 @@ Variants:
 - based on crosswalks and according to mandatory elements in DataCite schema
 
 The [XSLT transformation is available](./mappings/ccmm-datacite-template1.xsl).
+
+### CCMM to DataCite: transformation based on exhaustive approach
+
+TODO
 
 ### DataCite to CCMM
 
