@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.48700/datst.1m3t2-78951</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>:unkn</name>
+               <given_name>:unkn</given_name>
+               <family_name>:unkn</family_name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://data.narodni-repozitar.cz</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.48700/datst.1m3t2-78951</iri>
+      <value>datst.1m3t2-78951</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <version/>
+   <title>Data set žádosti o grant Grantové agentury České republiky</title>
+   <alternate_title>
+      <title xml:lang="en">The Czech Science Foundation Grant Application Data Set</title>
+      <alternate_title_type>
+         <iri>https://schema.ccmm.cz/vocabulary/titleType/TranslatedTitle</iri>
+      </alternate_title_type>
+   </alternate_title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://orcid.org/0009-0003-1158-1138</iri>
+               <value>0009-0003-1158-1138</value>
+               <scheme>
+                  <iri>https://orcid.org/</iri>
+                  <label xml:lang="">ORCID</label>
+               </scheme>
+            </identifier>
+            <name>Paldusová, Kateřina</name>
+            <affiliation>
+               <identifier>
+                  <iri>https://ror.org/02sat5y74</iri>
+                  <value>02sat5y74</value>
+                  <scheme>
+                     <iri>https://ror.org/</iri>
+                     <label xml:lang="">ROR</label>
+                  </scheme>
+               </identifier>
+               <name>Ústav fyzikální chemie J. Heyrovského AV ČR</name>
+            </affiliation>
+            <affiliation>
+               <identifier>
+                  <iri>61388955</iri>
+                  <value>61388955</value>
+                  <scheme>
+                     <iri>https://www.wikidata.org/entity/Q42302581</iri>
+                     <label xml:lang="">IČO</label>
+                  </scheme>
+               </identifier>
+               <name>Ústav fyzikální chemie J. Heyrovského AV ČR</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://orcid.org/0000-0003-1662-9092</iri>
+               <value>0000-0003-1662-9092</value>
+               <scheme>
+                  <iri>https://orcid.org/</iri>
+                  <label xml:lang="">ORCID</label>
+               </scheme>
+            </identifier>
+            <name>González Navarro, José Alfredo</name>
+            <affiliation>
+               <identifier>
+                  <iri>https://ror.org/02sat5y74</iri>
+                  <value>02sat5y74</value>
+                  <scheme>
+                     <iri>https://ror.org/</iri>
+                     <label xml:lang="">ROR</label>
+                  </scheme>
+               </identifier>
+               <name>Ústav fyzikální chemie J. Heyrovského AV ČR</name>
+            </affiliation>
+            <affiliation>
+               <identifier>
+                  <iri>61388955</iri>
+                  <value>61388955</value>
+                  <scheme>
+                     <iri>https://www.wikidata.org/entity/Q42302581</iri>
+                     <label xml:lang="">IČO</label>
+                  </scheme>
+               </identifier>
+               <name>Ústav fyzikální chemie J. Heyrovského AV ČR</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://orcid.org/0009-0008-0140-2075</iri>
+               <value>0009-0008-0140-2075</value>
+               <scheme>
+                  <iri>https://orcid.org/</iri>
+                  <label xml:lang="">ORCID</label>
+               </scheme>
+            </identifier>
+            <name>Echezarreta Mendicute, Irene</name>
+            <affiliation>
+               <identifier>
+                  <iri>https://ror.org/02sat5y74</iri>
+                  <value>02sat5y74</value>
+                  <scheme>
+                     <iri>https://ror.org/</iri>
+                     <label xml:lang="">ROR</label>
+                  </scheme>
+               </identifier>
+               <name>Ústav fyzikální chemie J. Heyrovského AV ČR</name>
+            </affiliation>
+            <affiliation>
+               <identifier>
+                  <iri>61388955</iri>
+                  <value>61388955</value>
+                  <scheme>
+                     <iri>https://www.wikidata.org/entity/Q42302581</iri>
+                     <label xml:lang="">IČO</label>
+                  </scheme>
+               </identifier>
+               <name>Ústav fyzikální chemie J. Heyrovského AV ČR</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://orcid.org/0000-0002-4606-1218</iri>
+               <value>0000-0002-4606-1218</value>
+               <scheme>
+                  <iri>https://orcid.org/</iri>
+                  <label xml:lang="">ORCID</label>
+               </scheme>
+            </identifier>
+            <name>Cebecauer, Marek</name>
+            <affiliation>
+               <identifier>
+                  <iri>https://ror.org/02sat5y74</iri>
+                  <value>02sat5y74</value>
+                  <scheme>
+                     <iri>https://ror.org/</iri>
+                     <label xml:lang="">ROR</label>
+                  </scheme>
+               </identifier>
+               <name>Ústav fyzikální chemie J. Heyrovského AV ČR</name>
+            </affiliation>
+            <affiliation>
+               <identifier>
+                  <iri>61388955</iri>
+                  <value>61388955</value>
+                  <scheme>
+                     <iri>https://www.wikidata.org/entity/Q42302581</iri>
+                     <label xml:lang="">IČO</label>
+                  </scheme>
+               </identifier>
+               <name>Ústav fyzikální chemie J. Heyrovského AV ČR</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>:unkn</name>
+            <given_name>:unkn</given_name>
+            <family_name>:unkn</family_name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Ústav fyzikální chemie J. Heyrovského AV ČR</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2025</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2025-04-03</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_interval>
+            <beginning>
+               <date>2025-04-02</date>
+            </beginning>
+            <end>
+               <date>2025-04-03</date>
+            </end>
+         </time_interval>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Created</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_interval>
+            <beginning>
+               <date>2025-01-01</date>
+            </beginning>
+            <end>
+               <date>2025-04-03</date>
+            </end>
+         </time_interval>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Collected</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2025-04-03</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">dataset</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/ENG</iri>
+   </primary_language>
+   <terms_of_use>
+      <access_rights>
+         <iri>http://purl.org/coar/access_right/c_abf2</iri>
+         <label xml:lang="en">open access</label>
+         <label xml:lang="cs">otevřený přístup</label>
+      </access_rights>
+      <license>
+         <iri>https://creativecommons.org/licenses/by/4.0/</iri>
+         <label xml:lang="en">Creative Commons Attribution 4.0 International License</label>
+      </license>
+   </terms_of_use>
+   <subject>
+      <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601</iri>
+      <title xml:lang="cs">Buněčná biologie</title>
+      <subject_scheme>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
+         <label xml:lang="en">OECD FORD Subject Category (Frascati)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601</iri>
+      <title xml:lang="en">Cell biology</title>
+      <subject_scheme>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
+         <label xml:lang="en">OECD FORD Subject Category (Frascati)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</iri>
+      <title xml:lang="cs">Mikrobiologie</title>
+      <subject_scheme>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
+         <label xml:lang="en">OECD FORD Subject Category (Frascati)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</iri>
+      <title xml:lang="en">Microbiology</title>
+      <subject_scheme>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
+         <label xml:lang="en">OECD FORD Subject Category (Frascati)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102</iri>
+      <title xml:lang="cs">Imunologie</title>
+      <subject_scheme>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
+         <label xml:lang="en">OECD FORD Subject Category (Frascati)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102</iri>
+      <title xml:lang="en">Immunology</title>
+      <subject_scheme>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
+         <label xml:lang="en">OECD FORD Subject Category (Frascati)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="cs">lidské neutrofily</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">human neutrophils</title>
+   </subject>
+   <subject>
+      <title xml:lang="cs">NETy</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">NETs</title>
+   </subject>
+   <subject>
+      <title xml:lang="cs">NETóza</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">NETosis</title>
+   </subject>
+   <subject>
+      <title xml:lang="cs">mikroskopie</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">microscopy</title>
+   </subject>
+   <description>
+      <description_text xml:lang="cs">Data podporující strukturu neutrofilových extracelulárních pastí pocházejících z lidských neutrofilů</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="en">Data supporting the structure of neutrophil extracellular traps generated from human neutrophils</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">Doplňující mikroskopická data</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="en">Supplementary microscopy data</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">Izolace neutrofilů ze vzorků lidské krve, stimulace neutrofilů pomocí agens indukujících NETózu, akvizice mikroskopických dat</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Methods</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="en">Isolation of neutrophils from human blood samples, neutrophil stimulation with NETosis-inducing agents, microscopy data acquisition</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Methods</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: CebecauerTkadlec_GACR2026_MindMap.pdf | FormatIRI: http://publications.europa.eu/resource/authority/file-type/PDF</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: ReadMe.txt | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TXT</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: Supp_Fig2A_NE_DNAchannel.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: Supp_Fig2A_NE_Merge_5um.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: Supp_Fig2A_NE_processedSMLM.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: Supp_Fig2B_citH3_DNAchannel.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: Supp_Fig2B_citH3_Merge_5um.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: Supp_Fig2B_citH3_processedSMLM.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: Supp_Fig2C_MPO_DNAchannel.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: Supp_Fig2C_MPO_Merge_5um.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: Supp_Fig2C_MPO_processedSMLM.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: Supplementary_Figures.pdf | FormatIRI: http://publications.europa.eu/resource/authority/file-type/PDF</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>CebecauerTkadlec_GACR2026_MindMap.pdf | FormatIRI: http://publications.europa.eu/resource/authority/file-type/PDF</title>
+         <access_url>
+            <iri>https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/</iri>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <download_url>
+            <iri>
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/CebecauerTkadlec_GACR2026_MindMap.pdf</iri>
+            <label xml:lang="en">Data download</label>
+         </download_url>
+         <format>
+            <iri/>
+            <label xml:lang="en">PDF</label>
+         </format>
+         <byte_size>660</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

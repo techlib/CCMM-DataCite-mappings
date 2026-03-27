@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4"
+          xmlns:gml="http://www.opengis.net/gml/3.2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+   <identifier identifierType="DOI">10.45321/as36sl</identifier>
+   <alternateIdentifiers>
+      <alternateIdentifier alternateIdentifierType="Organizační identifikační schéma">air-q-cb-25-23</alternateIdentifier>
+   </alternateIdentifiers>
+   <creators>
+      <creator>
+         <creatorName nameType="Personal">Novák</creatorName>
+         <givenName>Jan</givenName>
+         <familyName>Novák</familyName>
+         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0030-04X2-2030-4X26</nameIdentifier>
+         <affiliation affiliationIdentifier="https://ror.org/024d6js02"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">Univerzita Karlova</affiliation>
+      </creator>
+   </creators>
+   <contributors>
+      <contributor contributorType="DataManager">
+         <contributorName nameType="Personal">Novák</contributorName>
+         <givenName>Jan</givenName>
+         <familyName>Novák</familyName>
+         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0030-04X2-2030-4X26</nameIdentifier>
+         <affiliation affiliationIdentifier="https://ror.org/024d6js02"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">Univerzita Karlova</affiliation>
+      </contributor>
+   </contributors>
+   <dates>
+      <date dateType="Collected">2025-04-27T12:00:01+02:00</date>
+      <date dateType="Collected">2024-01-01/2024-12-31</date>
+   </dates>
+   <titles>
+      <title>Kvalita ovzduší ve středních čechách 2024</title>
+      <title xml:lang="en" titleType="TranslatedTitle">Air quality measurements in Central Bohemian Region in 2024.</title>
+   </titles>
+   <publisher publisherIdentifier="https://ror.org/02j46qs45"
+              publisherIdentifierScheme="ROR"
+              schemeURI="https://ror.org/">Masarykova Univerzita</publisher>
+   <publicationYear>2025</publicationYear>
+   <resourceType resourceTypeGeneral="Dataset">dataset</resourceType>
+   <subjects>
+      <subject classificationCode="10509"
+               valueURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509"
+               subjectScheme="OECD FORD Subject Category (Frascati)"
+               schemeURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/"
+               xml:lang="cs">Meteorologie, vědy o atmosféře</subject>
+      <subject classificationCode="10509"
+               valueURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509"
+               subjectScheme="OECD FORD Subject Category (Frascati)"
+               schemeURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/"
+               xml:lang="en">Meteorology and atmospheric sciences</subject>
+      <subject xml:lang="cs">kvalita ovzduší</subject>
+      <subject classificationCode="EF"
+               valueURI="http://inspire.ec.europa.eu/theme/ef"
+               subjectScheme="INSPIRE theme register"
+               schemeURI="https://inspire.ec.europa.eu/theme/"
+               xml:lang="en">Environmental monitoring facilities</subject>
+   </subjects>
+   <descriptions>
+      <description descriptionType="Abstract" xml:lang="cs">Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
+            roce 2024.</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Kvalita ovzduší | FormatIRI: https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/GPKG</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">LocName: Středočeský kraj | LocType: Collected</description>
+   </descriptions>
+   <formats>
+      <format>GeoPackage</format>
+   </formats>
+   <fundingReferences>
+      <fundingReference>
+         <funderName>Grantová agentura České republiky</funderName>
+         <funderIdentifier funderIdentifierType="ROR">01pv73b02</funderIdentifier>
+         <awardNumber>https://doi.org/award-identifier</awardNumber>
+         <awardTitle>Program for air pollution research</awardTitle>
+      </fundingReference>
+   </fundingReferences>
+   <version>1.0.23</version>
+   <rightsList>
+      <rights rightsURI="https://creativecommons.org/licenses/by/4.0/"
+              rightsIdentifier="CC-BY-4.0"
+              rightsIdentifierScheme="SPDX"
+              schemeURI="https://spdx.org/licenses/"
+              xml:lang="en">Attribution 4.0 International</rights>
+      <rights rightsURI="http://purl.org/coar/access_right/c_abf2" xml:lang="en">open access</rights>
+   </rightsList>
+   <language>CES</language>
+   <relatedIdentifiers>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="IsVariantFormOf"
+                         resourceTypeGeneral="Other">https://original-repository.cz</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">https://geoportal.gov.cz/atom/CHMU/chmu_ovzdusi_AQ_data_epsg4258_2023.zip</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsDocumentedBy">https://www.chmi.cz/o-nas/organizacni-struktura/usek-kvality-ovzdusi/oddeleni-informacniho-systemu-kvality-ovzdusi/odkazy</relatedIdentifier>
+   </relatedIdentifiers>
+   <sizes>
+      <size>256 B</size>
+   </sizes>
+   <relatedItems>
+      <relatedItem relationType="IsReferencedBy" relatedItemType="text">
+         <titles>
+            <title>Směrnice Evropského parlamentu a Rady 2008/50/ES ze dne 21. května 2008 o kvalitě
+            vnějšího ovzduší a čistším ovzduší pro Evropu</title>
+         </titles>
+      </relatedItem>
+      <relatedItem relationType="IsCollectedBy" relatedItemType="research instrument">
+         <titles>
+            <title>ENVI LVS1 Sampler pro odběr prašného aerosolu</title>
+         </titles>
+      </relatedItem>
+      <relatedItem relationType="IsDerivedFrom" relatedItemType="observational data">
+         <titles>
+            <title>Kvalita ovzduší – aktuální hodinové údaje</title>
+         </titles>
+      </relatedItem>
+      <relatedItem relationType="HasMetadata" relatedItemType="Other">
+         <titles>
+            <title>Metadata datoivé sady INSPIRE – Kvalita ovzduší – přehledy (data) na měřicích
+            stanicích</title>
+         </titles>
+      </relatedItem>
+   </relatedItems>
+   <geoLocations>
+      <geoLocation>
+         <geoLocationPlace>Středočeský kraj</geoLocationPlace>
+         <geoLocationBox>
+            <westBoundLongitude>49.50127042751268</westBoundLongitude>
+            <southBoundLatitude>13.394972457505816</southBoundLatitude>
+            <eastBoundLongitude>50.61421606255462</eastBoundLongitude>
+            <northBoundLatitude>15.585575400519133</northBoundLatitude>
+         </geoLocationBox>
+         <geoLocationPolygon>
+            <polygonPoint>
+               <pointLongitude>14.508682697577541</pointLongitude>
+               <pointLatitude>50.51144569678917</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.477983995157558</pointLongitude>
+               <pointLatitude>50.518028235000116</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.478035479185621</pointLongitude>
+               <pointLatitude>50.45555539736816</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.43880488232486</pointLongitude>
+               <pointLatitude>50.421645176771875</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.36581743554305</pointLongitude>
+               <pointLatitude>50.446719892855725</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.35739194570175</pointLongitude>
+               <pointLatitude>50.36258757705775</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.250657864603255</pointLongitude>
+               <pointLatitude>50.33210789446332</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.020371354587127</pointLongitude>
+               <pointLatitude>50.357187064119046</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>13.880065240527614</pointLongitude>
+               <pointLatitude>50.25844541078942</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>13.778984389572202</pointLongitude>
+               <pointLatitude>50.265648633804574</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>13.495504438237504</pointLongitude>
+               <pointLatitude>50.17943830724704</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>13.411503893003527</pointLongitude>
+               <pointLatitude>50.10568117653557</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>13.417170120315802</pointLongitude>
+               <pointLatitude>50.03544699629592</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>13.832381491846519</pointLongitude>
+               <pointLatitude>49.950644934840085</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>13.795973119752944</pointLongitude>
+               <pointLatitude>49.80605469619334</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>13.85777765771411</pointLongitude>
+               <pointLatitude>49.70834633763184</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>13.731479412226832</pointLongitude>
+               <pointLatitude>49.6646629397591</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>13.756733581251808</pointLongitude>
+               <pointLatitude>49.524668139017024</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>13.967097422200993</pointLongitude>
+               <pointLatitude>49.51543217474966</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.046896101223354</pointLongitude>
+               <pointLatitude>49.56571182490248</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.088997534155055</pointLongitude>
+               <pointLatitude>49.520140414785175</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.263020664899983</pointLongitude>
+               <pointLatitude>49.55285796043711</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.389212294975863</pointLongitude>
+               <pointLatitude>49.53296587296373</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.564954244472574</pointLongitude>
+               <pointLatitude>49.54952076690324</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.646281469761647</pointLongitude>
+               <pointLatitude>49.50408988161226</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.735996252098658</pointLongitude>
+               <pointLatitude>49.5403919181108</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.747207923257832</pointLongitude>
+               <pointLatitude>49.62756002769342</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.932262624987828</pointLongitude>
+               <pointLatitude>49.542327845490064</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.005169791530534</pointLongitude>
+               <pointLatitude>49.6041078098593</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.232274449831607</pointLongitude>
+               <pointLatitude>49.60593619825548</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.243541844074144</pointLongitude>
+               <pointLatitude>49.65489001943007</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.16792950938833</pointLongitude>
+               <pointLatitude>49.69645491207288</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.212758939211</pointLongitude>
+               <pointLatitude>49.758168304172386</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.510333591208592</pointLongitude>
+               <pointLatitude>49.853893057205454</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.5246155982382</pointLongitude>
+               <pointLatitude>49.97119836125438</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.361856320336926</pointLongitude>
+               <pointLatitude>50.046941393360356</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.41520889434986</pointLongitude>
+               <pointLatitude>50.12977066138589</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.32818568688134</pointLongitude>
+               <pointLatitude>50.15316027875852</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.401167427630014</pointLongitude>
+               <pointLatitude>50.22145049356703</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.356241063917224</pointLongitude>
+               <pointLatitude>50.293232962277955</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.207509418150238</pointLongitude>
+               <pointLatitude>50.28784932198144</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.089561576559703</pointLongitude>
+               <pointLatitude>50.37564180390385</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.15967793985348</pointLongitude>
+               <pointLatitude>50.46503338472152</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>15.100730871208327</pointLongitude>
+               <pointLatitude>50.548897837519775</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.915528393428872</pointLongitude>
+               <pointLatitude>50.61835182571946</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.85663081512601</pointLongitude>
+               <pointLatitude>50.57566962715006</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.820147490564125</pointLongitude>
+               <pointLatitude>50.543574383167936</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.769635500894594</pointLongitude>
+               <pointLatitude>50.56495862568477</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.741574967586558</pointLongitude>
+               <pointLatitude>50.53286099312848</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.688263940665593</pointLongitude>
+               <pointLatitude>50.48824277888082</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.604089936049633</pointLongitude>
+               <pointLatitude>50.479312687191054</pointLatitude>
+            </polygonPoint>
+            <polygonPoint>
+               <pointLongitude>14.508682697577541</pointLongitude>
+               <pointLatitude>50.51144569678917</pointLatitude>
+            </polygonPoint>
+         </geoLocationPolygon>
+      </geoLocation>
+   </geoLocations>
+</resource>

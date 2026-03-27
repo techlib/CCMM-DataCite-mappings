@@ -16,7 +16,7 @@ This document describes the background and the methodology for the design of CCM
 
 - Web: https://model.ccmm.cz/research-data/en/#Dataset
 - XML Schema: https://model.ccmm.cz/research-data/dataset/schema.xsd
-- Examples: https://github.com/techlib/CCMM/tree/main/metadata-samples/xml
+- Examples: https://github.com/techlib/CCMM/tree/main/_metadata-samples/xml
 
 #### CCMM: Mandatory elements
 
@@ -118,7 +118,7 @@ CCMM DataCite Mapping Methodology is as follows
 
     1.1. **Straightforwad approach**: CCMM is partly derived from DataCite vocabulary. Precisely, several CCMM elements are profiled from Datacite elements. This inital straightforwad approach simply takes CCMM elements and their being-profiled-from DataCite elements counterparts as mappings.
 
-    1.2. **Exhaustive approach** considers the full list of CCMM elements and search for their possible mapping DataCite elements counterparts.
+    1.2. **Exhaustive approach** considers all entities from CCMM on the level of vocabularies with regard to Datacite entities.
 
 NOTE Approaches 1.1. and 1.2. are not alternatives but they rather complement each other.
 
@@ -126,7 +126,7 @@ NOTE Approaches 1.1. and 1.2. are not alternatives but they rather complement ea
 
     2.1. XML crosswalks based on sample examples for CCMM metadata and DataCite metadata (initial-mappings, initial crosswalks).
 
-    2.2. XML crosswalks based similarity comparison (in progress)
+    2.2. XML crosswalks (exhaustive mapping)
 
 3. Operationalize XML crosswalks using XSLT transformation aiming at transforming metadata:
 
@@ -164,9 +164,9 @@ According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1
 
 ### 1.2. Exhaustive approach
 
-TODO (in progress) I will add 1.2. exhaustive approach for adding other mappings too. Match all entities using string-based techniques.
+The initial plan was to match all entities from related vocabularies using string‑based techniques, but in practice we transitioned to relying directly on XML crosswalks ([Section 2.2](#xml-crosswalks-an-exhaustive-mapping)).
 
-Based on string-based comparison using the Levenshtein edit distance algorithm (via fuzz.ratio)
+Based on string-based comparison using the Levenshtein edit distance algorithm (via fuzz.ratio):
 
 [Classes similarities](./mappings/classes_similarity_results.csv)
 
@@ -384,30 +384,42 @@ ResourceType
 
 The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-crosswalks.xml).
 
-### 2.2. XML crosswalks based on similarity comparison
+### 2.2. XML crosswalks -- an exhaustive mapping
 
-TODO (in progress)
+Once the initial mapping and XML crosswalks were completed, we shifted to an exhaustive search that began with DataCite elements and attributes (queried using XPath) and aimed to identify the corresponding CCMM nodes.
 
-
-## XSLT transformation
-
-### CCMM to DataCite: initial transformation based on initial mappings and crosswalks
-
-According to step 3.:
-
-The XSLT template with fixed structure prepared according to DataCite metadata schema and CCMM metadata will be properly added using instructions in XML crosswalks.
-
-Variants:
-- based on crosswalks and according to mandatory elements in DataCite schema
-
-The [XSLT transformation is available](./mappings/ccmm-datacite-template1.xsl).
-
-### CCMM to DataCite: transformation based on exhaustive approach
-
-TODO
-
-### DataCite to CCMM
-
-TODO
+Complete list of [XML crosswalks in one table](./mappings/DataCite-from-CCMM-XML-crosswalks.ms) or in [TSV file](./mappings/DataCite-from-CCMM-XML-crosswalks.tsv)
 
 
+## 3. XSLT transformation
+
+Operationalize XML crosswalks using XSLT transformation aiming at transforming metadata:
+
+- [XSLT transformation](./mappings/transformation-datacite-from-ccmm.xsl) for transforming CCMM metadata to DataCite metadata, i.e. DataCite-compliant representation of CCMM metadata
+
+- [XSLT transformation](./mappings/transformation-ccmm-from-datacite.xsl) for transforming DataCite metadata to CCMM metadata, i.e. CCMM-compliant representation of DataCite metadata
+
+```mermaid
+    A["CCMM XML (input)"]
+        -->|XSLT 1| B[DataCite XML]
+
+    B -->|XSLT 2| C["CCMM XML (round‑trip output)"]
+
+    C -.should equal .-> A
+```
+
+| CCMM XML input                                                                 | DataCite XML output                                                                      | CCMM XML output                                                                               |
+|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| [dataset-mini.xml](./metadata-samples-test/dataset-mini.xml)                   | [dataset-mini-datacite.xml](./metadata-samples-test/dataset-mini-datacite.xml)           | [dataset-mini-datacite-back.xml](./metadata-samples-test/dataset-mini-datacite-back.xml)       |
+| [ccmm_sample.xml](./metadata-samples-test/ccmm_sample.xml)                     | [ccmm_sample-datacite.xml](./metadata-samples-test/ccmm_sample-datacite.xml)             | [ccmm_sample-datacite-back.xml](./metadata-samples-test/ccmm_sample-datacite-back.xml)         |
+| [1m3t2-78951.xml](./metadata-samples-test/1m3t2-78951.xml)                     | [1m3t2-78951-datacite.xml](./metadata-samples-test/1m3t2-78951-datacite.xml)             | [1m3t2-78951-datacite-back.xml](./metadata-samples-test/1m3t2-78951-datacite-back.xml)         |
+| [dmq82-ed856.xml](./metadata-samples-test/dmq82-ed856.xml)                     | [dmq82-ed856-datacite.xml](./metadata-samples-test/dmq82-ed856-datacite.xml)             | [dmq82-ed856-datacite-back.xml](./metadata-samples-test/dmq82-ed856-datacite-back.xml)         |
+
+
+### Current actions
+
+- At present, values from controlled vocabularies are sourced directly from the CCMM.
+  We are working toward a more flexible solution in which each controlled vocabulary is associated with an external mapping that ensures correct alignment with corresponding DataCite values; this will be implemented through external function calls invoked from within the XSLT.
+
+- The XSLT transformations have been validated using our CCMM XML sample datasets.
+  Ongoing work focuses on evaluating the transformations against “live” DataCite XML records to ensure robustness under real‑world conditions.

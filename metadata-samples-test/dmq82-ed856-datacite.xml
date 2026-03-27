@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4"
+          xmlns:gml="http://www.opengis.net/gml/3.2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+   <identifier identifierType="DOI">10.48700/datst.dmq82-ed856</identifier>
+   <alternateIdentifiers/>
+   <creators>
+      <creator>
+         <creatorName nameType="Personal">Salvetr, Pavel</creatorName>
+         <givenName>Pavel</givenName>
+         <familyName>Salvetr</familyName>
+         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0001-5717-267X</nameIdentifier>
+         <affiliation affiliationIdentifier="https://ror.org/00hzjtg80"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">COMTES FHT</affiliation>
+         <affiliation affiliationIdentifier="26316919"
+                      affiliationIdentifierScheme="IČO"
+                      schemeURI="https://www.wikidata.org/entity/Q42302581">COMTES FHT</affiliation>
+      </creator>
+      <creator>
+         <creatorName nameType="Personal">Hodek, Josef</creatorName>
+         <givenName>Josef</givenName>
+         <familyName>Hodek</familyName>
+         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0003-4013-9819</nameIdentifier>
+         <affiliation affiliationIdentifier="https://ror.org/00hzjtg80"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">COMTES FHT</affiliation>
+         <affiliation affiliationIdentifier="26316919"
+                      affiliationIdentifierScheme="IČO"
+                      schemeURI="https://www.wikidata.org/entity/Q42302581">COMTES FHT</affiliation>
+      </creator>
+      <creator>
+         <creatorName nameType="Personal">Uhlík, Matouš</creatorName>
+         <givenName>Matouš</givenName>
+         <familyName>Uhlík</familyName>
+         <affiliation affiliationIdentifier="https://ror.org/00hzjtg80"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">COMTES FHT</affiliation>
+         <affiliation affiliationIdentifier="26316919"
+                      affiliationIdentifierScheme="IČO"
+                      schemeURI="https://www.wikidata.org/entity/Q42302581">COMTES FHT</affiliation>
+      </creator>
+      <creator>
+         <creatorName nameType="Personal">Novák, Pavel</creatorName>
+         <givenName>Pavel</givenName>
+         <familyName>Novák</familyName>
+         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0001-9947-2566</nameIdentifier>
+         <affiliation affiliationIdentifier="https://ror.org/05ggn0a85"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">Vysoká škola chemicko-technologická v Praze</affiliation>
+         <affiliation affiliationIdentifier="60461373"
+                      affiliationIdentifierScheme="IČO"
+                      schemeURI="https://www.wikidata.org/entity/Q42302581">Vysoká škola chemicko-technologická v Praze</affiliation>
+      </creator>
+      <creator>
+         <creatorName nameType="Personal">Dlouhý, Jaromír</creatorName>
+         <givenName>Jaromír</givenName>
+         <familyName>Dlouhý</familyName>
+         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0002-1241-6121</nameIdentifier>
+         <affiliation affiliationIdentifier="https://ror.org/00hzjtg80"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">COMTES FHT</affiliation>
+         <affiliation affiliationIdentifier="26316919"
+                      affiliationIdentifierScheme="IČO"
+                      schemeURI="https://www.wikidata.org/entity/Q42302581">COMTES FHT</affiliation>
+      </creator>
+      <creator>
+         <creatorName nameType="Personal">Brázda, Michal</creatorName>
+         <givenName>Michal</givenName>
+         <familyName>Brázda</familyName>
+         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0002-4982-9114</nameIdentifier>
+         <affiliation affiliationIdentifier="https://ror.org/00hzjtg80"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">COMTES FHT</affiliation>
+         <affiliation affiliationIdentifier="26316919"
+                      affiliationIdentifierScheme="IČO"
+                      schemeURI="https://www.wikidata.org/entity/Q42302581">COMTES FHT</affiliation>
+      </creator>
+   </creators>
+   <contributors>
+      <contributor contributorType="DataManager">
+         <contributorName nameType="Personal">:unkn</contributorName>
+         <givenName>:unkn</givenName>
+         <familyName>:unkn</familyName>
+      </contributor>
+   </contributors>
+   <dates>
+      <date dateType="Issued">2025-06-16</date>
+      <date dateType="Created">2025-02-25/2025-06-11</date>
+      <date dateType="Available">2025-06-16</date>
+   </dates>
+   <titles>
+      <title>Data k rukopisu - Vliv podmínek depozice na rychlost tisku, množství in-situ vzniklého austenitu a mechanické vlastnosti oceli SAF2507 připravené metodou přímé depozice</title>
+      <title xml:lang="en" titleType="TranslatedTitle">Data to manuscript Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition</title>
+   </titles>
+   <publisher publisherIdentifier="https://ror.org/00hzjtg80"
+              publisherIdentifierScheme="ROR"
+              schemeURI="https://ror.org/">COMTES FHT</publisher>
+   <publicationYear>2025</publicationYear>
+   <resourceType resourceTypeGeneral="Dataset">dataset</resourceType>
+   <subjects>
+      <subject classificationCode="20501"
+               valueURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501"
+               subjectScheme="OECD FORD Subject Category (Frascati)"
+               schemeURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/"
+               xml:lang="cs">Materiálové inženýrství</subject>
+      <subject classificationCode="20501"
+               valueURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501"
+               subjectScheme="OECD FORD Subject Category (Frascati)"
+               schemeURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/"
+               xml:lang="en">Materials engineering</subject>
+      <subject xml:lang="en">Super duplex stainless steel</subject>
+      <subject xml:lang="en">Microstructure</subject>
+      <subject xml:lang="en">Tensile properties</subject>
+      <subject xml:lang="en">Additive manufacturing</subject>
+      <subject xml:lang="en">Directed energy deposition</subject>
+      <subject xml:lang="en">Laser power</subject>
+   </subjects>
+   <descriptions>
+      <description descriptionType="Abstract" xml:lang="en">Industry applications of duplex stainless steels require a two-phase microstructure with a nearly balanced austenite-ferrite content to achieve good mechanical properties and good corrosion resistance. The most widespread additive manufacturing method such as laser powder bed fusion provides nearly fully ferritic microstructures due to the very high cooling rate, and the post-processing heat treatment must be performed. In contrast, other additive manufacturing methods, such as directed deposition methods, reach lower cooling rates and enable to obtain an equal ferrite–austenite ratio directly in the microstructure of the as-built state. In this work, the super duplex stainless steel SAF 2507 was deposited by directed energy deposition. The process parameters, namely, the laser power, laser beam spot, and powder feed rate, were varied to investigate the impact of the energy area density on the microstructure and tensile properties. A decrease in the energy area density caused an increase in the austenite content of 48 vol% and a numerical simulation of the sample temperature distribution inside the block during deposition, explaining the relationship between the amount of in situ formed austenite and the deposition parameters, was provided. Simultaneously, the deposition rate increased by more than five times. In contrast, the samples deposited at a higher building rate are characterized by greater porosity and lower elongation values in the vertical direction. The effect of the deposition parameters on the yield strength is low.</description>
+      <description descriptionType="Methods" xml:lang="en">The data set is related to the investigation of the influence of deposition parameters on the microstructure, austenite formation, and tensile properties of SAF 2507 super duplex stainless steel fabricated using directed energy deposition (DED). The experiments were carried out at COMTES FHT (Czech Republic) using an INSSTEK MX-600 system equipped with a 2 kW Yttrium fiber laser. SAF 2507 powder (particle size 45–150 μm) was deposited under three different parameter sets, varying laser power, beam diameter, layer thickness, hatch distance, and powder feed rate, while maintaining constant scan speed. A zig-zag deposition strategy was applied under a protective argon atmosphere (5.0, 99.999%). For each parameter set, 20×20×20 mm cubes were built and used for analysis. Microstructure and phase composition were characterized using optical microscopy, scanning electron microscopy, EBSD analysis, X-ray diffraction. Tensile properties were evaluated using miniature tensile tests. Thermal simulations of the deposition process were carried out using Simufact Welding 2024.1 with the Advanced Thermal Cycle (ATC) method.</description>
+      <description descriptionType="TechnicalInfo" xml:lang="en">The sets of experimental data were recorded on several instruments within COMTES FHT. In cases where possible (XRD, MTT, EBSD), the data are in xlsx format enabling any replotting.</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: REPO.tar | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TAR</description>
+   </descriptions>
+   <formats>
+      <format>TAR</format>
+   </formats>
+   <fundingReferences>
+      <fundingReference>
+         <funderName>Ministerstvo školství, mládeže a tělovýchovy</funderName>
+         <funderIdentifier funderIdentifierType="ROR">037n8p820</funderIdentifier>
+         <awardNumber>EH23_021/0008433</awardNumber>
+         <awardTitle>Development of special wire semiproducts for welding and 3D printing</awardTitle>
+      </fundingReference>
+   </fundingReferences>
+   <version/>
+   <rightsList>
+      <rights rightsURI="https://creativecommons.org/licenses/by/4.0/"
+              rightsIdentifier="CC-BY-4.0"
+              rightsIdentifierScheme="SPDX"
+              schemeURI="https://spdx.org/licenses/"
+              xml:lang="en">Creative Commons Attribution 4.0 International License</rights>
+      <rights rightsURI="http://purl.org/coar/access_right/c_abf2" xml:lang="en">open access</rights>
+   </rightsList>
+   <language>ENG</language>
+   <relatedIdentifiers>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="IsVariantFormOf"
+                         resourceTypeGeneral="Other">https://data.narodni-repozitar.cz</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsDocumentedBy">https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/</relatedIdentifier>
+   </relatedIdentifiers>
+   <sizes>
+      <size>281.15 MB</size>
+   </sizes>
+   <relatedItems>
+      <relatedItem relationType="IsReferencedBy" relatedItemType="journal article">
+         <creators>
+            <creator>
+               <creatorName nameType="Personal">Salvetr, Pavel</creatorName>
+            </creator>
+            <creator>
+               <creatorName nameType="Personal">Hodek, Josef</creatorName>
+            </creator>
+            <creator>
+               <creatorName nameType="Personal">Uhlík, Matouš</creatorName>
+            </creator>
+            <creator>
+               <creatorName nameType="Personal">Novák, Pavel</creatorName>
+            </creator>
+            <creator>
+               <creatorName nameType="Personal">Dlouhý, Jaromír</creatorName>
+            </creator>
+            <creator>
+               <creatorName nameType="Personal">Brázda, Michal</creatorName>
+            </creator>
+         </creators>
+         <titles>
+            <title>Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition</title>
+         </titles>
+      </relatedItem>
+   </relatedItems>
+</resource>
