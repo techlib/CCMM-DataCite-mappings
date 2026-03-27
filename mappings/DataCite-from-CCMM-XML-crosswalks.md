@@ -49,7 +49,7 @@
 | `/resource/fundingReferences/fundingReference/awardNumber` | `./ccmm:local_identifier` |
 | `/resource/fundingReferences/fundingReference/awardNumber/@awardURI` | `./ccmm:iri` |
 | `/resource/fundingReferences/fundingReference/awardTitle` | `./ccmm:award_title` |
-| `/resource/fundingReferences/fundingReference/funderIdentifier   ./ccmm:funder/ccmm:organization/ccmm:identifier/ccmm:iri` | `` |
+| `/resource/fundingReferences/fundingReference/funderIdentifier` | `./ccmm:funder/ccmm:organization/ccmm:identifier/ccmm:iri` |
 | `/resource/fundingReferences/fundingReference/funderIdentifier/@funderIdentifierType` | `./ccmm:funder/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:iri` |
 | `/resource/fundingReferences/fundingReference/funderName` | `./ccmm:funder/ccmm:organization/ccmm:label` |
 | `/resource/geoLocations` | `` |
@@ -76,11 +76,11 @@
 | `/resource/publisher/@schemeURI` | `./ccmm:relation/ccmm:person/ccmm:affiliation/ccmm:identifier/ccmm:scheme/ccmm:iri` |
 | `/resource/publisher/@xml:lang` | `./ccmm:relation/ccmm:person/ccmm:affiliation/ccmm:name/@xml:lang` |
 | `/resource/relatedIdentifiers` | `` |
-| `/resource/relatedIdentifiers/relatedIdentifier  /ccmm:dataset/ccmm:metadata_information/ccmm:original_repository/ccmm:iri` | `` |
-| `/resource/relatedIdentifiers/relatedIdentifier/@relatedIdentifierType   URL` | `` |
+| `/resource/relatedIdentifiers/relatedIdentifier` | `/ccmm:dataset/ccmm:metadata_information/ccmm:original_repository/ccmm:iri` |
+| `/resource/relatedIdentifiers/relatedIdentifier/@relatedIdentifierType` | `URL` |
 | `/resource/relatedIdentifiers/relatedIdentifier/@relationType` | `IsVariantFormOf` |
 | `/resource/relatedIdentifiers/relatedIdentifier/@resourceTypeGeneral` | `Other` |
-| `/resource/relatedIdentifiers/relatedIdentifier  /ccmm:dataset/ccmm:distribution/ccmm:distribution_downloadable_file/ccmm:download_url/ccmm:iri` | `` |
+| `/resource/relatedIdentifiers/relatedIdentifier` | `/ccmm:dataset/ccmm:distribution/ccmm:distribution_downloadable_file/ccmm:download_url/ccmm:iri` |
 | `/resource/relatedIdentifiers/relatedIdentifier/@relatedIdentifierType` | `URL` |
 | `/resource/relatedIdentifiers/relatedIdentifier/@relationType` | `HasPart` |
 | `/resource/relatedIdentifiers/relatedIdentifier/@resourceTypeGeneral` | `Other` |
