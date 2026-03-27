@@ -399,14 +399,16 @@ Operationalize XML crosswalks using XSLT transformation aiming at transforming m
 
 - [XSLT transformation](./mappings/transformation-ccmm-from-datacite.xsl) for transforming DataCite metadata to CCMM metadata, i.e. CCMM-compliant representation of DataCite metadata
 
-```mermaid
-    A["CCMM XML (input)"]
-        -->|XSLT 1| B[DataCite XML]
 
-    B -->|XSLT 2| C["CCMM XML (round‑trip output)"]
-
-    C -.should equal .-> A
-```
++-----------------+        XSLT        +------------------+
+|  CCMM XML (in)  |  ----------------> |  DataCite XML    |
++-----------------+                    +------------------+
+                                             |
+                                             |  XSLT
+                                             v
+                                       +------------------+
+                                       | CCMM XML (out)  |
+                                       +------------------+
 
 | CCMM XML input                                                                 | DataCite XML output                                                                      | CCMM XML output                                                                               |
 |---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
