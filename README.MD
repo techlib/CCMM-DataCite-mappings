@@ -401,7 +401,7 @@ Operationalize XML crosswalks using XSLT transformation aiming at transforming m
 
 For validating the XSLT transformation workflow, we employ round‑tripping tests, ensuring that the transformed output can be converted back to its original form:
 
-
+```
 +-----------------+        XSLT        +------------------+
 |  CCMM XML (in)  |  ----------------> |  DataCite XML    |
 +-----------------+                    +------------------+
@@ -411,6 +411,7 @@ For validating the XSLT transformation workflow, we employ round‑tripping test
                                        +------------------+
                                        | CCMM XML (out)  |
                                        +------------------+
+```
 
 | CCMM XML input                                                                 | DataCite XML output                                                                      | CCMM XML output                                                                               |
 |---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
