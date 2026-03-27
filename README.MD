@@ -399,6 +399,8 @@ Operationalize XML crosswalks using XSLT transformation aiming at transforming m
 
 - [XSLT transformation](./mappings/transformation-ccmm-from-datacite.xsl) for transforming DataCite metadata to CCMM metadata, i.e. CCMM-compliant representation of DataCite metadata
 
+For validating the XSLT transformation workflow, we employ round‑tripping tests, ensuring that the transformed output can be converted back to its original form:
+
 
 +-----------------+        XSLT        +------------------+
 |  CCMM XML (in)  |  ----------------> |  DataCite XML    |
