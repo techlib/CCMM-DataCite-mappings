@@ -1,4 +1,3 @@
-```markdown
 | CCMM path | DataCite path |
 |-----------|---------------|
 | `/resource` | `/ccmm:dataset` |
@@ -143,4 +142,3 @@
 | `/resource/titles/title/@xml:lang` | `.-ccmm:title/@xml:lang` |
 | `/resource/version` | `/ccmm:dataset/ccmm:version` |
 | `/resource/@xsi:schemaLocation` | `"http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.7/metadata.xsd"` |
-```

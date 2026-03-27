@@ -388,7 +388,7 @@ The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-cro
 
 Once the initial mapping and XML crosswalks were completed, we shifted to an exhaustive search that began with DataCite elements and attributes (queried using XPath) and aimed to identify the corresponding CCMM nodes.
 
-Complete list of [XML crosswalks in one table](./mappings/DataCite-from-CCMM-XML-crosswalks.ms) or in [TSV file](./mappings/DataCite-from-CCMM-XML-crosswalks.tsv)
+Complete list of [XML crosswalks in one table](./mappings/DataCite-from-CCMM-XML-crosswalks.md) or in [TSV file](./mappings/DataCite-from-CCMM-XML-crosswalks.tsv)
 
 
 ## 3. XSLT transformation
