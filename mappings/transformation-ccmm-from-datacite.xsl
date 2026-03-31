@@ -72,10 +72,24 @@
                 <time_reference>
                     <temporal_representation>
                         <xsl:choose>
-                            <xsl:when test="contains(., '/')">
+                            <!--<xsl:when test="contains(., '/')">
                                 <time_interval>
                                     <beginning><date><xsl:value-of select="substring-before(., '/')"/></date></beginning>
                                     <end><date><xsl:value-of select="substring-after(., '/')"/></date></end>
+                                </time_interval>
+                            </xsl:when>-->
+                            <!--conversion to xsd:date (ISO 8601)-->
+                            <xsl:when test="contains(., '/')">
+                                <time_interval>
+                                    <xsl:variable name="months" select="('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec')"/>
+                                    
+                                    <xsl:for-each select="(substring-before(., '/'), substring-after(., '/'))">
+                                        <xsl:variable name="parts" select="tokenize(., '-')"/> <xsl:variable name="mNum" select="format-number(index-of($months, $parts[2]), '00')"/>
+                                        
+                                        <xsl:element name="{if (position()=1) then 'beginning' else 'end'}">
+                                            <date><xsl:value-of select="concat($parts[3], '-', $mNum, '-', $parts[1])"/></date>
+                                        </xsl:element>
+                                    </xsl:for-each>
                                 </time_interval>
                             </xsl:when>
                             <xsl:otherwise>
@@ -157,8 +171,15 @@
             <xsl:for-each select="dc:subjects/dc:subject">
                 <subject>
                     <xsl:if test="@valueURI"><iri><xsl:value-of select="@valueURI"/></iri></xsl:if>
-                    <title>
-                        <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang" select="@xml:lang"/></xsl:if>
+                    <title>                        
+                        <xsl:choose>
+                            <xsl:when test="@xml:lang">
+                                <xsl:attribute name="xml:lang" select="@xml:lang"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:attribute name="xml:lang">en</xsl:attribute>
+                            </xsl:otherwise>
+                        </xsl:choose>
                         <xsl:value-of select="."/>
                     </title>
                     <xsl:if test="@subjectScheme">
@@ -173,7 +194,14 @@
             <xsl:for-each select="dc:descriptions/dc:description">
                 <description>
                     <description_text>
-                        <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang" select="@xml:lang"/></xsl:if>
+                        <xsl:choose>
+                            <xsl:when test="@xml:lang">
+                                <xsl:attribute name="xml:lang" select="@xml:lang"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:attribute name="xml:lang">en</xsl:attribute>
+                            </xsl:otherwise>
+                        </xsl:choose>
                         <xsl:value-of select="."/>
                     </description_text>
                     <description_type>
