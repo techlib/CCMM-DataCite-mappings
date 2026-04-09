@@ -259,6 +259,48 @@
          </organization>
       </funder>
    </funding_reference>
+   <related_resource>
+      <title>Směrnice Evropského parlamentu a Rady 2008/50/ES ze dne 21. května 2008 o kvalitě
+            vnějšího ovzduší a čistším ovzduší pro Evropu</title>
+      <resource_type>
+         <label xml:lang="en">text</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsReferencedBy</iri>
+         <label xml:lang="en">IsReferencedBy</label>
+      </resource_relation_type>
+   </related_resource>
+   <related_resource>
+      <title>ENVI LVS1 Sampler pro odběr prašného aerosolu</title>
+      <resource_type>
+         <label xml:lang="en">research instrument</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsCollectedBy</iri>
+         <label xml:lang="en">IsCollectedBy</label>
+      </resource_relation_type>
+   </related_resource>
+   <related_resource>
+      <title>Kvalita ovzduší – aktuální hodinové údaje</title>
+      <resource_type>
+         <label xml:lang="en">observational data</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsDerivedFrom</iri>
+         <label xml:lang="en">IsDerivedFrom</label>
+      </resource_relation_type>
+   </related_resource>
+   <related_resource>
+      <title>Metadata datoivé sady INSPIRE – Kvalita ovzduší – přehledy (data) na měřicích
+            stanicích</title>
+      <resource_type>
+         <label xml:lang="en">Other</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/HasMetadata</iri>
+         <label xml:lang="en">HasMetadata</label>
+      </resource_relation_type>
+   </related_resource>
    <distribution>
       <distribution_downloadable_file>
          <title>Kvalita ovzduší | FormatIRI: https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/GPKG</title>

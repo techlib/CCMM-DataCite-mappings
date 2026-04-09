@@ -437,6 +437,16 @@
          </organization>
       </funder>
    </funding_reference>
+   <related_resource>
+      <title>Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition</title>
+      <resource_type>
+         <label xml:lang="en">journal article</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsReferencedBy</iri>
+         <label xml:lang="en">IsReferencedBy</label>
+      </resource_relation_type>
+   </related_resource>
    <distribution>
       <distribution_downloadable_file>
          <title>REPO.tar | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TAR</title>
