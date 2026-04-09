@@ -81,15 +81,12 @@
                             <!--conversion to xsd:date (ISO 8601)-->
                             <xsl:when test="contains(., '/')">
                                 <time_interval>
-                                    <xsl:variable name="months" select="('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec')"/>
-                                    
-                                    <xsl:for-each select="(substring-before(., '/'), substring-after(., '/'))">
-                                        <xsl:variable name="parts" select="tokenize(., '-')"/> <xsl:variable name="mNum" select="format-number(index-of($months, $parts[2]), '00')"/>
-                                        
-                                        <xsl:element name="{if (position()=1) then 'beginning' else 'end'}">
-                                            <date><xsl:value-of select="concat($parts[3], '-', $mNum, '-', $parts[1])"/></date>
-                                        </xsl:element>
-                                    </xsl:for-each>
+                                    <beginning>
+                                        <date><xsl:value-of select="normalize-space(substring-before(., '/'))"/></date>
+                                    </beginning>
+                                    <end>
+                                        <date><xsl:value-of select="normalize-space(substring-after(., '/'))"/></date>
+                                    </end>
                                 </time_interval>
                             </xsl:when>
                             <xsl:otherwise>
@@ -286,6 +283,43 @@
                         </organization>
                     </funder>
                 </funding_reference>
+            </xsl:for-each>
+            
+            <xsl:for-each select="dc:relatedItems/dc:relatedItem">
+                <related_resource>
+                    
+                    <xsl:if test="dc:relatedItemIdentifier">
+                        <identifier>
+                            <value><xsl:value-of select="dc:relatedItemIdentifier"/></value>
+                            <scheme>
+                                <label><xsl:value-of select="dc:relatedItemIdentifier/@relatedItemIdentifierType"/></label>
+                            </scheme>
+                        </identifier>
+                    </xsl:if>
+                    
+                    <xsl:for-each select="dc:titles/dc:title">
+                        <title>
+                            <xsl:if test="@xml:lang">
+                                <xsl:attribute name="xml:lang" select="@xml:lang"/>
+                            </xsl:if>
+                            <xsl:value-of select="."/>
+                        </title>
+                    </xsl:for-each>
+                    
+                    <xsl:if test="@relatedItemType">
+                        <resource_type>
+                            <label xml:lang="en"><xsl:value-of select="@relatedItemType"/></label>
+                        </resource_type>
+                    </xsl:if>
+                    
+                    <resource_relation_type>
+                        <iri>
+                            <xsl:value-of select="concat('https://schema.ccmm.cz/vocabulary/relationType/', @relationType)"/>
+                        </iri>
+                        <label xml:lang="en"><xsl:value-of select="@relationType"/></label>
+                    </resource_relation_type>
+                    
+                </related_resource>
             </xsl:for-each>
             
             <xsl:if test="dc:formats/dc:format or dc:sizes/dc:size or dc:relatedIdentifiers/dc:relatedIdentifier[@relationType='HasPart' or @relationType='IsReferencedBy']">
