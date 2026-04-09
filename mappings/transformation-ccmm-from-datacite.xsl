@@ -306,12 +306,15 @@
                         </title>
                     </xsl:for-each>
                     
+                    <xsl:apply-templates select="dc:creators/dc:creator | dc:contributors/dc:contributor" mode="back_to_ccmm"/>
+                    
                     <xsl:if test="@relatedItemType">
                         <resource_type>
                             <label xml:lang="en"><xsl:value-of select="@relatedItemType"/></label>
                         </resource_type>
                     </xsl:if>
                     
+<!--                    TODO Apply mapping from DataCite to COAR-->
                     <resource_relation_type>
                         <iri>
                             <xsl:value-of select="concat('https://schema.ccmm.cz/vocabulary/relationType/', @relationType)"/>

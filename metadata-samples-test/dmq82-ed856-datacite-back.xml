@@ -439,6 +439,66 @@
    </funding_reference>
    <related_resource>
       <title>Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition</title>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Salvetr, Pavel</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Hodek, Josef</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Uhlík, Matouš</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Novák, Pavel</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Dlouhý, Jaromír</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Brázda, Michal</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         </role>
+      </qualified_relation>
       <resource_type>
          <label xml:lang="en">journal article</label>
       </resource_type>
