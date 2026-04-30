@@ -426,5 +426,9 @@ For validating the XSLT transformation workflow, we employ round‑tripping test
 - At present, values from controlled vocabularies are sourced directly from the CCMM.
   We are working toward a more flexible solution in which each controlled vocabulary is associated with an external mapping that ensures correct alignment with corresponding DataCite values; this will be implemented through external function calls invoked from within the XSLT.
 
+- At present, values from controlled vocabularies are sourced directly from the metadat files. We are transitioning to a more robust and flexible solution where each vocabulary is governed by an external SSSOM-compliant mapping (Simple Standard for Sharing Ontological Mappings).
+    -- Specifically, we have developed a crosswalk COAR Resource Types v3.2 to ensure alignment with DataCite’s resourceTypeGeneral values (NOTE creation of crosswalks from COAR to Datacite were assisted using GenAI and is not complete; the opposite direction, i.e.g from Datacite to CCMM has been made manually and is complete). The transformation is implemented via external XML lookup tables, generated from SSSOM CSVs.
+
 - The XSLT transformations have been validated using our CCMM XML sample datasets.
   Ongoing work focuses on evaluating the transformations against “live” DataCite XML records to ensure robustness under real‑world conditions.
+  -- We have sampled Datacite metadata XML files (compliant to schema version 4.6) and testing is in progress.
