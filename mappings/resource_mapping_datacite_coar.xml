@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<mappings>
+  <map dc="Model" coar="http://purl.org/coar/resource_type/542X-3S04" label="design"/>
+  <map dc="Instrument" coar="http://purl.org/coar/resource_type/8KJG-QS0Y" label="research instrument"/>
+  <map dc="ComputationalNotebook" coar="http://purl.org/coar/resource_type/H41Y-FW7B" label="laboratory notebook"/>
+  <map dc="PeerReview" coar="http://purl.org/coar/resource_type/H9BQ-739P" label="peer review"/>
+  <map dc="Presentation" coar="http://purl.org/coar/resource_type/R60J-J5BD" label="conference presentation"/>
+  <map dc="Collection" coar="http://purl.org/coar/resource_type/RMP5-3GQ6" label="collection"/>
+  <map dc="PhysicalObject" coar="http://purl.org/coar/resource_type/S7R1-K5P0" label="physical sample"/>
+  <map dc="StudyRegistration" coar="http://purl.org/coar/resource_type/YZ1N-ZFT9" label="research protocol"/>
+  <map dc="Journal" coar="http://purl.org/coar/resource_type/c_0640" label="journal"/>
+  <map dc="Award" coar="http://purl.org/coar/resource_type/c_1843" label="other"/>
+  <map dc="Service" coar="http://purl.org/coar/resource_type/c_1843" label="other"/>
+  <map dc="Other" coar="http://purl.org/coar/resource_type/c_1843" label="other"/>
+  <map dc="Event" coar="http://purl.org/coar/resource_type/c_1843" label="other"/>
+  <map dc="Project" coar="http://purl.org/coar/resource_type/c_1843" label="other"/>
+  <map dc="Sound" coar="http://purl.org/coar/resource_type/c_18cc" label="sound"/>
+  <map dc="Standard" coar="http://purl.org/coar/resource_type/c_18cf" label="text"/>
+  <map dc="Text" coar="http://purl.org/coar/resource_type/c_18cf" label="text"/>
+  <map dc="Book" coar="http://purl.org/coar/resource_type/c_2f33" label="book"/>
+  <map dc="BookChapter" coar="http://purl.org/coar/resource_type/c_3248" label="book part"/>
+  <map dc="Workflow" coar="http://purl.org/coar/resource_type/c_393c" label="workflow"/>
+  <map dc="Dissertation" coar="http://purl.org/coar/resource_type/c_46ec" label="thesis"/>
+  <map dc="ConferencePaper" coar="http://purl.org/coar/resource_type/c_5794" label="conference paper"/>
+  <map dc="Software" coar="http://purl.org/coar/resource_type/c_5ce6" label="software"/>
+  <map dc="JournalArticle" coar="http://purl.org/coar/resource_type/c_6501" label="journal article"/>
+  <map dc="Poster" coar="http://purl.org/coar/resource_type/c_6670" label="conference poster"/>
+  <map dc="Preprint" coar="http://purl.org/coar/resource_type/c_816b" label="preprint"/>
+  <map dc="Audiovisual" coar="http://purl.org/coar/resource_type/c_8a7e" label="moving image"/>
+  <map dc="Report" coar="http://purl.org/coar/resource_type/c_93fc" label="report"/>
+  <map dc="OutputManagementPlan" coar="http://purl.org/coar/resource_type/c_ab20" label="data management plan"/>
+  <map dc="DataPaper" coar="http://purl.org/coar/resource_type/c_beb9" label="data paper"/>
+  <map dc="Dataset" coar="http://purl.org/coar/resource_type/c_ddb1" label="dataset"/>
+  <map dc="InteractiveResource" coar="http://purl.org/coar/resource_type/c_e9a0" label="interactive resource"/>
+  <map dc="Image" coar="http://purl.org/coar/resource_type/c_ecc8" label="still image"/>
+  <map dc="ConferenceProceeding" coar="http://purl.org/coar/resource_type/c_f744" label="conference proceedings"/>
+</mappings>

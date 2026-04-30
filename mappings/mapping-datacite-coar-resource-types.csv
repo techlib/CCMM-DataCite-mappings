@@ -1,0 +1,43 @@
+#curie_map:
+#  skos: http://www.w3.org/2004/02/skos/core#
+#mapping_set_id: mscr:crosswalk:2b929d37-b62f-4905-a00b-da82959ae5af
+#mapping_set_description: datacite-resource-type-to-COAR.Crosswalks between DataCite resource types and COAR resource types.
+#mapping_tool: MSCR
+
+#license: 
+#mapping_date: 2026-04-08T08:09:34.814Z
+"subject_id";"subject_label";"subject_type";"predicate_id";"object_id";"object_label";"object_type";"mapping_justification";"confidence";"comment"
+"";"Model";"rdfs literal";"http://www.w3.org/2004/02/skos/core#closeMatch";"http://purl.org/coar/resource_type/542X-3S04";"design";"";;;""
+"";"Instrument";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/8KJG-QS0Y";"research instrument";"";;;""
+"";"ComputationalNotebook";"rdfs literal";"http://www.w3.org/2004/02/skos/core#closeMatch";"http://purl.org/coar/resource_type/H41Y-FW7B";"laboratory notebook";"";;;""
+"";"PeerReview";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/H9BQ-739P";"peer review";"";;;""
+"";"Presentation";"rdfs literal";"http://www.w3.org/2004/02/skos/core#narrowMatch";"http://purl.org/coar/resource_type/R60J-J5BD";"conference presentation";"";;;""
+"";"Collection";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/RMP5-3GQ6";"collection";"";;;""
+"";"PhysicalObject";"rdfs literal";"http://www.w3.org/2004/02/skos/core#closeMatch";"http://purl.org/coar/resource_type/S7R1-K5P0";"physical sample";"";;;""
+"";"StudyRegistration";"rdfs literal";"http://www.w3.org/2004/02/skos/core#closeMatch";"http://purl.org/coar/resource_type/YZ1N-ZFT9";"research protocol";"";;;""
+"";"Journal";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_0640";"journal";"";;;""
+"";"Award";"rdfs literal";"http://www.w3.org/2004/02/skos/core#relatedMatch";"http://purl.org/coar/resource_type/c_1843";"other";"";;;""
+"";"Service";"rdfs literal";"http://www.w3.org/2004/02/skos/core#relatedMatch";"http://purl.org/coar/resource_type/c_1843";"other";"";;;""
+"";"Other";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_1843";"other";"";;;""
+"";"Event";"rdfs literal";"http://www.w3.org/2004/02/skos/core#relatedMatch";"http://purl.org/coar/resource_type/c_1843";"other";"";;;""
+"";"Project";"rdfs literal";"http://www.w3.org/2004/02/skos/core#relatedMatch";"http://purl.org/coar/resource_type/c_1843";"other";"";;;""
+"";"Sound";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_18cc";"sound";"";;;""
+"";"Standard";"rdfs literal";"http://www.w3.org/2004/02/skos/core#broadMatch";"http://purl.org/coar/resource_type/c_18cf";"text";"";;;""
+"";"Text";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_18cf";"text";"";;;""
+"";"Book";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_2f33";"book";"";;;""
+"";"BookChapter";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_3248";"book part";"";;;""
+"";"Workflow";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_393c";"workflow";"";;;""
+"";"Dissertation";"rdfs literal";"http://www.w3.org/2004/02/skos/core#broadMatch";"http://purl.org/coar/resource_type/c_46ec";"thesis";"";;;""
+"";"ConferencePaper";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_5794";"conference paper";"";;;""
+"";"Software";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_5ce6";"software";"";;;""
+"";"JournalArticle";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_6501";"journal article";"";;;""
+"";"Poster";"rdfs literal";"http://www.w3.org/2004/02/skos/core#narrowMatch";"http://purl.org/coar/resource_type/c_6670";"conference poster";"";;;""
+"";"Preprint";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_816b";"preprint";"";;;""
+"";"Audiovisual";"rdfs literal";"http://www.w3.org/2004/02/skos/core#closeMatch";"http://purl.org/coar/resource_type/c_8a7e";"moving image";"";;;""
+"";"Report";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_93fc";"report";"";;;""
+"";"OutputManagementPlan";"rdfs literal";"http://www.w3.org/2004/02/skos/core#narrowMatch";"http://purl.org/coar/resource_type/c_ab20";"data management plan";"";;;""
+"";"DataPaper";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_beb9";"data paper";"";;;""
+"";"Dataset";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_ddb1";"dataset";"";;;""
+"";"InteractiveResource";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_e9a0";"interactive resource";"";;;""
+"";"Image";"rdfs literal";"http://www.w3.org/2004/02/skos/core#narrowMatch";"http://purl.org/coar/resource_type/c_ecc8";"still image";"";;;""
+"";"ConferenceProceeding";"rdfs literal";"http://www.w3.org/2004/02/skos/core#exactMatch";"http://purl.org/coar/resource_type/c_f744";"conference proceedings";"";;;""
