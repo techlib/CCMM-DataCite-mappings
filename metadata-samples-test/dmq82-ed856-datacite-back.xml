@@ -500,7 +500,8 @@
          </role>
       </qualified_relation>
       <resource_type>
-         <label xml:lang="en">journal article</label>
+         <iri>http://purl.org/coar/resource_type/c_6501</iri>
+         <label xml:lang="en">JournalArticle</label>
       </resource_type>
       <resource_relation_type>
          <iri>https://schema.ccmm.cz/vocabulary/relationType/IsReferencedBy</iri>

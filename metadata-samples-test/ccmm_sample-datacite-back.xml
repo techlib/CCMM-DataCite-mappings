@@ -263,7 +263,8 @@
       <title>Směrnice Evropského parlamentu a Rady 2008/50/ES ze dne 21. května 2008 o kvalitě
             vnějšího ovzduší a čistším ovzduší pro Evropu</title>
       <resource_type>
-         <label xml:lang="en">text</label>
+         <iri>http://purl.org/coar/resource_type/c_1843</iri>
+         <label xml:lang="en">Other</label>
       </resource_type>
       <resource_relation_type>
          <iri>https://schema.ccmm.cz/vocabulary/relationType/IsReferencedBy</iri>
@@ -273,7 +274,8 @@
    <related_resource>
       <title>ENVI LVS1 Sampler pro odběr prašného aerosolu</title>
       <resource_type>
-         <label xml:lang="en">research instrument</label>
+         <iri>http://purl.org/coar/resource_type/8KJG-QS0Y</iri>
+         <label xml:lang="en">Instrument</label>
       </resource_type>
       <resource_relation_type>
          <iri>https://schema.ccmm.cz/vocabulary/relationType/IsCollectedBy</iri>
@@ -283,7 +285,8 @@
    <related_resource>
       <title>Kvalita ovzduší – aktuální hodinové údaje</title>
       <resource_type>
-         <label xml:lang="en">observational data</label>
+         <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+         <label xml:lang="en">Dataset</label>
       </resource_type>
       <resource_relation_type>
          <iri>https://schema.ccmm.cz/vocabulary/relationType/IsDerivedFrom</iri>
@@ -294,6 +297,7 @@
       <title>Metadata datoivé sady INSPIRE – Kvalita ovzduší – přehledy (data) na měřicích
             stanicích</title>
       <resource_type>
+         <iri>http://purl.org/coar/resource_type/c_1843</iri>
          <label xml:lang="en">Other</label>
       </resource_type>
       <resource_relation_type>
