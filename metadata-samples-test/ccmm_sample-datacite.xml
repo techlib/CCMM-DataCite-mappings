@@ -100,18 +100,18 @@
       <size>256 B</size>
    </sizes>
    <relatedItems>
-      <relatedItem relationType="IsReferencedBy" relatedItemType="text">
+      <relatedItem relationType="IsReferencedBy" relatedItemType="Other">
          <titles>
             <title>Směrnice Evropského parlamentu a Rady 2008/50/ES ze dne 21. května 2008 o kvalitě
             vnějšího ovzduší a čistším ovzduší pro Evropu</title>
          </titles>
       </relatedItem>
-      <relatedItem relationType="IsCollectedBy" relatedItemType="research instrument">
+      <relatedItem relationType="IsCollectedBy" relatedItemType="Instrument">
          <titles>
             <title>ENVI LVS1 Sampler pro odběr prašného aerosolu</title>
          </titles>
       </relatedItem>
-      <relatedItem relationType="IsDerivedFrom" relatedItemType="observational data">
+      <relatedItem relationType="IsDerivedFrom" relatedItemType="Dataset">
          <titles>
             <title>Kvalita ovzduší – aktuální hodinové údaje</title>
          </titles>
