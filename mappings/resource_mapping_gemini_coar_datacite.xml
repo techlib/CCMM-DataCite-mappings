@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <mappings>
   <map coar_iri="http://purl.org/coar/resource_type/c_ddb1" dc_type="Dataset" label="dataset"/>
-  <map coar_iri="http://purl.org/coar/resource_type/c_5914" dc_type="Dataset" label="observational data"/>
+  <map coar_iri="http://purl.org/coar/resource_type/FF4C-28RK" dc_type="Dataset" label="observational data"/>
   <map coar_iri="http://purl.org/coar/resource_type/c_cb1e" dc_type="Dataset" label="clinical trial data"/>
   <map coar_iri="http://purl.org/coar/resource_type/c_6b0b" dc_type="Dataset" label="experimental data"/>
   <map coar_iri="http://purl.org/coar/resource_type/c_232c" dc_type="Dataset" label="genomic data"/>
