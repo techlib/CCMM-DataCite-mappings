@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<mappings>
+  <map coar_iri="http://purl.org/coar/resource_type/c_ddb1" dc_type="Dataset" label="dataset"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_5914" dc_type="Dataset" label="observational data"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_cb1e" dc_type="Dataset" label="clinical trial data"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_6b0b" dc_type="Dataset" label="experimental data"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_232c" dc_type="Dataset" label="genomic data"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_703b" dc_type="Dataset" label="survey data"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_beb9" dc_type="DataPaper" label="data paper"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_18cf" dc_type="Text" label="text"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_6501" dc_type="JournalArticle" label="journal article"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_0857" dc_type="JournalArticle" label="research article"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_f6fb" dc_type="Text" label="letter"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_b239" dc_type="Text" label="editorial"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_71bd" dc_type="Text" label="book review"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_1162" dc_type="Text" label="working paper"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_816b" dc_type="Preprint" label="preprint"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_15cd" dc_type="Text" label="patent"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_2f33" dc_type="Book" label="book"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_3248" dc_type="BookChapter" label="book part"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_93fc" dc_type="Report" label="report"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_c5e0" dc_type="Report" label="technical report"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_1243" dc_type="Book" label="textbook"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_1260" dc_type="Text" label="manual"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_46ec" dc_type="Dissertation" label="thesis"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_db01" dc_type="Dissertation" label="doctoral thesis"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_7083" dc_type="Dissertation" label="master thesis"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_2e2f" dc_type="Dissertation" label="bachelor thesis"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_5794" dc_type="ConferencePaper" label="conference paper"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_6670" dc_type="Poster" label="conference poster"/>
+  <map coar_iri="http://purl.org/coar/resource_type/R60J-J5BD" dc_type="Presentation" label="conference presentation"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_f744" dc_type="ConferenceProceeding" label="conference proceedings"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_7ad9" dc_type="Text" label="conference paper abstract"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_5ce6" dc_type="Software" label="software"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_393c" dc_type="Workflow" label="workflow"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_e9a0" dc_type="InteractiveResource" label="interactive resource"/>
+  <map coar_iri="http://purl.org/coar/resource_type/H41Y-FW7B" dc_type="ComputationalNotebook" label="laboratory notebook"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_8a7e" dc_type="Audiovisual" label="moving image"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_12ce" dc_type="Audiovisual" label="video"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_12cc" dc_type="Audiovisual" label="animation"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_ecc8" dc_type="Image" label="still image"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_12cd" dc_type="Image" label="map"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_18cc" dc_type="Sound" label="sound"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_1391" dc_type="Sound" label="speech"/>
+  <map coar_iri="http://purl.org/coar/resource_type/8KJG-QS0Y" dc_type="Instrument" label="research instrument"/>
+  <map coar_iri="http://purl.org/coar/resource_type/S7R1-K5P0" dc_type="PhysicalObject" label="physical sample"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_ab20" dc_type="OutputManagementPlan" label="data management plan"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_18cd" dc_type="Collection" label="collection"/>
+  <map coar_iri="http://purl.org/coar/resource_type/H9BQ-739P" dc_type="PeerReview" label="peer review"/>
+  <map coar_iri="http://purl.org/coar/resource_type/c_1843" dc_type="Other" label="other"/>
+</mappings>
