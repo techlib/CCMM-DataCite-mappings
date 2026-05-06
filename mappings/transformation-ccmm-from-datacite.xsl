@@ -309,8 +309,15 @@
                     <xsl:apply-templates select="dc:creators/dc:creator | dc:contributors/dc:contributor" mode="back_to_ccmm"/>
                     
                     <xsl:if test="@relatedItemType">
+                        <xsl:variable name="mappingUrl" select="'https://raw.githubusercontent.com/techlib/CCMM-DataCite-mappings/refs/heads/dev/exhaustive-mapping/mappings/resource_mapping_datacite_coar.xml'"/>
+                        <xsl:variable name="mapTable" select="document($mappingUrl)"/>
+                        
                         <resource_type>
-                            <label xml:lang="en"><xsl:value-of select="@relatedItemType"/></label>
+                            <xsl:variable name="dcType" select="@relatedItemType"/>
+                            <iri>
+                                <xsl:value-of select="$mapTable/mappings/map[@dc = $dcType]/@coar"/>
+                            </iri>
+                            <label xml:lang="en"><xsl:value-of select="$dcType"/></label>
                         </resource_type>
                     </xsl:if>
                     
