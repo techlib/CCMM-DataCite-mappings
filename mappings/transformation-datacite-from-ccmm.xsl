@@ -591,15 +591,25 @@
                         </xsl:if>
                         
                         <xsl:attribute name="relatedItemType">
+                            <xsl:variable name="typeMapping" select="document('https://raw.githubusercontent.com/techlib/CCMM-DataCite-mappings/refs/heads/dev/exhaustive-mapping/mappings/resource_mapping_gemini_coar_datacite.xml')/mappings"/>
                             <xsl:choose>
-                                <xsl:when test="ccmm:resource_type/ccmm:label">
+                                <!--<xsl:when test="ccmm:resource_type/ccmm:label">
                                     <xsl:value-of select="(ccmm:resource_type/ccmm:label[@xml:lang='en'], ccmm:resource_type/ccmm:label)[1]"/>
-                                </xsl:when>
+                                </xsl:when>-->
                                 
-                                <xsl:when test="ccmm:resource_type/ccmm:iri">
-                                    <xsl:value-of select="tokenize(ccmm:resource_type/ccmm:iri, '/')[last()]"/>
+                                <xsl:when test="ccmm:resource_type/ccmm:iri and normalize-space(ccmm:resource_type/ccmm:iri) != ''">
+                                    <xsl:variable name="currentIri" select="normalize-space(ccmm:resource_type/ccmm:iri)"/>
+                                    <xsl:variable name="mappedValue" select="$typeMapping/map[@coar_iri = $currentIri]/@dc_type"/>
+                                    
+                                    <xsl:choose>
+                                        <xsl:when test="$mappedValue">
+                                            <xsl:value-of select="$mappedValue"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:text>Other</xsl:text>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
                                 </xsl:when>
-                                
                                 <xsl:otherwise>
                                     <xsl:text>Other</xsl:text>
                                 </xsl:otherwise>
