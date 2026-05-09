@@ -22,12 +22,12 @@ This document describes the background and the methodology for the design of CCM
 
 ### DataCite
 
-"The DataCite Metadata Schema is a list of core metadata properties chosen for accurate and consistent identification of a resource for citation and retrieval purposes, with recommended use instructions in the documentation. The DataCite Metadata Schema is suitable for a wide range of resource types—from samples and images to data and preprints." [https://datacite-metadata-schema.readthedocs.io/en/4.6/introduction/about-schema/] It is currently, one of the most widely used Semantic Web vocabularies for describing datasets and data catalogues.
+"The DataCite Metadata Schema is a list of core metadata properties chosen for accurate and consistent identification of a resource for citation and retrieval purposes, with recommended use instructions in the documentation. The DataCite Metadata Schema is suitable for a wide range of resource types—from samples and images to data and preprints." [https://datacite-metadata-schema.readthedocs.io/en/4.7/introduction/about-schema/] It is currently, one of the most widely used Semantic Web vocabularies for describing datasets and data catalogues.
 
-- Web: https://datacite-metadata-schema.readthedocs.io/en/4.6/
-- Examples and XML Schema: https://datacite-metadata-schema.readthedocs.io/en/4.6/xml/
-    - The XML Schema: https://schema.datacite.org/meta/kernel-4.6/metadata.xsd
-    - Full Example: https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-full-v4.xml
+- Web: https://datacite-metadata-schema.readthedocs.io/en/4.7/
+- Examples and XML Schema: https://datacite-metadata-schema.readthedocs.io/en/4.7/xml/
+    - The XML Schema: https://schema.datacite.org/meta/kernel-4.7/metadata.xsd
+    - Full Example: https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-full-v4.xml
 
 #### Mandatory elements in DataCite
 
