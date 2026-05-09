@@ -1,4 +1,4 @@
-# CCMM to DataCite Mapping
+# CCMM and DataCite: Crosswalks and Transformations
 
 NOTE work in progress: towards exhaustive mappings
 
