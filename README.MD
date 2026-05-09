@@ -6,7 +6,7 @@ This repository contains material related to CCMM to DataCite mutual mapping.
 
 ## Introduction
 
-This document describes the background and the methodology for the design of CCMM and DataCite mapping. The motivation for mapping of CCMM and DataCite is the need of aligning CCMM metadata with DataCite metadata and vice versa, i.e. DataCite-compliant representation of CCMM metadata and CCMM-compliant representation of DataCite metadata. The need stems from the fact that metadata catalogues can support either CCMM model or DataCite model.
+This document describes the background and the methodology for the design of CCMM and DataCite mapping. The motivation for mapping between CCMM and DataCite is the need to align CCMM metadata with DataCite metadata and vice versa, i.e., a DataCite-compliant representation of CCMM metadata and a CCMM-compliant representation of DataCite metadata. The need arises because metadata catalogs can support either the CCMM or the DataCite model.
 
 ## Background
 
@@ -17,75 +17,8 @@ This document describes the background and the methodology for the design of CCM
 - Web: https://model.ccmm.cz/research-data/en/#Dataset
 - XML Schema: https://model.ccmm.cz/research-data/dataset/schema.xsd
 - Examples: https://github.com/techlib/CCMM/tree/main/_metadata-samples/xml
-
-#### CCMM: Mandatory elements
-
-![CCMM mandatory elements](./utils/CCMM-mandatory-elements3.png)
-
-Agent.name
-
-AlternateTitle.title
-
-Checksum.checksumValue
-
-Checksum.usesAlgorithm
-
-DataService.endpointUrl
-
-Dataset.hasIdentifier
-
-Dataset.hasSubject
-
-Dataset.hasTermsOfUse
-
-Dataset.hasTimeReference
-
-Dataset.isDescribedBy
-
-Dataset.publicationYear
-
-Dataset.title
-
-Description.descriptionText
-
-Distribution.title
-
-Distribution-DownloadableFile.byteSize
-
-Distribution-DownloadableFile.hasFormat
-
-FundingReference.hasFunder
-
-Identifier.inScheme
-
-Identifier.value
-
-Location.hasLocationRelationType
-
-MetadataRecord.conformsToStandard
-
-MetadataRecord.hasOriginalRepository
-
-MetadataRecord.qualifiedRelation
-
-ResourceToAgentRelationship.hadRole
-
-ResourceToAgentRelationship.hasRelatedAgent
-
-Subject.title
-
-TermsOfUse.accessRights
-
-TermsOfUse.license
-
-TimeInterval.hasBeginning
-
-TimeInterval.hasEnd
-
-TimeReference.hasDateType
-
-TimeReference.hasTemporalRepresentation
-
+- Visualization of the schema along with emphasizing mandatory parts: 
+![diagram](https://github.com/techlib/CCMM-utils/blob/main/ceCCMM/output/1.1.0/diagram.png)
 
 ### DataCite
 
