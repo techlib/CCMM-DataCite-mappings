@@ -16,6 +16,73 @@ This document describes the background and the methodology for the design of CCM
 - XML Schema: https://model.ccmm.cz/research-data/dataset/schema.xsd
 - Examples: https://github.com/techlib/CCMM/tree/main/metadata-samples/xml
 
+#### CCMM: Mandatory elements
+
+![CCMM mandatory elements](./utils/CCMM-mandatory-elements3.png)
+
+Agent.name
+
+AlternateTitle.title
+
+Checksum.checksumValue
+
+Checksum.usesAlgorithm
+
+DataService.endpointUrl
+
+Dataset.hasIdentifier
+
+Dataset.hasSubject
+
+Dataset.hasTermsOfUse
+
+Dataset.hasTimeReference
+
+Dataset.isDescribedBy
+
+Dataset.publicationYear
+
+Dataset.title
+
+Description.descriptionText
+
+Distribution.title
+
+Distribution-DownloadableFile.byteSize
+
+Distribution-DownloadableFile.hasFormat
+
+FundingReference.hasFunder
+
+Identifier.inScheme
+
+Identifier.value
+
+Location.hasLocationRelationType
+
+MetadataRecord.conformsToStandard
+
+MetadataRecord.hasOriginalRepository
+
+MetadataRecord.qualifiedRelation
+
+ResourceToAgentRelationship.hadRole
+
+ResourceToAgentRelationship.hasRelatedAgent
+
+Subject.title
+
+TermsOfUse.accessRights
+
+TermsOfUse.license
+
+TimeInterval.hasBeginning
+
+TimeInterval.hasEnd
+
+TimeReference.hasDateType
+
+TimeReference.hasTemporalRepresentation
 
 ### DataCite
 
@@ -26,6 +93,20 @@ This document describes the background and the methodology for the design of CCM
     - The XML Schema: https://schema.datacite.org/meta/kernel-4.6/metadata.xsd
     - Full Example: https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-full-v4.xml
 
+#### Mandatory elements in DataCite
+
+`\resource\identifier`
+
+`\resource\creators`
+
+`\resource\titles`
+
+`\resource\publisher`
+
+`\resource\publicationYear`
+
+`\resource\resourceType
+
 ## Methodology
 
 CCMM DataCite Mapping Methodology is as follows
@@ -34,11 +115,15 @@ CCMM DataCite Mapping Methodology is as follows
 
     1.1. **Straightforwad approach**: CCMM is partly derived from DataCite vocabulary. Precisely, several CCMM elements are profiled from Datacite elements. This inital straightforwad approach simply takes CCMM elements and their being-profiled-from DataCite elements counterparts as mappings.
 
-    1.2. **Exhaustive approach** considers the full list of CCMM elements and search for their possible mapping DataCite elements counterparts.
+    1.2. **Exhaustive approach** considers all entities from CCMM on the level of vocabularies with regard to Datacite entities.
 
 NOTE Approaches 1.1. and 1.2. are not alternatives but they rather complement each other.
 
 2. XML crosswalks based on sample examples for CCMM metadata and DataCite metadata.
+    
+    2.1. XML crosswalks based on sample examples for CCMM metadata and DataCite metadata (initial-mappings, initial crosswalks).
+
+    2.2. XML crosswalks (exhaustive mapping)
 
 3. Operationalize XML crosswalks using XSLT transformation aiming at transforming metadata:
 
@@ -49,6 +134,8 @@ NOTE Approaches 1.1. and 1.2. are not alternatives but they rather complement ea
 The whole approach is iterative.
 
 ## Vocabulary-level CCMM DataCite Mapping
+
+### 1.1. Straightforwad approach
 
 According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1.ttl)
 
@@ -77,7 +164,7 @@ TODO (in progress) I will add 1.2. exhaustive approach for adding other mappings
 
 ## XML-level crosswalks
 
-According to step 2.:
+### 2.1. Initial crosswalks based on initial mappings:
 
 | Dataset.publicationYear | relatedItemPublicationYear |
 (incorrect - not related item)
