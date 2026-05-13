@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.6/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.17182/HEPDATA.79668.V1/T4</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Organizational">CMS Collaboration</ns0:creatorName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:dates>
+    <ns0:date dateType="Updated">2017-11-27 09:53:33.975208</ns0:date>
+  </ns0:dates>
+  <ns0:titles>
+    <ns0:title>"Table 4" of "Observation of top quark production in proton-nucleus collisions"</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>HEPData</ns0:publisher>
+  <ns0:publicationYear>2017</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject subjectScheme="reactions">TTBAR --&gt; JJ^{'}B + LEPTON NU B</ns0:subject>
+    <ns0:subject subjectScheme="observables">INV.MASS</ns0:subject>
+    <ns0:subject subjectScheme="nucleon-nucleon cmenergy">8160</ns0:subject>
+    <ns0:subject subjectScheme="phrases">Nuclear Collisions</ns0:subject>
+    <ns0:subject subjectScheme="phrases">Top quark Production</ns0:subject>
+  </ns0:subjects>
+  <ns0:language>eng</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Dataset">Dataset</ns0:resourceType>
+  <ns0:version>1</ns0:version>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">Invariant mass distributions of the $t\to jj^{'}b$ candidates, $m_{top}$, in the 0 b category after all selections. The error bars indicate the statistical uncertainties.</ns0:description>
+    <ns0:description descriptionType="Other">Reconstructed invariant mass distributions of the hadronic W (jj') boson
+and top quark (jj'b) candidates in each b jet category. The kinematic variables
+describe the $\ell$+jets decay channel, where $\ell$ can be either a muon ($\mu$)
+or electron ($\rm{e}$). The measured cross sections are given per decay channel
+and for their combination.
+
+The fiducial region is defined as:
+- $\equiv$1lepton, $p_T$&gt;30GeV&amp;&amp;|$\eta$|&lt;2.1
+- exluding 1.444&lt;|$\eta$|&lt;1.566 region only in the $\rm{e}$+jets channel
+- no additional lepton with $p_T$&gt;20GeV&amp;&amp;|$\eta$|&lt;2.5 and $p_T$&gt;15GeV&amp;&amp;|$\eta$|&lt;2.4 in the $\mu$+jets and $\rm{e}$+jets channel, respectively
+- $\geq$4jets(anti-kt,R=0.4), $p_T$&gt;25GeV&amp;&amp;|$\eta$|&lt;2.5
+- min($\Delta R(jet,\ell)$) &gt; 0.3
+- ambiguities in pairing the jj' are resolved by choosing the combination that results in the smaller value of the $\Delta R(j,j')$, where $\Delta R=\sqrt{ (\Delta \eta)^{2} + (\Delta \phi)^{2}}$
+- ambiguities in pairing the jj'b are resolved by choosing the combination that results in the smaller value of the $|m_{jj'b}-m_{\ell\nu b}|$
+
+The acceptance is measured in the $\mu$+jets channel as:
+0.060$\pm$0.002(tot)
+
+The acceptance is measured in the $\rm{e}$+jets channel as:
+0.056$\pm$0.002(tot)
+
+The efficiency is measured in the $\mu$+jets channel as:
+0.91$\pm$0.04(tot)
+
+The efficiency is measured in the $\rm{e}$+jets channel as:
+0.63$\pm$0.03(tot)
+</ns0:description>
+  </ns0:descriptions>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/">CC0</ns0:rights>
+  </ns0:rightsList>
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="HEPDataRecord">https://www.hepdata.net/record/ins1624694</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="HEPDataRecordAlt">https://www.hepdata.net/record/79668</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementTo">https://inspirehep.net/literature/1624694</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="DOI" resourceTypeGeneral="JournalArticle" relationType="IsSupplementTo">10.1103/PhysRevLett.119.242001</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="DOI" resourceTypeGeneral="Collection" relationType="IsPartOf">10.17182/hepdata.79668.v1</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+</ns0:resource>
+      

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.48700/datst.dmq82-ed856</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>:unkn</name>
+               <given_name>:unkn</given_name>
+               <family_name>:unkn</family_name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://data.narodni-repozitar.cz</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.48700/datst.dmq82-ed856</iri>
+      <value>datst.dmq82-ed856</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <version/>
+   <title>Data k rukopisu - Vliv podmínek depozice na rychlost tisku, množství in-situ vzniklého austenitu a mechanické vlastnosti oceli SAF2507 připravené metodou přímé depozice</title>
+   <alternate_title>
+      <title xml:lang="en">Data to manuscript Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition</title>
+      <alternate_title_type>
+         <iri>https://schema.ccmm.cz/vocabulary/titleType/TranslatedTitle</iri>
+      </alternate_title_type>
+   </alternate_title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://orcid.org/0000-0001-5717-267X</iri>
+               <value>0000-0001-5717-267X</value>
+               <scheme>
+                  <iri>https://orcid.org/</iri>
+                  <label xml:lang="">ORCID</label>
+               </scheme>
+            </identifier>
+            <name>Salvetr, Pavel</name>
+            <given_name>Pavel</given_name>
+            <family_name>Salvetr</family_name>
+            <affiliation>
+               <identifier>
+                  <iri>https://ror.org/00hzjtg80</iri>
+                  <value>00hzjtg80</value>
+                  <scheme>
+                     <iri>https://ror.org/</iri>
+                     <label xml:lang="">ROR</label>
+                  </scheme>
+               </identifier>
+               <name>COMTES FHT</name>
+            </affiliation>
+            <affiliation>
+               <identifier>
+                  <iri>26316919</iri>
+                  <value>26316919</value>
+                  <scheme>
+                     <iri>https://www.wikidata.org/entity/Q42302581</iri>
+                     <label xml:lang="">IČO</label>
+                  </scheme>
+               </identifier>
+               <name>COMTES FHT</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://orcid.org/0000-0003-4013-9819</iri>
+               <value>0000-0003-4013-9819</value>
+               <scheme>
+                  <iri>https://orcid.org/</iri>
+                  <label xml:lang="">ORCID</label>
+               </scheme>
+            </identifier>
+            <name>Hodek, Josef</name>
+            <given_name>Josef</given_name>
+            <family_name>Hodek</family_name>
+            <affiliation>
+               <identifier>
+                  <iri>https://ror.org/00hzjtg80</iri>
+                  <value>00hzjtg80</value>
+                  <scheme>
+                     <iri>https://ror.org/</iri>
+                     <label xml:lang="">ROR</label>
+                  </scheme>
+               </identifier>
+               <name>COMTES FHT</name>
+            </affiliation>
+            <affiliation>
+               <identifier>
+                  <iri>26316919</iri>
+                  <value>26316919</value>
+                  <scheme>
+                     <iri>https://www.wikidata.org/entity/Q42302581</iri>
+                     <label xml:lang="">IČO</label>
+                  </scheme>
+               </identifier>
+               <name>COMTES FHT</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Uhlík, Matouš</name>
+            <given_name>Matouš</given_name>
+            <family_name>Uhlík</family_name>
+            <affiliation>
+               <identifier>
+                  <iri>https://ror.org/00hzjtg80</iri>
+                  <value>00hzjtg80</value>
+                  <scheme>
+                     <iri>https://ror.org/</iri>
+                     <label xml:lang="">ROR</label>
+                  </scheme>
+               </identifier>
+               <name>COMTES FHT</name>
+            </affiliation>
+            <affiliation>
+               <identifier>
+                  <iri>26316919</iri>
+                  <value>26316919</value>
+                  <scheme>
+                     <iri>https://www.wikidata.org/entity/Q42302581</iri>
+                     <label xml:lang="">IČO</label>
+                  </scheme>
+               </identifier>
+               <name>COMTES FHT</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://orcid.org/0000-0001-9947-2566</iri>
+               <value>0000-0001-9947-2566</value>
+               <scheme>
+                  <iri>https://orcid.org/</iri>
+                  <label xml:lang="">ORCID</label>
+               </scheme>
+            </identifier>
+            <name>Novák, Pavel</name>
+            <given_name>Pavel</given_name>
+            <family_name>Novák</family_name>
+            <affiliation>
+               <identifier>
+                  <iri>https://ror.org/05ggn0a85</iri>
+                  <value>05ggn0a85</value>
+                  <scheme>
+                     <iri>https://ror.org/</iri>
+                     <label xml:lang="">ROR</label>
+                  </scheme>
+               </identifier>
+               <name>Vysoká škola chemicko-technologická v Praze</name>
+            </affiliation>
+            <affiliation>
+               <identifier>
+                  <iri>60461373</iri>
+                  <value>60461373</value>
+                  <scheme>
+                     <iri>https://www.wikidata.org/entity/Q42302581</iri>
+                     <label xml:lang="">IČO</label>
+                  </scheme>
+               </identifier>
+               <name>Vysoká škola chemicko-technologická v Praze</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://orcid.org/0000-0002-1241-6121</iri>
+               <value>0000-0002-1241-6121</value>
+               <scheme>
+                  <iri>https://orcid.org/</iri>
+                  <label xml:lang="">ORCID</label>
+               </scheme>
+            </identifier>
+            <name>Dlouhý, Jaromír</name>
+            <given_name>Jaromír</given_name>
+            <family_name>Dlouhý</family_name>
+            <affiliation>
+               <identifier>
+                  <iri>https://ror.org/00hzjtg80</iri>
+                  <value>00hzjtg80</value>
+                  <scheme>
+                     <iri>https://ror.org/</iri>
+                     <label xml:lang="">ROR</label>
+                  </scheme>
+               </identifier>
+               <name>COMTES FHT</name>
+            </affiliation>
+            <affiliation>
+               <identifier>
+                  <iri>26316919</iri>
+                  <value>26316919</value>
+                  <scheme>
+                     <iri>https://www.wikidata.org/entity/Q42302581</iri>
+                     <label xml:lang="">IČO</label>
+                  </scheme>
+               </identifier>
+               <name>COMTES FHT</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://orcid.org/0000-0002-4982-9114</iri>
+               <value>0000-0002-4982-9114</value>
+               <scheme>
+                  <iri>https://orcid.org/</iri>
+                  <label xml:lang="">ORCID</label>
+               </scheme>
+            </identifier>
+            <name>Brázda, Michal</name>
+            <given_name>Michal</given_name>
+            <family_name>Brázda</family_name>
+            <affiliation>
+               <identifier>
+                  <iri>https://ror.org/00hzjtg80</iri>
+                  <value>00hzjtg80</value>
+                  <scheme>
+                     <iri>https://ror.org/</iri>
+                     <label xml:lang="">ROR</label>
+                  </scheme>
+               </identifier>
+               <name>COMTES FHT</name>
+            </affiliation>
+            <affiliation>
+               <identifier>
+                  <iri>26316919</iri>
+                  <value>26316919</value>
+                  <scheme>
+                     <iri>https://www.wikidata.org/entity/Q42302581</iri>
+                     <label xml:lang="">IČO</label>
+                  </scheme>
+               </identifier>
+               <name>COMTES FHT</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>:unkn</name>
+            <given_name>:unkn</given_name>
+            <family_name>:unkn</family_name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>COMTES FHT</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2025</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2025-06-16</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_interval>
+            <beginning>
+               <date>2025-02-25</date>
+            </beginning>
+            <end>
+               <date>2025-06-11</date>
+            </end>
+         </time_interval>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Created</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2025-06-16</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">dataset</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/ENG</iri>
+   </primary_language>
+   <terms_of_use>
+      <access_rights>
+         <iri>http://purl.org/coar/access_right/c_abf2</iri>
+         <label xml:lang="en">open access</label>
+         <label xml:lang="cs">otevřený přístup</label>
+      </access_rights>
+      <license>
+         <iri>https://creativecommons.org/licenses/by/4.0/</iri>
+         <label xml:lang="en">Creative Commons Attribution 4.0 International License</label>
+      </license>
+   </terms_of_use>
+   <subject>
+      <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501</iri>
+      <title xml:lang="cs">Materiálové inženýrství</title>
+      <subject_scheme>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
+         <label xml:lang="en">OECD FORD Subject Category (Frascati)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/20000/20500/20501</iri>
+      <title xml:lang="en">Materials engineering</title>
+      <subject_scheme>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
+         <label xml:lang="en">OECD FORD Subject Category (Frascati)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Super duplex stainless steel</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">Microstructure</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">Tensile properties</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">Additive manufacturing</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">Directed energy deposition</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">Laser power</title>
+   </subject>
+   <description>
+      <description_text xml:lang="en">Industry applications of duplex stainless steels require a two-phase microstructure with a nearly balanced austenite-ferrite content to achieve good mechanical properties and good corrosion resistance. The most widespread additive manufacturing method such as laser powder bed fusion provides nearly fully ferritic microstructures due to the very high cooling rate, and the post-processing heat treatment must be performed. In contrast, other additive manufacturing methods, such as directed deposition methods, reach lower cooling rates and enable to obtain an equal ferrite–austenite ratio directly in the microstructure of the as-built state. In this work, the super duplex stainless steel SAF 2507 was deposited by directed energy deposition. The process parameters, namely, the laser power, laser beam spot, and powder feed rate, were varied to investigate the impact of the energy area density on the microstructure and tensile properties. A decrease in the energy area density caused an increase in the austenite content of 48 vol% and a numerical simulation of the sample temperature distribution inside the block during deposition, explaining the relationship between the amount of in situ formed austenite and the deposition parameters, was provided. Simultaneously, the deposition rate increased by more than five times. In contrast, the samples deposited at a higher building rate are characterized by greater porosity and lower elongation values in the vertical direction. The effect of the deposition parameters on the yield strength is low.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="en">The data set is related to the investigation of the influence of deposition parameters on the microstructure, austenite formation, and tensile properties of SAF 2507 super duplex stainless steel fabricated using directed energy deposition (DED). The experiments were carried out at COMTES FHT (Czech Republic) using an INSSTEK MX-600 system equipped with a 2 kW Yttrium fiber laser. SAF 2507 powder (particle size 45–150 μm) was deposited under three different parameter sets, varying laser power, beam diameter, layer thickness, hatch distance, and powder feed rate, while maintaining constant scan speed. A zig-zag deposition strategy was applied under a protective argon atmosphere (5.0, 99.999%). For each parameter set, 20×20×20 mm cubes were built and used for analysis. Microstructure and phase composition were characterized using optical microscopy, scanning electron microscopy, EBSD analysis, X-ray diffraction. Tensile properties were evaluated using miniature tensile tests. Thermal simulations of the deposition process were carried out using Simufact Welding 2024.1 with the Advanced Thermal Cycle (ATC) method.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Methods</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="en">The sets of experimental data were recorded on several instruments within COMTES FHT. In cases where possible (XRD, MTT, EBSD), the data are in xlsx format enabling any replotting.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: REPO.tar | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TAR</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <funding_reference>
+      <local_identifier>EH23_021/0008433</local_identifier>
+      <award_title>Development of special wire semiproducts for welding and 3D printing</award_title>
+      <funder>
+         <organization>
+            <iri>https://ror.org/037n8p820</iri>
+            <identifier>
+               <value>037n8p820</value>
+               <scheme>
+                  <iri>https://ror.org/</iri>
+                  <label xml:lang="">ROR</label>
+               </scheme>
+            </identifier>
+            <name>Ministerstvo školství, mládeže a tělovýchovy</name>
+         </organization>
+      </funder>
+   </funding_reference>
+   <related_resource>
+      <title>Influence of Deposition Parameters on the Building rate, In-Situ Formation of Austenite and Tensile Properties of SAF 2507 SDSS Fabricated by Directed Energy Deposition</title>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Salvetr, Pavel</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Hodek, Josef</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Uhlík, Matouš</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Novák, Pavel</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Dlouhý, Jaromír</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Brázda, Michal</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         </role>
+      </qualified_relation>
+      <resource_type>
+         <iri>http://purl.org/coar/resource_type/c_6501</iri>
+         <label xml:lang="en">JournalArticle</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsReferencedBy</iri>
+         <label xml:lang="en">IsReferencedBy</label>
+      </resource_relation_type>
+   </related_resource>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>REPO.tar | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TAR</title>
+         <access_url>
+            <iri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/</iri>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <download_url>
+            <iri>https://data.narodni-repozitar.cz/general/datasets/dmq82-ed856/files/REPO.tar</iri>
+            <label xml:lang="en">Data download</label>
+         </download_url>
+         <format>
+            <iri/>
+            <label xml:lang="en">TAR</label>
+         </format>
+         <byte_size>28115</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

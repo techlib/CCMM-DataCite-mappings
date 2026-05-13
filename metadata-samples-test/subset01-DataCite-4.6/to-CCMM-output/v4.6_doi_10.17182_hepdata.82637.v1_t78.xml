@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.17182/HEPDATA.82637.V1/T78</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>HEPData</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.17182/HEPDATA.82637.V1/T78</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.17182/HEPDATA.82637.V1/T78</iri>
+      <value>T78</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>https://www.hepdata.net/record/ins1614482</iri>
+      <value>ins1614482</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">HEPDataRecord</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>https://www.hepdata.net/record/82637</iri>
+      <value>82637</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">HEPDataRecordAlt</label>
+      </scheme>
+   </identifier>
+   <version>1</version>
+   <title>"Table 78" of "Constraints on the chiral magnetic effect using charge-dependent azimuthal correlations in pPb and PbPb collisions at the LHC"</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>CMS Collaboration</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>HEPData</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2018</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date_time>2018-04-20T16:02:15</date_time>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Updated</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">Dataset</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/eng</iri>
+   </primary_language>
+   <terms_of_use>
+      <license>
+         <iri>https://creativecommons.org/publicdomain/zero/1.0/</iri>
+         <label xml:lang="en">CC0</label>
+      </license>
+   </terms_of_use>
+   <subject>
+      <title xml:lang="en">PB PB ---&gt; H X</title>
+      <subject_scheme>
+         <label xml:lang="en">reactions</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Delta_gamma_1,n-1,n/v_n*Delta_delta</title>
+      <subject_scheme>
+         <label xml:lang="en">observables</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">5020.0-8160.0</title>
+      <subject_scheme>
+         <label xml:lang="en">cmenergies</label>
+      </subject_scheme>
+   </subject>
+   <description>
+      <description_text xml:lang="en">Three-particle to two-particle correlation ratio in PbPb collisions.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="en">CERN-LHC.  Constraints on the chiral magnetic effect using charge-dependent azimuthal correlations in pPb and PbPb collisions at the LHC.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Other</iri>
+      </description_type>
+   </description>
+</dataset>

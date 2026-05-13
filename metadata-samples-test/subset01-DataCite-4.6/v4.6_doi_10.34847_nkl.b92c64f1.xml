@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.6/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.34847/nkl.b92c64f1</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName>:unkn</ns0:creatorName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title xml:lang="fr">DVD 71 FONDS O. AUTIN</ns0:title>
+  </ns0:titles>
+  <ns0:publisher xml:lang="en" publisherIdentifier="https://ror.org/04ces3204" publisherIdentifierScheme="ROR" schemeURI="https://ror.org/">NAKALA - https://nakala.fr (Huma-Num - CNRS)</ns0:publisher>
+  <ns0:publicationYear>2026</ns0:publicationYear>
+  <ns0:contributors>
+    <ns0:contributor contributorType="ContactPerson">
+      <ns0:contributorName>Photothèque, CESCM</ns0:contributorName>
+      <ns0:givenName>CESCM</ns0:givenName>
+      <ns0:familyName>Photothèque</ns0:familyName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="DataManager">
+      <ns0:contributorName>Photothèque, CESCM</ns0:contributorName>
+      <ns0:givenName>CESCM</ns0:givenName>
+      <ns0:familyName>Photothèque</ns0:familyName>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:dates>
+    <ns0:date dateType="Created">2021-11-26</ns0:date>
+  </ns0:dates>
+  <ns0:resourceType resourceTypeGeneral="Image" />
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="URL">https://nakala.fr/10.34847/nkl.b92c64f1</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1cbf6fc7f789d0b7a9dab579c07478e3d4bfa9a8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/907cfdb1c4ba748c3e92831676d457233d00e659</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/ec8172dc8dedd56f42fc3de8c98c658128635257</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/05395ad44e455923c97a28fecef96f884e481d6f</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1aaf18c967112cf83c4f9c1e9dc1a018f6b643f7</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/70f11471e968bcb3c4c9f767de6183859aa77d86</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/077047e3158d1628dff0416fbc1149f9735ecd94</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0f6c8b430f55789b36b20b89c3fb6dc8e275ce79</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/9e368cbf88340ba84c3803a009ff0e6dfcf88f0e</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/7885c8f7f4ee36228c799c05aa54a8e00f78b2f8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/3bff9ec0122a87939fe9628a88f7d6a0374494dd</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/231e89965757d81f961bcaf017b663b7f6bfa8f0</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/980eeae1a2cdd83c892f1a7175a7db308acb20d7</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/28f4d4f874728fa44926993c506638f7014ae922</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/55e0b8dab234d662c157b0372eb0cc6884008b38</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/e412954556a8d6c29583150bd013c1234d81ffa9</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/2bce2a2d4febc4cad1b880f122b60019bd3a7d09</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/81ebc3af7340d56a2d5815eaf972036383fdf715</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d2501258576c3f703e2891d47dafa1f9faea4f67</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/31939c696220e63d5127b21726e20965de13ee7e</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/a617f566658e3dd9c26cb1183b057a148327fae1</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/a94d4db522a66e56d2f53c5e547d063f4bceb48c</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/2cfc047a11cfc6ecb10a54ab81be15eb078a64ba</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/91428edb4654d526a893f7b1f339649987f6ad7c</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d488d933dc5152b1158b77b85366738787859089</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/4a36361d6b4b3ca10a3e44b27eb62e03f6361540</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/80a0a16e258f9a4f7efb39e7a997af3f5d76f135</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/5e7c1d7d1035da2355d807d083dbf41679b966a4</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/a77186c4fb1fed8fe27323892b9813e1d2cafc69</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/71edd8041947ea910646517bc5b0083f5c355770</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/7c3f354f0c2ce82cad57398e31334503ca1c891f</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d52bd8acec4b3d55dfcc11bba5b6bd59b7c86076</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1c7db3ffcaf2b2321bd4c12e8edd103b5f8c4e9a</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/8024788685d63f401ff0a02eb149aa784773b875</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/59179d218bc83b2cba7354f531e2d1f716c94238</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1f72e8916b6efeaf4ede4927dd3c10bef1c41fe8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/cc02a8a7ff3fb8e91016a0061bde2c838b647f49</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0de2d3671d52b6c04c12396ebfb4ced24c7f0ed3</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/84cdc7c2726749ece2b4eb320c8ffb04b22b6134</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/6b6709cfa00ccb4105a5f4bd5517901f3f3af6ac</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/eb7b02f89c85910283f38663bca1065866aed408</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/73f01a4afbf238b3edc2adc115b5ad14fd792c2f</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/4a413346a53e0f35e3a3b5b6851c557a4284263f</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/474b6e95bb37b1bc01a44ea8741f1e0e11853cf0</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/a0f74aa422acec58d8564875b0bb726741f44f2f</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/bec06bce831de2299a807aa102ac1bf063bf3083</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/b329ee27c3b94588b6fd895a2e53914eb82c89b8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/e243eab1a6eb94cc5a5f72ff74fc2947cc2e46f7</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/03b468c4fa41baf609149707d4a099e4707403e2</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/bea0f1639db6a6bc9f4ed1e6b445dad5408c6a4f</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/4db47100f9ee683b161e990a0404a645874a78ed</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/f9cc4ab67b04d545a02a0242f598deb0e1d670fa</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/671b985febb33781c8312862f97a30ffdf3dc71c</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/e51e9d66ba11d16057238454905e2cba2f30453a</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/f8f6857b31599984c2797d86dbcd928b6a2bb788</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/b89d536f4dd084fc2b1fc5809b9999468d0afad1</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/7adeece09af17e52c8e794197bcb9052763d8e6e</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/8ced84f7de985d569a826a929ab361a566829670</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/baf1db03e208f5623a2f52c7e1d93d1ddaa7fd2d</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/2eb4951153835743f6ad265793465a7d6cb3e839</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1198388dd9c06bcb639e3980f523b761110d9149</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/99766ffaa175435153f5f15afe7f24c55b3c2bf4</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/faeaf17988f73bd7a27b9403d1bbdc371e0c2a88</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/eba2660d6ec2ca5cfd05f4ae5759b14e9b731038</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/b703be81791356b0d97e47dd9e4e25443f468bc9</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/db55be57e609f51afab9477b9d1606ba0b0b5300</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/3f4128213fe3dcd847773f3840b9bab69c18cd64</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/bb24c96117c2007fb31c3205b71ee229792d0e42</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0530328be9440e9a6474422fb3dc13a087be0578</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/67a3277dd5f86ea0830a9fe5e2e5ad31451b6861</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/9be4f0f5bdab4240b8aa72f9cad9ecc792b70a88</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/537aa9db5275a8851b73d492d94e40a2c53f8a5e</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/12ca5a748ac86b3708eb82afe4c6cb7f55dfd32b</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0a9073b8bd907733d69cf79be7a89132d6820184</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/00e882ac91398615f5c26d482e8faeab5da9e9f1</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/86ed85fe5c5913706ae993190af3dbc2e2d2b1b8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/fcceb9b4bddf36ea6c611e644226c17ee7f0bc08</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/fdf5a1e1cd438937f7ffd05121a64c664da31293</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/8108a6aea2bbfa05864f32f7f1a1691430c3f6d6</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/895323e8b3d715a1e77a21e3e0507a2d0b8b3826</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/02f48833dc2f5889d1336259f3568a3f4725f618</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/f091d07b1408a7f25ce2a764bfb0ab87bd948415</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/35823c2f6ad1a020558ec190e216e80ffdd32637</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/3048964a8bd530aa03e26414930b6ad5916eb724</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/df0454935dbc601d2b094092445b766d0afcffa1</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/68ff49217a478b0d0c3333bb52d7b9e79f247f96</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/2322c8b49d5be0101defe9e0873fa6e1e815976b</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/440c92a97c679586d9a2bbf4613c1000ae7d9eb8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/db4604f436ab64ee087ae6939b38eb22f407ab70</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/a23b0221192752d3898d17dcf1f54f8fd1ded3f7</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/953fd608071a25f11f0851262d08c4c274fa5a64</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/b58ec09fb08a988ee7082fc3ec0f1bdba9d5ffe2</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/40d44b30673b5b16b77ccffe5c2c5048fb716616</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/67d0fb8b8b36885c853b5b93a29885ba9a6becfc</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/cff75dc21bf35b2ab3ee10424488fb0a50dc1b15</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/86015c0d82cf4aba3e5ca29b630e048e97fbf928</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/e7aa3d574209ee863a070ceb7649426b95d41c87</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0b094f0062c41c35b95cf7ac6f22e31fe642f6a7</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/bcaf2b8b25bc5bb3754040e952d3cd1da611157e</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/b4e49441f02d493b3f18817af1f18ea96298b994</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/5497c75e05f44fd6fc773fa8f20955b07626a441</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/96ef71197120f1a54dd576ab0bee6c42afad33a7</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1896436237b6800017e537dd1e175dc433339978</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/cdc7e5bb45c65820fa14e67efc90ee75014414dd</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/613b7d33d3c615c7d5ab7a05c2ffe8ea9175ec41</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/fb52f888d97a0682fc2619289e35f6f7f7ed9204</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/ca4dfbff754f242fa90fa06292d498c4b7d2e45d</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0717eec044bd742a08ead0886bf2efa695d62496</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/97ed4bd276f9827b2365afa9d2064502fbef5837</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/82c0f7109ef237c74ed181b4d74e22f14165ea82</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0f1978d42a3fc12c28bd8c13898eccb35539ea52</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/042308fdba3b75fd48095c36a3c1448bbd904277</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/abb73ca0f7c75a8c61e1088edef02c88eee8892e</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d29192a7305de9b9a1184889be54c30761dfc570</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d368cd9ec946dfd57b94cafb5c6ce3676758dc3d</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/ade75b13286a76fa633d47bf9db0d844a4fe72a1</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/5d79bb1dea957d133a33590b999421d1ce2d24cd</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/651e358f87fda5ad4d668cd4a4b15311fcb61e26</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1f3bcecc87596471bf3075bb0159c0e17e997067</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/8d1418b33e9d2e709ba8cbe488c0f7af038ed3f7</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/ee67f30a41902183d3e1a7c89673a3041fbcbfc2</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/4abdf635ae1c006d0d8d3526dd484227f331223f</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/7363d0ddce1ad6ee96c50591ef2712967f75157f</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/45b95eb7de945e30c486c8d14e67b74ea6671433</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/44d3990acac81a00229166e9672ee78d59021895</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/2ac74b11f63f3085636162a0788bb4243b03953a</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/92afac060b3dd1a90c60892547ea958b87a6da28</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/58f8531823d9b7a1bcdd0026b99e75515da4ec99</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/046d99708ab885ed0c73419237c608a9e7dbf1aa</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/59e89e03f9638c18d4e3c61f4b3344cf3a2a6dd4</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/3cddbee1c40ec3432c2be701496388d4c4f26436</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/bbe6360ef353af5d9abf3bb6dc7f5431461884bf</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1ca17e583456bb5522f566c93c6e4f3611003787</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/68f5bfe48784d3ca69e09856b4a21debdd9af961</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/473930b3e0dde715c05cb895602a6c4abaeb9e01</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d397d440bc15e97031cf2b337124429c2db27c90</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/6d3b6ab4cba7cfaae6436f71cdf768754b77eb1c</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/bf72e0539f52b0e3916126bdde4bb9c3ee7bdc22</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/744af80733cfe0a276fcf004c50e04dad31d3dba</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/8b73292ea9cc3638f45ec401a4f95c37d664e45d</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/2238d733c189fceffe2f03a62e9524a151da832f</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/7a3fc7f207a1135eee6642b7de07da7ea6342084</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/3411cb91cd04e85d9addc9197bf16b0bb8b74511</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/eaaea92ced5b059837bbc27142d9ac2f14ea5fb8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/272ad3cf229c0c477ae14ff3ecaa460024c66eae</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/3414bcd78eff75c3c1ac6ae4df629079b3f28157</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/cf2fcaed15ae78b25c215d7b86cc13d38aa6c265</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/226a944034c9aa47556c25bf7e2a571c0499c998</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/bde31c1b294d8c827007956a3f1034fc60faece8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/372c6f6a638cf4590b66c4b6895860e50445852b</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/274bae0676dd224d3a0a286d53cc886b4efc121a</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/f2b657bb10ef51d0139615d7370cc9ef11915b68</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1202a20185f87f4e4c342cfbf406bc67b081293a</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/c953e760cb3d76ef03799d048b30bb4f0b3755cf</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d758affa2adedcbc612e7f6ce442287bd4aa8971</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/8ae4faa93ceb071672911b6526bc36d40afbf6c1</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/b36c456fede58ecc01164020e26d401003b215c4</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/71b60262ea2c211ff241d9bac1f0b9baa7fafe3a</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/8a724ee82678ce473624043fc1caa02a25223420</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/ef000453810ee3a0e5d5e5d862021cce7e8ad2f2</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/a2f9ec06c9aed982af42c4e71cda2d63791f52bc</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/6b5b0cba37c6d7ee948b768d48774ec9f72c0b06</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/6266828ce3b43ccb0510b1b86d1519d66df2fbf7</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/5a9f967df7cface865cb3fa448c868125227099d</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1a10b1df7c33e1094fe4a01c27200be8f8f2ad82</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d0cf2b4ad60aaac08a16618b70b3dd322eba7656</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/07aede0e9c50e88be24f70a2103a59498461eb97</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/34fe240161aeceaa1fc198bda889fc7dd2a0d8e8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/02089ef7d816dc84979508d980fc615485130601</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0c617ffe1f74a07eafb610aa82f8f3b38fad8998</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/4215edfd0b35ed5ad7c9f80b05e2833d1d25ee9a</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/4cad542eae5424b98b6cd77ec855680f5dfd95dc</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/cf58de0985df2ffc8ff8ca3e16d7285b5835cdfd</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d8d554f50f68b96a6c148a5ff782920eab61e0da</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/5a08145954d572497e4dba653fae69971eb8a42e</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/f163ccd0d91ae6082820a9841a5176bbfc53af55</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/b3d9bf18e93be5a9249fd518c0f1176dec0288d0</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d35488ba7197b27a931d6ccd9a159d930426917b</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/5bb49e588b33d24f5d69b16f1e95e619ef42695c</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/a24ab3a5f15f0b04ab93711f39a0f4f3798eb7d0</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/878e799cd3d86a502122d49ef24dbfa88413dfb5</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/bb3ded82b25f040c2cbf8a540578b440c23fe194</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/27b668c78c3824157e89d0323a31e4cd8a73e77c</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/76c6ac6e1756ebc140950a959ee7a9cb44741624</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/eeb9f94a66875c03e8b96f15602ed511d4840034</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/84f129659988319d4bb7c2ad4590a4d62104edf1</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/c3918ef62b56c25de4af4fc33c70073da79614ec</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/9e858a0c3e02399d40307940e3ff43ca645f2c55</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/17d7b263224ca8656effeb2248216532b7a237a2</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/5be51d5b178bd33fe1be24887fc9911e7f77de39</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/6099d3146f651d6b9637da9045427f37099b7625</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d7f77c93548ca51ff37ba29aabe948ba1612912d</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/61bb7b777652a7f32c9dddac73d02f4877f0aa90</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/bbc3f5209df565e691f39c5444d22f85bc50f8d8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/593da597a8951141b627ee26259d688e9af53214</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/fe862b87b6365fac518eb6b51d25aeae1bf2bc7c</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/6b1b8097b24e73b7484b8caff2aab76e67a70e77</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d15639619541da8c248b816105bb5543111db41c</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/8796b6d8d0940772120adf9cdc3f816390ede049</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/87b5747cbaa94114039c234838fc25f1d8203874</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d60c0d5a23bf7a57b2e364bcc4e09fb40024d0bb</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/c2c3bb2dc0393e7b7dedf97dff8b768dea326257</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0ca8f8a0dd74d1664beefcd6e3c57af2440c470e</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0a3b736990b062aaf680065cb6043ed7fcf724b1</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/35686d35a130ed9289cb028b8d35e19595af56c4</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/64f54fe6d3473412a01851c7ce351182e7fe40ab</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/2eace5b43550af4a05a15a2bd2fccf508c9eef80</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1326b6fbc82d22e883fe67d0d641aec5690f853c</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/8572df95beea43f01e91932c3f314294d2425d7f</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0c9954e68ecc1aa9c106f0c8faaa21e562a98d50</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/61377394c40888cf086f86dee9744f894da84098</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/ffaeb883d6d7cea439cc101677abce66f8a596af</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/4e6f9c09f5a2c4e11c35f02c0aa2bc5b37cdf468</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/2bda71795c13a46f92f2e21ccafc71f08c0366db</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/af606e1024c17475c177a54310b847fd3b8e41bb</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d169c56a259df0cba3d079061470fdb69d4bcf88</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/3926f3331cf0a891e4ff3a69548f465a6b9a2845</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1806dc753d5a7dddb7e7fdf7e5acb4a092ffe626</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/262b7eecb3c663f23c981b49560cae73f315fb31</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/7a2e87f89c0129da2cc5f8cd2ab0beb16bc806da</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/c2ea3fc9014238cff226ae5dfeae48aca60b0a80</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/27ff39d9bacdb9788d26b4fe2a1b40be5321ef15</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/b594df52212f963d534dec48466a9b3a2299c25d</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/873534fd36d421f034a18585a7516dd4130b8a1a</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/cc993d247814f87f6a7d0daf505c759072a3ce76</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/ee64e6041b9c5576a3bde0cff0fb2f3c02a0be15</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/deed2d8efd6cc7204599d07fffa5f67369d10bb1</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/a01d512f03dae7b6ce798b91591b06623ef0f897</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/08fa772605e9f7c8942c623544b42e0b24353746</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/3d608f9b9e470385141537c007b3627511620486</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0c8a0be692feb7de29cc9b929690ed479454c12e</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/675e51a41e3f18a80ebbe574de6802650381b3f4</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/f0f15a157b8fa4d857a80d73fea4a80383b8ce95</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/d5dbad0f46a648cd4769cbd8ba8fe486c649c26a</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/ffa3920525db9c86200212b2d6ec7b90e3dbdd55</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/9920c26455fc0af3b7fc3b409482c460a5e02dde</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/0d5844f519febd9d157d0d36959af59515985cca</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/2044352381592a10541e836701bffa307d7650d8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/9dbc7ebf82a24333c47935801f7005909746d4ad</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/bdd70fb99dd97331cd23cc9cd866e6b8f22a9a16</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="HasPart">https://api.nakala.fr/data/10.34847/nkl.b92c64f1/4a33fa18c7761dc57e57f1d91538d42ccf56cc89</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:sizes>
+    <ns0:size>2932466014 bytes</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>image/tiff</ns0:format>
+    <ns0:format>image/jpeg</ns0:format>
+  </ns0:formats>
+  <ns0:version>120</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights rightsIdentifier="CC-BY-NC-SA-4.0" rightsURI="https://spdx.org/licenses/CC-BY-NC-SA-4.0.html#licenseText">Creative Commons Attribution Non Commercial Share Alike 4.0 International</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions />
+</ns0:resource>
+      

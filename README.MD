@@ -1,10 +1,13 @@
-# CCMM to DataCite Mapping
+# CCMM and DataCite: Crosswalks and Transformations
 
-This repository contains material related to CCMM to DataCite mutual mapping.
+This repository contains materials related to the mutual mapping between **CCMM** and **DataCite** metadata standards, including the technical XSLT transformation scripts.
+
+> [!IMPORTANT]
+> This XSLT transformation is subject to minor ongoing improvements. While it is fully available for custom modification and use, the final responsibility for the transformation results lies with the user. We highly recommend testing and fine-tuning the script against your own datasets to ensure compatibility with specific metadata profiles.
 
 ## Introduction
 
-This document describes the background and the methodology for the design of CCMM and DataCite mapping. The motivation for mapping of CCMM and DataCite is the need of aligning CCMM metadata with DataCite metadata and vice versa, i.e. DataCite-compliant representation of CCMM metadata and CCMM-compliant representation of DataCite metadata. The need stems from the fact that metadata catalogues can support either CCMM model or DataCite model.
+This document describes the background and the methodology for the design of CCMM and DataCite mapping. The motivation for mapping between CCMM and DataCite is the need to align CCMM metadata with DataCite metadata and vice versa, i.e., a DataCite-compliant representation of CCMM metadata and a CCMM-compliant representation of DataCite metadata. The need arises because metadata catalogs can support either the CCMM or the DataCite model.
 
 ## Background
 
@@ -14,84 +17,18 @@ This document describes the background and the methodology for the design of CCM
 
 - Web: https://model.ccmm.cz/research-data/en/#Dataset
 - XML Schema: https://model.ccmm.cz/research-data/dataset/schema.xsd
-- Examples: https://github.com/techlib/CCMM/tree/main/metadata-samples/xml
+- Examples: https://github.com/techlib/CCMM/tree/main/_metadata-samples/xml
+- Visualization of the schema along with emphasizing mandatory parts:
+![diagram](https://github.com/techlib/CCMM-utils/blob/main/ceCCMM/output/1.1.0/diagram.png)
 
-#### CCMM: Mandatory elements
+### DataCite (version 4.7)
 
-![CCMM mandatory elements](./utils/CCMM-mandatory-elements3.png)
+"The DataCite Metadata Schema is a list of core metadata properties chosen for accurate and consistent identification of a resource for citation and retrieval purposes, with recommended use instructions in the documentation. The DataCite Metadata Schema is suitable for a wide range of resource types—from samples and images to data and preprints." [https://datacite-metadata-schema.readthedocs.io/en/4.7/introduction/about-schema/] It is currently, one of the most widely used Semantic Web vocabularies for describing datasets and data catalogues.
 
-Agent.name
-
-AlternateTitle.title
-
-Checksum.checksumValue
-
-Checksum.usesAlgorithm
-
-DataService.endpointUrl
-
-Dataset.hasIdentifier
-
-Dataset.hasSubject
-
-Dataset.hasTermsOfUse
-
-Dataset.hasTimeReference
-
-Dataset.isDescribedBy
-
-Dataset.publicationYear
-
-Dataset.title
-
-Description.descriptionText
-
-Distribution.title
-
-Distribution-DownloadableFile.byteSize
-
-Distribution-DownloadableFile.hasFormat
-
-FundingReference.hasFunder
-
-Identifier.inScheme
-
-Identifier.value
-
-Location.hasLocationRelationType
-
-MetadataRecord.conformsToStandard
-
-MetadataRecord.hasOriginalRepository
-
-MetadataRecord.qualifiedRelation
-
-ResourceToAgentRelationship.hadRole
-
-ResourceToAgentRelationship.hasRelatedAgent
-
-Subject.title
-
-TermsOfUse.accessRights
-
-TermsOfUse.license
-
-TimeInterval.hasBeginning
-
-TimeInterval.hasEnd
-
-TimeReference.hasDateType
-
-TimeReference.hasTemporalRepresentation
-
-### DataCite
-
-"The DataCite Metadata Schema is a list of core metadata properties chosen for accurate and consistent identification of a resource for citation and retrieval purposes, with recommended use instructions in the documentation. The DataCite Metadata Schema is suitable for a wide range of resource types—from samples and images to data and preprints." [https://datacite-metadata-schema.readthedocs.io/en/4.6/introduction/about-schema/] It is currently, one of the most widely used Semantic Web vocabularies for describing datasets and data catalogues.
-
-- Web: https://datacite-metadata-schema.readthedocs.io/en/4.6/
-- Examples and XML Schema: https://datacite-metadata-schema.readthedocs.io/en/4.6/xml/
-    - The XML Schema: https://schema.datacite.org/meta/kernel-4.6/metadata.xsd
-    - Full Example: https://schema.datacite.org/meta/kernel-4.6/example/datacite-example-full-v4.xml
+- Web: https://datacite-metadata-schema.readthedocs.io/en/4.7/
+- Examples and XML Schema: https://datacite-metadata-schema.readthedocs.io/en/4.7/xml/
+    - The XML Schema: https://schema.datacite.org/meta/kernel-4.7/metadata.xsd
+    - Full Example: https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-full-v4.xml
 
 #### Mandatory elements in DataCite
 
@@ -105,369 +42,126 @@ TimeReference.hasTemporalRepresentation
 
 `\resource\publicationYear`
 
-`\resource\resourceType
+`\resource\resourceType`
 
 ## Methodology
 
-CCMM DataCite Mapping Methodology is as follows
+CCMM DataCite Mapping and Transformation Methodology is as follows
 
 1. Initial alignment is based on high-level (vocabulary-level) comparison of the metadata elements defined in CCMM 1.1.0 (https://model.ccmm.cz/research-data/en/dsv.ttl) and in DataCite in-house vocabulary representation in OWL (https://model.ccmm.cz/vocabulary/datacite/model.owl.ttl)
 
-    1.1. **Straightforwad approach**: CCMM is partly derived from DataCite vocabulary. Precisely, several CCMM elements are profiled from Datacite elements. This inital straightforwad approach simply takes CCMM elements and their being-profiled-from DataCite elements counterparts as mappings.
+2. XML crosswalks
 
-    1.2. **Exhaustive approach** considers all entities from CCMM on the level of vocabularies with regard to Datacite entities.
+    2.1. XML crosswalks based on sample examples for CCMM metadata and DataCite metadata (initial mappings).
 
-NOTE Approaches 1.1. and 1.2. are not alternatives but they rather complement each other.
+    2.2. XML crosswalks (exhaustive mappings using the full list of elements and attributes for CCMM and DataCite)
 
-2. XML crosswalks based on sample examples for CCMM metadata and DataCite metadata.
-    
-    2.1. XML crosswalks based on sample examples for CCMM metadata and DataCite metadata (initial-mappings, initial crosswalks).
+3. Operationalize XML crosswalks using XSLT transformation, aiming at transforming metadata:
 
-    2.2. XML crosswalks (exhaustive mapping)
+    3.1. CCMM metadata to DataCite metadata, i.e., DataCite-compliant representation of CCMM metadata
 
-3. Operationalize XML crosswalks using XSLT transformation aiming at transforming metadata:
-
-    3.1. CCMM metadata to DataCite metadata, i.e. DataCite-compliant representation of CCMM metadata
-
-    3.2. DataCite metadata to CCMM metadata, i.e. CCMM-compliant representation of DataCite metadata
+    3.2. DataCite metadata to CCMM metadata, i.e., CCMM-compliant representation of DataCite metadataa
 
 The whole approach is iterative.
 
 ## Vocabulary-level CCMM DataCite Mapping
 
-### 1.1. Straightforwad approach
-
-According to approach 1.1: [Mappings](./mappings/ccmm-datacite-high-level-app1.1.ttl)
-
-| CCMM | DataCite |
-| :--- | :--- |
-| FundingReference | FundingReference |
-| Location | Geolocation |
-| Subject | Subject |
-| Description | Description |
-| TermsOfUse | Rights |
-| DescriptionType | DescriptionType |
-| Dataset.hasDescription | hasDescription |
-| Dataset.hasFundingReference | hasFundingReference |
-| Dataset.hasSubject | hasSubject |
-| Dataset.hasTermsOfUse | hasRights |
-| Dataset.publicationYear | relatedItemPublicationYear |
-| Description.descriptionText | descriptionText |
-| Description.hasDescriptionType | hasDescriptionType |
-| FundingReference.awardTitle | awardTitle |
-| FundingReference.hasFunder | hasFunderIdentifier |
-| FundingReference.localIdentifier | awardNumber |
-| Subject.classificationCode | subjectClassificationCode |
-| TimeReference.dateInformation | dateInformation |
-
-TODO (in progress) I will add 1.2. exhaustive approach for adding other mappings too. Match all entities using string-based techniques.
+Documented in the initial-mapping branch.
 
 ## XML-level crosswalks
 
-### 2.1. Initial crosswalks based on initial mappings:
+Partly documented in the initial-mapping branch.
 
-| Dataset.publicationYear | relatedItemPublicationYear |
-(incorrect - not related item)
+### 2.2. XML crosswalks -- an exhaustive mapping
 
-````
-/ccmm:dataset/ccmm:publication_year
-==
-/datacite:resource/datacite:publicationYear
-````
+Once the initial mapping and XML crosswalks were completed, we shifted to an exhaustive search that began with DataCite elements and attributes (queried via XPath) to identify the corresponding CCMM nodes.
 
-| Dataset.hasFundingReference | hasFundingReference |
+Complete list of [XML crosswalks in one table](./mappings/DataCite-from-CCMM-XML-crosswalks.md) or in [TSV file](./mappings/DataCite-from-CCMM-XML-crosswalks.tsv)
 
-| FundingReference | FundingReference |
 
-````
-/ccmm:dataset/ccmm:funding_reference
-==
-/datacite:resource/datacite:fundingReferences/datacite:fundingReference
-````
+## 3. XSLT transformation
 
-| FundingReference.awardTitle | awardTitle |
+Operationalize XML crosswalks using XSLT transformation aiming at transforming metadata:
 
+- [XSLT transformation](./mappings/transformation-datacite-from-ccmm.xsl) for transforming CCMM metadata to DataCite metadata, i.e. DataCite-compliant representation of CCMM metadata
 
-````
-./ccmm:award_title
-==
-./datacite:awardTitle
-````
+- [XSLT transformation](./mappings/transformation-ccmm-from-datacite.xsl) for transforming DataCite metadata to CCMM metadata, i.e. CCMM-compliant representation of DataCite metadata
 
-| FundingReference.localIdentifier | awardNumber |
 
+[!NOTE]
+This XSLT transformation is subject to minor ongoing improvements. While it is fully available for custom modification and use, the final responsibility for the transformation results lies with the user. We highly recommend testing and fine-tuning the script against your own datasets to ensure compatibility with specific metadata profiles.
 
-````
-./ccmm:local_identifier
-==
-./datacite:awardNumber
-````
+## 4. Testing
 
-| FundingReference.hasFunder | hasFunderIdentifier |
+### 4.1 CCMM XML samples
 
-````
-./ccmm:funder/ccmm:organization/ccmm:identifier/ccmm:scheme/ccmm:iri
-==
-./datacite:funderIdentifier/@funderIdentifierType
-````
+For validating the XSLT transformation workflow, we employ round‑tripping tests, ensuring that the transformed output can be converted back to its original form:
 
-| Location | Geolocation |
+```
++-----------------+        XSLT        +------------------+
+|  CCMM XML (in)  |  ----------------> |  DataCite XML    |
++-----------------+                    +------------------+
+                                             |
+                                             |  XSLT
+                                             v
+                                       +------------------+
+                                       | CCMM XML (out)  |
+                                       +------------------+
+```
 
-````
-/ccmm:dataset/ccmm:location
-==
-/datacite:resource/datacite:geoLocations/datacite:geoLocation
-````
+| CCMM XML input                                                                 | DataCite XML output                                                                      | CCMM XML output                                                                               |
+|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| [dataset-mini.xml](./metadata-samples-test/dataset-mini.xml)                   | [dataset-mini-datacite.xml](./metadata-samples-test/dataset-mini-datacite.xml)           | [dataset-mini-datacite-back.xml](./metadata-samples-test/dataset-mini-datacite-back.xml)       |
+| [ccmm_sample.xml](./metadata-samples-test/ccmm_sample.xml)                     | [ccmm_sample-datacite.xml](./metadata-samples-test/ccmm_sample-datacite.xml)             | [ccmm_sample-datacite-back.xml](./metadata-samples-test/ccmm_sample-datacite-back.xml)         |
+| [1m3t2-78951.xml](./metadata-samples-test/1m3t2-78951.xml)                     | [1m3t2-78951-datacite.xml](./metadata-samples-test/1m3t2-78951-datacite.xml)             | [1m3t2-78951-datacite-back.xml](./metadata-samples-test/1m3t2-78951-datacite-back.xml)         |
+| [dmq82-ed856.xml](./metadata-samples-test/dmq82-ed856.xml)                     | [dmq82-ed856-datacite.xml](./metadata-samples-test/dmq82-ed856-datacite.xml)             | [dmq82-ed856-datacite-back.xml](./metadata-samples-test/dmq82-ed856-datacite-back.xml)         |
 
-| Dataset.hasSubject | hasSubject |
 
-| Subject | Subject |
-
-NOTE mandatory elemment in CCMM
-
-````
-/ccmm:dataset/ccmm:subject
-==
-/datacite:resource/datacite:subjects/datacite:subject
-````
-
-| Subject.classificationCode | subjectClassificationCode |
-
-````
-./ccmm:classification_code
-==
-./@classificationCode
-````
-
-| Description | Description |
-
-| Dataset.hasDescription | hasDescription |
-
-````
-/ccmm:dataset/ccmm:description
-==
-/datacite:resource/datacite:descriptions/datacite:description
-
-````
-
-| Description.descriptionText | descriptionText |
-
-
-````
-./ccmm:description_text
-==
-./text()
-````
-
-| DescriptionType | DescriptionType |
-
-| Description.hasDescriptionType | hasDescriptionType |
-
-````
-./ccmm:description_type/ccmm:label[@xml:lang='en']
-==
-./@descriptionType
-````
-| Dataset.hasTermsOfUse | hasRights |
-
-| TermsOfUse | Rights |
-
-````
-/ccmm:dataset/ccmm:terms_of_use/ccmm:license
-==
-/datacite:resource/datacite:rightsList/datacite:rights
-````
-
-````
-./ccmm:iri
-==
-./@rightsURI
-````
-
-
-````
-./ccmm:label[@xml:lang='en']
-==
-./text()
-````
-
-| TimeReference.dateInformation | dateInformation |
-
-````
-/ccmm:dataset/ccmm:metadata_identification/ccmm:date_updated
-==
-/datacite:resource/dates/datacite:date[@dateType='Updated']
-````
-
-````
-/ccmm:dataset/ccmm:metadata_identification/ccmm:date_created
-==
-/datacite:resource/dates/datacite:date[@dateType='Created']
-````
-
-The following XML crosswalks added based on the analysis of mandatory elements of DataCite:
-
-Identifier
-
-````
-/ccmm:dataset/ccmm:identifier[ccmm:scheme/ccmm:label='DOI']/ccmm:value
-==
-/datacite:resource/datacite:identifier[@identifierType='DOI']
-````
-
-
-
-Creators
-
-````
-/ccmm:dataset/ccmm:qualified_relation[ccmm:role/ccmm:label[@xml:lang='en']='Creator']
-==
-/datacite:resource/datacite:creators/datacite:creator
-````
-
-````
-concat(./ccmm:relation/ccmm:person/ccmm:family_name, ', ', ./ccmm:relation/ccmm:person/ccmm:given_name)
-==
-./datacite:creatorName
-````
-
-Title
-
-````
-/ccmm:dataset/ccmm:title
-==
-/datacite:resource/datacite:titles/datacite:title[@xml:lang='cs']
-````
-
-Publisher
-
-````
-/ccmm:dataset/ccmm:qualified_relation[ccmm:role/ccmm:label[@xml:lang='en']='Publisher']/ccmm:relation/ccmm:person/ccmm:affiliation/ccmm:name
-==
-/datacite:resource/datacite:publisher
-````
-
-PublicationYear
-
-````
-/ccmm:dataset/ccmm:publication_year
-==
-/datacite:resource/datacite:publicationYear
-````
-
-ResourceType
-
-````
-/ccmm:dataset/ccmm:resource_type/ccmm:label[@xml:lang='en']
-==
-/datacite:resource/datacite:resourceType
-````
-
-````
-"Dataset"
-==
-./@resourceTypeGeneral
-````
-
-The full XML crosswalks in [XML file available](./mappings/ccmm-datacite-xml-crosswalks.xml).
-
-### Mandatory elements in CCMM
-
-Agent.name
-
-AlternateTitle.title
-
-Checksum.checksumValue
-
-Checksum.usesAlgorithm
-
-DataService.endpointUrl
-
-Dataset.hasIdentifier
-
-Dataset.hasSubject
-
-Dataset.hasTermsOfUse
-
-Dataset.hasTimeReference
-
-Dataset.isDescribedBy
-
-Dataset.publicationYear
-
-Dataset.title
-
-Description.descriptionText
-
-Distribution.title
-
-Distribution-DownloadableFile.byteSize
-
-Distribution-DownloadableFile.hasFormat
-
-FundingReference.hasFunder
-
-Identifier.inScheme
-
-Identifier.value
-
-Location.hasLocationRelationType
-
-MetadataRecord.conformsToStandard
-
-MetadataRecord.hasOriginalRepository
-
-MetadataRecord.qualifiedRelation
-
-ResourceToAgentRelationship.hadRole
-
-ResourceToAgentRelationship.hasRelatedAgent
-
-Subject.title
-
-TermsOfUse.accessRights
-
-TermsOfUse.license
-
-TimeInterval.hasBeginning
-
-TimeInterval.hasEnd
-
-TimeReference.hasDateType
-
-TimeReference.hasTemporalRepresentation
-
-
-### Mandatory elements in DataCite
-
-`\resource\identifier`
-
-`\resource\creators`
-
-`\resource\titles`
-
-`\resource\publisher`
-
-`\resource\publicationYear`
-
-`\resource\resourceType`
-
-
-## XSLT transformation
-
-### CCMM to DataCite
-
-According to step 3.:
-
-The XSLT template with fixed structure prepared according to DataCite metadata schema and CCMM metadata will be properly added using instructions in XML crosswalks.
-
-Variants:
-- based on crosswalks and according to mandatory elements in DataCite schema
-
-The [XSLT transformation is available](./mappings/ccmm-datacite-template1.xsl).
-
-### DataCite to CCMM
+### 4.2 Real DataCite metadata records
 
 TODO
 
+Using https://oai.datacite.org/oai the following real DataCite metadata records have been gathered for XSLT transformation testing:
+
+#### **subset01-DataCite-4.6**
+
+15 "randomly" selected DataCite metadata files (v 4.6) out of 17500 DataCite metadata records.
+
+| DataCite XML input (v4.6) | CCMM XML output |
+| :--- | :--- |
+| [v4.6_doi_10.17182_hepdata.79055.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79055.xml) | [v4.6_doi_10.17182_hepdata.79055.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79055.xml) |
+| [v4.6_doi_10.17182_hepdata.79057.v1_t28.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79057.v1_t28.xml) | [v4.6_doi_10.17182_hepdata.79057.v1_t28.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79057.v1_t28.xml) |
+| [v4.6_doi_10.17182_hepdata.79057.v1_t3.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79057.v1_t3.xml) | [v4.6_doi_10.17182_hepdata.79057.v1_t3.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79057.v1_t3.xml) |
+| [v4.6_doi_10.17182_hepdata.79666.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79666.xml) | [v4.6_doi_10.17182_hepdata.79666.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79666.xml) |
+| [v4.6_doi_10.17182_hepdata.79667.v1_t6.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79667.v1_t6.xml) | [v4.6_doi_10.17182_hepdata.79667.v1_t6.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79667.v1_t6.xml) |
+| [v4.6_doi_10.17182_hepdata.79667.v1_t8.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79667.v1_t8.xml) | [v4.6_doi_10.17182_hepdata.79667.v1_t8.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79667.v1_t8.xml) |
+| [v4.6_doi_10.17182_hepdata.79668.v1_t4.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79668.v1_t4.xml) | [v4.6_doi_10.17182_hepdata.79668.v1_t4.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79668.v1_t4.xml) |
+| [v4.6_doi_10.17182_hepdata.80817.v1_t2.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.80817.v1_t2.xml) | [v4.6_doi_10.17182_hepdata.80817.v1_t2.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.80817.v1_t2.xml) |
+| [v4.6_doi_10.17182_hepdata.82637.v1_t48.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.82637.v1_t48.xml) | [v4.6_doi_10.17182_hepdata.82637.v1_t48.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.82637.v1_t48.xml) |
+| [v4.6_doi_10.17182_hepdata.82637.v1_t78.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.82637.v1_t78.xml) | [v4.6_doi_10.17182_hepdata.82637.v1_t78.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.82637.v1_t78.xml) |
+| [v4.6_doi_10.17182_hepdata.83196.v1_t10.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.83196.v1_t10.xml) | [v4.6_doi_10.17182_hepdata.83196.v1_t10.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.83196.v1_t10.xml) |
+| [v4.6_doi_10.34847_nkl.b92c64f1.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.34847_nkl.b92c64f1.xml) | [v4.6_doi_10.34847_nkl.b92c64f1.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.34847_nkl.b92c64f1.xml) |
+| [v4.6_doi_10.4224_40001303.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.4224_40001303.xml) | [v4.6_doi_10.4224_40001303.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.4224_40001303.xml) |
+| [v4.6_doi_10.4224_40002712.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.4224_40002712.xml) | [v4.6_doi_10.4224_40002712.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.4224_40002712.xml) |
+| [v4.6_doi_10.4224_40002946.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.4224_40002946.xml) | [v4.6_doi_10.4224_40002946.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.4224_40002946.xml) |
+
+We can see that HEPData repository dominates (11 times). At least, next records from different repositories (Nakala and National Research Council Canada).
+
+The [validation report](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/final-validation-report.txt) is available.
+
+#### **subset01-DataCite-4.5**
+
+in progress
+
+#### **subset01-DataCite-4.4**
+
+in progress
+
+## Transformation Issues and Further Notes
+
+in progress
+
+## Current actions
+- The XSLT transformations have been validated using our CCMM XML sample datasets and subset01-DataCite-4.6. Ongoing work focuses on evaluating the transformations against subset01-DataCite-4.4, subset01-DataCite-4.5
+- Ongoing: Mappings DataCite controlled vocabularies to CCMM controlled vocabularies and vice versa
 

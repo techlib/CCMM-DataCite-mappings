@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.4224/40001303</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>National Research Council Canada</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.4224/40001303</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.4224/40001303</iri>
+      <value>40001303</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <title>EGSnrc: software for Monte Carlo simulation of ionizing radiation</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://ror.org/04mte1k06</iri>
+               <value>04mte1k06</value>
+               <scheme>
+                  <iri>https://ror.org/</iri>
+                  <label xml:lang="">ROR</label>
+               </scheme>
+            </identifier>
+            <name>National Research Council Canada. Metrology Research Centre. Ionizing Radiation Standards</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>National Research Council Canada</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2021</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2021-01-01</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">Software</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/en</iri>
+   </primary_language>
+   <terms_of_use>
+      <access_rights>
+         <label xml:lang="en">Additional information about the software</label>
+      </access_rights>
+      <access_rights>
+         <label xml:lang="en">Informations complémentaires sur le logiciel</label>
+      </access_rights>
+      <access_rights>
+         <label xml:lang="en">© National Research Council Canada</label>
+      </access_rights>
+      <access_rights>
+         <label xml:lang="en">© Conseil national de recherches Canada</label>
+      </access_rights>
+      <license>
+         <label xml:lang="en">GNU Affero General Public License v3.0</label>
+      </license>
+      <license>
+         <label xml:lang="en">Licence publique générale GNU Affero version 3.0</label>
+      </license>
+   </terms_of_use>
+   <subject>
+      <title xml:lang="en">EGSnrc</title>
+   </subject>
+   <subject>
+      <title xml:lang="fr">EGSnrc</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">dosimetry</title>
+   </subject>
+   <subject>
+      <title xml:lang="fr">dosimétrie</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">radiation transport</title>
+   </subject>
+   <subject>
+      <title xml:lang="fr">transport du rayonnement</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">ionizing radiation</title>
+   </subject>
+   <subject>
+      <title xml:lang="fr">rayonnement ionisant</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">Monte Carlo simulation</title>
+   </subject>
+   <subject>
+      <title xml:lang="fr">simulation Monte Carlo</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">medical physics</title>
+   </subject>
+   <subject>
+      <title xml:lang="fr">physique médicale</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">metrology</title>
+   </subject>
+   <subject>
+      <title xml:lang="fr">métrologie</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">radiation therapy</title>
+   </subject>
+   <subject>
+      <title xml:lang="fr">radiothérapie</title>
+   </subject>
+   <description>
+      <description_text xml:lang="en">EGSnrc is a software toolkit to perform Monte Carlo simulation of ionizing radiation transport through matter. It models the propagation of photons, electrons and positrons with kinetic energies between 1 keV and 10 GeV, in homogeneous materials. EGSnrc was originally released in 2000, as a complete overhaul of the Electron Gamma Shower (EGS) software package originally developed at the Stanford Linear Accelerator Center (SLAC) in the 1970s. Most notably, EGSnrc incorporates crucial refinements in charged particle transport, better low energy cross sections, and the egs++ class library to model elaborate geometries and particle sources.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="fr">EGSnrc est une boîte à outils logicielle permettant modéliser par simulation Monte Carlo le transport du rayonnement ionisant à travers la matière. Il modélise la propagation de photons, d'électrons et de positrons d'énergie cinétique comprise entre 1 keV et 10 GeV, dans des matériaux homogènes. EGSnrc est paru en 2000 en tant que refonte complète du logiciel Electron Gamma Shower (EGS) développé à l'origine par le Stanford Linear Accelerator Center (SLAC) dans les années 1970. EGSnrc intègre notamment des améliorations cruciales quant au transport des particules chargées, de meilleures sections efficaces à faible énergie et la bibliothèque de classes egs++ pour modéliser des géométries et des sources de particules plus élaborées.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>EGSnrc: software for Monte Carlo simulation of ionizing radiation</title>
+         <access_url>
+            <iri/>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <format>
+            <label xml:lang="en"/>
+         </format>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

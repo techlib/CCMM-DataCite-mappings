@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.6/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.17182/HEPDATA.83196.V1/T10</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Organizational">CMS Collaboration</ns0:creatorName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:dates>
+    <ns0:date dateType="Updated">2019-02-18 10:48:51.169499</ns0:date>
+  </ns0:dates>
+  <ns0:titles>
+    <ns0:title>"Table 10" of "Jet properties in PbPb and pp collisions at $\sqrt{s_\mathrm{NN}} =$ 5.02 TeV"</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>HEPData</ns0:publisher>
+  <ns0:publicationYear>2019</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject subjectScheme="reactions">P P --&gt; CHARGED X</ns0:subject>
+    <ns0:subject subjectScheme="reactions">PB PB --&gt; CHARGED X</ns0:subject>
+    <ns0:subject subjectScheme="observables">$P(\Delta r)_{\text{PbPb}}/P(\Delta r)_{\text{pp}}$</ns0:subject>
+    <ns0:subject subjectScheme="cmenergies">5020.0</ns0:subject>
+  </ns0:subjects>
+  <ns0:language>eng</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Dataset">Dataset</ns0:resourceType>
+  <ns0:version>1</ns0:version>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">The ratio between PbPb and pp measurements from Table 9 for the indicated intervals of ${p_{\mathrm{T}}^{\text{trk}}}$.</ns0:description>
+    <ns0:description descriptionType="Other">No data abstract available.</ns0:description>
+  </ns0:descriptions>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/">CC0</ns0:rights>
+  </ns0:rightsList>
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="HEPDataRecord">https://www.hepdata.net/record/ins1658057</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="HEPDataRecordAlt">https://www.hepdata.net/record/83196</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementTo">https://inspirehep.net/literature/1658057</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="DOI" resourceTypeGeneral="JournalArticle" relationType="IsSupplementTo">10.1007/JHEP05(2018)006</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="DOI" resourceTypeGeneral="Collection" relationType="IsPartOf">10.17182/hepdata.83196.v1</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+</ns0:resource>
+      

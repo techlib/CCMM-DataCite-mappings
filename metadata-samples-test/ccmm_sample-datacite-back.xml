@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.45321/as36sl</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <person>
+               <identifier>
+                  <iri>https://orcid.org/0030-04X2-2030-4X26</iri>
+                  <value>0030-04X2-2030-4X26</value>
+                  <scheme>
+                     <iri>https://orcid.org/</iri>
+                     <label xml:lang="">ORCID</label>
+                  </scheme>
+               </identifier>
+               <name>Novák</name>
+               <given_name>Jan</given_name>
+               <family_name>Novák</family_name>
+               <affiliation>
+                  <identifier>
+                     <iri>https://ror.org/024d6js02</iri>
+                     <value>024d6js02</value>
+                     <scheme>
+                        <iri>https://ror.org/</iri>
+                        <label xml:lang="">ROR</label>
+                     </scheme>
+                  </identifier>
+                  <name>Univerzita Karlova</name>
+               </affiliation>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://original-repository.cz</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.45321/as36sl</iri>
+      <value>as36sl</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>air-q-cb-25-23</iri>
+      <value>air-q-cb-25-23</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">Organizační identifikační schéma</label>
+      </scheme>
+   </identifier>
+   <version>1.0.23</version>
+   <title>Kvalita ovzduší ve středních čechách 2024</title>
+   <alternate_title>
+      <title xml:lang="en">Air quality measurements in Central Bohemian Region in 2024.</title>
+      <alternate_title_type>
+         <iri>https://schema.ccmm.cz/vocabulary/titleType/TranslatedTitle</iri>
+      </alternate_title_type>
+   </alternate_title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://orcid.org/0030-04X2-2030-4X26</iri>
+               <value>0030-04X2-2030-4X26</value>
+               <scheme>
+                  <iri>https://orcid.org/</iri>
+                  <label xml:lang="">ORCID</label>
+               </scheme>
+            </identifier>
+            <name>Novák</name>
+            <given_name>Jan</given_name>
+            <family_name>Novák</family_name>
+            <affiliation>
+               <identifier>
+                  <iri>https://ror.org/024d6js02</iri>
+                  <value>024d6js02</value>
+                  <scheme>
+                     <iri>https://ror.org/</iri>
+                     <label xml:lang="">ROR</label>
+                  </scheme>
+               </identifier>
+               <name>Univerzita Karlova</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://orcid.org/0030-04X2-2030-4X26</iri>
+               <value>0030-04X2-2030-4X26</value>
+               <scheme>
+                  <iri>https://orcid.org/</iri>
+                  <label xml:lang="">ORCID</label>
+               </scheme>
+            </identifier>
+            <name>Novák</name>
+            <given_name>Jan</given_name>
+            <family_name>Novák</family_name>
+            <affiliation>
+               <identifier>
+                  <iri>https://ror.org/024d6js02</iri>
+                  <value>024d6js02</value>
+                  <scheme>
+                     <iri>https://ror.org/</iri>
+                     <label xml:lang="">ROR</label>
+                  </scheme>
+               </identifier>
+               <name>Univerzita Karlova</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Masarykova Univerzita</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2025</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date_time>2025-04-27T12:00:01+02:00</date_time>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Collected</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_interval>
+            <beginning>
+               <date>2024-01-01</date>
+            </beginning>
+            <end>
+               <date>2024-12-31</date>
+            </end>
+         </time_interval>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Collected</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">dataset</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/CES</iri>
+   </primary_language>
+   <terms_of_use>
+      <access_rights>
+         <iri>http://purl.org/coar/access_right/c_abf2</iri>
+         <label xml:lang="en">open access</label>
+         <label xml:lang="cs">otevřený přístup</label>
+      </access_rights>
+      <license>
+         <iri>https://creativecommons.org/licenses/by/4.0/</iri>
+         <label xml:lang="en">Attribution 4.0 International</label>
+      </license>
+   </terms_of_use>
+   <subject>
+      <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</iri>
+      <title xml:lang="cs">Meteorologie, vědy o atmosféře</title>
+      <subject_scheme>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
+         <label xml:lang="en">OECD FORD Subject Category (Frascati)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</iri>
+      <title xml:lang="en">Meteorology and atmospheric sciences</title>
+      <subject_scheme>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
+         <label xml:lang="en">OECD FORD Subject Category (Frascati)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="cs">kvalita ovzduší</title>
+   </subject>
+   <subject>
+      <iri>http://inspire.ec.europa.eu/theme/ef</iri>
+      <title xml:lang="en">Environmental monitoring facilities</title>
+      <subject_scheme>
+         <iri>https://inspire.ec.europa.eu/theme/</iri>
+         <label xml:lang="en">INSPIRE theme register</label>
+      </subject_scheme>
+   </subject>
+   <description>
+      <description_text xml:lang="cs">Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
+            roce 2024.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">DistTitle: Kvalita ovzduší | FormatIRI: https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/GPKG</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="cs">LocName: Středočeský kraj | LocType: Collected</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <location>
+      <bounding_box>
+         <gml:lowerCorner>13.394972457505816 49.50127042751268</gml:lowerCorner>
+         <gml:upperCorner>15.585575400519133 50.61421606255462</gml:upperCorner>
+      </bounding_box>
+      <name>Středočeský kraj</name>
+      <relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/locationType/Collected</iri>
+         <label xml:lang="en">Collected</label>
+      </relation_type>
+   </location>
+   <funding_reference>
+      <local_identifier>https://doi.org/award-identifier</local_identifier>
+      <award_title>Program for air pollution research</award_title>
+      <funder>
+         <organization>
+            <iri>https://ror.org/01pv73b02</iri>
+            <identifier>
+               <value>01pv73b02</value>
+               <scheme>
+                  <iri>https://ror.org/</iri>
+                  <label xml:lang="">ROR</label>
+               </scheme>
+            </identifier>
+            <name>Grantová agentura České republiky</name>
+         </organization>
+      </funder>
+   </funding_reference>
+   <related_resource>
+      <title>Směrnice Evropského parlamentu a Rady 2008/50/ES ze dne 21. května 2008 o kvalitě
+            vnějšího ovzduší a čistším ovzduší pro Evropu</title>
+      <resource_type>
+         <iri>http://purl.org/coar/resource_type/c_1843</iri>
+         <label xml:lang="en">Other</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsReferencedBy</iri>
+         <label xml:lang="en">IsReferencedBy</label>
+      </resource_relation_type>
+   </related_resource>
+   <related_resource>
+      <title>ENVI LVS1 Sampler pro odběr prašného aerosolu</title>
+      <resource_type>
+         <iri>http://purl.org/coar/resource_type/8KJG-QS0Y</iri>
+         <label xml:lang="en">Instrument</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsCollectedBy</iri>
+         <label xml:lang="en">IsCollectedBy</label>
+      </resource_relation_type>
+   </related_resource>
+   <related_resource>
+      <title>Kvalita ovzduší – aktuální hodinové údaje</title>
+      <resource_type>
+         <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+         <label xml:lang="en">Dataset</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsDerivedFrom</iri>
+         <label xml:lang="en">IsDerivedFrom</label>
+      </resource_relation_type>
+   </related_resource>
+   <related_resource>
+      <title>Metadata datoivé sady INSPIRE – Kvalita ovzduší – přehledy (data) na měřicích
+            stanicích</title>
+      <resource_type>
+         <iri>http://purl.org/coar/resource_type/c_1843</iri>
+         <label xml:lang="en">Other</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/HasMetadata</iri>
+         <label xml:lang="en">HasMetadata</label>
+      </resource_relation_type>
+   </related_resource>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>Kvalita ovzduší | FormatIRI: https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/GPKG</title>
+         <access_url>
+            <iri>https://www.chmi.cz/o-nas/organizacni-struktura/usek-kvality-ovzdusi/oddeleni-informacniho-systemu-kvality-ovzdusi/odkazy</iri>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <download_url>
+            <iri>https://geoportal.gov.cz/atom/CHMU/chmu_ovzdusi_AQ_data_epsg4258_2023.zip</iri>
+            <label xml:lang="en">Data download</label>
+         </download_url>
+         <format>
+            <iri/>
+            <label xml:lang="en">GeoPackage</label>
+         </format>
+         <byte_size>256</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

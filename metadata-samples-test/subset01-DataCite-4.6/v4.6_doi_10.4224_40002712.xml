@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.6/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.4224/40002712</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Wolde, Mengistu</ns0:creatorName>
+      <ns0:givenName>Mengistu</ns0:givenName>
+      <ns0:familyName>Wolde</ns0:familyName>
+      <ns0:affiliation xml:lang="en">National Research Council Canada. Aerospace</ns0:affiliation>
+      <ns0:affiliation xml:lang="fr">Conseil national de recherches Canada. Aérospatiale</ns0:affiliation>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Bliankinshtein, Natalia</ns0:creatorName>
+      <ns0:givenName>Natalia</ns0:givenName>
+      <ns0:familyName>Bliankinshtein</ns0:familyName>
+      <ns0:affiliation xml:lang="en">National Research Council Canada. Aerospace</ns0:affiliation>
+      <ns0:affiliation xml:lang="fr">Conseil national de recherches Canada. Aérospatiale</ns0:affiliation>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Bala, Kenny</ns0:creatorName>
+      <ns0:givenName>Kenny</ns0:givenName>
+      <ns0:familyName>Bala</ns0:familyName>
+      <ns0:affiliation xml:lang="en">National Research Council Canada. Aerospace</ns0:affiliation>
+      <ns0:affiliation xml:lang="fr">Conseil national de recherches Canada. Aérospatiale</ns0:affiliation>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Nichman, Leonid</ns0:creatorName>
+      <ns0:givenName>Leonid</ns0:givenName>
+      <ns0:familyName>Nichman</ns0:familyName>
+      <ns0:affiliation xml:lang="en">National Research Council Canada. Aerospace</ns0:affiliation>
+      <ns0:affiliation xml:lang="fr">Conseil national de recherches Canada. Aérospatiale</ns0:affiliation>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Organizational" xml:lang="en">National Research Council Canada. Aerospace</ns0:creatorName>
+      <ns0:nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org/">https://ror.org/04mte1k06</ns0:nameIdentifier>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title xml:lang="en">Single Particle Image Format (SPIF) conversion utility</ns0:title>
+    <ns0:title titleType="TranslatedTitle" xml:lang="fr">Utilitaire de conversion « Single Particle Image Format » (SPIF)</ns0:title>
+  </ns0:titles>
+  <ns0:publisher xml:lang="en" publisherIdentifier="https://ror.org/04mte1k06" publisherIdentifierScheme="ror" schemeURI="https://ror.org">National Research Council Canada</ns0:publisher>
+  <ns0:publicationYear>2021</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject xml:lang="en">converter</ns0:subject>
+    <ns0:subject xml:lang="en">cloud</ns0:subject>
+    <ns0:subject xml:lang="en">images</ns0:subject>
+    <ns0:subject xml:lang="en">atmospheric science</ns0:subject>
+    <ns0:subject xml:lang="en">NRC Optical Astronomy Program (OAP)</ns0:subject>
+    <ns0:subject xml:lang="en">SPIFpy</ns0:subject>
+  </ns0:subjects>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2021</ns0:date>
+  </ns0:dates>
+  <ns0:language>en</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Software">Software</ns0:resourceType>
+  <ns0:rightsList>
+    <ns0:rights xml:lang="en">© National Research Council Canada</ns0:rights>
+    <ns0:rights xml:lang="fr">© Conseil national de recherches Canada</ns0:rights>
+    <ns0:rights xml:lang="en">MIT License</ns0:rights>
+    <ns0:rights xml:lang="fr">« MIT License » (disponible uniquement en anglais)</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract" xml:lang="en">NRC-SPIFpy is a set of Command Line Interface(CLI) tools which allow for the conversion of files stored in a variety of raw imaging probe formats to the SPIF format. The package is written in Python.</ns0:description>
+  </ns0:descriptions>
+</ns0:resource>
+      

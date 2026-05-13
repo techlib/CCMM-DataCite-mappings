@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4"
+          xmlns:gml="http://www.opengis.net/gml/3.2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
+   <identifier identifierType="DOI">10.48700/datst.1m3t2-78951</identifier>
+   <alternateIdentifiers/>
+   <creators>
+      <creator>
+         <creatorName nameType="Personal">Paldusová, Kateřina</creatorName>
+         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0009-0003-1158-1138</nameIdentifier>
+         <affiliation affiliationIdentifier="https://ror.org/02sat5y74"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">Ústav fyzikální chemie J. Heyrovského AV ČR</affiliation>
+         <affiliation affiliationIdentifier="61388955"
+                      affiliationIdentifierScheme="IČO"
+                      schemeURI="https://www.wikidata.org/entity/Q42302581">Ústav fyzikální chemie J. Heyrovského AV ČR</affiliation>
+      </creator>
+      <creator>
+         <creatorName nameType="Personal">González Navarro, José Alfredo</creatorName>
+         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0003-1662-9092</nameIdentifier>
+         <affiliation affiliationIdentifier="https://ror.org/02sat5y74"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">Ústav fyzikální chemie J. Heyrovského AV ČR</affiliation>
+         <affiliation affiliationIdentifier="61388955"
+                      affiliationIdentifierScheme="IČO"
+                      schemeURI="https://www.wikidata.org/entity/Q42302581">Ústav fyzikální chemie J. Heyrovského AV ČR</affiliation>
+      </creator>
+      <creator>
+         <creatorName nameType="Personal">Echezarreta Mendicute, Irene</creatorName>
+         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0009-0008-0140-2075</nameIdentifier>
+         <affiliation affiliationIdentifier="https://ror.org/02sat5y74"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">Ústav fyzikální chemie J. Heyrovského AV ČR</affiliation>
+         <affiliation affiliationIdentifier="61388955"
+                      affiliationIdentifierScheme="IČO"
+                      schemeURI="https://www.wikidata.org/entity/Q42302581">Ústav fyzikální chemie J. Heyrovského AV ČR</affiliation>
+      </creator>
+      <creator>
+         <creatorName nameType="Personal">Cebecauer, Marek</creatorName>
+         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0000-0002-4606-1218</nameIdentifier>
+         <affiliation affiliationIdentifier="https://ror.org/02sat5y74"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">Ústav fyzikální chemie J. Heyrovského AV ČR</affiliation>
+         <affiliation affiliationIdentifier="61388955"
+                      affiliationIdentifierScheme="IČO"
+                      schemeURI="https://www.wikidata.org/entity/Q42302581">Ústav fyzikální chemie J. Heyrovského AV ČR</affiliation>
+      </creator>
+   </creators>
+   <contributors>
+      <contributor contributorType="DataManager">
+         <contributorName nameType="Personal">:unkn</contributorName>
+         <givenName>:unkn</givenName>
+         <familyName>:unkn</familyName>
+      </contributor>
+   </contributors>
+   <dates>
+      <date dateType="Issued">2025-04-03</date>
+      <date dateType="Created">2025-04-02/2025-04-03</date>
+      <date dateType="Collected">2025-01-01/2025-04-03</date>
+      <date dateType="Available">2025-04-03</date>
+   </dates>
+   <titles>
+      <title>Data set žádosti o grant Grantové agentury České republiky</title>
+      <title xml:lang="en" titleType="TranslatedTitle">The Czech Science Foundation Grant Application Data Set</title>
+   </titles>
+   <publisher publisherIdentifier="https://ror.org/02sat5y74"
+              publisherIdentifierScheme="ROR"
+              schemeURI="https://ror.org/">Ústav fyzikální chemie J. Heyrovského AV ČR</publisher>
+   <publicationYear>2025</publicationYear>
+   <resourceType resourceTypeGeneral="Dataset">dataset</resourceType>
+   <subjects>
+      <subject classificationCode="10601"
+               valueURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601"
+               subjectScheme="OECD FORD Subject Category (Frascati)"
+               schemeURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/"
+               xml:lang="cs">Buněčná biologie</subject>
+      <subject classificationCode="10601"
+               valueURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601"
+               subjectScheme="OECD FORD Subject Category (Frascati)"
+               schemeURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/"
+               xml:lang="en">Cell biology</subject>
+      <subject classificationCode="10606"
+               valueURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606"
+               subjectScheme="OECD FORD Subject Category (Frascati)"
+               schemeURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/"
+               xml:lang="cs">Mikrobiologie</subject>
+      <subject classificationCode="10606"
+               valueURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606"
+               subjectScheme="OECD FORD Subject Category (Frascati)"
+               schemeURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/"
+               xml:lang="en">Microbiology</subject>
+      <subject classificationCode="30102"
+               valueURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102"
+               subjectScheme="OECD FORD Subject Category (Frascati)"
+               schemeURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/"
+               xml:lang="cs">Imunologie</subject>
+      <subject classificationCode="30102"
+               valueURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102"
+               subjectScheme="OECD FORD Subject Category (Frascati)"
+               schemeURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/"
+               xml:lang="en">Immunology</subject>
+      <subject xml:lang="cs">lidské neutrofily</subject>
+      <subject xml:lang="en">human neutrophils</subject>
+      <subject xml:lang="cs">NETy</subject>
+      <subject xml:lang="en">NETs</subject>
+      <subject xml:lang="cs">NETóza</subject>
+      <subject xml:lang="en">NETosis</subject>
+      <subject xml:lang="cs">mikroskopie</subject>
+      <subject xml:lang="en">microscopy</subject>
+   </subjects>
+   <descriptions>
+      <description descriptionType="Abstract" xml:lang="cs">Data podporující strukturu neutrofilových extracelulárních pastí pocházejících z lidských neutrofilů</description>
+      <description descriptionType="Abstract" xml:lang="en">Data supporting the structure of neutrophil extracellular traps generated from human neutrophils</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">Doplňující mikroskopická data</description>
+      <description descriptionType="TechnicalInfo" xml:lang="en">Supplementary microscopy data</description>
+      <description descriptionType="Methods" xml:lang="cs">Izolace neutrofilů ze vzorků lidské krve, stimulace neutrofilů pomocí agens indukujících NETózu, akvizice mikroskopických dat</description>
+      <description descriptionType="Methods" xml:lang="en">Isolation of neutrophils from human blood samples, neutrophil stimulation with NETosis-inducing agents, microscopy data acquisition</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: CebecauerTkadlec_GACR2026_MindMap.pdf | FormatIRI: http://publications.europa.eu/resource/authority/file-type/PDF</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: ReadMe.txt | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TXT</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Supp_Fig2A_NE_DNAchannel.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Supp_Fig2A_NE_Merge_5um.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Supp_Fig2A_NE_processedSMLM.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Supp_Fig2B_citH3_DNAchannel.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Supp_Fig2B_citH3_Merge_5um.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Supp_Fig2B_citH3_processedSMLM.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Supp_Fig2C_MPO_DNAchannel.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Supp_Fig2C_MPO_Merge_5um.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Supp_Fig2C_MPO_processedSMLM.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Supplementary_Figures.pdf | FormatIRI: http://publications.europa.eu/resource/authority/file-type/PDF</description>
+   </descriptions>
+   <formats>
+      <format>PDF</format>
+      <format>Plain text</format>
+      <format>TIFF</format>
+   </formats>
+   <fundingReferences/>
+   <version/>
+   <rightsList>
+      <rights rightsURI="https://creativecommons.org/licenses/by/4.0/"
+              rightsIdentifier="CC-BY-4.0"
+              rightsIdentifierScheme="SPDX"
+              schemeURI="https://spdx.org/licenses/"
+              xml:lang="en">Creative Commons Attribution 4.0 International License</rights>
+      <rights rightsURI="http://purl.org/coar/access_right/c_abf2" xml:lang="en">open access</rights>
+   </rightsList>
+   <language>ENG</language>
+   <relatedIdentifiers>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="IsVariantFormOf"
+                         resourceTypeGeneral="Other">https://data.narodni-repozitar.cz</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/CebecauerTkadlec_GACR2026_MindMap.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ReadMe.txt</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/Supp_Fig2A_NE_DNAchannel.tif</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/Supp_Fig2A_NE_Merge_5um.tif</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/Supp_Fig2A_NE_processedSMLM.tif</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/Supp_Fig2B_citH3_DNAchannel.tif</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/Supp_Fig2B_citH3_Merge_5um.tif</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/Supp_Fig2B_citH3_processedSMLM.tif</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/Supp_Fig2C_MPO_DNAchannel.tif</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/Supp_Fig2C_MPO_Merge_5um.tif</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/Supp_Fig2C_MPO_processedSMLM.tif</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL"
+                         relationType="HasPart"
+                         resourceTypeGeneral="Dataset">
+                    https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/Supplementary_Figures.pdf</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsDocumentedBy">https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/ https://data.narodni-repozitar.cz/heyrovsky/datasets/1m3t2-78951/files/</relatedIdentifier>
+   </relatedIdentifiers>
+   <sizes>
+      <size>66.0 KB</size>
+   </sizes>
+   <relatedItems/>
+</resource>

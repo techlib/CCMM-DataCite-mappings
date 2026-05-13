@@ -1,0 +1,60 @@
+#curie_map:;;;;
+#  skos: http://www.w3.org/2004/02/skos/core#;;;;
+#mapping_set_id: mscr:crosswalk:coar-3.2-to-datacite-full-complete;;;;
+#mapping_set_description: Kompletní mapování COAR Resource Types v3.2 na DataCite resourceTypeGeneral.;;;;
+subject_id;subject_label;predicate_id;object_label;mapping_justification
+# --- BLOK: DATA (Dataset) ---;;;;
+http://purl.org/coar/resource_type/c_ddb1;dataset;skos:exactMatch;Dataset;Základní shoda
+http://purl.org/coar/resource_type/FF4C-28RK;observational data;skos:broadMatch;Dataset;Podtyp Dataset
+http://purl.org/coar/resource_type/c_cb1e;clinical trial data;skos:broadMatch;Dataset;Podtyp Dataset
+http://purl.org/coar/resource_type/c_6b0b;experimental data;skos:broadMatch;Dataset;Podtyp Dataset
+http://purl.org/coar/resource_type/c_232c;genomic data;skos:broadMatch;Dataset;Podtyp Dataset
+http://purl.org/coar/resource_type/c_703b;survey data;skos:broadMatch;Dataset;Podtyp Dataset
+http://purl.org/coar/resource_type/c_beb9;data paper;skos:exactMatch;DataPaper;DataCite má specifický typ
+# --- BLOK: TEXTY (Text, JournalArticle, Book, atd.) ---;;;;
+http://purl.org/coar/resource_type/c_18cf;text;skos:exactMatch;Text;Základní shoda
+http://purl.org/coar/resource_type/c_6501;journal article;skos:exactMatch;JournalArticle;Základní shoda
+http://purl.org/coar/resource_type/c_0857;research article;skos:broadMatch;JournalArticle;Většina výzkumných článků
+http://purl.org/coar/resource_type/c_f6fb;letter;skos:broadMatch;Text;Textová korespondence
+http://purl.org/coar/resource_type/c_b239;editorial;skos:broadMatch;Text;Redakční text
+http://purl.org/coar/resource_type/c_71bd;book review;skos:broadMatch;Text;Recenze
+http://purl.org/coar/resource_type/c_1162;working paper;skos:broadMatch;Text;Pracovní text
+http://purl.org/coar/resource_type/c_816b;preprint;skos:exactMatch;Preprint;Základní shoda
+http://purl.org/coar/resource_type/c_15cd;patent;skos:broadMatch;Text;DataCite nemá Patent
+http://purl.org/coar/resource_type/c_2f33;book;skos:exactMatch;Book;Základní shoda
+http://purl.org/coar/resource_type/c_3248;book part;skos:exactMatch;BookChapter;Základní shoda
+http://purl.org/coar/resource_type/c_93fc;report;skos:exactMatch;Report;Základní shoda
+http://purl.org/coar/resource_type/c_c5e0;technical report;skos:broadMatch;Report;Podtyp Report
+http://purl.org/coar/resource_type/c_1243;textbook;skos:broadMatch;Book;Učebnice
+http://purl.org/coar/resource_type/c_1260;manual;skos:broadMatch;Text;Příručka
+# --- BLOK: AKADEMICKÉ PRÁCE (Dissertation) ---;;;;
+http://purl.org/coar/resource_type/c_46ec;thesis;skos:broadMatch;Dissertation;Závěrečné práce obecně
+http://purl.org/coar/resource_type/c_db01;doctoral thesis;skos:exactMatch;Dissertation;Dizertace
+http://purl.org/coar/resource_type/c_7083;master thesis;skos:broadMatch;Dissertation;Diplomka
+http://purl.org/coar/resource_type/c_2e2f;bachelor thesis;skos:broadMatch;Dissertation;Bakalářka
+# --- BLOK: KONFERENCE (ConferencePaper, Poster, atd.) ---;;;;
+http://purl.org/coar/resource_type/c_5794;conference paper;skos:exactMatch;ConferencePaper;Základní shoda
+http://purl.org/coar/resource_type/c_6670;conference poster;skos:exactMatch;Poster;Základní shoda
+http://purl.org/coar/resource_type/R60J-J5BD;conference presentation;skos:exactMatch;Presentation;Základní shoda
+http://purl.org/coar/resource_type/c_f744;conference proceedings;skos:exactMatch;ConferenceProceeding;Základní shoda
+http://purl.org/coar/resource_type/c_7ad9;conference paper abstract;skos:broadMatch;Text;Abstrakt je text
+# --- BLOK: SOFTWARE A WORKFLOW ---;;;;
+http://purl.org/coar/resource_type/c_5ce6;software;skos:exactMatch;Software;Základní shoda
+http://purl.org/coar/resource_type/c_393c;workflow;skos:exactMatch;Workflow;Základní shoda
+http://purl.org/coar/resource_type/c_e9a0;interactive resource;skos:exactMatch;InteractiveResource;Základní shoda
+http://purl.org/coar/resource_type/H41Y-FW7B;laboratory notebook;skos:exactMatch;ComputationalNotebook;Zápisníky
+# --- BLOK: MULTIMÉDIA (Audiovisual, Image, Sound) ---;;;;
+http://purl.org/coar/resource_type/c_8a7e;moving image;skos:exactMatch;Audiovisual;Základní shoda
+http://purl.org/coar/resource_type/c_12ce;video;skos:broadMatch;Audiovisual;Podtyp AV
+http://purl.org/coar/resource_type/c_12cc;animation;skos:broadMatch;Audiovisual;Podtyp AV
+http://purl.org/coar/resource_type/c_ecc8;still image;skos:broadMatch;Image;Základní shoda
+http://purl.org/coar/resource_type/c_12cd;map;skos:broadMatch;Image;Mapy v DataCite pod Image
+http://purl.org/coar/resource_type/c_18cc;sound;skos:exactMatch;Sound;Základní shoda
+http://purl.org/coar/resource_type/c_1391;speech;skos:broadMatch;Sound;Podtyp Sound
+# --- BLOK: OSTATNÍ (Instrument, PhysicalObject, Other) ---;;;;
+http://purl.org/coar/resource_type/8KJG-QS0Y;research instrument;skos:exactMatch;Instrument;Základní shoda
+http://purl.org/coar/resource_type/S7R1-K5P0;physical sample;skos:broadMatch;PhysicalObject;Fyzické vzorky
+http://purl.org/coar/resource_type/c_ab20;data management plan;skos:exactMatch;OutputManagementPlan;DMP
+http://purl.org/coar/resource_type/c_18cd;collection;skos:exactMatch;Collection;Sady/Sbírky
+http://purl.org/coar/resource_type/H9BQ-739P;peer review;skos:exactMatch;PeerReview;Recenzní řízení
+http://purl.org/coar/resource_type/c_1843;other;skos:exactMatch;Other;Fallback

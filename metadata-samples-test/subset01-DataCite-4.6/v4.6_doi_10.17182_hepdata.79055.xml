@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.6/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.17182/HEPDATA.79055</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Organizational">CMS Collaboration</ns0:creatorName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:dates>
+    <ns0:date dateType="Updated">2018-04-11 14:07:20.773586</ns0:date>
+  </ns0:dates>
+  <ns0:titles>
+    <ns0:title>Suppression of excited Upsilon states relative to the ground state in PbPb collisions at sqrt(sNN) = 5.02 TeV</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>HEPData</ns0:publisher>
+  <ns0:publicationYear>2018</ns0:publicationYear>
+  <ns0:language>eng</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Collection">Collection</ns0:resourceType>
+  <ns0:version>1</ns0:version>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">CERN-LHC. The relative yields of Υ mesons produced in pp and PbPb collisions at 5.02TeV and reconstructed via the dimuon decay channel are measured using data collected by the CMS experiment. Double ratios are formed by comparing the yields of the excited states, Υ(2S) and Υ(3S), to the ground state, Υ(1S), in both PbPb and pp collisions at the same center-of-mass energy, in data collected in 2015. The double ratios are studied as a function of collision centrality, as well as Υ transverse momentum and rapidity.
+</ns0:description>
+  </ns0:descriptions>
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="HEPDataRecord">https://www.hepdata.net/record/ins1605750</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="HEPDataRecordAlt">https://www.hepdata.net/record/79055</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementTo">https://inspirehep.net/literature/1605750</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="DOI" resourceTypeGeneral="JournalArticle" relationType="IsSupplementTo">10.1103/PhysRevLett.120.142301</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="DOI" resourceTypeGeneral="Collection" relationType="HasVersion">10.17182/hepdata.79055.v1</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+</ns0:resource>
+      
