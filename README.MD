@@ -119,8 +119,6 @@ For validating the XSLT transformation workflow, we employ round‑tripping test
 
 ### 4.2 Real DataCite metadata records
 
-TODO
-
 Using https://oai.datacite.org/oai the following real DataCite metadata records have been gathered for XSLT transformation testing:
 
 #### **subset01-DataCite-4.6**
