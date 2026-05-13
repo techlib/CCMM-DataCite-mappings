@@ -27,8 +27,8 @@ This document describes the background and the methodology for the design of CCM
 
 - Web: https://datacite-metadata-schema.readthedocs.io/en/4.7/
 - Examples and XML Schema: https://datacite-metadata-schema.readthedocs.io/en/4.7/xml/
-    - The XML Schema: https://schema.datacite.org/meta/kernel-4.7/metadata.xsd
-    - Full Example: https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-full-v4.xml
+- The XML Schema: https://schema.datacite.org/meta/kernel-4.7/metadata.xsd
+- Full Example: https://schema.datacite.org/meta/kernel-4.7/example/datacite-example-full-v4.xml
 
 #### Mandatory elements in DataCite
 
@@ -118,8 +118,6 @@ For validating the XSLT transformation workflow, we employ round‑tripping test
 
 
 ### 4.2 Real DataCite metadata records
-
-TODO
 
 Using https://oai.datacite.org/oai the following real DataCite metadata records have been gathered for XSLT transformation testing:
 
