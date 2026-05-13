@@ -160,6 +160,6 @@ in progress
 in progress
 
 ## Current actions
-- The XSLT transformations have been validated using our CCMM XML sample datasets and subset01-DataCite-4.6. Ongoing work focuses on evaluating the transformations against subset01-DataCite-4.4, subset01-DataCite-4.5
-- Ongoing: Mappings DataCite controlled vocabularies to CCMM controlled vocabularies and vice versa
+- The XSLT transformations have been validated using our CCMM XML sample datasets and subset01-DataCite-4.6. Ongoing work focuses on evaluating the transformations against subset01-DataCite-4.4, subset01-DataCite-4.5.
+- Mapping between DataCite controlled vocabularies and CCMM controlled vocabularies in both directions, with application in XSLT transformations. Mapping of resource types from DataCite to COAR has already been implemented; mapping from COAR to DataCite is currently in progress. At present, values from controlled vocabularies are otherwise taken directly from the source metadata within the XSLT transformations.
 
