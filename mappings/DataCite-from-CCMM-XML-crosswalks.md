@@ -1,4 +1,4 @@
-| CCMM path | DataCite path |
+| DataCite XPath | CCMM XPath |
 |-----------|---------------|
 | `/resource` | `/ccmm:dataset` |
 | `/resource/alternateIdentifiers` | `/ccmm:dataset/ccmm:identifier[ccmm:scheme/ccmm:label != 'DOI']` |
