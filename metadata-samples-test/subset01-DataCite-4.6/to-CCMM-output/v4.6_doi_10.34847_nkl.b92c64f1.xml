@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.34847/nkl.b92c64f1</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Photothèque, CESCM</name>
+               <given_name>CESCM</given_name>
+               <family_name>Photothèque</family_name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Photothèque, CESCM</name>
+               <given_name>CESCM</given_name>
+               <family_name>Photothèque</family_name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.34847/nkl.b92c64f1</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.34847/nkl.b92c64f1</iri>
+      <value>nkl.b92c64f1</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>https://nakala.fr/10.34847/nkl.b92c64f1</iri>
+      <value>nkl.b92c64f1</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">URL</label>
+      </scheme>
+   </identifier>
+   <version>120</version>
+   <title>DVD 71 FONDS O. AUTIN</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>:unkn</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Photothèque, CESCM</name>
+            <given_name>CESCM</given_name>
+            <family_name>Photothèque</family_name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Photothèque, CESCM</name>
+            <given_name>CESCM</given_name>
+            <family_name>Photothèque</family_name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>NAKALA - https://nakala.fr (Huma-Num - CNRS)</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2026</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2021-11-26</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Created</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en"/>
+   </resource_type>
+   <terms_of_use>
+      <license>
+         <iri>https://spdx.org/licenses/CC-BY-NC-SA-4.0.html#licenseText</iri>
+         <label xml:lang="en">Creative Commons Attribution Non Commercial Share Alike 4.0 International</label>
+      </license>
+   </terms_of_use>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>DVD 71 FONDS O. AUTIN</title>
+         <access_url>
+            <iri/>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <download_url>
+            <iri>https://api.nakala.fr/data/10.34847/nkl.b92c64f1/1cbf6fc7f789d0b7a9dab579c07478e3d4bfa9a8</iri>
+            <label xml:lang="en">Data download</label>
+         </download_url>
+         <format>
+            <label xml:lang="en">image/tiff</label>
+         </format>
+         <byte_size>2932466014</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

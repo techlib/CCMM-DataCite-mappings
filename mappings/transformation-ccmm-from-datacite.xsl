@@ -23,20 +23,50 @@
                 <xsl:value-of select="concat('https://doi.org/', dc:identifier)"/>
             </iri>
             
-            <!--TODO extend it-->
             <metadata_identification>
-                    <xsl:apply-templates select="dc:contributors/dc:contributor[@contributorType='DataManager']" mode="back_to_ccmm"/>
+<!--                    <xsl:apply-templates select="dc:contributors/dc:contributor[@contributorType='DataManager']" mode="back_to_ccmm"/>-->
+                <xsl:apply-templates
+                    select="dc:contributors/dc:contributor[
+                    @contributorType='DataManager' 
+                    or @contributorType='ContactPerson' 
+                    or @contributorType='DataCurator'
+                    ]" 
+                    mode="back_to_ccmm"/>
+                
+<!--                if there is no DataManager and at the same time we can find publisher-->
+                <xsl:if test="not(dc:contributors/dc:contributor[@contributorType='DataManager']) and dc:publisher">
+                    <xsl:apply-templates select="dc:publisher" mode="back_to_ccmm">
+                        <xsl:with-param name="forcedRole"
+                            select="'https://schema.ccmm.cz/vocabulary/role/DataManager'"/>
+                    </xsl:apply-templates>
+                </xsl:if>
+                
                 <conforms_to_standard>
                     <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
                     <label xml:lang="">CCMM RD 1.1.0</label>
                 </conforms_to_standard>
-                <xsl:if test="dc:relatedIdentifiers/dc:relatedIdentifier[@relationType='IsVariantFormOf']">
-                    <original_repository>
-                        <iri>
-                            <xsl:value-of select="dc:relatedIdentifiers/dc:relatedIdentifier[@relationType='IsVariantFormOf'][1]"/>
-                        </iri>
-                    </original_repository>
-                </xsl:if>
+                
+                <xsl:choose>
+                    <!-- Priority 1: IsVariantFormOf -->
+                    <xsl:when test="dc:relatedIdentifiers/dc:relatedIdentifier[@relationType='IsVariantFormOf']">
+                        <original_repository>
+                            <iri>
+                                <xsl:value-of
+                                    select="dc:relatedIdentifiers/dc:relatedIdentifier[@relationType='IsVariantFormOf'][1]"/>
+                            </iri>
+                        </original_repository>
+                    </xsl:when>
+                    
+                    <!-- Prirority 2: DOI -->
+                    <xsl:when test="dc:identifier[@identifierType='DOI']">
+                        <original_repository>
+                            <iri>
+                                <xsl:value-of
+                                    select="concat('https://doi.org/', normalize-space(dc:identifier[@identifierType='DOI'][1]))"/>
+                            </iri>
+                        </original_repository>
+                    </xsl:when>
+                </xsl:choose>
             </metadata_identification>
             
             <xsl:apply-templates select="dc:identifier | dc:alternateIdentifiers/dc:alternateIdentifier"/>
@@ -44,9 +74,10 @@
             <xsl:if test="dc:version"><version><xsl:value-of select="dc:version"/></version></xsl:if>
 
             <title>
-                <xsl:if test="dc:titles/dc:title[not(@titleType)]/@xml:lang">
+<!--            <xsl:if test="dc:titles/dc:title[not(@titleType)]/@xml:lang">
                     <xsl:attribute name="xml:lang" select="dc:titles/dc:title[not(@titleType)]/@xml:lang"/>
                 </xsl:if>
+-->             
                 <xsl:value-of select="dc:titles/dc:title[not(@titleType)][1]"/>
             </title>
 
@@ -91,17 +122,58 @@
                             </xsl:when>
                             <xsl:otherwise>
                                 <time_instant>
+                                    <xsl:variable name="val" select="normalize-space(.)"/>
+                                    
                                     <xsl:choose>
-                                        <xsl:when test="contains(., 'T') or string-length(normalize-space(.)) > 10">
+                                        
+                                        <!-- datetime s mezerou a převod -->
+                                        <xsl:when test="matches($val, '^\d{4}-\d{2}-\d{2} ')">
                                             <date_time>
-                                                <xsl:value-of select="normalize-space(.)"/>
+                                                <xsl:value-of select="
+                                                    replace(
+                                                    replace($val, ' ', 'T'),
+                                                    '\.\d+',
+                                                    ''
+                                                    )
+                                                    "/>
                                             </date_time>
                                         </xsl:when>
+                                        
+                                        
+                                        <!-- xs:dateTime -->
+                                        <xsl:when test="matches($val, '^\d{4}-\d{2}-\d{2}T')">
+                                            <date_time>
+                                                <xsl:value-of select="$val"/>
+                                            </date_time>
+                                        </xsl:when>
+                                        
+                                        <!-- xs:date -->
+                                        <xsl:when test="matches($val, '^\d{4}-\d{2}-\d{2}$')">
+                                            <date>
+                                                <xsl:value-of select="$val"/>
+                                            </date>
+                                        </xsl:when>
+                                        
+                                        <!-- YYYY-MM: add day -->
+                                        <xsl:when test="matches($val, '^\d{4}-\d{2}$')">
+                                            <date>
+                                                <xsl:value-of select="concat($val, '-01')"/>
+                                            </date>
+                                        </xsl:when>
+                                        
+                                        <!-- YYYY: add month and day -->
+                                        <xsl:when test="matches($val, '^\d{4}$')">
+                                            <date>
+                                                <xsl:value-of select="concat($val, '-01-01')"/>
+                                            </date>
+                                        </xsl:when>
+                                        
                                         <xsl:otherwise>
                                             <date>
-                                                <xsl:value-of select="normalize-space(.)"/>
+                                                <xsl:text>INVALID</xsl:text>
                                             </date>
                                         </xsl:otherwise>
+                                        
                                     </xsl:choose>
                                 </time_instant>
                             </xsl:otherwise>
@@ -112,7 +184,14 @@
                     </date_type>
                 </time_reference>
             </xsl:for-each>
-
+            
+            <xsl:if test="not(dc:resourceType/@resourceTypeGeneral = 'Dataset')">
+                <xsl:message>
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is '<xsl:value-of select="dc:resourceType/@resourceTypeGeneral"/>'.
+                </xsl:message>
+            </xsl:if>
+            
+            
             <resource_type>
                 <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
                 <label xml:lang="en"><xsl:value-of select="dc:resourceType"/></label>
@@ -126,9 +205,14 @@
 
             <terms_of_use>
                 <xsl:for-each select="dc:rightsList/dc:rights[
-                    contains(@rightsURI, 'access_right') or 
-                    (not(@rightsIdentifier) and not(contains(lower-case(@rightsURI), 'license')))
+                    not(
+                    @rightsIdentifier 
+                    or contains(lower-case(@rightsURI), 'license')
+                    or contains(lower-case(@rightsURI), 'creativecommons')
+                    or matches(lower-case(.), 'license|licence|gpl|agpl|mit|cc-|apache|bsd')
+                    )
                     ]">
+                    
                     <access_rights>
                         <xsl:if test="@rightsURI">
                             <iri><xsl:value-of select="@rightsURI"/></iri>
@@ -143,8 +227,10 @@
                 </xsl:for-each>
                 
                 <xsl:for-each select="dc:rightsList/dc:rights[
-                    @rightsIdentifier or 
-                    contains(lower-case(@rightsURI), 'license')
+                    @rightsIdentifier 
+                    or contains(lower-case(@rightsURI), 'license')
+                    or contains(lower-case(@rightsURI), 'creativecommons')
+                    or matches(lower-case(.), 'license|licence|gpl|agpl|mit|cc-|apache|bsd')
                     ]">
                     <license>
                         <xsl:if test="@rightsURI">
@@ -289,19 +375,20 @@
                 <related_resource>
                     
                     <xsl:if test="dc:relatedItemIdentifier">
-                        <identifier>
+                        <!--<identifier>
                             <value><xsl:value-of select="dc:relatedItemIdentifier"/></value>
                             <scheme>
-                                <label><xsl:value-of select="dc:relatedItemIdentifier/@relatedItemIdentifierType"/></label>
+                                <label xml:lang="en"><xsl:value-of select="dc:relatedItemIdentifier/@relatedItemIdentifierType"/></label>
                             </scheme>
-                        </identifier>
+                        </identifier>-->
+                        <xsl:apply-templates select="dc:relatedItemIdentifier"/>
                     </xsl:if>
                     
                     <xsl:for-each select="dc:titles/dc:title">
                         <title>
-                            <xsl:if test="@xml:lang">
+                            <!--<xsl:if test="@xml:lang">
                                 <xsl:attribute name="xml:lang" select="@xml:lang"/>
-                            </xsl:if>
+                            </xsl:if>-->
                             <xsl:value-of select="."/>
                         </title>
                     </xsl:for-each>
@@ -388,11 +475,11 @@
         </dataset>
     </xsl:template>
     
-    <xsl:template match="dc:identifier | dc:alternateIdentifier">
+    <xsl:template match="dc:identifier | dc:alternateIdentifier | dc:relatedItemIdentifier">
         
         <identifier>
             <iri>
-                <xsl:variable name="type" select="upper-case((@identifierType, @alternateIdentifierType, @nameIdentifierScheme)[1])"/>
+                <xsl:variable name="type" select="upper-case((@identifierType, @alternateIdentifierType, @nameIdentifierScheme, @relatedItemIdentifierType)[1])"/>
                 <xsl:choose>
                     <xsl:when test="$type = 'DOI' and not(starts-with(., 'http'))">
                         <xsl:value-of select="concat('https://doi.org/', .)"/>
@@ -411,7 +498,7 @@
             <!--                should be DOI for datacite-->
                 <iri>https://doi.org</iri>
                 <label xml:lang="">
-                    <xsl:value-of select="(@identifierType, @alternateIdentifierType, @nameIdentifierScheme)[1]"/>
+                    <xsl:value-of select="(@identifierType, @alternateIdentifierType, @nameIdentifierScheme, @relatedItemIdentifierType)[1]"/>
                 </label>
             </scheme>
         </identifier>
@@ -419,6 +506,9 @@
     </xsl:template>
 
     <xsl:template match="dc:creator | dc:contributor | dc:publisher" mode="back_to_ccmm">
+        
+        <xsl:param name="forcedRole" as="xs:string?" />
+        
         <qualified_relation>
             <relation>
                 <xsl:choose>
@@ -455,7 +545,13 @@
                                                 </label>
                                             </scheme>
                                         </identifier>
-                                        <name><xsl:value-of select="."/></name>
+<!--                                        <name><xsl:value-of select="."/></name>-->
+                                    </xsl:if>
+<!--                                    use affiliation even if it is not structured-->
+                                    <xsl:if test="normalize-space(.)">
+                                        <name>
+                                            <xsl:value-of select="normalize-space(.)"/>
+                                        </name>
                                     </xsl:if>
                                 </affiliation>
                             </xsl:for-each>
@@ -466,6 +562,9 @@
             <role>
             <iri>
                 <xsl:choose>
+                    <xsl:when test="$forcedRole">
+                        <xsl:value-of select="$forcedRole"/>
+                    </xsl:when>
                     <xsl:when test="self::dc:creator">https://schema.ccmm.cz/vocabulary/role/Creator</xsl:when>
                     <xsl:when test="self::dc:publisher">https://schema.ccmm.cz/vocabulary/role/Publisher</xsl:when>
                     <xsl:otherwise><xsl:value-of select="concat('https://schema.ccmm.cz/vocabulary/role/', @contributorType)"/></xsl:otherwise>

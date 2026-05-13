@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.4224/40002712</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>National Research Council Canada</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.4224/40002712</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.4224/40002712</iri>
+      <value>40002712</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <title>Single Particle Image Format (SPIF) conversion utility</title>
+   <alternate_title>
+      <title xml:lang="fr">Utilitaire de conversion « Single Particle Image Format » (SPIF)</title>
+      <alternate_title_type>
+         <iri>https://schema.ccmm.cz/vocabulary/titleType/TranslatedTitle</iri>
+      </alternate_title_type>
+   </alternate_title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Wolde, Mengistu</name>
+            <given_name>Mengistu</given_name>
+            <family_name>Wolde</family_name>
+            <affiliation>
+               <name>National Research Council Canada. Aerospace</name>
+            </affiliation>
+            <affiliation>
+               <name>Conseil national de recherches Canada. Aérospatiale</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Bliankinshtein, Natalia</name>
+            <given_name>Natalia</given_name>
+            <family_name>Bliankinshtein</family_name>
+            <affiliation>
+               <name>National Research Council Canada. Aerospace</name>
+            </affiliation>
+            <affiliation>
+               <name>Conseil national de recherches Canada. Aérospatiale</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Bala, Kenny</name>
+            <given_name>Kenny</given_name>
+            <family_name>Bala</family_name>
+            <affiliation>
+               <name>National Research Council Canada. Aerospace</name>
+            </affiliation>
+            <affiliation>
+               <name>Conseil national de recherches Canada. Aérospatiale</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Nichman, Leonid</name>
+            <given_name>Leonid</given_name>
+            <family_name>Nichman</family_name>
+            <affiliation>
+               <name>National Research Council Canada. Aerospace</name>
+            </affiliation>
+            <affiliation>
+               <name>Conseil national de recherches Canada. Aérospatiale</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>https://ror.org/04mte1k06</iri>
+               <value>04mte1k06</value>
+               <scheme>
+                  <iri>https://ror.org/</iri>
+                  <label xml:lang="">ROR</label>
+               </scheme>
+            </identifier>
+            <name>National Research Council Canada. Aerospace</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>National Research Council Canada</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2021</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2021-01-01</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">Software</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/en</iri>
+   </primary_language>
+   <terms_of_use>
+      <access_rights>
+         <label xml:lang="en">© National Research Council Canada</label>
+      </access_rights>
+      <access_rights>
+         <label xml:lang="en">© Conseil national de recherches Canada</label>
+      </access_rights>
+      <license>
+         <label xml:lang="en">MIT License</label>
+      </license>
+      <license>
+         <label xml:lang="en">« MIT License » (disponible uniquement en anglais)</label>
+      </license>
+   </terms_of_use>
+   <subject>
+      <title xml:lang="en">converter</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">cloud</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">images</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">atmospheric science</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">NRC Optical Astronomy Program (OAP)</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">SPIFpy</title>
+   </subject>
+   <description>
+      <description_text xml:lang="en">NRC-SPIFpy is a set of Command Line Interface(CLI) tools which allow for the conversion of files stored in a variety of raw imaging probe formats to the SPIF format. The package is written in Python.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+</dataset>

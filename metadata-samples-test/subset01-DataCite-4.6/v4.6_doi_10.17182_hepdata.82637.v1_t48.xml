@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.6/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.17182/HEPDATA.82637.V1/T48</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Organizational">CMS Collaboration</ns0:creatorName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:dates>
+    <ns0:date dateType="Updated">2018-04-20 16:02:15.734036</ns0:date>
+  </ns0:dates>
+  <ns0:titles>
+    <ns0:title>"Table 48" of "Constraints on the chiral magnetic effect using charge-dependent azimuthal correlations in pPb and PbPb collisions at the LHC"</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>HEPData</ns0:publisher>
+  <ns0:publicationYear>2018</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject subjectScheme="reactions">PB PB ---&gt; H X</ns0:subject>
+    <ns0:subject subjectScheme="observables">&lt;COS(phi_alpha + 2phi_beta - 3phi_c)&gt;/v_{3,c}</ns0:subject>
+    <ns0:subject subjectScheme="cmenergies">5020.0-8160.0</ns0:subject>
+  </ns0:subjects>
+  <ns0:language>eng</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Dataset">Dataset</ns0:resourceType>
+  <ns0:version>1</ns0:version>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">Three-particle correlation with respect to the 3rd order event plane in PbPb collisions.</ns0:description>
+    <ns0:description descriptionType="Other">CERN-LHC.  Constraints on the chiral magnetic effect using charge-dependent azimuthal correlations in pPb and PbPb collisions at the LHC.</ns0:description>
+  </ns0:descriptions>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/">CC0</ns0:rights>
+  </ns0:rightsList>
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="HEPDataRecord">https://www.hepdata.net/record/ins1614482</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="HEPDataRecordAlt">https://www.hepdata.net/record/82637</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementTo">https://inspirehep.net/literature/1614482</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="DOI" resourceTypeGeneral="JournalArticle" relationType="IsSupplementTo">10.1103/PhysRevC.97.044912</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="DOI" resourceTypeGeneral="Collection" relationType="IsPartOf">10.17182/hepdata.82637.v1</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+</ns0:resource>
+      

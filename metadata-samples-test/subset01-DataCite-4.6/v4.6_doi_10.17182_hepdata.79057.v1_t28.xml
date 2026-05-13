@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.6/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.17182/HEPDATA.79057.V1/T28</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Organizational">CMS Collaboration</ns0:creatorName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:dates>
+    <ns0:date dateType="Updated">2018-01-31 16:03:50.187263</ns0:date>
+  </ns0:dates>
+  <ns0:titles>
+    <ns0:title>"Table 28" of "Principal-component analysis of two-particle azimuthal correlations in PbPb and pPb collisions at CMS"</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>HEPData</ns0:publisher>
+  <ns0:publicationYear>2018</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject subjectScheme="reactions">PB PB --&gt; CHARGED CHARGED X</ns0:subject>
+    <ns0:subject subjectScheme="cmenergies">2760.0</ns0:subject>
+  </ns0:subjects>
+  <ns0:language>eng</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Dataset">Dataset</ns0:resourceType>
+  <ns0:version>1</ns0:version>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">Pearson correlation coefficients $r_2$ and $r_3$ reconstructed using the leading and subleading flows as a function of $p^{a}_{T} - p^{b}_{T}$ in bin $p^{a}_{T}$ for centrality class 20-30% in PbPb collisions.</ns0:description>
+    <ns0:description descriptionType="Other">CERN-LHC. Measurement of leading and subleading modes using PCA and two-particle correlations for PbPb and pPb at centre-mass energy 2.76 TeV and 5.02 TeV respectively.
+</ns0:description>
+  </ns0:descriptions>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="https://creativecommons.org/publicdomain/zero/1.0/">CC0</ns0:rights>
+  </ns0:rightsList>
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="HEPDataRecord">https://www.hepdata.net/record/ins1618346</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="HEPDataRecordAlt">https://www.hepdata.net/record/79057</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relatedIdentifierType="URL" relationType="IsSupplementTo">https://inspirehep.net/literature/1618346</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="DOI" resourceTypeGeneral="JournalArticle" relationType="IsSupplementTo">10.1103/PhysRevC.96.064902</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relatedIdentifierType="DOI" resourceTypeGeneral="Collection" relationType="IsPartOf">10.17182/hepdata.79057.v1</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+</ns0:resource>
+      

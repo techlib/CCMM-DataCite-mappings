@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.17182/HEPDATA.79055</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>HEPData</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.17182/HEPDATA.79055</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.17182/HEPDATA.79055</iri>
+      <value>HEPDATA.79055</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>https://www.hepdata.net/record/ins1605750</iri>
+      <value>ins1605750</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">HEPDataRecord</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>https://www.hepdata.net/record/79055</iri>
+      <value>79055</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">HEPDataRecordAlt</label>
+      </scheme>
+   </identifier>
+   <version>1</version>
+   <title>Suppression of excited Upsilon states relative to the ground state in PbPb collisions at sqrt(sNN) = 5.02 TeV</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>CMS Collaboration</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>HEPData</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2018</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date_time>2018-04-11T14:07:20</date_time>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Updated</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">Collection</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/eng</iri>
+   </primary_language>
+   <terms_of_use/>
+   <description>
+      <description_text xml:lang="en">CERN-LHC. The relative yields of Υ mesons produced in pp and PbPb collisions at 5.02TeV and reconstructed via the dimuon decay channel are measured using data collected by the CMS experiment. Double ratios are formed by comparing the yields of the excited states, Υ(2S) and Υ(3S), to the ground state, Υ(1S), in both PbPb and pp collisions at the same center-of-mass energy, in data collected in 2015. The double ratios are studied as a function of collision centrality, as well as Υ transverse momentum and rapidity.
+</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+</dataset>

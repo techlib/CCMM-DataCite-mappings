@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.17182/HEPDATA.79668.V1/T4</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>HEPData</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.17182/HEPDATA.79668.V1/T4</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.17182/HEPDATA.79668.V1/T4</iri>
+      <value>T4</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>https://www.hepdata.net/record/ins1624694</iri>
+      <value>ins1624694</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">HEPDataRecord</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>https://www.hepdata.net/record/79668</iri>
+      <value>79668</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">HEPDataRecordAlt</label>
+      </scheme>
+   </identifier>
+   <version>1</version>
+   <title>"Table 4" of "Observation of top quark production in proton-nucleus collisions"</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>CMS Collaboration</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>HEPData</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2017</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date_time>2017-11-27T09:53:33</date_time>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Updated</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">Dataset</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/eng</iri>
+   </primary_language>
+   <terms_of_use>
+      <license>
+         <iri>https://creativecommons.org/publicdomain/zero/1.0/</iri>
+         <label xml:lang="en">CC0</label>
+      </license>
+   </terms_of_use>
+   <subject>
+      <title xml:lang="en">TTBAR --&gt; JJ^{'}B + LEPTON NU B</title>
+      <subject_scheme>
+         <label xml:lang="en">reactions</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">INV.MASS</title>
+      <subject_scheme>
+         <label xml:lang="en">observables</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">8160</title>
+      <subject_scheme>
+         <label xml:lang="en">nucleon-nucleon cmenergy</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Nuclear Collisions</title>
+      <subject_scheme>
+         <label xml:lang="en">phrases</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Top quark Production</title>
+      <subject_scheme>
+         <label xml:lang="en">phrases</label>
+      </subject_scheme>
+   </subject>
+   <description>
+      <description_text xml:lang="en">Invariant mass distributions of the $t\to jj^{'}b$ candidates, $m_{top}$, in the 0 b category after all selections. The error bars indicate the statistical uncertainties.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="en">Reconstructed invariant mass distributions of the hadronic W (jj') boson
+and top quark (jj'b) candidates in each b jet category. The kinematic variables
+describe the $\ell$+jets decay channel, where $\ell$ can be either a muon ($\mu$)
+or electron ($\rm{e}$). The measured cross sections are given per decay channel
+and for their combination.
+
+The fiducial region is defined as:
+- $\equiv$1lepton, $p_T$&gt;30GeV&amp;&amp;|$\eta$|&lt;2.1
+- exluding 1.444&lt;|$\eta$|&lt;1.566 region only in the $\rm{e}$+jets channel
+- no additional lepton with $p_T$&gt;20GeV&amp;&amp;|$\eta$|&lt;2.5 and $p_T$&gt;15GeV&amp;&amp;|$\eta$|&lt;2.4 in the $\mu$+jets and $\rm{e}$+jets channel, respectively
+- $\geq$4jets(anti-kt,R=0.4), $p_T$&gt;25GeV&amp;&amp;|$\eta$|&lt;2.5
+- min($\Delta R(jet,\ell)$) &gt; 0.3
+- ambiguities in pairing the jj' are resolved by choosing the combination that results in the smaller value of the $\Delta R(j,j')$, where $\Delta R=\sqrt{ (\Delta \eta)^{2} + (\Delta \phi)^{2}}$
+- ambiguities in pairing the jj'b are resolved by choosing the combination that results in the smaller value of the $|m_{jj'b}-m_{\ell\nu b}|$
+
+The acceptance is measured in the $\mu$+jets channel as:
+0.060$\pm$0.002(tot)
+
+The acceptance is measured in the $\rm{e}$+jets channel as:
+0.056$\pm$0.002(tot)
+
+The efficiency is measured in the $\mu$+jets channel as:
+0.91$\pm$0.04(tot)
+
+The efficiency is measured in the $\rm{e}$+jets channel as:
+0.63$\pm$0.03(tot)
+</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Other</iri>
+      </description_type>
+   </description>
+</dataset>

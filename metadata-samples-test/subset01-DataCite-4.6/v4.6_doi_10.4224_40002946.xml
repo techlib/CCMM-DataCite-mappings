@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.6/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.4224/40002946</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Chang, Steven</ns0:creatorName>
+      <ns0:givenName>Steven</ns0:givenName>
+      <ns0:familyName>Chang</ns0:familyName>
+      <ns0:affiliation xml:lang="en">University of Waterloo</ns0:affiliation>
+      <ns0:affiliation xml:lang="fr">Université de Waterloo</ns0:affiliation>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Gold, Jonathan</ns0:creatorName>
+      <ns0:givenName>Jonathan</ns0:givenName>
+      <ns0:familyName>Gold</ns0:familyName>
+      <ns0:affiliation xml:lang="en">University of Waterloo</ns0:affiliation>
+      <ns0:affiliation xml:lang="fr">Université de Waterloo</ns0:affiliation>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Karabina, Koray</ns0:creatorName>
+      <ns0:givenName>Koray</ns0:givenName>
+      <ns0:familyName>Karabina</ns0:familyName>
+      <ns0:affiliation xml:lang="en">National Research Council Canada. Digital Technologies</ns0:affiliation>
+      <ns0:affiliation xml:lang="fr">Conseil national de recherches Canada. Technologies numériques</ns0:affiliation>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Organizational" xml:lang="en">National Research Council Canada. Digital Technologies</ns0:creatorName>
+      <ns0:nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org/">https://ror.org/04mte1k06</ns0:nameIdentifier>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title xml:lang="en">ImpAcX_OnHW: Improving accuracy and explainability of handwriting recognition models</ns0:title>
+  </ns0:titles>
+  <ns0:publisher xml:lang="en" publisherIdentifier="https://ror.org/04mte1k06" publisherIdentifierScheme="ror" schemeURI="https://ror.org">National Research Council Canada</ns0:publisher>
+  <ns0:publicationYear>2022</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject xml:lang="en">machine learning</ns0:subject>
+    <ns0:subject xml:lang="fr">apprentissage automatique</ns0:subject>
+    <ns0:subject xml:lang="en">deep learning</ns0:subject>
+    <ns0:subject xml:lang="fr">apprentissage profond</ns0:subject>
+    <ns0:subject xml:lang="en">handwriting recognition</ns0:subject>
+    <ns0:subject xml:lang="fr">Reconnaissance de l'écriture manuscrite</ns0:subject>
+  </ns0:subjects>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2022</ns0:date>
+  </ns0:dates>
+  <ns0:language>en</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Software">Software</ns0:resourceType>
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementTo">10.48550/arXiv.2209.09102</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:rightsList>
+    <ns0:rights xml:lang="en">© National Research Council Canada</ns0:rights>
+    <ns0:rights xml:lang="fr">© Conseil national de recherches Canada</ns0:rights>
+    <ns0:rights xml:lang="en">GNU General Public License v3.0</ns0:rights>
+    <ns0:rights xml:lang="fr">Licence publique générale GNU version 3.0</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract" xml:lang="en">This project contains codes and information to help reproduce, verify and improve results as reported in our paper "Improving Accuracy and Explainability of Handwriting Recognition Models" available at https://arxiv.org/abs/2209.09102</ns0:description>
+    <ns0:description descriptionType="Abstract" xml:lang="fr">Ce projet contient des codes et des informations pour aider à reproduire, vérifier et améliorer les résultats, comme indiqué dans notre article "Améliorer la précision et l'explicabilité des modèles de reconnaissance de l'écriture manuscrite" disponible sur https://arxiv.org/abs/2209.09102</ns0:description>
+  </ns0:descriptions>
+  <ns0:relatedItems>
+    <ns0:relatedItem relatedItemType="Text" relationType="IsSupplementTo">
+      <ns0:relatedItemIdentifier relatedItemIdentifierType="DOI">10.48550/arXiv.2209.09102</ns0:relatedItemIdentifier>
+      <ns0:titles>
+        <ns0:title xml:lang="en">Improving accuracy and explainability of online handwriting recognition</ns0:title>
+      </ns0:titles>
+    </ns0:relatedItem>
+  </ns0:relatedItems>
+</ns0:resource>
+      
