@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataset xmlns="https://schema.ccmm.cz/research-data/1.1"
-         xmlns:gml="http://www.opengis.net/gml/3.2"
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
          xmlns:xs="http://www.w3.org/2001/XMLSchema"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
          xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
    <iri>https://doi.org/10.48700/datst.1m3t2-78951</iri>
    <metadata_identification>

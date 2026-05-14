@@ -86,12 +86,12 @@
       <access_rights>
          <label xml:lang="en">Informations complémentaires sur le logiciel</label>
       </access_rights>
-      <access_rights>
+      <license>
          <label xml:lang="en">© National Research Council Canada</label>
-      </access_rights>
-      <access_rights>
+      </license>
+      <license>
          <label xml:lang="en">© Conseil national de recherches Canada</label>
-      </access_rights>
+      </license>
       <license>
          <label xml:lang="en">GNU Affero General Public License v3.0</label>
       </license>

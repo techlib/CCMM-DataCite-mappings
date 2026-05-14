@@ -36,7 +36,7 @@
       <iri>https://www.hepdata.net/record/ins1658057</iri>
       <value>ins1658057</value>
       <scheme>
-         <iri>https://doi.org</iri>
+         <iri>https://www.hepdata.net</iri>
          <label xml:lang="">HEPDataRecord</label>
       </scheme>
    </identifier>
@@ -44,7 +44,7 @@
       <iri>https://www.hepdata.net/record/83196</iri>
       <value>83196</value>
       <scheme>
-         <iri>https://doi.org</iri>
+         <iri>https://www.hepdata.net</iri>
          <label xml:lang="">HEPDataRecordAlt</label>
       </scheme>
    </identifier>

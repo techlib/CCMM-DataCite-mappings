@@ -134,12 +134,12 @@
       <iri>https://schema.ccmm.cz/vocabulary/language/en</iri>
    </primary_language>
    <terms_of_use>
-      <access_rights>
+      <license>
          <label xml:lang="en">© National Research Council Canada</label>
-      </access_rights>
-      <access_rights>
+      </license>
+      <license>
          <label xml:lang="en">© Conseil national de recherches Canada</label>
-      </access_rights>
+      </license>
       <license>
          <label xml:lang="en">GNU General Public License v3.0</label>
       </license>

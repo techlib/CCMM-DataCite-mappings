@@ -5,6 +5,15 @@ This repository contains materials related to the mutual mapping between **CCMM*
 > [!IMPORTANT]
 > This XSLT transformation is subject to minor ongoing improvements. While it is fully available for custom modification and use, the final responsibility for the transformation results lies with the user. We highly recommend testing and fine-tuning the script against your own datasets to ensure compatibility with specific metadata profiles.
 
+## Changelog
+
+2026-05-14
+
+DataCite to CCMM XSLT transformation:
+
+- DataCite copyright goes to CCMM license instead of access rights.
+- Dynamic scheme IRI resolution for identifiers: Replaced hardcoded DOI scheme IRI with dynamic resolution.
+
 ## Introduction
 
 This document describes the background and the methodology for the design of CCMM and DataCite mapping. The motivation for mapping between CCMM and DataCite is the need to align CCMM metadata with DataCite metadata and vice versa, i.e., a DataCite-compliant representation of CCMM metadata and a CCMM-compliant representation of DataCite metadata. The need arises because metadata catalogs can support either the CCMM or the DataCite model.
@@ -154,10 +163,10 @@ in progress
 #### **subset01-DataCite-4.4**
 
 in progress
-
+<!--
 ## Transformation Issues and Further Notes
 
-in progress
+in progress-->
 
 ## Current actions
 - The XSLT transformations have been validated using our CCMM XML sample datasets and subset01-DataCite-4.6. Ongoing work focuses on evaluating the transformations against subset01-DataCite-4.4, subset01-DataCite-4.5.

@@ -50,7 +50,7 @@
       <iri>https://nakala.fr/10.34847/nkl.b92c64f1</iri>
       <value>nkl.b92c64f1</value>
       <scheme>
-         <iri>https://doi.org</iri>
+         <iri>https://nakala.fr</iri>
          <label xml:lang="">URL</label>
       </scheme>
    </identifier>
