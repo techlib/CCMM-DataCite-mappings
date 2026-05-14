@@ -209,7 +209,7 @@
                     @rightsIdentifier 
                     or contains(lower-case(@rightsURI), 'license')
                     or contains(lower-case(@rightsURI), 'creativecommons')
-                    or matches(lower-case(.), 'license|licence|gpl|agpl|mit|cc-|apache|bsd')
+                    or matches(lower-case(.), 'license|licence|gpl|agpl|mit|cc-|apache|bsd|©|copyright')
                     )
                     ]">
                     
@@ -230,7 +230,7 @@
                     @rightsIdentifier 
                     or contains(lower-case(@rightsURI), 'license')
                     or contains(lower-case(@rightsURI), 'creativecommons')
-                    or matches(lower-case(.), 'license|licence|gpl|agpl|mit|cc-|apache|bsd')
+                    or matches(lower-case(.), 'license|licence|gpl|agpl|mit|cc-|apache|bsd|©|copyright')
                     ]">
                     <license>
                         <xsl:if test="@rightsURI">
@@ -495,8 +495,21 @@
             </value>
             
             <scheme>
-            <!--                should be DOI for datacite-->
-                <iri>https://doi.org</iri>
+                <iri>
+                    <xsl:variable name="type" select="upper-case((@identifierType, @alternateIdentifierType, @nameIdentifierScheme, @relatedItemIdentifierType)[1])"/>
+                    <xsl:choose>
+                        <!-- either DOI -->
+                        <xsl:when test="$type = 'DOI'">https://doi.org</xsl:when>
+                        
+                        <!-- or something else -->
+                        <xsl:when test="starts-with(., 'http')">
+                            <xsl:value-of select="concat(tokenize(., '/')[1], '//', tokenize(., '/')[3])"/>
+                        </xsl:when>
+                        
+                        <!-- Fallback -->
+                        <xsl:otherwise></xsl:otherwise>
+                    </xsl:choose>
+                </iri>
                 <label xml:lang="">
                     <xsl:value-of select="(@identifierType, @alternateIdentifierType, @nameIdentifierScheme, @relatedItemIdentifierType)[1]"/>
                 </label>
