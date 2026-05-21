@@ -57,7 +57,7 @@
       <iri>air-q-cb-25-23</iri>
       <value>air-q-cb-25-23</value>
       <scheme>
-         <iri>https://doi.org</iri>
+         <iri/>
          <label xml:lang="">Organizační identifikační schéma</label>
       </scheme>
    </identifier>
@@ -317,7 +317,7 @@
             <label xml:lang="en">Data download</label>
          </download_url>
          <format>
-            <iri/>
+            <iri>https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/GPKG</iri>
             <label xml:lang="en">GeoPackage</label>
          </format>
          <byte_size>256</byte_size>

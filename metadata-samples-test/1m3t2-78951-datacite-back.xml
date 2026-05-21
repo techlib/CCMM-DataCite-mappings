@@ -486,7 +486,7 @@
             <label xml:lang="en">Data download</label>
          </download_url>
          <format>
-            <iri/>
+            <iri>http://publications.europa.eu/resource/authority/file-type/PDF</iri>
             <label xml:lang="en">PDF</label>
          </format>
          <byte_size>660</byte_size>

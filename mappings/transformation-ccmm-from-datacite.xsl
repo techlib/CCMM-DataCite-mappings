@@ -452,7 +452,8 @@
                         <format>
                             <xsl:if test="contains($info, 'FormatIRI: ')">
                                 <iri>
-                                    <xsl:value-of select="substring-before(substring-after($info, 'FormatIRI: '), ' | ')"/>
+                                    <xsl:variable name="tmp" select="substring-after($info, 'FormatIRI: ')"/>
+                                    <xsl:value-of select="substring-before(concat($tmp, ' |'), ' |')" />
                                 </iri>
                             </xsl:if>
                             <label xml:lang="en">

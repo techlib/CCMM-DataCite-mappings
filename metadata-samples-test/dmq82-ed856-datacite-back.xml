@@ -520,7 +520,7 @@
             <label xml:lang="en">Data download</label>
          </download_url>
          <format>
-            <iri/>
+            <iri>http://publications.europa.eu/resource/authority/file-type/TAR</iri>
             <label xml:lang="en">TAR</label>
          </format>
          <byte_size>28115</byte_size>

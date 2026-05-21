@@ -5,14 +5,7 @@ This repository contains materials related to the mutual mapping between **CCMM*
 > [!IMPORTANT]
 > This XSLT transformation is subject to minor ongoing improvements. While it is fully available for custom modification and use, the final responsibility for the transformation results lies with the user. We highly recommend testing and fine-tuning the script against your own datasets to ensure compatibility with specific metadata profiles.
 
-## Changelog
-
-2026-05-14
-
-DataCite to CCMM XSLT transformation:
-
-- DataCite copyright goes to CCMM license instead of access rights.
-- Dynamic scheme IRI resolution for identifiers: Replaced hardcoded DOI scheme IRI with dynamic resolution.
+[!NOTE] Changes in XSLT transformations are [logged](./CHANGELOG.MD).
 
 ## Introduction
 
@@ -30,7 +23,7 @@ This document describes the background and the methodology for the design of CCM
 - Visualization of the schema along with emphasizing mandatory parts:
 ![diagram](https://github.com/techlib/CCMM-utils/blob/main/ceCCMM/output/1.1.0/diagram.png)
 
-### DataCite (version 4.7)
+### DataCite (version 4.7 and 4.6)
 
 "The DataCite Metadata Schema is a list of core metadata properties chosen for accurate and consistent identification of a resource for citation and retrieval purposes, with recommended use instructions in the documentation. The DataCite Metadata Schema is suitable for a wide range of resource types—from samples and images to data and preprints." [https://datacite-metadata-schema.readthedocs.io/en/4.7/introduction/about-schema/] It is currently, one of the most widely used Semantic Web vocabularies for describing datasets and data catalogues.
 
@@ -92,13 +85,10 @@ Complete list of [XML crosswalks in one table](./mappings/DataCite-from-CCMM-XML
 
 Operationalize XML crosswalks using XSLT transformation aiming at transforming metadata:
 
-- [XSLT transformation](./mappings/transformation-datacite-from-ccmm.xsl) for transforming CCMM metadata to DataCite metadata, i.e. DataCite-compliant representation of CCMM metadata
+- [XSLT transformation](./mappings/transformation-datacite-from-ccmm.xsl) for transforming **CCMM metadata to DataCite metadata**, i.e. DataCite-compliant representation of CCMM metadata
 
-- [XSLT transformation](./mappings/transformation-ccmm-from-datacite.xsl) for transforming DataCite metadata to CCMM metadata, i.e. CCMM-compliant representation of DataCite metadata
+- [XSLT transformation](./mappings/transformation-ccmm-from-datacite.xsl) for transforming **DataCite metadata to CCMM metadata**, i.e. CCMM-compliant representation of DataCite metadata
 
-
-[!NOTE]
-This XSLT transformation is subject to minor ongoing improvements. While it is fully available for custom modification and use, the final responsibility for the transformation results lies with the user. We highly recommend testing and fine-tuning the script against your own datasets to ensure compatibility with specific metadata profiles.
 
 ## 4. Testing
 
