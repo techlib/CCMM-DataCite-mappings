@@ -1,15 +1,16 @@
 # CCMM and DataCite: Crosswalks and Transformations
 
-This repository contains materials related to the mutual mapping between **CCMM** and **DataCite** metadata standards, including the technical XSLT transformation scripts.
+This repository contains materials related to the **mutual mapping** and **transformation** between **CCMM** and **DataCite** metadata standards, including the technical XSLT transformation scripts.
 
 > [!IMPORTANT]
 > This XSLT transformation is subject to minor ongoing improvements. While it is fully available for custom modification and use, the final responsibility for the transformation results lies with the user. We highly recommend testing and fine-tuning the script against your own datasets to ensure compatibility with specific metadata profiles.
 
-[!NOTE] Changes in XSLT transformations are [logged](./CHANGELOG.MD).
+> [!NOTE]
+> Changes after 2026-05-14 in XSLT transformations are [logged](./CHANGELOG.MD).
 
 ## Introduction
 
-This document describes the background and the methodology for the design of CCMM and DataCite mapping. The motivation for mapping between CCMM and DataCite is the need to align CCMM metadata with DataCite metadata and vice versa, i.e., a DataCite-compliant representation of CCMM metadata and a CCMM-compliant representation of DataCite metadata. The need arises because metadata catalogs can support either the CCMM or the DataCite model.
+This document describes the background and the methodology for the design of CCMM and DataCite mapping and transformation. The motivation for mapping and transformation between CCMM and DataCite is the need to align CCMM metadata with DataCite metadata and vice versa, i.e., a DataCite-compliant representation of CCMM metadata and a CCMM-compliant representation of DataCite metadata. The need arises because metadata catalogs can support either the CCMM or the DataCite model.
 
 ## Background
 
