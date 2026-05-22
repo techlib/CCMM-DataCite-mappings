@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.7910/DVN/23102</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Matthew Hitt</name>
+               <given_name>Matthew</given_name>
+               <family_name>Hitt</family_name>
+               <affiliation>
+                  <name>The Ohio State University</name>
+               </affiliation>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>Harvard Dataverse</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.7910/DVN/23102</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.7910/DVN/23102</iri>
+      <value>23102</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <version>1.0</version>
+   <title>Presidential Success in Supreme Court Appointments: Informational Effects and Institutional Constraints</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Matthew P. Hitt</name>
+            <given_name>Matthew</given_name>
+            <family_name>P. Hitt</family_name>
+            <affiliation>
+               <name>The Ohio State University</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Harvard Dataverse Network</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Distributor</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Matthew Hitt</name>
+            <given_name>Matthew</given_name>
+            <family_name>Hitt</family_name>
+            <affiliation>
+               <name>The Ohio State University</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Harvard Dataverse</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2013</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-10-29</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-10-29</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Submitted</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-10-29</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en"/>
+   </resource_type>
+   <terms_of_use>
+      <access_rights>
+         <iri>info:eu-repo/semantics/openAccess</iri>
+         <label xml:lang="en"/>
+      </access_rights>
+      <license>
+         <iri>http://creativecommons.org/publicdomain/zero/1.0</iri>
+         <label xml:lang="en">Creative Commons CC0 1.0 Universal Public Domain Dedication.</label>
+      </license>
+   </terms_of_use>
+   <subject>
+      <title xml:lang="en">Supreme Court, Multilevel Model, Senate, President</title>
+   </subject>
+   <description>
+      <description_text xml:lang="en">Spatial models of Supreme Court appointments assume that the president knows the preferences of nominees and is constrained only by the ideology of the Senate. However, nominees vary in the amount of available information that can be used to determine their preferences. I find that justices who offered more information in the form of relevant professional experience at the time of nomination are more congruent with their appointing president. Institutional factors, such as polarization between the Senate and president, exert less influence on congruence. The president is, however, constrained from appointing highly experienced justices if the Senate and president are distant ideologically.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>Presidential Success in Supreme Court Appointments: Informational Effects and Institutional Constraints</title>
+         <access_url>
+            <iri/>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <download_url>
+            <iri>10.7910/DVN/23102/BCPEV6</iri>
+            <label xml:lang="en">Data download</label>
+         </download_url>
+         <format>
+            <label xml:lang="en">text/tab-separated-values</label>
+         </format>
+         <byte_size>53092</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

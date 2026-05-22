@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.7910/DVN/24201</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>IFPRI-Data</name>
+               <affiliation>
+                  <name>International Food Policy Research Institute</name>
+               </affiliation>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>Harvard Dataverse</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.7910/DVN/24201</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.7910/DVN/24201</iri>
+      <value>24201</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <version>2.0</version>
+   <title>Market Participation of Smallholder Farmers in the Upper West Region of Ghana</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Abu, Benjamin Musah</name>
+            <given_name>Benjamin Musah</given_name>
+            <family_name>Abu</family_name>
+            <affiliation>
+               <name>&amp;lt;a href=&amp;quot;http://www.ug.edu.gh/cacs/page5.html&amp;quot;&amp;gt; Department of Agricultural Economics &amp;amp;#38; Agribusiness&amp;lt;/a&amp;gt;, &amp;lt;a href=&amp;quot;http://www.ug.edu.gh/&amp;quot;&amp;gt; University of Ghana &amp;lt;/a&amp;gt;</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Department of Agricultural Economics</name>
+            <affiliation>
+               <name>&amp;lt;a href=&amp;quot;http://www.ug.edu.gh/&amp;quot;&amp;gt; University of Ghana &amp;lt;/a&amp;gt;</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Producer</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>International Food Policy Research Institution</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Distributor</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>IFPRI-Data</name>
+            <affiliation>
+               <name>International Food Policy Research Institute</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Harvard Dataverse</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2014</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2014-01-01</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-01-01</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Created</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2014-01-10</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Submitted</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2014-01-10</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2014-01-13</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Updated</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">Sample survey data (SSD)</label>
+   </resource_type>
+   <terms_of_use>
+      <access_rights>
+         <iri>info:eu-repo/semantics/openAccess</iri>
+         <label xml:lang="en"/>
+      </access_rights>
+      <license>
+         <iri>https://dataverse.harvard.edu/api/datasets/:persistentId/versions/2.0/customlicense?persistentId=doi:10.7910/DVN/24201</iri>
+         <label xml:lang="en">Custom terms specific to this dataset</label>
+      </license>
+   </terms_of_use>
+   <subject>
+      <title xml:lang="en">Markets</title>
+      <subject_scheme>
+         <iri>http://aims.fao.org/agrovoc-term-info?mytermcode=4626</iri>
+         <label xml:lang="en">AGROVOC</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Participation</title>
+      <subject_scheme>
+         <iri>http://aims.fao.org/agrovoc-term-info?mytermcode=37602</iri>
+         <label xml:lang="en">AGROVOC</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Farmers</title>
+      <subject_scheme>
+         <iri>http://aims.fao.org/agrovoc-term-info?mytermcode=2805</iri>
+         <label xml:lang="en">AGROVOC</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Small farms</title>
+      <subject_scheme>
+         <iri>http://aims.fao.org/agrovoc-term-info?mytermcode=7113</iri>
+         <label xml:lang="en">AGROVOC</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Smallholders</title>
+      <subject_scheme>
+         <iri>http://aims.fao.org/agrovoc-term-info?mytermcode=14343&amp;mylang_interface=en&amp;myLanguage=EN</iri>
+         <label xml:lang="en">AGROVOC</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Market</title>
+      <subject_scheme>
+         <iri>http://aims.fao.org/agrovoc-term-info?mytermcode=4626</iri>
+         <label xml:lang="en">AGROVOC</label>
+      </subject_scheme>
+   </subject>
+   <description>
+      <description_text xml:lang="en">This dataset was produced to study market participation of smallholders in the upper west region of Ghana. This study was undertaken by Benjamin Musah Abu, a student in Department of Agricultural Economics and Agribusiness at the University of Ghana, as a part of requirements toward Master of Philosophy Degree in Agricultural Economics. This dataset contains information about age gender, level of education, household size, farming exper
+ience, market access and constraints in market access and participation for small farmers. This dataset contains information for maize and groundnuts. A total of 400 smallholders cultivating at most in 2 ha of land were interviewed. This includes 200 groundnuts growing households and 200 maize growing households.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="en">18, 18</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="en">12, 12</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="en">Subject: null  Type: &lt;h2&gt;Acknowledgements&lt;/h2&gt;  Notes: This study was made possible through the support of the Ghana Strategy Support Program (GSSP). GSSP is funded by the US Agency for International Development (USAID). The author is also thankful to all the survey participants, who generously shared their experiences.;</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Other</iri>
+      </description_type>
+   </description>
+   <location>
+      <name>Ghana</name>
+   </location>
+   <location>
+      <name>Upper west region of Ghana,</name>
+   </location>
+   <location>
+      <name>Ghana</name>
+   </location>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>Market Participation of Smallholder Farmers in the Upper West Region of Ghana</title>
+         <access_url>
+            <iri/>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <download_url>
+            <iri>10.7910/DVN/24201/CW2IRF</iri>
+            <label xml:lang="en">Data download</label>
+         </download_url>
+         <format>
+            <label xml:lang="en">application/pdf</label>
+         </format>
+         <byte_size>375045</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

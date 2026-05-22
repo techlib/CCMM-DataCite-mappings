@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.7910/DVN/23541</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Alvarenga, Fredy</ns0:creatorName>
+      <ns0:givenName>Fredy</ns0:givenName>
+      <ns0:familyName>Alvarenga</ns0:familyName>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Andrade, Benjamín</ns0:creatorName>
+      <ns0:givenName>Benjamín</ns0:givenName>
+      <ns0:familyName>Andrade</ns0:familyName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>Guatemala 2012: TRaC, Monitoring HIV healthy behavior trends among female sex workers and determining the factors associated with them in Central América. Round 3.</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Harvard Dataverse</ns0:publisher>
+  <ns0:publicationYear>2014</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject>Quantitative</ns0:subject>
+    <ns0:subject>TRaC</ns0:subject>
+    <ns0:subject>HIV</ns0:subject>
+    <ns0:subject>FSW</ns0:subject>
+    <ns0:subject>Condom Use</ns0:subject>
+    <ns0:subject>Condoms</ns0:subject>
+    <ns0:subject>BCC</ns0:subject>
+    <ns0:subject>USAID</ns0:subject>
+  </ns0:subjects>
+  <ns0:contributors>
+    <ns0:contributor contributorType="Producer">
+      <ns0:contributorName nameType="Personal">PSI/PASMO Guatemala</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Distributor">
+      <ns0:contributorName nameType="Organizational">PSI Research &amp;amp; Metrics</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="ContactPerson">
+      <ns0:contributorName nameType="Organizational">PSI Research &amp;amp; Metrics, Washington D.C.</ns0:contributorName>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2013</ns0:date>
+    <ns0:date dateType="Created">2012</ns0:date>
+    <ns0:date dateType="Submitted">2013-11-26</ns0:date>
+    <ns0:date dateType="Available">2014-01-22</ns0:date>
+  </ns0:dates>
+  <ns0:resourceType resourceTypeGeneral="Dataset" />
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23541/CBUODH</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23541/ILEHYJ</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23541/BD0KSI</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23541/8EXLUR</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23541/UBSIX5</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23541/NME6Z9</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23541/CK24OD</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23541/RBD4XT</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23541/HJVFZI</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23541/QHLT27</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23541/DUJT7A</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23541/HTZ1UM</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:sizes>
+    <ns0:size>328531</ns0:size>
+    <ns0:size>487587</ns0:size>
+    <ns0:size>39318</ns0:size>
+    <ns0:size>462724</ns0:size>
+    <ns0:size>755037</ns0:size>
+    <ns0:size>924702</ns0:size>
+    <ns0:size>4098501</ns0:size>
+    <ns0:size>2829573</ns0:size>
+    <ns0:size>66383</ns0:size>
+    <ns0:size>71571</ns0:size>
+    <ns0:size>10261398</ns0:size>
+    <ns0:size>26714</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</ns0:format>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</ns0:format>
+    <ns0:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</ns0:format>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>application/rar</ns0:format>
+    <ns0:format>application/octet-stream</ns0:format>
+    <ns0:format>text/x-spss-syntax</ns0:format>
+    <ns0:format>text/x-spss-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>text/tab-separated-values</ns0:format>
+    <ns0:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</ns0:format>
+  </ns0:formats>
+  <ns0:version>1.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="info:eu-repo/semantics/closedAccess" />
+    <ns0:rights rightsURI="https://dataverse.harvard.edu/api/datasets/:persistentId/versions/1.0/customlicense?persistentId=doi:10.7910/DVN/23541">Custom terms specific to this dataset</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">De noviembre de 2012 a Diciembre del 2012 PASMO/PSI realizó una encuesta TRaC en cinco ciudades de Guatemala, entre trabajadoras sexuales femeninas (TSF). Dicha encuesta aborda temas de VIH/SIDA, comportamientos de riesgo y determinantes de uso del condón. Por primera vez en la serie de estudios, durante el 2012 se abordan indicadores de violencia basada en género. La encuesta es un seguimiento a la realizada en el año 2007 y 2009, busca: 1) monitorear las tendencias en el comportamiento y otros determinantes claves de Oportunidad, Habilidad y Motivación (OHM) entre TSF; e 2) Identificar los factores que caracterizan a las TSF que usan condones con sus parejas afectivas y con todos sus clientes. El estudio se llevó a cabo en Guatemala, Suchitepéquez, Quetzaltenango, Escuintla e Izabal.</ns0:description>
+  </ns0:descriptions>
+  <ns0:geoLocations>
+    <ns0:geoLocation>
+      <ns0:geoLocationPlace>Guatemala</ns0:geoLocationPlace>
+    </ns0:geoLocation>
+  </ns0:geoLocations>
+</ns0:resource>
+      

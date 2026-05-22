@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.7910/DVN/24235</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Moellman, Matthew</ns0:creatorName>
+      <ns0:givenName>Matthew</ns0:givenName>
+      <ns0:familyName>Moellman</ns0:familyName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>WISE and 2MASS Data for Sources in the Perseus Region</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Harvard Dataverse</ns0:publisher>
+  <ns0:publicationYear>2014</ns0:publicationYear>
+  <ns0:dates>
+    <ns0:date dateType="Submitted">2014-01-13</ns0:date>
+    <ns0:date dateType="Available">2014-01-17</ns0:date>
+  </ns0:dates>
+  <ns0:resourceType resourceTypeGeneral="Dataset" />
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24235/NK53MN</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24235/UKGGQO</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:sizes>
+    <ns0:size>1039605954</ns0:size>
+    <ns0:size>671825</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>application/x-gzip</ns0:format>
+    <ns0:format>application/zip</ns0:format>
+  </ns0:formats>
+  <ns0:version>1.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="info:eu-repo/semantics/openAccess" />
+    <ns0:rights rightsURI="https://dataverse.harvard.edu/api/datasets/:persistentId/versions/1.0/customlicense?persistentId=doi:10.7910/DVN/24235">Custom terms specific to this dataset</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">The PSQL database named &amp;apos;perseus1&amp;apos; was created for an independent research course, Physics 90r, in the fall and winter of 2013. It contains four tables, two of which are used in the accompanying iPython Notebook file. The iPython notebook details the creation of the database, demonstrates the use of the psycopg2 module to query the database, and some visualizations of those queries.</ns0:description>
+    <ns0:description descriptionType="Other">Subject: WISE/2MASS Data Source  Type: URL  Notes: http://irsa.ipac.caltech.edu/applications/Gator/;</ns0:description>
+  </ns0:descriptions>
+</ns0:resource>
+      

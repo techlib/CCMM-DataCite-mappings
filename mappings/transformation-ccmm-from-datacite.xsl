@@ -461,14 +461,14 @@
                             </label>
                         </format>
                         
-                        <xsl:for-each select="dc:sizes/dc:size">
-                            <xsl:variable name="onlyDigits" select="replace(., '\D', '')"/>
-                            <xsl:if test="$onlyDigits castable as xs:integer">
-                                <byte_size>
-                                    <xsl:value-of select="xs:integer($onlyDigits)"/>
-                                </byte_size>
-                            </xsl:if>
-                        </xsl:for-each>
+                        <xsl:variable name="onlyDigits"
+                            select="replace(dc:sizes/dc:size[1], '\D', '')"/>
+                        
+                        <xsl:if test="$onlyDigits castable as xs:integer">
+                            <byte_size>
+                                <xsl:value-of select="xs:integer($onlyDigits)"/>
+                            </byte_size>
+                        </xsl:if>
                     </distribution_downloadable_file>
                 </distribution>
             </xsl:if>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.7910/DVN/24017</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>Harvard Dataverse</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.7910/DVN/24017</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.7910/DVN/24017</iri>
+      <value>24017</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <version>2.0</version>
+   <title>Replication data for: Intergroup Violence and Political Attitudes: Evidence from a Dividing Sudan</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Beber, Bernd</name>
+            <given_name>Bernd</given_name>
+            <family_name>Beber</family_name>
+            <affiliation>
+               <name>New York University</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Roessler, Philip</name>
+            <given_name>Philip</given_name>
+            <family_name>Roessler</family_name>
+            <affiliation>
+               <name>College of William and Mary</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Scacco, Alexandra</name>
+            <given_name>Alexandra</given_name>
+            <family_name>Scacco</family_name>
+            <affiliation>
+               <name>New York University</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>The Journal of Politics</name>
+            <given_name>The</given_name>
+            <family_name>Journal of Politics</family_name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Producer</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Harvard Dataverse Network</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Distributor</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Harvard Dataverse</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2014</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2014-01-01</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-12-18</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Submitted</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2014-03-14</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2014-04-24</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Updated</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en"/>
+   </resource_type>
+   <terms_of_use>
+      <access_rights>
+         <iri>info:eu-repo/semantics/openAccess</iri>
+         <label xml:lang="en"/>
+      </access_rights>
+      <license>
+         <iri>http://creativecommons.org/publicdomain/zero/1.0</iri>
+         <label xml:lang="en">Creative Commons CC0 1.0 Universal Public Domain Dedication.</label>
+      </license>
+   </terms_of_use>
+   <description>
+      <description_text xml:lang="en">How do episodes of intergroup violence affect political opinions toward out-group members? Recent studies offer divergent answers. Some suggest violence deepens antagonism and reduces support for compromise, while others contend it encourages moderation and concessions to prevent further conflict. We argue that violence can fuel both hostility toward the out-group and acceptance of out-group objectives, and provide evidence from a unique survey of 1380 respondents implemented by the authors in greater Khartoum in Sudan in 2010 and 2011. We find that Northerners who experienced rioting by Southerners in Khartoum in 2005 were more likely to support Southern independence, but less likely to support citizenship for Southerners remaining in the North. In combination, these results suggest that political violence hardens negative intergroup attitudes and makes individuals willing to concede separation to avoid living alongside out-group members.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>Replication data for: Intergroup Violence and Political Attitudes: Evidence from a Dividing Sudan</title>
+         <access_url>
+            <iri/>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <download_url>
+            <iri>10.7910/DVN/24017/SBUUO5</iri>
+            <label xml:lang="en">Data download</label>
+         </download_url>
+         <format>
+            <label xml:lang="en">application/x-stata</label>
+         </format>
+         <byte_size>204958</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

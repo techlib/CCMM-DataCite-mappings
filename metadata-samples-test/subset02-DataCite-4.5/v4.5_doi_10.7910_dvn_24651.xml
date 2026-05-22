@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.7910/DVN/24651</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Balleer, Almut</ns0:creatorName>
+      <ns0:givenName>Almut</ns0:givenName>
+      <ns0:familyName>Balleer</ns0:familyName>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">van Rens, Thijs</ns0:creatorName>
+      <ns0:givenName>Thijs</ns0:givenName>
+      <ns0:familyName>van Rens</ns0:familyName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>Replication data for: Skill-Biased Technological Change and the Business Cycle</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Harvard Dataverse</ns0:publisher>
+  <ns0:publicationYear>2014</ns0:publicationYear>
+  <ns0:contributors>
+    <ns0:contributor contributorType="ContactPerson">
+      <ns0:contributorName nameType="Personal">Thijs van Rens</ns0:contributorName>
+      <ns0:givenName>Thijs</ns0:givenName>
+      <ns0:familyName>van Rens</ns0:familyName>
+      <ns0:affiliation>University of Warwick</ns0:affiliation>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2013-10</ns0:date>
+    <ns0:date dateType="Created">2013-10</ns0:date>
+    <ns0:date dateType="Submitted">2014-02-04</ns0:date>
+    <ns0:date dateType="Available">2014-02-19</ns0:date>
+  </ns0:dates>
+  <ns0:resourceType resourceTypeGeneral="Dataset" />
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relationType="IsSupplementTo" relatedIdentifierType="DOI">10.1162/REST_A_00326</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/JHE8YN</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/FDZWOZ</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/3JT87M</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/FRANSB</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/WBPSN8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/GJDSDP</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/OONKN4</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/VEBL9W</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/CZO2WN</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/SVCHVN</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/IXS3CX</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/YSRWC9</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/HZLFI3</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/YRRHYX</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/009GNO</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/5W63EU</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/UHTSCF</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/26PKNL</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/LVU8A6</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/9C9XPQ</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/M8IMFN</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/BHNBJA</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/9CKHJK</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/LNDJVX</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/P6XWN7</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/ZOPOFV</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/INXX5O</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/TJ8FJR</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/RCQVFO</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/5R6WZV</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/ITUYCO</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/J7P32M</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/8JFE99</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/DWEZHY</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/FSEQCC</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/QU5CQR</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/HP8OPA</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/WAFEWG</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/91W011</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/9A49NH</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/V0SPYZ</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/E3BUM4</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/KJULNE</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/F2JEYP</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/TFB3RT</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/VQYAC1</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/D0IVG4</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/KDAQVV</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/6XLH3O</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/BVSJGN</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/QCSQLC</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/QGSPWA</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/ZMQGCD</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/RCUJXV</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/ZGZXKS</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/WBW7LH</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/KKZLQQ</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/T8NXYG</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/EYAHXE</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/UYTXLN</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/JMJ7WO</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/WXXIVR</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/ILAJP6</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/RSNOGJ</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/SAHZBV</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/PL3W16</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/UPPUVS</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/WS5RRC</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/0GFY0R</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/VG29DQ</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/WGM3JL</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/8V2DV0</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/AUJUP5</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/D0VFO8</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/ZOSQBD</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/QAZVXW</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/BFABZY</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/9FZRDG</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/K611VW</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24651/US5R5H</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:sizes>
+    <ns0:size>6199</ns0:size>
+    <ns0:size>32616</ns0:size>
+    <ns0:size>2618</ns0:size>
+    <ns0:size>6725</ns0:size>
+    <ns0:size>6528</ns0:size>
+    <ns0:size>27</ns0:size>
+    <ns0:size>142547</ns0:size>
+    <ns0:size>32129</ns0:size>
+    <ns0:size>3201</ns0:size>
+    <ns0:size>13143</ns0:size>
+    <ns0:size>3098</ns0:size>
+    <ns0:size>919</ns0:size>
+    <ns0:size>1066</ns0:size>
+    <ns0:size>12198</ns0:size>
+    <ns0:size>10550</ns0:size>
+    <ns0:size>8703</ns0:size>
+    <ns0:size>60326</ns0:size>
+    <ns0:size>20141</ns0:size>
+    <ns0:size>4468</ns0:size>
+    <ns0:size>11232</ns0:size>
+    <ns0:size>3096</ns0:size>
+    <ns0:size>1410</ns0:size>
+    <ns0:size>3099</ns0:size>
+    <ns0:size>3403</ns0:size>
+    <ns0:size>2739</ns0:size>
+    <ns0:size>1236</ns0:size>
+    <ns0:size>2659</ns0:size>
+    <ns0:size>4831</ns0:size>
+    <ns0:size>7687</ns0:size>
+    <ns0:size>883</ns0:size>
+    <ns0:size>2099</ns0:size>
+    <ns0:size>1045</ns0:size>
+    <ns0:size>7906</ns0:size>
+    <ns0:size>3400</ns0:size>
+    <ns0:size>3098</ns0:size>
+    <ns0:size>3100</ns0:size>
+    <ns0:size>3199</ns0:size>
+    <ns0:size>1324</ns0:size>
+    <ns0:size>430</ns0:size>
+    <ns0:size>1728</ns0:size>
+    <ns0:size>4017</ns0:size>
+    <ns0:size>3099</ns0:size>
+    <ns0:size>3294</ns0:size>
+    <ns0:size>3207</ns0:size>
+    <ns0:size>3101</ns0:size>
+    <ns0:size>6528</ns0:size>
+    <ns0:size>43468</ns0:size>
+    <ns0:size>11895</ns0:size>
+    <ns0:size>11068</ns0:size>
+    <ns0:size>1187</ns0:size>
+    <ns0:size>382730</ns0:size>
+    <ns0:size>1066</ns0:size>
+    <ns0:size>6663</ns0:size>
+    <ns0:size>418</ns0:size>
+    <ns0:size>3110</ns0:size>
+    <ns0:size>39855</ns0:size>
+    <ns0:size>468</ns0:size>
+    <ns0:size>15162</ns0:size>
+    <ns0:size>1858</ns0:size>
+    <ns0:size>8326</ns0:size>
+    <ns0:size>924</ns0:size>
+    <ns0:size>37919</ns0:size>
+    <ns0:size>11236</ns0:size>
+    <ns0:size>1236</ns0:size>
+    <ns0:size>3098</ns0:size>
+    <ns0:size>3842</ns0:size>
+    <ns0:size>79046</ns0:size>
+    <ns0:size>3400</ns0:size>
+    <ns0:size>4172</ns0:size>
+    <ns0:size>3201</ns0:size>
+    <ns0:size>2001</ns0:size>
+    <ns0:size>64718</ns0:size>
+    <ns0:size>3099</ns0:size>
+    <ns0:size>12495</ns0:size>
+    <ns0:size>3707</ns0:size>
+    <ns0:size>82331</ns0:size>
+    <ns0:size>14908</ns0:size>
+    <ns0:size>29269</ns0:size>
+    <ns0:size>14423</ns0:size>
+    <ns0:size>82331</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/matlab-mat</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/matlab-mat</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/x-stata-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/octet-stream</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/x-stata-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/matlab-mat</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/matlab-mat</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/octet-stream</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/octet-stream</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/octet-stream</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/matlab-mat</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/tab-separated-values</ns0:format>
+    <ns0:format>text/tab-separated-values</ns0:format>
+    <ns0:format>text/tab-separated-values</ns0:format>
+    <ns0:format>text/tab-separated-values</ns0:format>
+    <ns0:format>text/tab-separated-values</ns0:format>
+    <ns0:format>text/tab-separated-values</ns0:format>
+  </ns0:formats>
+  <ns0:version>1.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="info:eu-repo/semantics/openAccess" />
+    <ns0:rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0" rightsIdentifier="CC0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/" xml:lang="en">Creative Commons CC0 1.0 Universal Public Domain Dedication.</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="SeriesInformation">Volume 95, Issue 4</ns0:description>
+  </ns0:descriptions>
+</ns0:resource>
+      

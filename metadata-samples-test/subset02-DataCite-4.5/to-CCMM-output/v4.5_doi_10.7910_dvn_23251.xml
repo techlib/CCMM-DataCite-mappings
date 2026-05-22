@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.7910/DVN/23251</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Roland Straub</name>
+               <given_name>Roland</given_name>
+               <family_name>Straub</family_name>
+               <affiliation>
+                  <name>European Central Bank</name>
+               </affiliation>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>Harvard Dataverse</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.7910/DVN/23251</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.7910/DVN/23251</iri>
+      <value>23251</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <version>1.0</version>
+   <title>Replication data for: Asset Market Participation, Monetary Policy Rules, and the Great Inflation</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Bilbiie, Florin O.</name>
+            <given_name>Florin O.</given_name>
+            <family_name>Bilbiie</family_name>
+            <affiliation>
+               <name>Paris School of Economics</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Straub, Roland</name>
+            <given_name>Roland</given_name>
+            <family_name>Straub</family_name>
+            <affiliation>
+               <name>European Central Bank</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Roland Straub</name>
+            <given_name>Roland</given_name>
+            <family_name>Straub</family_name>
+            <affiliation>
+               <name>European Central Bank</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Harvard Dataverse</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2013</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-11-08</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Submitted</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-11-12</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en"/>
+   </resource_type>
+   <terms_of_use>
+      <access_rights>
+         <iri>info:eu-repo/semantics/openAccess</iri>
+         <label xml:lang="en"/>
+      </access_rights>
+      <license>
+         <iri>http://creativecommons.org/publicdomain/zero/1.0</iri>
+         <label xml:lang="en">Creative Commons CC0 1.0 Universal Public Domain Dedication.</label>
+      </license>
+   </terms_of_use>
+   <description>
+      <description_text xml:lang="en">Volume 95, Issue 2</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/SeriesInformation</iri>
+      </description_type>
+   </description>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>Replication data for: Asset Market Participation, Monetary Policy Rules, and the Great Inflation</title>
+         <access_url>
+            <iri/>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <download_url>
+            <iri>10.7910/DVN/23251/AJPSVH</iri>
+            <label xml:lang="en">Data download</label>
+         </download_url>
+         <format>
+            <label xml:lang="en">text/plain; charset=US-ASCII</label>
+         </format>
+         <byte_size>3132</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.7910/DVN/24846</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Steven S. Smith</ns0:creatorName>
+      <ns0:givenName>Steven</ns0:givenName>
+      <ns0:familyName>S. Smith</ns0:familyName>
+      <ns0:affiliation>Washington University in St. Louis</ns0:affiliation>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>Jan 2014</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Harvard Dataverse</ns0:publisher>
+  <ns0:publicationYear>2014</ns0:publicationYear>
+  <ns0:contributors>
+    <ns0:contributor contributorType="Distributor">
+      <ns0:contributorName nameType="Organizational">Harvard Dataverse Network</ns0:contributorName>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2014</ns0:date>
+    <ns0:date dateType="Submitted">2014-03-04</ns0:date>
+    <ns0:date dateType="Available">2014-03-04</ns0:date>
+    <ns0:date dateType="Updated">2016-01-13</ns0:date>
+  </ns0:dates>
+  <ns0:resourceType resourceTypeGeneral="Dataset" />
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24846/6CM0CT</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:sizes>
+    <ns0:size>1343820</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>text/tab-separated-values</ns0:format>
+  </ns0:formats>
+  <ns0:version>2.1</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="info:eu-repo/semantics/openAccess" />
+    <ns0:rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0" rightsIdentifier="CC0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/" xml:lang="en">Creative Commons CC0 1.0 Universal Public Domain Dedication.</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">TAPS data Jan 2014</ns0:description>
+  </ns0:descriptions>
+</ns0:resource>
+      

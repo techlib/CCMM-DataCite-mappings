@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.7910/DVN/23971</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Benjamin Nieto Andrade</name>
+               <given_name>Benjamin</given_name>
+               <family_name>Nieto Andrade</family_name>
+               <affiliation>
+                  <name>PSI/Angola</name>
+               </affiliation>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+         </role>
+      </qualified_relation>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>Harvard Dataverse</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.7910/DVN/23971</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.7910/DVN/23971</iri>
+      <value>23971</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <version>1.0</version>
+   <title>Angola (2013): Reach and Recall for Legal condoms. Round 2.</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Venceslau, Pelenda</name>
+            <given_name>Pelenda</given_name>
+            <family_name>Venceslau</family_name>
+            <affiliation>
+               <name>PSI/Angola</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Benjamin Nieto Andrade</name>
+            <given_name>Benjamin</given_name>
+            <family_name>Nieto Andrade</family_name>
+            <affiliation>
+               <name>PSI/Angola</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Producer</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Benjamin Nieto Andrade</name>
+            <given_name>Benjamin</given_name>
+            <family_name>Nieto Andrade</family_name>
+            <affiliation>
+               <name>PSI/Angola</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Harvard Dataverse</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2013</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-01-01</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Created</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-12-15</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Submitted</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-12-17</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en"/>
+   </resource_type>
+   <terms_of_use>
+      <access_rights>
+         <iri>info:eu-repo/semantics/closedAccess</iri>
+         <label xml:lang="en"/>
+      </access_rights>
+      <license>
+         <iri>https://dataverse.harvard.edu/api/datasets/:persistentId/versions/1.0/customlicense?persistentId=doi:10.7910/DVN/23971</iri>
+         <label xml:lang="en">Custom terms specific to this dataset</label>
+      </license>
+   </terms_of_use>
+   <subject>
+      <title xml:lang="en">Family planning</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">Social marketing</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">Condoms</title>
+   </subject>
+   <description>
+      <description_text xml:lang="en">Servico Internacional para a Populcao (PSI) e uma Organizcao nao- governamental (ONG) sem fins lucrativos especializada em marketing social de produtos e servicos para a prevencao de VIH, Malaria, Doencas Diarreicas, Planeamento Familiar e Saude Materno-Infantil. PSI/Angola trabalha no pais desde 2000. Com financiamento da USAID, a PSI Angola implementa um projecto de marketing social, conhecido como OUAKULA. Alem de comercializar e distribuir as marcas dos seus produtos (Legal, Sensual, Mosquiteiros Seguro Salvo e Joia), a PSI/Angola tambem desenvolve campanhas para incentivar a adopcao de comportamentos saudaveis em relacao a prevencao do VIH e Malaria. A essas actividades estao incluidas o uso de spots de Radio e TV, Bilboards, Comunicaco Interpessoal (IPC) e Teatro. Neste contesto, a PSI esta levando a cabo a transmissao de Setembro - Novembro de 2013 de uma campanha publicitaria para o uso do preservativo &amp;apos;Legal&amp;apos; para o combate do VIH e outras doencas sexualmente transmissiveis. O objectivo do estudo Reach and Recall e medir o nivel de exposicao atingido pela campanha de publicidade sobre o uso del preservativo &amp;apos;Legal&amp;apos; divulgada pelos medios de comunicao e estabelecer como as mensagens foram apercebidas e posicionadas pelos expostos.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <location>
+      <name>Angola</name>
+   </location>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>Angola (2013): Reach and Recall for Legal condoms. Round 2.</title>
+         <access_url>
+            <iri/>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <download_url>
+            <iri>10.7910/DVN/23971/MWPOO7</iri>
+            <label xml:lang="en">Data download</label>
+         </download_url>
+         <format>
+            <label xml:lang="en">application/msword</label>
+         </format>
+         <byte_size>2184192</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

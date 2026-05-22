@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.7910/DVN/23624</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Snyder, James M., Jr.</ns0:creatorName>
+      <ns0:givenName>James</ns0:givenName>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Folke, Olle</ns0:creatorName>
+      <ns0:givenName>Olle</ns0:givenName>
+      <ns0:familyName>Folke</ns0:familyName>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Hirano, Shigeo</ns0:creatorName>
+      <ns0:givenName>Shigeo</ns0:givenName>
+      <ns0:familyName>Hirano</ns0:familyName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>Partisan Imbalance in Regression Discontinuity Studies Based on Electoral Thresholds</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Harvard Dataverse</ns0:publisher>
+  <ns0:publicationYear>2013</ns0:publicationYear>
+  <ns0:contributors>
+    <ns0:contributor contributorType="Distributor">
+      <ns0:contributorName nameType="Organizational">Harvard Dataverse Network</ns0:contributorName>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2013</ns0:date>
+    <ns0:date dateType="Submitted">2013-12-02</ns0:date>
+    <ns0:date dateType="Available">2013-12-02</ns0:date>
+    <ns0:date dateType="Updated">2014-10-15</ns0:date>
+  </ns0:dates>
+  <ns0:resourceType resourceTypeGeneral="Dataset" />
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23624/SOKQDR</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23624/4HICBP</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23624/BK0HCD</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23624/5FNGXJ</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23624/BNH9TI</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:sizes>
+    <ns0:size>2156117</ns0:size>
+    <ns0:size>6321</ns0:size>
+    <ns0:size>143116</ns0:size>
+    <ns0:size>2174</ns0:size>
+    <ns0:size>8768</ns0:size>
+    <ns0:size>6765</ns0:size>
+    <ns0:size>8019</ns0:size>
+    <ns0:size>2156117</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>text/tab-separated-values</ns0:format>
+    <ns0:format>text/x-stata-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>text/x-stata-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>text/x-stata-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>text/x-stata-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>text/x-stata-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>text/tab-separated-values</ns0:format>
+  </ns0:formats>
+  <ns0:version>2.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="info:eu-repo/semantics/openAccess" />
+    <ns0:rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0" rightsIdentifier="CC0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/" xml:lang="en">Creative Commons CC0 1.0 Universal Public Domain Dedication.</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">This data can be used to replicate the emprical analysis in &amp;quot;Partisan Imbalance in Regression Discontinuity Studies Based on Electoral Threshold&amp;quot;, which is forthcoming in Political Science Research and Method</ns0:description>
+  </ns0:descriptions>
+</ns0:resource>
+      

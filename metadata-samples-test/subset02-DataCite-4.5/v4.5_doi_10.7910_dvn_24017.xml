@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.7910/DVN/24017</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Beber, Bernd</ns0:creatorName>
+      <ns0:givenName>Bernd</ns0:givenName>
+      <ns0:familyName>Beber</ns0:familyName>
+      <ns0:affiliation>New York University</ns0:affiliation>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Roessler, Philip</ns0:creatorName>
+      <ns0:givenName>Philip</ns0:givenName>
+      <ns0:familyName>Roessler</ns0:familyName>
+      <ns0:affiliation>College of William and Mary</ns0:affiliation>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Scacco, Alexandra</ns0:creatorName>
+      <ns0:givenName>Alexandra</ns0:givenName>
+      <ns0:familyName>Scacco</ns0:familyName>
+      <ns0:affiliation>New York University</ns0:affiliation>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>Replication data for: Intergroup Violence and Political Attitudes: Evidence from a Dividing Sudan</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Harvard Dataverse</ns0:publisher>
+  <ns0:publicationYear>2014</ns0:publicationYear>
+  <ns0:contributors>
+    <ns0:contributor contributorType="Producer">
+      <ns0:contributorName nameType="Personal">The Journal of Politics</ns0:contributorName>
+      <ns0:givenName>The</ns0:givenName>
+      <ns0:familyName>Journal of Politics</ns0:familyName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Distributor">
+      <ns0:contributorName nameType="Organizational">Harvard Dataverse Network</ns0:contributorName>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2014</ns0:date>
+    <ns0:date dateType="Submitted">2013-12-18</ns0:date>
+    <ns0:date dateType="Available">2014-03-14</ns0:date>
+    <ns0:date dateType="Updated">2014-04-24</ns0:date>
+  </ns0:dates>
+  <ns0:resourceType resourceTypeGeneral="Dataset" />
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24017/SBUUO5</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24017/EO9RZM</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24017/DG3RFG</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24017/OWQEKX</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24017/36HIUR</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24017/RBA8WW</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24017/WPOEVL</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24017/NN2EIK</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24017/RMBRMP</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:sizes>
+    <ns0:size>204958</ns0:size>
+    <ns0:size>60923</ns0:size>
+    <ns0:size>22873</ns0:size>
+    <ns0:size>76649</ns0:size>
+    <ns0:size>2826</ns0:size>
+    <ns0:size>16145</ns0:size>
+    <ns0:size>6622</ns0:size>
+    <ns0:size>10462</ns0:size>
+    <ns0:size>696539</ns0:size>
+    <ns0:size>22900</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>application/x-stata</ns0:format>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>text/x-stata-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>application/x-stata</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>text/x-stata-syntax; charset=US-ASCII</ns0:format>
+  </ns0:formats>
+  <ns0:version>2.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="info:eu-repo/semantics/openAccess" />
+    <ns0:rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0" rightsIdentifier="CC0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/" xml:lang="en">Creative Commons CC0 1.0 Universal Public Domain Dedication.</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">How do episodes of intergroup violence affect political opinions toward out-group members? Recent studies offer divergent answers. Some suggest violence deepens antagonism and reduces support for compromise, while others contend it encourages moderation and concessions to prevent further conflict. We argue that violence can fuel both hostility toward the out-group and acceptance of out-group objectives, and provide evidence from a unique survey of 1380 respondents implemented by the authors in greater Khartoum in Sudan in 2010 and 2011. We find that Northerners who experienced rioting by Southerners in Khartoum in 2005 were more likely to support Southern independence, but less likely to support citizenship for Southerners remaining in the North. In combination, these results suggest that political violence hardens negative intergroup attitudes and makes individuals willing to concede separation to avoid living alongside out-group members.</ns0:description>
+  </ns0:descriptions>
+</ns0:resource>
+      

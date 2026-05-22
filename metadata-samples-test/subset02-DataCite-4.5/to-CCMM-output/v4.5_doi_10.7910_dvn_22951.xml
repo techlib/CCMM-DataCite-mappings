@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.7910/DVN/22951</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>Harvard Dataverse</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.7910/DVN/22951</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.7910/DVN/22951</iri>
+      <value>22951</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <version>1.0</version>
+   <title>Worldwide Fulltext Usage of Data Astrophysics Data System in 2011</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>SAO/NASA Astrophysics Data System</name>
+            <affiliation>
+               <name>Smtihsonian Astrophysical Observatory</name>
+            </affiliation>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Harvard Dataverse</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2013</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-10-22</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Submitted</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-10-22</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en"/>
+   </resource_type>
+   <terms_of_use>
+      <access_rights>
+         <iri>info:eu-repo/semantics/openAccess</iri>
+         <label xml:lang="en"/>
+      </access_rights>
+      <license>
+         <iri>https://dataverse.harvard.edu/api/datasets/:persistentId/versions/1.0/customlicense?persistentId=doi:10.7910/DVN/22951</iri>
+         <label xml:lang="en">Custom terms specific to this dataset</label>
+      </license>
+   </terms_of_use>
+   <subject>
+      <title xml:lang="en">Astrophysics Data System</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">Usage Data</title>
+   </subject>
+   <subject>
+      <title xml:lang="en">Bibliometrics</title>
+   </subject>
+   <description>
+      <description_text xml:lang="en">The data contained in these files (one in Excel, the other in JSON format) consists of full text download numbers through the ADS during the year 2011. Every row is a journal, indicated by the journal name and the ADS abbreviation (&amp;quot;bibstem&amp;quot;, see: http://adsabs.harvard.edu/abs_doc/journals2.html). For each journal, we present the download numbers split up by publication year (with the first data column being the range &amp;quot;pre 1998&amp;quot;). Full text downloads within the ADS service are defined as &amp;apos;clicks&amp;apos; on either of the links within an ADS record that provide access to full text in one form or other. Specifically, these are the &amp;apos;E&amp;apos;, &amp;apos;F&amp;apos;, &amp;apos;L&amp;apos;, &amp;apos;G&amp;apos; or &amp;apos;X&amp;apos; links (see http://doc.adsabs.harvard.edu/abs_doc/help_pages/results.html#List_of_Links definitions). The data contained in these files had been released under the CC-BY License (see: http://creativecommons.org/licenses/by/3.0/us/). Please acknowledge the ADS in a publication that makes us of these data by the phrase: ``This research has made use of NASA&amp;apos;s Astrophysics Data System.&amp;quot;</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+   <funding_reference>
+      <local_identifier>NNX12AG54G</local_identifier>
+      <award_title/>
+      <funder>
+         <organization>
+            <identifier>
+               <value/>
+               <scheme>
+                  <iri/>
+                  <label xml:lang=""/>
+               </scheme>
+            </identifier>
+            <name>NASA</name>
+         </organization>
+      </funder>
+   </funding_reference>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>Worldwide Fulltext Usage of Data Astrophysics Data System in 2011</title>
+         <access_url>
+            <iri/>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <download_url>
+            <iri>10.7910/DVN/22951/DDX5CZ</iri>
+            <label xml:lang="en">Data download</label>
+         </download_url>
+         <format>
+            <label xml:lang="en">text/plain; charset=US-ASCII</label>
+         </format>
+         <byte_size>445780</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

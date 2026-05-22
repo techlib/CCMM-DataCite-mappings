@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.7910/DVN/23251</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Bilbiie, Florin O.</ns0:creatorName>
+      <ns0:givenName>Florin O.</ns0:givenName>
+      <ns0:familyName>Bilbiie</ns0:familyName>
+      <ns0:affiliation>Paris School of Economics</ns0:affiliation>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Straub, Roland</ns0:creatorName>
+      <ns0:givenName>Roland</ns0:givenName>
+      <ns0:familyName>Straub</ns0:familyName>
+      <ns0:affiliation>European Central Bank</ns0:affiliation>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>Replication data for: Asset Market Participation, Monetary Policy Rules, and the Great Inflation</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Harvard Dataverse</ns0:publisher>
+  <ns0:publicationYear>2013</ns0:publicationYear>
+  <ns0:contributors>
+    <ns0:contributor contributorType="ContactPerson">
+      <ns0:contributorName nameType="Personal">Roland Straub</ns0:contributorName>
+      <ns0:givenName>Roland</ns0:givenName>
+      <ns0:familyName>Straub</ns0:familyName>
+      <ns0:affiliation>European Central Bank</ns0:affiliation>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:dates>
+    <ns0:date dateType="Submitted">2013-11-08</ns0:date>
+    <ns0:date dateType="Available">2013-11-12</ns0:date>
+  </ns0:dates>
+  <ns0:resourceType resourceTypeGeneral="Dataset" />
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relationType="IsSupplementTo" relatedIdentifierType="DOI">10.1162/REST_A_00254</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/AJPSVH</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/TJKGSB</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/FSVFUG</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/XHCHGN</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/P1BZ6H</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/SPCFGJ</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/DAQKUY</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/TFT9UX</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/8WHQPM</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/FNHKFW</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/FOD8SF</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/4276LP</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/XYILLX</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/ZHDUUA</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/KSXCC6</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/QPSTJT</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/M9UMD3</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/POPBYW</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/VJQVR7</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/BS42BB</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/LOPBJS</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/SINO7G</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23251/2VFB7N</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:sizes>
+    <ns0:size>3132</ns0:size>
+    <ns0:size>324</ns0:size>
+    <ns0:size>3728</ns0:size>
+    <ns0:size>169</ns0:size>
+    <ns0:size>4917</ns0:size>
+    <ns0:size>3131</ns0:size>
+    <ns0:size>3725</ns0:size>
+    <ns0:size>3639</ns0:size>
+    <ns0:size>3091</ns0:size>
+    <ns0:size>3453</ns0:size>
+    <ns0:size>89</ns0:size>
+    <ns0:size>3639</ns0:size>
+    <ns0:size>6324</ns0:size>
+    <ns0:size>3639</ns0:size>
+    <ns0:size>338</ns0:size>
+    <ns0:size>3066</ns0:size>
+    <ns0:size>6324</ns0:size>
+    <ns0:size>921</ns0:size>
+    <ns0:size>277</ns0:size>
+    <ns0:size>4346</ns0:size>
+    <ns0:size>3086</ns0:size>
+    <ns0:size>4132</ns0:size>
+    <ns0:size>4592</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/matlab-mat</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/matlab-mat</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/matlab-mat</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+  </ns0:formats>
+  <ns0:version>1.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="info:eu-repo/semantics/openAccess" />
+    <ns0:rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0" rightsIdentifier="CC0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/" xml:lang="en">Creative Commons CC0 1.0 Universal Public Domain Dedication.</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="SeriesInformation">Volume 95, Issue 2</ns0:description>
+  </ns0:descriptions>
+</ns0:resource>
+      

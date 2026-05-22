@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.7910/DVN/22951</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Organizational">SAO/NASA Astrophysics Data System</ns0:creatorName>
+      <ns0:affiliation>Smtihsonian Astrophysical Observatory</ns0:affiliation>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>Worldwide Fulltext Usage of Data Astrophysics Data System in 2011</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Harvard Dataverse</ns0:publisher>
+  <ns0:publicationYear>2013</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject>Astrophysics Data System</ns0:subject>
+    <ns0:subject>Usage Data</ns0:subject>
+    <ns0:subject>Bibliometrics</ns0:subject>
+  </ns0:subjects>
+  <ns0:dates>
+    <ns0:date dateType="Submitted">2013-10-22</ns0:date>
+    <ns0:date dateType="Available">2013-10-22</ns0:date>
+  </ns0:dates>
+  <ns0:resourceType resourceTypeGeneral="Dataset" />
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/22951/DDX5CZ</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/22951/QLSHOI</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:sizes>
+    <ns0:size>445780</ns0:size>
+    <ns0:size>500736</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>application/vnd.ms-excel</ns0:format>
+  </ns0:formats>
+  <ns0:version>1.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="info:eu-repo/semantics/openAccess" />
+    <ns0:rights rightsURI="https://dataverse.harvard.edu/api/datasets/:persistentId/versions/1.0/customlicense?persistentId=doi:10.7910/DVN/22951">Custom terms specific to this dataset</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">The data contained in these files (one in Excel, the other in JSON format) consists of full text download numbers through the ADS during the year 2011. Every row is a journal, indicated by the journal name and the ADS abbreviation (&amp;quot;bibstem&amp;quot;, see: http://adsabs.harvard.edu/abs_doc/journals2.html). For each journal, we present the download numbers split up by publication year (with the first data column being the range &amp;quot;pre 1998&amp;quot;). Full text downloads within the ADS service are defined as &amp;apos;clicks&amp;apos; on either of the links within an ADS record that provide access to full text in one form or other. Specifically, these are the &amp;apos;E&amp;apos;, &amp;apos;F&amp;apos;, &amp;apos;L&amp;apos;, &amp;apos;G&amp;apos; or &amp;apos;X&amp;apos; links (see http://doc.adsabs.harvard.edu/abs_doc/help_pages/results.html#List_of_Links definitions). The data contained in these files had been released under the CC-BY License (see: http://creativecommons.org/licenses/by/3.0/us/). Please acknowledge the ADS in a publication that makes us of these data by the phrase: ``This research has made use of NASA&amp;apos;s Astrophysics Data System.&amp;quot;</ns0:description>
+  </ns0:descriptions>
+  <ns0:fundingReferences>
+    <ns0:fundingReference>
+      <ns0:funderName>NASA</ns0:funderName>
+      <ns0:awardNumber>NNX12AG54G</ns0:awardNumber>
+    </ns0:fundingReference>
+  </ns0:fundingReferences>
+</ns0:resource>
+      

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.7910/DVN/24201</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Abu, Benjamin Musah</ns0:creatorName>
+      <ns0:givenName>Benjamin Musah</ns0:givenName>
+      <ns0:familyName>Abu</ns0:familyName>
+      <ns0:affiliation>&amp;lt;a href=&amp;quot;http://www.ug.edu.gh/cacs/page5.html&amp;quot;&amp;gt; Department of Agricultural Economics &amp;amp;#38; Agribusiness&amp;lt;/a&amp;gt;, &amp;lt;a href=&amp;quot;http://www.ug.edu.gh/&amp;quot;&amp;gt; University of Ghana &amp;lt;/a&amp;gt;</ns0:affiliation>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>Market Participation of Smallholder Farmers in the Upper West Region of Ghana</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Harvard Dataverse</ns0:publisher>
+  <ns0:publicationYear>2014</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject schemeURI="http://aims.fao.org/agrovoc-term-info?mytermcode=4626" subjectScheme="AGROVOC">Markets</ns0:subject>
+    <ns0:subject schemeURI="http://aims.fao.org/agrovoc-term-info?mytermcode=37602" subjectScheme="AGROVOC">Participation</ns0:subject>
+    <ns0:subject schemeURI="http://aims.fao.org/agrovoc-term-info?mytermcode=2805" subjectScheme="AGROVOC">Farmers</ns0:subject>
+    <ns0:subject schemeURI="http://aims.fao.org/agrovoc-term-info?mytermcode=7113" subjectScheme="AGROVOC">Small farms</ns0:subject>
+    <ns0:subject schemeURI="http://aims.fao.org/agrovoc-term-info?mytermcode=14343&amp;mylang_interface=en&amp;myLanguage=EN" subjectScheme="AGROVOC">Smallholders</ns0:subject>
+    <ns0:subject schemeURI="http://aims.fao.org/agrovoc-term-info?mytermcode=4626" subjectScheme="AGROVOC">Market</ns0:subject>
+  </ns0:subjects>
+  <ns0:contributors>
+    <ns0:contributor contributorType="Producer">
+      <ns0:contributorName nameType="Organizational">Department of Agricultural Economics</ns0:contributorName>
+      <ns0:affiliation>&amp;lt;a href=&amp;quot;http://www.ug.edu.gh/&amp;quot;&amp;gt; University of Ghana &amp;lt;/a&amp;gt;</ns0:affiliation>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Distributor">
+      <ns0:contributorName nameType="Organizational">International Food Policy Research Institution</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="ContactPerson">
+      <ns0:contributorName nameType="Personal">IFPRI-Data</ns0:contributorName>
+      <ns0:affiliation>International Food Policy Research Institute</ns0:affiliation>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2014</ns0:date>
+    <ns0:date dateType="Created">2013</ns0:date>
+    <ns0:date dateType="Submitted">2014-01-10</ns0:date>
+    <ns0:date dateType="Available">2014-01-10</ns0:date>
+    <ns0:date dateType="Updated">2014-01-13</ns0:date>
+  </ns0:dates>
+  <ns0:resourceType resourceTypeGeneral="Dataset">Sample survey data (SSD)</ns0:resourceType>
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24201/CW2IRF</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24201/MXQK37</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24201/IMJ3AM</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24201/P3GUJZ</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:sizes>
+    <ns0:size>375045</ns0:size>
+    <ns0:size>378688</ns0:size>
+    <ns0:size>65202</ns0:size>
+    <ns0:size>58694</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>text/tab-separated-values</ns0:format>
+    <ns0:format>text/tab-separated-values</ns0:format>
+  </ns0:formats>
+  <ns0:version>2.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="info:eu-repo/semantics/openAccess" />
+    <ns0:rights rightsURI="https://dataverse.harvard.edu/api/datasets/:persistentId/versions/2.0/customlicense?persistentId=doi:10.7910/DVN/24201">Custom terms specific to this dataset</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">This dataset was produced to study market participation of smallholders in the upper west region of Ghana. This study was undertaken by Benjamin Musah Abu, a student in Department of Agricultural Economics and Agribusiness at the University of Ghana, as a part of requirements toward Master of Philosophy Degree in Agricultural Economics. This dataset contains information about age gender, level of education, household size, farming exper
+ience, market access and constraints in market access and participation for small farmers. This dataset contains information for maize and groundnuts. A total of 400 smallholders cultivating at most in 2 ha of land were interviewed. This includes 200 groundnuts growing households and 200 maize growing households.</ns0:description>
+    <ns0:description descriptionType="TechnicalInfo">18, 18</ns0:description>
+    <ns0:description descriptionType="TechnicalInfo">12, 12</ns0:description>
+    <ns0:description descriptionType="Other">Subject: null  Type: &lt;h2&gt;Acknowledgements&lt;/h2&gt;  Notes: This study was made possible through the support of the Ghana Strategy Support Program (GSSP). GSSP is funded by the US Agency for International Development (USAID). The author is also thankful to all the survey participants, who generously shared their experiences.;</ns0:description>
+  </ns0:descriptions>
+  <ns0:geoLocations>
+    <ns0:geoLocation>
+      <ns0:geoLocationPlace>Ghana</ns0:geoLocationPlace>
+    </ns0:geoLocation>
+    <ns0:geoLocation>
+      <ns0:geoLocationPlace>Upper west region of Ghana,</ns0:geoLocationPlace>
+    </ns0:geoLocation>
+    <ns0:geoLocation>
+      <ns0:geoLocationPlace>Ghana</ns0:geoLocationPlace>
+    </ns0:geoLocation>
+  </ns0:geoLocations>
+</ns0:resource>
+      

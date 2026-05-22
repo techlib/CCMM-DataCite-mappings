@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.7910/DVN/23314</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Joseph, Joel</ns0:creatorName>
+      <ns0:givenName>Joel</ns0:givenName>
+      <ns0:familyName>Joseph</ns0:familyName>
+      <ns0:affiliation>Research Consultant</ns0:affiliation>
+    </ns0:creator>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Nieto, Andrade Benjamin</ns0:creatorName>
+      <ns0:givenName>Andrade Benjamin</ns0:givenName>
+      <ns0:familyName>Nieto</ns0:familyName>
+      <ns0:affiliation>Regional Researcher</ns0:affiliation>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>St Lucia (2012): TRaC measuring condom use among sexually active males 25 to 45 years in St Lucia. Round [2].</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Harvard Dataverse</ns0:publisher>
+  <ns0:publicationYear>2013</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject>Quantitative</ns0:subject>
+    <ns0:subject>TRaC</ns0:subject>
+    <ns0:subject>HIV</ns0:subject>
+    <ns0:subject>Men</ns0:subject>
+    <ns0:subject>Condom Use</ns0:subject>
+    <ns0:subject>Condoms</ns0:subject>
+    <ns0:subject>BCC</ns0:subject>
+    <ns0:subject>KfW</ns0:subject>
+  </ns0:subjects>
+  <ns0:contributors>
+    <ns0:contributor contributorType="Producer">
+      <ns0:contributorName nameType="Personal">PSI/Caribbean</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Distributor">
+      <ns0:contributorName nameType="Organizational">PSI Research &amp;amp; Metrics</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="ContactPerson">
+      <ns0:contributorName nameType="Organizational">PSI Research &amp;amp; Metrics, Washington D.C.</ns0:contributorName>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2013</ns0:date>
+    <ns0:date dateType="Created">2012</ns0:date>
+    <ns0:date dateType="Submitted">2013-11-13</ns0:date>
+    <ns0:date dateType="Available">2013-11-15</ns0:date>
+    <ns0:date dateType="Updated">2014-08-21</ns0:date>
+  </ns0:dates>
+  <ns0:resourceType resourceTypeGeneral="Dataset" />
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/TS9QFL</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/8XW5FK</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/S8RY9J</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/2PK16T</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/6WPZST</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/LLI2SD</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/J4ES4C</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/WNMM1G</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/FPEQIS</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/D1DVTZ</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/EOWQ4S</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/7SABMF</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/23314/IJRZAS</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:sizes>
+    <ns0:size>10933</ns0:size>
+    <ns0:size>10940</ns0:size>
+    <ns0:size>564</ns0:size>
+    <ns0:size>2167</ns0:size>
+    <ns0:size>827972</ns0:size>
+    <ns0:size>366408</ns0:size>
+    <ns0:size>50367</ns0:size>
+    <ns0:size>310804</ns0:size>
+    <ns0:size>614678</ns0:size>
+    <ns0:size>37637</ns0:size>
+    <ns0:size>14103</ns0:size>
+    <ns0:size>22957</ns0:size>
+    <ns0:size>201406</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>text/x-spss-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>text/x-spss-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>text/x-spss-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>text/x-spss-syntax; charset=US-ASCII</ns0:format>
+    <ns0:format>text/tab-separated-values</ns0:format>
+    <ns0:format>text/tab-separated-values</ns0:format>
+    <ns0:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</ns0:format>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>application/pdf</ns0:format>
+    <ns0:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</ns0:format>
+    <ns0:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</ns0:format>
+    <ns0:format>application/vnd.openxmlformats-officedocument.wordprocessingml.document</ns0:format>
+  </ns0:formats>
+  <ns0:version>2.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="info:eu-repo/semantics/closedAccess" />
+    <ns0:rights rightsURI="https://dataverse.harvard.edu/api/datasets/:persistentId/versions/2.0/customlicense?persistentId=doi:10.7910/DVN/23314">Custom terms specific to this dataset</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">BACKGROUND: St. Lucia is a Caribbean island located between the Caribbean Sea and the North Atlantic Ocean, north of Trinidad
+&amp;amp; Tobago. With a land span of 616 sq. km, St. Lucia is volcanic and mountainous with some broad fertile valleys.   Based on reports from the CIA World Fact Book, St. Lucias population as of July 2012 is estimated at 162,178 persons, with a male to female ration of 1.06. Of the total population, 67.5% are between the ages of 15 to 64 years, 22.8% are between the ages of 0 to 14 years, and 9.7% are 65 years and older. According to the St. Lucia Statistics Office, approximately 16% of the male popu
+lation is between the ages of 25 and 49 years (around 26,000 men). One hundred percent of these males are sexually active of which 65% has three (3) or more sexual partners in last year. This leads to an estimated target population size of 17,000 for Population Services International (PSI).  Saint Lucia is mostly a rural country (only 28% of the population is described as urbanized). Tourism is the main driver of the economy and the manufacturing sector is described as the most diverse in the eastern Caribbean.     According to the 2010 St Lucia UNGASS report, the countryÃ&amp;#131;Â&amp;#131;Ã&amp;#130;Â&amp;#130;Ã&amp;#131;Â&amp;#130;Ã&amp;#130;Â&amp;#153;s HIV/AIDS status is described as a concentrated, low prevalence epidemic. The report al
+so indicates that while current HIV infections continue to be characterized by heterosexual intercourse, in the Saint Lucian context drivers of the epidemic broadly include: transactional sex (where no cash is exchanged but gifts are given and support supplied); sex for drugs (crack, cocaine) and traditional sex work (exchange of sex for money) by both foreign and local women (Foreign women primarily  work in brothels and strip-clubs while  local women   are known to work in areas frequented by tourists. Trends in HIV transmission have also been linked to increased poverty and social disintegration.  The UNGASS report continues to state that in addition to these broad drivers, there is a hidden but believed to be substantial population of men having sex with men exclusively (MSM) and men having sex with both men and women (MSMW).  This is thought to be exacerbating the HIV epidemic and statistical evidence suggests that the behaviors of MSMW have contributed to the feminization of the HIV epidemic in St. Lucia  STUDY OBJECTIVES The purpose of the Tracking Results Continuously (TRaC) survey among sexually active males 25-49 years with three (3) or more sexual partners in St. Lucia is to provide evidence for monitoring and implementation of PSIÃ&amp;#131;Â&amp;#131;Ã&amp;#130;Â&amp;#130;Ã&amp;#131;Â&amp;#130;Ã&amp;#130;Â&amp;#153;s HIV prevention Program. The data gathered through the 2010 TRaC survey will be analyzed according to PSIÃ&amp;#131;Â&amp;#131;Ã&amp;#130;Â&amp;#130;Ã&amp;#131;Â&amp;#130;Ã&amp;#130;Â&amp;#153;s Performance Framework</ns0:description>
+  </ns0:descriptions>
+  <ns0:geoLocations>
+    <ns0:geoLocation>
+      <ns0:geoLocationPlace>St Lucia,</ns0:geoLocationPlace>
+    </ns0:geoLocation>
+  </ns0:geoLocations>
+</ns0:resource>
+      

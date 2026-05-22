@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.5/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.7910/DVN/24939</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">Nunes, Felipe</ns0:creatorName>
+      <ns0:givenName>Felipe</ns0:givenName>
+      <ns0:familyName>Nunes</ns0:familyName>
+      <ns0:affiliation>UCLA</ns0:affiliation>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>Replication data for: The Left Variance: How Electoral Mechanisms Shape Leftist Presidential Behavior in Latin America</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Harvard Dataverse</ns0:publisher>
+  <ns0:publicationYear>2014</ns0:publicationYear>
+  <ns0:contributors>
+    <ns0:contributor contributorType="Distributor">
+      <ns0:contributorName nameType="Organizational">Harvard Dataverse Network</ns0:contributorName>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2014</ns0:date>
+    <ns0:date dateType="Submitted">2014-03-16</ns0:date>
+    <ns0:date dateType="Available">2014-03-16</ns0:date>
+  </ns0:dates>
+  <ns0:resourceType resourceTypeGeneral="Dataset" />
+  <ns0:relatedIdentifiers>
+    <ns0:relatedIdentifier relationType="IsSupplementTo" schemeURI="http://bibliotecadigital.fgv.br" relatedIdentifierType="URL">/ojs/index.php/riel/article/view/18027/16777</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24939/NSBXNO</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24939/MJK9AZ</ns0:relatedIdentifier>
+    <ns0:relatedIdentifier relationType="HasPart" relatedIdentifierType="DOI">10.7910/DVN/24939/SRI0UV</ns0:relatedIdentifier>
+  </ns0:relatedIdentifiers>
+  <ns0:sizes>
+    <ns0:size>3367</ns0:size>
+    <ns0:size>470</ns0:size>
+    <ns0:size>2627</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+    <ns0:format>text/plain; charset=US-ASCII</ns0:format>
+  </ns0:formats>
+  <ns0:version>1.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="info:eu-repo/semantics/openAccess" />
+    <ns0:rights rightsURI="http://creativecommons.org/publicdomain/zero/1.0" rightsIdentifier="CC0-1.0" rightsIdentifierScheme="SPDX" schemeURI="https://spdx.org/licenses/" xml:lang="en">Creative Commons CC0 1.0 Universal Public Domain Dedication.</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">The emergence of left governments in Latin America is associated with votersâ&amp;#128;&amp;#153; dissatisfaction with neoliberal policy outcomes after democratic transitions. Although I believe this argument to be true, the explanations for why leftist governments behave differently are still incomplete. The main question this paper addresses is why some governments are social democratic whereas others are new-populist. I argue that presidents are molded into social democrats as a result of runoffs, and the presence of structured parties in legislatures. Given the need to convince the majority of voters to win the second round of an election, candidates are more likely toadopt moderate positions. Then, the likelihood of victory in a runoff is a function of candidatesâ&amp;#128;&amp;#153; ability to make compromises and respect agreements in campaign and in office. This is especially observed when many institutional veto players compose the party system. I analyze a novel data set covering every Latin American presidentialelection since 1990. My results show support for the claim that the presence of strong parties in addition to runoffs encourages politicians to adopt responsible agendas, consequentially decreasing their chances of having new-populist programs.</ns0:description>
+  </ns0:descriptions>
+</ns0:resource>
+      
