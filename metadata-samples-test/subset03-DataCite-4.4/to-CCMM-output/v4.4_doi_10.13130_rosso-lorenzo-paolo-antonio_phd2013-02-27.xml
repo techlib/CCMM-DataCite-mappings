@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.13130/ROSSO-LORENZO-PAOLO-ANTONIO_PHD2013-02-27</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name> Universit� degli Studi di Milano</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.13130/ROSSO-LORENZO-PAOLO-ANTONIO_PHD2013-02-27</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.13130/ROSSO-LORENZO-PAOLO-ANTONIO_PHD2013-02-27</iri>
+      <value>ROSSO-LORENZO-PAOLO-ANTONIO_PHD2013-02-27</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <title> RUOLO DEL GEL PIASTRINICO DA SANGUE PLACENTARE NEI PROCESSI DI RIPARAZIONE PLEURICA </title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>0000-0002-9809-7140</iri>
+               <value>0000-0002-9809-7140</value>
+               <scheme>
+                  <iri>http://orcid.org/</iri>
+                  <label xml:lang="">ORCID</label>
+               </scheme>
+            </identifier>
+            <name>L.P.A. Rosso</name>
+            <given_name>LORENZO PAOLO ANTONIO</given_name>
+            <family_name>ROSSO</family_name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name> Universit� degli Studi di Milano</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2013</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-02-27</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">
+	Text
+</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/ita</iri>
+   </primary_language>
+   <terms_of_use/>
+   <description>
+      <description_text xml:lang="en">Background
+Le perdite aeree prolungate (PAL) sono la principale causa di morbidit� dopo interventi di chirurgia polmonare che si traduce in un prolungamento dei tempi di ospedalizzazione e conseguente incremento della spesa sanitaria.
+Differenti tecniche intraoperatorie e sigillanti chirurgici sono stati sviluppati per cercare di prevenire o ridurre l?incidenza delle perdite aeree post-operatorie.
+Obiettivi
+Questo studio vuole valutare la capacit� del gel piastrinico ottenuto da cordone ombelicale di riparare un danno pleurico in un modello in vitro ed in un modello animale.
+Metodi
+In vitro � stata confrontata la capacit� di riparazione del gel piastrinico rispetto alle condizioni standard di cultura di cellule mesoteliali umane dopo scratch assay.
+Nel modello in vivo, il gel piastrinico derivante da sangue di cordone ombelicale � stato testato sperimentalmente su 53 ratti Wistar, dopo aver effettuato una lesione standardizzata sul polmone sinistro. Dopo sacrificio degli animali a tempistiche prestabilite sono state valutate alterazioni istologiche ed eventuali complicanze. Inoltre, sono stati analizzati cambiamenti nei fattori solubili dell?infiammazione.
+Risultati
+In vitro, il gel piastrinico ripara pi� velocemente il danno delle cellule mesoteliali rispetto ai controlli (24 vs 35 ore). In vivo, la formazione del nuovo tessuto mesoteliale � stata osservata dopo una media di 44�1 ore nel gruppo trattato rispetto a 130�2.5 ore del gruppo di controllo. La guarigione completa dei campioni trattati con gel piastrinico � stata evidenziata dopo 75�1 ore ora rispetto alle 160�6 ore dei casi controllo. Nel 43% dei trattati sono state rilevate aderenze pleuriche mentre solo nel 17% dei controlli. Alcuni fattori dell?infiammazione erano significativamente ridotti negli animali trattati.
+Conclusioni
+I risultati ottenuti dal nostro studio sembrano promuovere l?utilizzo del gel piastrinico e dei suoi fattori di crescita nei processi riparativi del tessuto pleurico, inoltre sembra stimolare lo sviluppo di aderenze pleuriche, particolarmente utili nella gestione delle perdite prolungate.
+Ipotizziamo che il gel piastrinico giochi un duplice ruolo rilasciando citochine e fattori di crescita che promuovono un processo riparativo pi� rapido e di conseguenza riducono la flogosi.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+</dataset>

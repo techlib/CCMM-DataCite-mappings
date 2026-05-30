@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.2314/GBV:487404599</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Technische Informationsbibliothek (TIB)</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.2314/GBV:487404599</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.2314/GBV:487404599</iri>
+      <value>GBV:487404599</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>GBV:487404599</iri>
+      <value>GBV:487404599</value>
+      <scheme>
+         <iri/>
+         <label xml:lang="">firstid</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>03WIM5HD</iri>
+      <value>03WIM5HD</value>
+      <scheme>
+         <iri/>
+         <label xml:lang="">contract</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>487404599</iri>
+      <value>487404599</value>
+      <scheme>
+         <iri/>
+         <label xml:lang="">ppn</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>TIBKAT:487404599</iri>
+      <value>TIBKAT:487404599</value>
+      <scheme>
+         <iri/>
+         <label xml:lang="">ftx-id</label>
+      </scheme>
+   </identifier>
+   <version>1.0</version>
+   <title>Neue mathematische Verfahren in Industrie und Dienstleistung : Abschlußbericht 2003 ; Laufzeit: 1.1.2001 bis 31.12.2003</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>2024349-2</iri>
+               <value>2024349-2</value>
+               <scheme>
+                  <iri>https://d-nb.info/gnd/</iri>
+                  <label xml:lang="">GND</label>
+               </scheme>
+            </identifier>
+            <identifier>
+               <iri>0000 0001 2190 4373</iri>
+               <value>0000 0001 2190 4373</value>
+               <scheme>
+                  <iri>https://isni.org/</iri>
+                  <label xml:lang="">ISNI</label>
+               </scheme>
+            </identifier>
+            <identifier>
+               <iri>038t36y30</iri>
+               <value>038t36y30</value>
+               <scheme>
+                  <iri>https://ror.org/</iri>
+                  <label xml:lang="">ROR</label>
+               </scheme>
+            </identifier>
+            <name>Universität Heidelberg</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Technische Informationsbibliothek (TIB)</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/HostingInstitution</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Technische Informationsbibliothek (TIB)</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>172455677</iri>
+               <value>172455677</value>
+               <scheme>
+                  <iri>https://d-nb.info/gnd/</iri>
+                  <label xml:lang="">GND</label>
+               </scheme>
+            </identifier>
+            <name>Wittum, Gabriel</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>132750783</iri>
+               <value>132750783</value>
+               <scheme>
+                  <iri>https://d-nb.info/gnd/</iri>
+                  <label xml:lang="">GND</label>
+               </scheme>
+            </identifier>
+            <name>Jäger, Willi</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>1236713230</iri>
+               <value>1236713230</value>
+               <scheme>
+                  <iri>https://d-nb.info/gnd/</iri>
+                  <label xml:lang="">GND</label>
+               </scheme>
+            </identifier>
+            <name>Sterz, Oliver</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>141970588</iri>
+               <value>141970588</value>
+               <scheme>
+                  <iri>https://d-nb.info/gnd/</iri>
+                  <label xml:lang="">GND</label>
+               </scheme>
+            </identifier>
+            <name>Hauser, Andreas</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Technische Informationsbibliothek u. Universitätsbibliothek</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2004</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2004-01-01</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">Electronic Resource</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/de</iri>
+   </primary_language>
+   <terms_of_use>
+      <access_rights>
+         <label xml:lang="en">Open Access</label>
+         <label xml:lang="cs">otevřený přístup</label>
+      </access_rights>
+   </terms_of_use>
+   <subject>
+      <title xml:lang="en">Chemical and environmental engineering</title>
+      <subject_scheme>
+         <label xml:lang="en">linsearch(automatic)</label>
+      </subject_scheme>
+   </subject>
+   <related_resource>
+      <title>Neue mathematische Verfahren in Industrie und Dienstleistung</title>
+      <resource_type>
+         <iri>http://purl.org/coar/resource_type/c_18cf</iri>
+         <label xml:lang="en">Text</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsVariantFormOf</iri>
+         <label xml:lang="en">IsVariantFormOf</label>
+      </resource_relation_type>
+   </related_resource>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>Neue mathematische Verfahren in Industrie und Dienstleistung : Abschlußbericht 2003 ; Laufzeit: 1.1.2001 bis 31.12.2003</title>
+         <access_url>
+            <iri/>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <format>
+            <label xml:lang="en">application/pdf</label>
+         </format>
+         <byte_size>21146</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

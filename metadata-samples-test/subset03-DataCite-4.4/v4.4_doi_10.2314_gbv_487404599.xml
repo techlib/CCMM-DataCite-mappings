@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.2314/GBV:487404599</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Organizational">Universität Heidelberg</ns0:creatorName>
+      <ns0:nameIdentifier nameIdentifierScheme="GND" schemeURI="https://d-nb.info/gnd/">2024349-2</ns0:nameIdentifier>
+      <ns0:nameIdentifier nameIdentifierScheme="ISNI" schemeURI="https://isni.org/">0000 0001 2190 4373</ns0:nameIdentifier>
+      <ns0:nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org/">038t36y30</ns0:nameIdentifier>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:contributors>
+    <ns0:contributor contributorType="HostingInstitution">
+      <ns0:contributorName nameType="Organizational">Technische Informationsbibliothek (TIB)</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="DataManager">
+      <ns0:contributorName>Technische Informationsbibliothek (TIB)</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Wittum, Gabriel</ns0:contributorName>
+      <ns0:nameIdentifier nameIdentifierScheme="GND" schemeURI="https://d-nb.info/gnd/">172455677</ns0:nameIdentifier>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Jäger, Willi</ns0:contributorName>
+      <ns0:nameIdentifier nameIdentifierScheme="GND" schemeURI="https://d-nb.info/gnd/">132750783</ns0:nameIdentifier>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Sterz, Oliver</ns0:contributorName>
+      <ns0:nameIdentifier nameIdentifierScheme="GND" schemeURI="https://d-nb.info/gnd/">1236713230</ns0:nameIdentifier>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Hauser, Andreas</ns0:contributorName>
+      <ns0:nameIdentifier nameIdentifierScheme="GND" schemeURI="https://d-nb.info/gnd/">141970588</ns0:nameIdentifier>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:titles>
+    <ns0:title>Neue mathematische Verfahren in Industrie und Dienstleistung : Abschlußbericht 2003 ; Laufzeit: 1.1.2001 bis 31.12.2003</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Technische Informationsbibliothek u. Universitätsbibliothek</ns0:publisher>
+  <ns0:publicationYear>2004</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject classificationCode="cet" subjectScheme="linsearch(automatic)">Chemical and environmental engineering</ns0:subject>
+  </ns0:subjects>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2004</ns0:date>
+  </ns0:dates>
+  <ns0:language>de</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Report">Electronic Resource</ns0:resourceType>
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="firstid">GBV:487404599</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="contract">03WIM5HD</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="ppn">487404599</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="ftx-id">TIBKAT:487404599</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:sizes>
+    <ns0:size>Online-Ressource (21 S., 1,46 MB)</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>application/pdf</ns0:format>
+  </ns0:formats>
+  <ns0:version>1.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights>Open Access</ns0:rights>
+  </ns0:rightsList>
+  <ns0:relatedItems>
+    <ns0:relatedItem relatedItemType="Text" relationType="IsVariantFormOf">
+      <ns0:titles>
+        <ns0:title>Neue mathematische Verfahren in Industrie und Dienstleistung</ns0:title>
+      </ns0:titles>
+    </ns0:relatedItem>
+  </ns0:relatedItems>
+</ns0:resource>
+      

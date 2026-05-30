@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.5075/EPFL-THESIS-1333</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>Lausanne, EPFL</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.5075/EPFL-THESIS-1333</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.5075/EPFL-THESIS-1333</iri>
+      <value>EPFL-THESIS-1333</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>https://infoscience.epfl.ch/handle/20.500.14299/209817</iri>
+      <value>209817</value>
+      <scheme>
+         <iri>https://infoscience.epfl.ch</iri>
+         <label xml:lang="">url</label>
+      </scheme>
+   </identifier>
+   <title>Heuristiken für kombinatorische Optimierung und semantische Bildinhaltserkennung mit Techniken der künstlichen Intelligenz</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Rogger, Andreas</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Lausanne, EPFL</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>1995</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>1995-01-01</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">doctoral thesis</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/de</iri>
+   </primary_language>
+   <terms_of_use>
+      <access_rights>
+         <iri>http://purl.org/coar/access_right/c_16ec</iri>
+         <label xml:lang="en">restricted</label>
+      </access_rights>
+   </terms_of_use>
+</dataset>

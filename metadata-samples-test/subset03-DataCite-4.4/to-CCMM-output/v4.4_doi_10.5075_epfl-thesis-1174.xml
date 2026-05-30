@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.5075/EPFL-THESIS-1174</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name>Lausanne, EPFL</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.5075/EPFL-THESIS-1174</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.5075/EPFL-THESIS-1174</iri>
+      <value>EPFL-THESIS-1174</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>https://infoscience.epfl.ch/handle/20.500.14299/209660</iri>
+      <value>209660</value>
+      <scheme>
+         <iri>https://infoscience.epfl.ch</iri>
+         <label xml:lang="">url</label>
+      </scheme>
+   </identifier>
+   <title>CMOS analogue VLSI implementation of a Kohonen map</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Heim, Pascal</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Lausanne, EPFL</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>1993</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>1993-01-01</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date_time>2005-03-16T14:28:04</date_time>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">doctoral thesis</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/en</iri>
+   </primary_language>
+   <terms_of_use>
+      <access_rights>
+         <iri>http://purl.org/coar/access_right/c_abf2</iri>
+         <label xml:lang="en">openaccess</label>
+      </access_rights>
+   </terms_of_use>
+   <description>
+      <description_text xml:lang="en">The domain of artificial neural networks has evolved rapidly during the last decade, and many research groups are presently working on new neuronal algorithms and investigating their potential for technological applications. The idea to use biologically inspired models to implement intelligent systems is issue from the fact that animals, through their adaptation to the environment, have evolved towards robust and reliable structures, well adapted to the imperfections or even the destruction of some of their cells. In addition, these structures are particularly well adapted to perception tasks. These properties arise from the large redundancy inherent to their massive parallelism. Many models have been validated with computers, but the sequential operation of the latter leads to prohibitive computing time. The implementation of new architectures, leading to hardware that is better suited to the parallelism of the models, is slowed both by the complexity of some digital operators, and by the huge number of interconnexions between cells in the analogue and digital domains. The goal of this thesis is the implementation of a neural network, using analogue integrated technologies, to evaluate the potential and the weaknesses of such implementations. The Kohonen network has been chosen as a basis for this exploratory work because of its relative simplicity. As a matter of fact, this is a non-supervised network, which greatly simplifies the interfaces with the outside world. Furthermore, methods for limiting the number of interconnexions were known, thus overcoming the inherent limitations of intrinsically two-dimensional VLSI technologies. The study begins with a brief recall of the Kohonen algorithm, followed by the description of an architecture adapted to the integration of the network by means of standard CMOS analogue VLSI technologies. Before looking at the design of circuits needed to implement the network, the effects of some inaccuracies inherent to analogue circuits on the behaviour of the algorithm are analysed qualitatively by means of simulations. This analysis is needed to set up the specifications of the circuits, which may sometimes be quite different from the specifications that are encountered in more classical domains of analogue electronics. Then, the various circuits used in the implementation of the network are described. A nonlinear network, made of transistors connecting the nearest neighbour cells, defies the topology of the network and is used to generate the learning neighbourhood. A Winner-Take-All circuit is used to select the neuron whose synaptic vector is closest to the input vector. The most important element is certainly the synapse. The latter memorizes and updates, according to the learning rule, the elementary information called synaptic weight. Long term storage of an analogue value requires special technologies (EEPROM) and the update of this value is slow and badly controlled. To overcome this drawback, a medium term memory has been developed that has a leakage corresponding to 0.1% of full scale per second. This retention time is sufficient to operate the network under continuous learning, and also sufficient to periodically read the synaptic weights. All the proposed circuits are analysed with respect to the requirements of the network, and most of them have been integrated and measured. In particular, measurements of the synapse, made on several chips, are in good accordance with the analytical previsions. Finally, an evaluation chip, including four neurons with three synapses each, has been integrated. This chip can be used to build a complete network containing up to a hundred or so neurons. Measurements of single chips demonstrate the feasibility of the system, despite some tactical errors that can be easily corrected for an eventual redesign of the chip.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+</dataset>

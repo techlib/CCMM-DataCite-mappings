@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.5075/EPFL-THESIS-5046</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName>Frieden, Jeannot</ns0:creatorName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>Characterisation of Low Impact Energy Induced Damage in Composite Plates with Embedded Optical Sensors</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Lausanne, EPFL</ns0:publisher>
+  <ns0:publicationYear>2011</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject>composite materials</ns0:subject>
+    <ns0:subject>low-velocity impact</ns0:subject>
+    <ns0:subject>damage</ns0:subject>
+    <ns0:subject>numerical-experimental identification</ns0:subject>
+    <ns0:subject>fibre Bragg grating</ns0:subject>
+    <ns0:subject>dynamic strain measurements</ns0:subject>
+    <ns0:subject>matériaux composites</ns0:subject>
+    <ns0:subject>impact à basses vitesses</ns0:subject>
+    <ns0:subject>identification numérique expérimentale</ns0:subject>
+    <ns0:subject>fibre à réseau de Bragg</ns0:subject>
+    <ns0:subject>mesures de déformation dynamiques</ns0:subject>
+  </ns0:subjects>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2011</ns0:date>
+    <ns0:date dateType="Available">2011-03-17T08:25:09</ns0:date>
+  </ns0:dates>
+  <ns0:language>en</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Dissertation">doctoral thesis</ns0:resourceType>
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="url">https://infoscience.epfl.ch/handle/20.500.14299/65406</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="http://purl.org/coar/access_right/c_abf2">openaccess</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">Fibre reinforced materials are increasingly employed in aerospace, naval and civil structures because of their low weight and high specific strength and stiffness. A major concern is the inherent susceptibility of composite laminates to barely visible damage induced by low velocity impacts. Non-destructive, in-situ inspection techniques are required to continuously control the integrity of such structures. Traditional non-destructive testing methods, like ultrasonic scanning, are time-consuming and require the withdraw from service of the tested part. Vibration-based structural health monitoring methods are reported to be a promising tool to check the structural integrity. In fact, damage leads to a local decrease of the structural stiffness and alters the wave propagation in a laminate. The stiffness modification results in a change of the modal characteristics of the structure. Numerous studies have shown that eigenfrequencies, damping ratios and curvature mode shapes of a laminated composite structure are sensitive to impact induced damage. Inverse numerical-experimental techniques based on modal characteristics have already demonstrated their applicability for the identification of mechanical properties of intact composite laminates. By using an adequate damage model, a similar method may be used for the identification of damage parameters. In this work, a damage identification method based on signals obtained by an integrated sensing system is proposed. Fibre Bragg gratings (FBG), a recent sensor technology, are optical sensors allowing to measure internal strains in composite laminates. This type of sensor can be perfectly integrated in a structure, is maintenance-free and may last for the entire lifetime of a structure. A high rate FBG interrogation system based on intensity modulation is enhanced so that calibrated low-noise strain measurements can be performed with acquisition rates of up to 250 kHz. In this study, the FBG sensors are embedded in carbon fibre reinforced cross-ply plates made of 28 unidirectional plies. The sensors are used to capture the dynamic response of the plate to an impact event and to carry out experimental modal analysis. Moreover, acoustic waves originating from impacts are sensed with a high sensitivity and an acquisition rate of 1 GHz. The experimental results using several instrumented plates demonstrate the efficiency and accuracy of the interrogation system. Monitoring of the structural integrity of the composite plate consists of two stages, first impact localisation and second damage identification. The appearance of an eventual impact is detected by surveying the dynamic response of the FBG sensors and its location is predicted based on waves propagating from the impact to the sensors. The prediction is made via interpolation of a previously determined reference data set produced by non-destructive hammer impacts. The interpolation-based localisation method does neither require the knowledge of the wave propagation velocity nor the exact position of the sensors within the laminate. The prediction accuracy of the localisation method is evaluated with several numerical and experimental validation tests and is shown to be in the order of a few millimetres. The different potential error sources are identified and they are found to be mainly independent on the plate size. Upon the detection and localisation of an impact, an eventual damage is identified using an inverse numerical-experimental optimisation method. A finite element model of the damaged plate is built based on three-dimensional characterisation of the damage pattern using high resolution X-ray computed tomography. The identification method utilises a homogenised damage model with an approximated damage shape and reduced transverse shear moduli. The damage surface and position are identified by minimising the discrepancy between the numerically calculated and experimentally determined eigenfrequency changes using a hybrid iterative and global search algorithm. The initial guess of the damage position required for the optimisation procedure needs to be sufficiently precise. Within this work, it consists of the predicted impact location obtained from the localisation method. The robustness of the algorithm to different initial guesses of the parameters is tested by numerical and experimental examples. The impact localisation and damage identification method is summarised and demonstrated by a comprehensive experiment. Four FBG sensors are employed to detect and localise the impact and to determine the plate's eigenfrequencies. The damage surface is in general underestimated by approximately 20% by the numerical-experimental optimisation algorithm and the distance between the identified and exact damage position corresponds to less than 10% of the damage size.</ns0:description>
+  </ns0:descriptions>
+</ns0:resource>
+      

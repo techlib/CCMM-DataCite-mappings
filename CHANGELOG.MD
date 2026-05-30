@@ -4,7 +4,11 @@
 
 <br/>
 
-### 2026-05-21
+### 2026-05-30
+DataCite to CCMM XSLT transformation:
+- Fixed a potential schema validation issue by enforcing a mandatory xml:lang attribute on alternative titles. If the source DataCite title lacks a language tag, it now defaults to 'und'.
+
+### 2026-05-22
 
 DataCite to CCMM XSLT transformation:
 

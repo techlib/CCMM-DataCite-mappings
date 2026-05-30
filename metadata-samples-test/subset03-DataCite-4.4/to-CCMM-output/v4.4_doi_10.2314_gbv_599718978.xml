@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.2314/GBV:599718978</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Technische Informationsbibliothek (TIB)</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.2314/GBV:599718978</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.2314/GBV:599718978</iri>
+      <value>GBV:599718978</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>GBV:599718978</iri>
+      <value>GBV:599718978</value>
+      <scheme>
+         <iri/>
+         <label xml:lang="">firstid</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>599718978</iri>
+      <value>599718978</value>
+      <scheme>
+         <iri/>
+         <label xml:lang="">ppn</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>01GZ0307</iri>
+      <value>01GZ0307</value>
+      <scheme>
+         <iri/>
+         <label xml:lang="">contract</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>TIBKAT:599718978</iri>
+      <value>TIBKAT:599718978</value>
+      <scheme>
+         <iri/>
+         <label xml:lang="">ftx-id</label>
+      </scheme>
+   </identifier>
+   <version>1.0</version>
+   <title>The transduction of neuronal Ca2+-signals via EF-hand calcium-binding proteins caldendrin and calmyrin in Alzheimerś disease and psychotic disorders : German-Polish joint final grant report ; project started: 8th July 2003 (Polish partners), 1st October 2003 (German partners)</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>2169938-0</iri>
+               <value>2169938-0</value>
+               <scheme>
+                  <iri>https://d-nb.info/gnd/</iri>
+                  <label xml:lang="">GND</label>
+               </scheme>
+            </identifier>
+            <identifier>
+               <iri>0000 0001 2109 6265</iri>
+               <value>0000 0001 2109 6265</value>
+               <scheme>
+                  <iri>https://isni.org/</iri>
+                  <label xml:lang="">ISNI</label>
+               </scheme>
+            </identifier>
+            <identifier>
+               <iri>01zwmgk08</iri>
+               <value>01zwmgk08</value>
+               <scheme>
+                  <iri>https://ror.org/</iri>
+                  <label xml:lang="">ROR</label>
+               </scheme>
+            </identifier>
+            <name>Leibniz-Institut für Neurobiologie</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Technische Informationsbibliothek (TIB)</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/HostingInstitution</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Technische Informationsbibliothek (TIB)</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>123028191</iri>
+               <value>123028191</value>
+               <scheme>
+                  <iri>https://d-nb.info/gnd/</iri>
+                  <label xml:lang="">GND</label>
+               </scheme>
+            </identifier>
+            <name>Kreutz, Michael R.</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Leibniz-Institut für Neurobiologie</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2006</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2006-01-01</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">Electronic Resource</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/en</iri>
+   </primary_language>
+   <terms_of_use>
+      <access_rights>
+         <label xml:lang="en">Open Access</label>
+         <label xml:lang="cs">otevřený přístup</label>
+      </access_rights>
+   </terms_of_use>
+   <subject>
+      <title xml:lang="en"> Biochemie: Allgemeines</title>
+      <subject_scheme>
+         <label xml:lang="en">bk</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Biology</title>
+      <subject_scheme>
+         <label xml:lang="en">linsearch(mapping)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Chemistry</title>
+      <subject_scheme>
+         <label xml:lang="en">linsearch(mapping)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en"> Molekularbiologie</title>
+      <subject_scheme>
+         <label xml:lang="en">bk</label>
+      </subject_scheme>
+   </subject>
+   <related_resource>
+      <title>The transduction of neuronal Ca2+-signals via EF-hand calcium-binding proteins caldendrin and calmyrin in Alzheimerś disease and psychotic disorders</title>
+      <resource_type>
+         <iri>http://purl.org/coar/resource_type/c_18cf</iri>
+         <label xml:lang="en">Text</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsVariantFormOf</iri>
+         <label xml:lang="en">IsVariantFormOf</label>
+      </resource_relation_type>
+   </related_resource>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>The transduction of neuronal Ca2+-signals via EF-hand calcium-binding proteins caldendrin and calmyrin in Alzheimerś disease and psychotic disorders : German-Polish joint final grant report ; project started: 8th July 2003 (Polish partners), 1st October 2003 (German partners)</title>
+         <access_url>
+            <iri/>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <format>
+            <label xml:lang="en">application/pdf</label>
+         </format>
+         <byte_size>111017</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>

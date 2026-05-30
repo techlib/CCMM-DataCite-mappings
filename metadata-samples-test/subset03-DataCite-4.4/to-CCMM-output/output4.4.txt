@@ -1,0 +1,113 @@
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Text'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.13130_guidotti-gianluigi_phd2013-01-18.xml:78: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is one of ( {https://schema.ccmm.cz/research-data/1.1}iri, {https://schema.ccmm.cz/research-data/1.1}access_rights ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.13130_guidotti-gianluigi_phd2013-01-18.xml:79: element description: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}description': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}subject ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.13130_guidotti-gianluigi_phd2013-01-18.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Text'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.13130_rosso-lorenzo-paolo-antonio_phd2013-02-27.xml:86: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is one of ( {https://schema.ccmm.cz/research-data/1.1}iri, {https://schema.ccmm.cz/research-data/1.1}access_rights ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.13130_rosso-lorenzo-paolo-antonio_phd2013-02-27.xml:87: element description: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}description': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}subject ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.13130_rosso-lorenzo-paolo-antonio_phd2013-02-27.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Text'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.13130_tempestini-alessia_phd2010-12-16.xml:78: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is one of ( {https://schema.ccmm.cz/research-data/1.1}iri, {https://schema.ccmm.cz/research-data/1.1}access_rights ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.13130_tempestini-alessia_phd2010-12-16.xml:79: element description: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}description': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}subject ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.13130_tempestini-alessia_phd2010-12-16.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Text'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.13130_vecchietti-davide-giovanni_phd2008.xml:79: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is one of ( {https://schema.ccmm.cz/research-data/1.1}iri, {https://schema.ccmm.cz/research-data/1.1}access_rights ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.13130_vecchietti-davide-giovanni_phd2008.xml:80: element description: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}description': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}subject ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.13130_vecchietti-davide-giovanni_phd2008.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Report'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_487404599.xml:225: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_487404599.xml:223: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}license ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_487404599.xml:232: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_487404599.xml:254: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_487404599.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Report'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_599718978.xml:171: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_599718978.xml:169: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}license ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_599718978.xml:178: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_599718978.xml:184: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_599718978.xml:190: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_599718978.xml:196: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_599718978.xml:218: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_599718978.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Report'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml:243: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml:241: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}license ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml:250: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml:256: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml:262: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml:268: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml:274: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml:280: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml:286: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml:342: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Report'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml:179: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml:177: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}license ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml:186: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml:192: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml:198: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml:204: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml:210: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml:216: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml:222: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml:228: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml:234: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml:262: element label: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}label': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}iri ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Dissertation'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1174.xml:92: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}license ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1174.xml:98: element description: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}description': This element is not expected. Expected is ( {https://schema.ccmm.cz/research-data/1.1}subject ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1174.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Dissertation'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1333.xml:82: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}license ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1333.xml:6: element dataset: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}dataset': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}subject ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1333.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Dissertation'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1829.xml:82: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}license ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1829.xml:6: element dataset: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}dataset': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}subject ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1829.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Dissertation'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-275.xml:82: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}license ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-275.xml:6: element dataset: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}dataset': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}subject ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-275.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Dissertation'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-5046.xml:92: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}license ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-5046.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Dissertation'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-5740.xml:82: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}license ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-5740.xml fails to validate
+
+                    Warning: CCMM schema is intended for resources of type 'Dataset'. The current resource type is 'Dissertation'.
+                
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-923.xml:82: element terms_of_use: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}terms_of_use': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}license ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-923.xml:6: element dataset: Schemas validity error : Element '{https://schema.ccmm.cz/research-data/1.1}dataset': Missing child element(s). Expected is ( {https://schema.ccmm.cz/research-data/1.1}subject ).
+./datacite_sampling/datacite_test_samples_4.4_after_10_04_26/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-923.xml fails to validate

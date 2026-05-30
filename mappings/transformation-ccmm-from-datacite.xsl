@@ -81,10 +81,18 @@
                 <xsl:value-of select="dc:titles/dc:title[not(@titleType)][1]"/>
             </title>
 
+            <!--If the source DataCite title lacks a language tag, it now defaults to 'und'-->
             <xsl:for-each select="dc:titles/dc:title[@titleType]">
                 <alternate_title>
                     <title>
                         <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang" select="@xml:lang"/></xsl:if>
+                        <xsl:attribute name="xml:lang">
+                            <xsl:choose>
+                                <xsl:when test="@xml:lang">
+                                    <xsl:value-of select="@xml:lang"/>
+                                </xsl:when>
+                                <xsl:otherwise>und</xsl:otherwise> </xsl:choose>
+                        </xsl:attribute>
                         <xsl:value-of select="."/>
                     </title>
                     <alternate_title_type>

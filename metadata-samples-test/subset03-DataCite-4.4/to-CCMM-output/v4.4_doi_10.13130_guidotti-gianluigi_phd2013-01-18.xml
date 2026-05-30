@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.13130/GUIDOTTI-GIANLUIGI_PHD2013-01-18</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <organization>
+               <name> Universit� degli Studi di Milano</name>
+            </organization>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.13130/GUIDOTTI-GIANLUIGI_PHD2013-01-18</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.13130/GUIDOTTI-GIANLUIGI_PHD2013-01-18</iri>
+      <value>GUIDOTTI-GIANLUIGI_PHD2013-01-18</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <title> THE SEROTONIN TRANSPORTER KNOCKOUT RAT: MODELLING DEPRESSION FROM ETIOLOGY TO PHARMACOLOGICAL TREATMENT </title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>G. Guidotti</name>
+            <given_name>GIANLUIGI</given_name>
+            <family_name>GUIDOTTI</family_name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name> Universit� degli Studi di Milano</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2013</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2013-01-18</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">
+	Text
+</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/eng</iri>
+   </primary_language>
+   <terms_of_use/>
+   <description>
+      <description_text xml:lang="en">Major depression is a complex disorder characterized by the interaction of genetic, biological, social and environmental factors, which play in concert to determine the development of the disease. The serotonin transporter gene is of particular relevance in the context of mood disorders because it is the target of several antidepressant drugs and, due to the presence of a functional polymorphism within its promoter region, it has been associated with different neuropsychiatric disorders (Caspi et al., 2003; Uher and McGuffin, 2008). Since the molecular mechanisms contributing to depression pathophysiology are still poorly understood, several genetic or environmental animal models of depression have been developed in order to reproduce the depressive phenotype and to characterize the molecular alterations of the disease. Among these, rodents (mice or rats) with a total deletion of the serotonin transporter represent a good model of anxiety and depression phenotypes  and they have been extensively characterized at behavioral level (Holmes et al., 2003; Lira et al., 2003; Olivier et al., 2008), although a detailed analyses of the molecular phenotype associated with genetic alterations of SERT is still lacking. In particular, limited information exists on potential changes in neuronal plasticity, which is strongly associated with depression. Indeed it has been proposed that psychopathology may be associated with reduced expression and function of key mediators of neuronal plasticity, such as the neurotrophin brain-derived neurotrophic factor (BDNF), (McClung and Nestler, 2008; Pittenger and Duman, 2008).
+Given all these premises, in this study, we investigated the expression of BDNF in different brain regions of adult SERT mutant rats (+/? and ?/?). Moreover, since the neurotrophin has a complex genomic structure (Aid et al., 2007), we have investigated the influence of SERT deletion on its different transcripts and evaluated the involvement of several transcription factors in BDNF expression changes found in SERT mutant animals.
+Moreover, considering that the depressive phenotype of SERT mutant animals appears to originate from the lack of the transporter during early life (Ansorge et al., 2004; Ansorge et al., 2008), we also assessed when the neuroplastic alteration of SERT-/- animals are established, by investigating the expression of BDNF in SERT knockout rats during postnatal development.
+One system lying downstream from Npas4 and BDNF that may be relevant for the phenotype of SERT mutants is GABA. Indeed, Npas4 regulates the development of GABAergic synapses (Lin et al., 2008), while BDNF alteration can affect GABAergic cellular architecture and transmission (Sakata et al., 2009). Therefore we also established if SERT mutant rats are characterized by alterations in the expression of key GABAergic markers that may eventually contribute to the depressive phenotype of these animals.
+A further aspect of the experimental work is aimed at addressing the issue of gene * environment interaction in mood disorders. Indeed, stressful experiences can exacerbate or precipitate depressive disorder in genetically-prone individuals (Caspi et al., 2003). In particular adverse events early in life may impact on brain structures that are not completely matured resulting critical for the development of psychopathology later in life. In order to establish if the molecular phenotype associated with deletion of SERT gene could be modulated by early life events, we exposed SERT mutant rats (+/? and ?/?) to maternal deprivation, a strong form of stress, and we assessed the expression of the neurotrophin BDNF as marker of neuronal plasticity.
+Last we investigated if pharmacological intervention in SERT mutant rats may restore neuroplastic defects associated with the vulnerable genotype. Therefore we chronically treated SERT knockout rats with the antidepressant duloxetine (a SNRI, dual blocker of the reuptake of the serotonin and norepinephrine) and we assessed its ability to normalize the expression of different neuroplastic genes that are significantly altered in mutant rats. We demosntarted that animals carrying a deletion of the SERT gene show a reduction of BDNF expression, which may contribute to their pathologic phenotype. This impairment originates early in development and is associated with reduction of transcription factors and GABAergic markers, suggesting that these defects may contribute to behavioral phenotype associated with SERT-/-, and in particular those that are relevant for anxiety and depression. Moreover these animals maintain the ability to show neuroplastic changes in response to antidepressant drugs, possibly via the blockade of the noradrenaline transporter. The molecular characterization of the SERT mutant rat may prove useful to elucidate the pathophysiology of the depressive disorder and may eventually lead to the development of new effective treatments.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+      </description_type>
+   </description>
+</dataset>

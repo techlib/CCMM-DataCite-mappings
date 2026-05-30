@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.2314/GBV:768230314</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Organizational">Technische Universität Darmstadt</ns0:creatorName>
+      <ns0:nameIdentifier nameIdentifierScheme="GND" schemeURI="https://d-nb.info/gnd/">2165342-2</ns0:nameIdentifier>
+      <ns0:nameIdentifier nameIdentifierScheme="ISNI" schemeURI="https://isni.org/">0000 0001 0940 1669</ns0:nameIdentifier>
+      <ns0:nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org/">05n911h24</ns0:nameIdentifier>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:contributors>
+    <ns0:contributor contributorType="HostingInstitution">
+      <ns0:contributorName nameType="Organizational">Technische Informationsbibliothek (TIB)</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="DataManager">
+      <ns0:contributorName>Technische Informationsbibliothek (TIB)</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Zanke, Ulrich</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Roland, Aron</ns0:contributorName>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:titles>
+    <ns0:title>"Flüssigschlick" - Erweiterung eines morphodynamisch numerischen Simulationsmodells zur Simulation der Dynamilk von Flüssigschlick im Bereich der deutschen Nordseeküste und angrenzenden Ästuaren und Tideflüssen : [Laufzeit des Vorhabens: 01.09.2007 - 31.07.2011]</ns0:title>
+    <ns0:title titleType="AlternativeTitle">Erweiterung eines morphodynamisch numerischen Simulationsmodells zur Simulation der Dynamilk von Flüssigschlick im Bereich der deutschen Nordseeküste und angrenzenden Ästuaren und Tideflüssen</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Technische Informationsbibliothek u. Universitätsbibliothek</ns0:publisher>
+  <ns0:publicationYear>2012</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject classificationCode="4011882-4" subjectScheme="gnd">Deutschland</ns0:subject>
+    <ns0:subject classificationCode="4054080-7" subjectScheme="gnd">Sedimentation</ns0:subject>
+    <ns0:subject classificationCode="4073860-7" subjectScheme="gnd">Küstenmeer</ns0:subject>
+    <ns0:subject classificationCode="4075482-0" subjectScheme="gnd">Nordseeküste</ns0:subject>
+    <ns0:subject classificationCode="(id=106413783)50.33" subjectScheme="bk"> Technische Strömungsmechanik</ns0:subject>
+    <ns0:subject classificationCode="tec" subjectScheme="linsearch(mapping)">Engineering</ns0:subject>
+    <ns0:subject classificationCode="geo" subjectScheme="linsearch(mapping)">Earth Science</ns0:subject>
+    <ns0:subject classificationCode="phy" subjectScheme="linsearch(mapping)">Physics</ns0:subject>
+    <ns0:subject classificationCode="(id=106421921)38.90" subjectScheme="bk"> Ozeanologie, Ozeanographie</ns0:subject>
+  </ns0:subjects>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2012</ns0:date>
+  </ns0:dates>
+  <ns0:language>de</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Report">Electronic Resource</ns0:resourceType>
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="firstid">GBV:768230314</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="contract">03KIS065</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="ppn">768230314</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="ftx-id">TIBKAT:768230314</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:sizes>
+    <ns0:size>Online-Ressource (40 S., 2,11 MB)</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>application/pdf</ns0:format>
+  </ns0:formats>
+  <ns0:version>1.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights>Open Access</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Other">graph. Darst.</ns0:description>
+  </ns0:descriptions>
+  <ns0:relatedItems>
+    <ns0:relatedItem relatedItemType="Text" relationType="IsVariantFormOf">
+      <ns0:titles>
+        <ns0:title>"Flüssigschlick" - Erweiterung eines morphodynamisch numerischen Simulationsmodells zur Simulation der Dynamilk von Flüssigschlick im Bereich der deutschen Nordseeküste und angrenzenden Ästuaren und Tideflüssen</ns0:title>
+      </ns0:titles>
+    </ns0:relatedItem>
+  </ns0:relatedItems>
+</ns0:resource>
+      

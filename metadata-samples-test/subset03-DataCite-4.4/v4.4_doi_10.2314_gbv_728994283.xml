@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.2314/GBV:728994283</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName>Unknown</ns0:creatorName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:contributors>
+    <ns0:contributor contributorType="HostingInstitution">
+      <ns0:contributorName nameType="Organizational">Technische Informationsbibliothek (TIB)</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="DataManager">
+      <ns0:contributorName>Technische Informationsbibliothek (TIB)</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Seintsch, Björn</ns0:contributorName>
+      <ns0:nameIdentifier nameIdentifierScheme="GND" schemeURI="https://d-nb.info/gnd/">1019116870</ns0:nameIdentifier>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Rosenkranz, Lydia</ns0:contributorName>
+      <ns0:nameIdentifier nameIdentifierScheme="GND" schemeURI="https://d-nb.info/gnd/">1019114983</ns0:nameIdentifier>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Englert, Hermann</ns0:contributorName>
+      <ns0:nameIdentifier nameIdentifierScheme="GND" schemeURI="https://d-nb.info/gnd/">171344421</ns0:nameIdentifier>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Dieter, Matthias</ns0:contributorName>
+      <ns0:nameIdentifier nameIdentifierScheme="GND" schemeURI="https://d-nb.info/gnd/">115743871</ns0:nameIdentifier>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Wippel, Bernd</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Becker, Gero</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Stratmann, Josef</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Gerst, Johannes</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Möhring, Bernhard</ns0:contributorName>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:titles>
+    <ns0:title>FFH-Impact ; Teil 2: Auswirkungen von FFH-Maßnahmenplanungen auf Forstbetriebe</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Johann Heinrich von Thünen-Inst., Inst. für Ökonomie der Forst- und Holzwirtschaft</ns0:publisher>
+  <ns0:publicationYear>2012</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject classificationCode="4511409-2" subjectScheme="gnd">Fauna-Flora-Habitat-Richtlinie</ns0:subject>
+    <ns0:subject classificationCode="4071324-6" subjectScheme="gnd">Forstwirtschaftlicher Betrieb</ns0:subject>
+    <ns0:subject classificationCode="4017966-7" subjectScheme="gnd">Forstwirtschaft</ns0:subject>
+    <ns0:subject classificationCode="(id=106416006)48.40" subjectScheme="bk"> Forstwirtschaft</ns0:subject>
+    <ns0:subject classificationCode="(id=106416820)43.35" subjectScheme="bk"> Umweltrichtlinien, Umweltnormen</ns0:subject>
+    <ns0:subject classificationCode="cet" subjectScheme="linsearch(mapping)">Chemical and environmental engineering</ns0:subject>
+    <ns0:subject classificationCode="hor" subjectScheme="linsearch(mapping)">Horticulture</ns0:subject>
+  </ns0:subjects>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2012</ns0:date>
+  </ns0:dates>
+  <ns0:language>de</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Report">Electronic Resource</ns0:resourceType>
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="firstid">GBV:728994283</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="ppn">728994283</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="ftx-id">TIBKAT:728994283</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:sizes>
+    <ns0:size>Online-Ressource (PDF-Datei: 150 S., 3688 KB)</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>application/pdf</ns0:format>
+  </ns0:formats>
+  <ns0:version>1.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights>Open Access</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="SeriesInformation">Arbeitsbericht des Instituts für Ökonomie der Forst- und Holzwirtschaft; 2012,5</ns0:description>
+    <ns0:description descriptionType="Other">graph. Darst., Kt.</ns0:description>
+  </ns0:descriptions>
+  <ns0:relatedItems>
+    <ns0:relatedItem relatedItemType="Text" relationType="IsVariantFormOf">
+      <ns0:titles>
+        <ns0:title>FFH-Impact ; Teil 2: Auswirkungen von FFH-Maßnahmenplanungen auf Forstbetriebe</ns0:title>
+      </ns0:titles>
+    </ns0:relatedItem>
+    <ns0:relatedItem relatedItemType="Text" relationType="IsPublishedIn">
+      <ns0:titles>
+        <ns0:title>Arbeitsbericht des Instituts für Ökonomie der Forst- und Holzwirtschaft</ns0:title>
+      </ns0:titles>
+      <ns0:volume>2012,5</ns0:volume>
+    </ns0:relatedItem>
+    <ns0:relatedItem relatedItemType="Text" relationType="IsPublishedIn">
+      <ns0:titles>
+        <ns0:title>Arbeitsbericht des Instituts für Ökonomie der Forst- und Holzwirtschaft</ns0:title>
+      </ns0:titles>
+      <ns0:volume>2012,5</ns0:volume>
+    </ns0:relatedItem>
+  </ns0:relatedItems>
+</ns0:resource>
+      

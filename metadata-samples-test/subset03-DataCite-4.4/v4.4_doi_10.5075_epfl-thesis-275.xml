@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.5075/EPFL-THESIS-275</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName>Nguyen, Minh-Châu</ns0:creatorName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>Méthode des fonctions de distribution en mécanique aléatoire de la turbulence : application au cas d'une couche limite turbulente simulée en soufflerie</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Lausanne, EPFL</ns0:publisher>
+  <ns0:publicationYear>1977</ns0:publicationYear>
+  <ns0:dates>
+    <ns0:date dateType="Issued">1977</ns0:date>
+  </ns0:dates>
+  <ns0:language>fr</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Dissertation">doctoral thesis</ns0:resourceType>
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="url">https://infoscience.epfl.ch/handle/20.500.14299/203509</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="http://purl.org/coar/access_right/c_16ec">restricted</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions />
+</ns0:resource>
+      

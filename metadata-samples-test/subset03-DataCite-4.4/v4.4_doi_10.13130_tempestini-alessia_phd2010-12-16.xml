@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.13130/TEMPESTINI-ALESSIA_PHD2010-12-16</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Personal">TEMPESTINI, ALESSIA</ns0:creatorName>
+      <ns0:givenName>ALESSIA</ns0:givenName>
+      <ns0:familyName>TEMPESTINI</ns0:familyName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title> STUDIO DEGLI ADDOTTI CATECOLAMMINE-PROTEINE IN SOSTANZA NERA E NEL PUTAMEN UMANI </ns0:title>
+  </ns0:titles>
+  <ns0:publisher> Universit� degli Studi di Milano</ns0:publisher>
+  <ns0:publicationYear>2010</ns0:publicationYear>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2010-12-16</ns0:date>
+  </ns0:dates>
+  <ns0:language>ita</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Text">
+	Text
+</ns0:resourceType>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">Parkinson?s disease is a neurodegenerative disorder that results primarily from the degeneration of dopaminergic neurons in the substantia nigra and locus coeruleus. Neurons of both areas contain a melanic pigment called neuromelanin. This pigment accumulates linearly during aging and originates from an excess of free cytosolic dopamine. Dopamine, like other catecholamines, can easily oxidize to its corresponding quinone when free in the cytosol. Dopamine-quinone is very reactive and can either polymerize to form the neuromelanin core, or react with nucleophilic species like free cysteine, glutathione, or cysteine residues of proteins. Since cysteine residues are often localized in the active site of the enzyme, the adduct between dopamine-quinone and cysteine may alter the protein function and thus become a potential neurotoxic factor for the cellular life. In order to verify if dopamine-protein adducts are present in human cerebral tissue, the protein fractions from human substantia nigra and putamen were extracted and analysed. The extracted proteins were incubated with a amino-phenyl boronate resin that selectively binds the cis-diol group of dopamine, a reaction that is reversible at acidic pH. By using this system, dopaminated proteins can be isolated from the protein fraction. The elutes from the resin were hydrolysed and analysed by HPLC for the presence of cysteine-dopamine adducts. For both brain areas 3 different subjects of ages ranging from 52 to 89 years old were analyzed. In neither brain area the presence of cysteinyl-dopamine has been observed. Possible explanations for these results are: 1) excess of dopamine in human brain tissue is stored in neuromelanin and is therefore not able to react with proteins; 2) dopamine reacts with proteins but the adducts are either removed by the ubiquitin-proteasome system or included in the neuromelanin structure, thereby forming the peptidic component of the pigment.</ns0:description>
+  </ns0:descriptions>
+</ns0:resource>
+      

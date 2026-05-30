@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.5075/EPFL-THESIS-1174</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName>Heim, Pascal</ns0:creatorName>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:titles>
+    <ns0:title>CMOS analogue VLSI implementation of a Kohonen map</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Lausanne, EPFL</ns0:publisher>
+  <ns0:publicationYear>1993</ns0:publicationYear>
+  <ns0:dates>
+    <ns0:date dateType="Issued">1993</ns0:date>
+    <ns0:date dateType="Available">2005-03-16T14:28:04</ns0:date>
+  </ns0:dates>
+  <ns0:language>en</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Dissertation">doctoral thesis</ns0:resourceType>
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="url">https://infoscience.epfl.ch/handle/20.500.14299/209660</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:rightsList>
+    <ns0:rights rightsURI="http://purl.org/coar/access_right/c_abf2">openaccess</ns0:rights>
+  </ns0:rightsList>
+  <ns0:descriptions>
+    <ns0:description descriptionType="Abstract">The domain of artificial neural networks has evolved rapidly during the last decade, and many research groups are presently working on new neuronal algorithms and investigating their potential for technological applications. The idea to use biologically inspired models to implement intelligent systems is issue from the fact that animals, through their adaptation to the environment, have evolved towards robust and reliable structures, well adapted to the imperfections or even the destruction of some of their cells. In addition, these structures are particularly well adapted to perception tasks. These properties arise from the large redundancy inherent to their massive parallelism. Many models have been validated with computers, but the sequential operation of the latter leads to prohibitive computing time. The implementation of new architectures, leading to hardware that is better suited to the parallelism of the models, is slowed both by the complexity of some digital operators, and by the huge number of interconnexions between cells in the analogue and digital domains. The goal of this thesis is the implementation of a neural network, using analogue integrated technologies, to evaluate the potential and the weaknesses of such implementations. The Kohonen network has been chosen as a basis for this exploratory work because of its relative simplicity. As a matter of fact, this is a non-supervised network, which greatly simplifies the interfaces with the outside world. Furthermore, methods for limiting the number of interconnexions were known, thus overcoming the inherent limitations of intrinsically two-dimensional VLSI technologies. The study begins with a brief recall of the Kohonen algorithm, followed by the description of an architecture adapted to the integration of the network by means of standard CMOS analogue VLSI technologies. Before looking at the design of circuits needed to implement the network, the effects of some inaccuracies inherent to analogue circuits on the behaviour of the algorithm are analysed qualitatively by means of simulations. This analysis is needed to set up the specifications of the circuits, which may sometimes be quite different from the specifications that are encountered in more classical domains of analogue electronics. Then, the various circuits used in the implementation of the network are described. A nonlinear network, made of transistors connecting the nearest neighbour cells, defies the topology of the network and is used to generate the learning neighbourhood. A Winner-Take-All circuit is used to select the neuron whose synaptic vector is closest to the input vector. The most important element is certainly the synapse. The latter memorizes and updates, according to the learning rule, the elementary information called synaptic weight. Long term storage of an analogue value requires special technologies (EEPROM) and the update of this value is slow and badly controlled. To overcome this drawback, a medium term memory has been developed that has a leakage corresponding to 0.1% of full scale per second. This retention time is sufficient to operate the network under continuous learning, and also sufficient to periodically read the synaptic weights. All the proposed circuits are analysed with respect to the requirements of the network, and most of them have been integrated and measured. In particular, measurements of the synapse, made on several chips, are in good accordance with the analytical previsions. Finally, an evaluation chip, including four neurons with three synapses each, has been integrated. This chip can be used to build a complete network containing up to a hundred or so neurons. Measurements of single chips demonstrate the feasibility of the system, despite some tactical errors that can be easily corrected for an eventual redesign of the chip.</ns0:description>
+  </ns0:descriptions>
+</ns0:resource>
+      

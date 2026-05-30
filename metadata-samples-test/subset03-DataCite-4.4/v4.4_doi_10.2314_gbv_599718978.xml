@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+  <ns0:identifier identifierType="DOI">10.2314/GBV:599718978</ns0:identifier>
+  <ns0:creators>
+    <ns0:creator>
+      <ns0:creatorName nameType="Organizational">Leibniz-Institut für Neurobiologie</ns0:creatorName>
+      <ns0:nameIdentifier nameIdentifierScheme="GND" schemeURI="https://d-nb.info/gnd/">2169938-0</ns0:nameIdentifier>
+      <ns0:nameIdentifier nameIdentifierScheme="ISNI" schemeURI="https://isni.org/">0000 0001 2109 6265</ns0:nameIdentifier>
+      <ns0:nameIdentifier nameIdentifierScheme="ROR" schemeURI="https://ror.org/">01zwmgk08</ns0:nameIdentifier>
+    </ns0:creator>
+  </ns0:creators>
+  <ns0:contributors>
+    <ns0:contributor contributorType="HostingInstitution">
+      <ns0:contributorName nameType="Organizational">Technische Informationsbibliothek (TIB)</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="DataManager">
+      <ns0:contributorName>Technische Informationsbibliothek (TIB)</ns0:contributorName>
+    </ns0:contributor>
+    <ns0:contributor contributorType="Other">
+      <ns0:contributorName>Kreutz, Michael R.</ns0:contributorName>
+      <ns0:nameIdentifier nameIdentifierScheme="GND" schemeURI="https://d-nb.info/gnd/">123028191</ns0:nameIdentifier>
+    </ns0:contributor>
+  </ns0:contributors>
+  <ns0:titles>
+    <ns0:title>The transduction of neuronal Ca2+-signals via EF-hand calcium-binding proteins caldendrin and calmyrin in Alzheimerś disease and psychotic disorders : German-Polish joint final grant report ; project started: 8th July 2003 (Polish partners), 1st October 2003 (German partners)</ns0:title>
+  </ns0:titles>
+  <ns0:publisher>Leibniz-Institut für Neurobiologie</ns0:publisher>
+  <ns0:publicationYear>2006</ns0:publicationYear>
+  <ns0:subjects>
+    <ns0:subject classificationCode="(id=106419277)35.70" subjectScheme="bk"> Biochemie: Allgemeines</ns0:subject>
+    <ns0:subject classificationCode="bio" subjectScheme="linsearch(mapping)">Biology</ns0:subject>
+    <ns0:subject classificationCode="che" subjectScheme="linsearch(mapping)">Chemistry</ns0:subject>
+    <ns0:subject classificationCode="(id=106410458)42.13" subjectScheme="bk"> Molekularbiologie</ns0:subject>
+  </ns0:subjects>
+  <ns0:dates>
+    <ns0:date dateType="Issued">2006</ns0:date>
+  </ns0:dates>
+  <ns0:language>en</ns0:language>
+  <ns0:resourceType resourceTypeGeneral="Report">Electronic Resource</ns0:resourceType>
+  <ns0:alternateIdentifiers>
+    <ns0:alternateIdentifier alternateIdentifierType="firstid">GBV:599718978</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="ppn">599718978</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="contract">01GZ0307</ns0:alternateIdentifier>
+    <ns0:alternateIdentifier alternateIdentifierType="ftx-id">TIBKAT:599718978</ns0:alternateIdentifier>
+  </ns0:alternateIdentifiers>
+  <ns0:sizes>
+    <ns0:size>1 Online-Ressource (11 S., 0,17 MB)</ns0:size>
+  </ns0:sizes>
+  <ns0:formats>
+    <ns0:format>application/pdf</ns0:format>
+  </ns0:formats>
+  <ns0:version>1.0</ns0:version>
+  <ns0:rightsList>
+    <ns0:rights>Open Access</ns0:rights>
+  </ns0:rightsList>
+  <ns0:relatedItems>
+    <ns0:relatedItem relatedItemType="Text" relationType="IsVariantFormOf">
+      <ns0:titles>
+        <ns0:title>The transduction of neuronal Ca2+-signals via EF-hand calcium-binding proteins caldendrin and calmyrin in Alzheimerś disease and psychotic disorders</ns0:title>
+      </ns0:titles>
+    </ns0:relatedItem>
+  </ns0:relatedItems>
+</ns0:resource>
+      

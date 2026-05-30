@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+         xmlns:xs="http://www.w3.org/2001/XMLSchema"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
+   <iri>https://doi.org/10.2314/GBV:728994283</iri>
+   <metadata_identification>
+      <qualified_relation>
+         <relation>
+            <person>
+               <name>Technische Informationsbibliothek (TIB)</name>
+            </person>
+         </relation>
+         <role>
+            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         </role>
+      </qualified_relation>
+      <conforms_to_standard>
+         <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+         <label xml:lang="">CCMM RD 1.1.0</label>
+      </conforms_to_standard>
+      <original_repository>
+         <iri>https://doi.org/10.2314/GBV:728994283</iri>
+      </original_repository>
+   </metadata_identification>
+   <identifier>
+      <iri>https://doi.org/10.2314/GBV:728994283</iri>
+      <value>GBV:728994283</value>
+      <scheme>
+         <iri>https://doi.org</iri>
+         <label xml:lang="">DOI</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>GBV:728994283</iri>
+      <value>GBV:728994283</value>
+      <scheme>
+         <iri/>
+         <label xml:lang="">firstid</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>728994283</iri>
+      <value>728994283</value>
+      <scheme>
+         <iri/>
+         <label xml:lang="">ppn</label>
+      </scheme>
+   </identifier>
+   <identifier>
+      <iri>TIBKAT:728994283</iri>
+      <value>TIBKAT:728994283</value>
+      <scheme>
+         <iri/>
+         <label xml:lang="">ftx-id</label>
+      </scheme>
+   </identifier>
+   <version>1.0</version>
+   <title>FFH-Impact ; Teil 2: Auswirkungen von FFH-Maßnahmenplanungen auf Forstbetriebe</title>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Unknown</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Technische Informationsbibliothek (TIB)</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/HostingInstitution</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Technische Informationsbibliothek (TIB)</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>1019116870</iri>
+               <value>1019116870</value>
+               <scheme>
+                  <iri>https://d-nb.info/gnd/</iri>
+                  <label xml:lang="">GND</label>
+               </scheme>
+            </identifier>
+            <name>Seintsch, Björn</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>1019114983</iri>
+               <value>1019114983</value>
+               <scheme>
+                  <iri>https://d-nb.info/gnd/</iri>
+                  <label xml:lang="">GND</label>
+               </scheme>
+            </identifier>
+            <name>Rosenkranz, Lydia</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>171344421</iri>
+               <value>171344421</value>
+               <scheme>
+                  <iri>https://d-nb.info/gnd/</iri>
+                  <label xml:lang="">GND</label>
+               </scheme>
+            </identifier>
+            <name>Englert, Hermann</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <identifier>
+               <iri>115743871</iri>
+               <value>115743871</value>
+               <scheme>
+                  <iri>https://d-nb.info/gnd/</iri>
+                  <label xml:lang="">GND</label>
+               </scheme>
+            </identifier>
+            <name>Dieter, Matthias</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Wippel, Bernd</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Becker, Gero</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Stratmann, Josef</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Gerst, Johannes</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <person>
+            <name>Möhring, Bernhard</name>
+         </person>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+      </role>
+   </qualified_relation>
+   <qualified_relation>
+      <relation>
+         <organization>
+            <name>Johann Heinrich von Thünen-Inst., Inst. für Ökonomie der Forst- und Holzwirtschaft</name>
+         </organization>
+      </relation>
+      <role>
+         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+      </role>
+   </qualified_relation>
+   <publication_year>2012</publication_year>
+   <time_reference>
+      <temporal_representation>
+         <time_instant>
+            <date>2012-01-01</date>
+         </time_instant>
+      </temporal_representation>
+      <date_type>
+         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+      </date_type>
+   </time_reference>
+   <resource_type>
+      <iri>http://purl.org/coar/resource_type/c_ddb1</iri>
+      <label xml:lang="en">Electronic Resource</label>
+   </resource_type>
+   <primary_language>
+      <iri>https://schema.ccmm.cz/vocabulary/language/de</iri>
+   </primary_language>
+   <terms_of_use>
+      <access_rights>
+         <label xml:lang="en">Open Access</label>
+         <label xml:lang="cs">otevřený přístup</label>
+      </access_rights>
+   </terms_of_use>
+   <subject>
+      <title xml:lang="en">Fauna-Flora-Habitat-Richtlinie</title>
+      <subject_scheme>
+         <label xml:lang="en">gnd</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Forstwirtschaftlicher Betrieb</title>
+      <subject_scheme>
+         <label xml:lang="en">gnd</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Forstwirtschaft</title>
+      <subject_scheme>
+         <label xml:lang="en">gnd</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en"> Forstwirtschaft</title>
+      <subject_scheme>
+         <label xml:lang="en">bk</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en"> Umweltrichtlinien, Umweltnormen</title>
+      <subject_scheme>
+         <label xml:lang="en">bk</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Chemical and environmental engineering</title>
+      <subject_scheme>
+         <label xml:lang="en">linsearch(mapping)</label>
+      </subject_scheme>
+   </subject>
+   <subject>
+      <title xml:lang="en">Horticulture</title>
+      <subject_scheme>
+         <label xml:lang="en">linsearch(mapping)</label>
+      </subject_scheme>
+   </subject>
+   <description>
+      <description_text xml:lang="en">Arbeitsbericht des Instituts für Ökonomie der Forst- und Holzwirtschaft; 2012,5</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/SeriesInformation</iri>
+      </description_type>
+   </description>
+   <description>
+      <description_text xml:lang="en">graph. Darst., Kt.</description_text>
+      <description_type>
+         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Other</iri>
+      </description_type>
+   </description>
+   <related_resource>
+      <title>FFH-Impact ; Teil 2: Auswirkungen von FFH-Maßnahmenplanungen auf Forstbetriebe</title>
+      <resource_type>
+         <iri>http://purl.org/coar/resource_type/c_18cf</iri>
+         <label xml:lang="en">Text</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsVariantFormOf</iri>
+         <label xml:lang="en">IsVariantFormOf</label>
+      </resource_relation_type>
+   </related_resource>
+   <related_resource>
+      <title>Arbeitsbericht des Instituts für Ökonomie der Forst- und Holzwirtschaft</title>
+      <resource_type>
+         <iri>http://purl.org/coar/resource_type/c_18cf</iri>
+         <label xml:lang="en">Text</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsPublishedIn</iri>
+         <label xml:lang="en">IsPublishedIn</label>
+      </resource_relation_type>
+   </related_resource>
+   <related_resource>
+      <title>Arbeitsbericht des Instituts für Ökonomie der Forst- und Holzwirtschaft</title>
+      <resource_type>
+         <iri>http://purl.org/coar/resource_type/c_18cf</iri>
+         <label xml:lang="en">Text</label>
+      </resource_type>
+      <resource_relation_type>
+         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsPublishedIn</iri>
+         <label xml:lang="en">IsPublishedIn</label>
+      </resource_relation_type>
+   </related_resource>
+   <distribution>
+      <distribution_downloadable_file>
+         <title>FFH-Impact ; Teil 2: Auswirkungen von FFH-Maßnahmenplanungen auf Forstbetriebe</title>
+         <access_url>
+            <iri/>
+            <label xml:lang="cs">Informace o přístupu k datům</label>
+         </access_url>
+         <format>
+            <label xml:lang="en">application/pdf</label>
+         </format>
+         <byte_size>1503688</byte_size>
+      </distribution_downloadable_file>
+   </distribution>
+</dataset>
