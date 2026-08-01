@@ -149,17 +149,60 @@ The [validation report](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-ou
 
 #### **subset01-DataCite-4.5**
 
-in progress
+
+15 "randomly" selected DataCite metadata files (v 4.5) out of 1650 DataCite metadata records.
+
+
+| DataCite XML input (v4.6) | CCMM XML output |
+| :--- | :--- |
+| [v4.5_doi_10.7910_dvn_22801.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_22801.xml) | [v4.5_doi_10.7910_dvn_22801.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_22801.xml) |
+| [v4.5_doi_10.7910_dvn_22951.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_22951.xml) | [v4.5_doi_10.7910_dvn_22951.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_22951.xml) |
+| [v4.5_doi_10.7910_dvn_23102.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_23102.xml) | [v4.5_doi_10.7910_dvn_23102.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_23102.xml) |
+| [v4.5_doi_10.7910_dvn_23251.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_23251.xml) | [v4.5_doi_10.7910_dvn_23251.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_23251.xml) |
+| [v4.5_doi_10.7910_dvn_23314.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_23314.xml) | [v4.5_doi_10.7910_dvn_23314.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_23314.xml) |
+| [v4.5_doi_10.7910_dvn_23541.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_23541.xml) | [v4.5_doi_10.7910_dvn_23541.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_23541.xml) |
+| [v4.5_doi_10.7910_dvn_23624.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_23624.xml) | [v4.5_doi_10.7910_dvn_23624.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_23624.xml) |
+| [v4.5_doi_10.7910_dvn_23971.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_23971.xml) | [v4.5_doi_10.7910_dvn_23971.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_23971.xml) |
+| [v4.5_doi_10.7910_dvn_24017.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24017.xml) | [v4.5_doi_10.7910_dvn_24017.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24017.xml) |
+| [v4.5_doi_10.7910_dvn_24201.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24201.xml) | [v4.5_doi_10.7910_dvn_24201.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24201.xml) |
+| [v4.5_doi_10.7910_dvn_24235.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24235.xml) | [v4.5_doi_10.7910_dvn_24235.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24235.xml) |
+| [v4.5_doi_10.7910_dvn_24481.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24481.xml) | [v4.5_doi_10.7910_dvn_24481.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24481.xml) |
+| [v4.5_doi_10.7910_dvn_24651.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24651.xml) | [v4.5_doi_10.7910_dvn_24651.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24651.xml) |
+| [v4.5_doi_10.7910_dvn_24846.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24846.xml) | [v4.5_doi_10.7910_dvn_24846.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24846.xml) |
+| [v4.5_doi_10.7910_dvn_24939.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24939.xml) | [v4.5_doi_10.7910_dvn_24939.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24939.xml) |
+
+The [validation report](./metadata-samples-test/subset02-DataCite-4.5/output_4.5.txt) is available.
 
 #### **subset01-DataCite-4.4**
 
-in progress
+15 "randomly" selected DataCite metadata files (v 4.4) out of 750 DataCite metadata records.
+
+| DataCite XML input (v4.4) | CCMM XML output |
+| :--- | :--- |
+| [v4.4_doi_10.13130_guidotti-gianluigi_phd2013-01-18.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.13130_guidotti-gianluigi_phd2013-01-18.xml) | [v4.4_doi_10.13130_guidotti-gianluigi_phd2013-01-18.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.13130_guidotti-gianluigi_phd2013-01-18.xml) |
+| [v4.4_doi_10.13130_rosso-lorenzo-paolo-antonio_phd2013-02-27.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.13130_rosso-lorenzo-paolo-antonio_phd2013-02-27.xml) | [v4.4_doi_10.13130_rosso-lorenzo-paolo-antonio_phd2013-02-27.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.13130_rosso-lorenzo-paolo-antonio_phd2013-02-27.xml) |
+| [v4.4_doi_10.13130_tempestini-alessia_phd2010-12-16.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.13130_tempestini-alessia_phd2010-12-16.xml) | [v4.4_doi_10.13130_tempestini-alessia_phd2010-12-16.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.13130_tempestini-alessia_phd2010-12-16.xml) |
+| [v4.4_doi_10.13130_vecchietti-davide-giovanni_phd2008.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.13130_vecchietti-davide-giovanni_phd2008.xml) | [v4.4_doi_10.13130_vecchietti-davide-giovanni_phd2008.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.13130_vecchietti-davide-giovanni_phd2008.xml) |
+| [v4.4_doi_10.2314_gbv_487404599.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.2314_gbv_487404599.xml) | [v4.4_doi_10.2314_gbv_487404599.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.2314_gbv_487404599.xml) |
+| [v4.4_doi_10.2314_gbv_599718978.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.2314_gbv_599718978.xml) | [v4.4_doi_10.2314_gbv_599718978.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.2314_gbv_599718978.xml) |
+| [v4.4_doi_10.2314_gbv_728994283.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.2314_gbv_728994283.xml) | [v4.4_doi_10.2314_gbv_728994283.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml) |
+| [v4.4_doi_10.2314_gbv_768230314.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.2314_gbv_768230314.xml) | [v4.4_doi_10.2314_gbv_768230314.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml) |
+| [v4.4_doi_10.5075_epfl-thesis-1174.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-1174.xml) | [v4.4_doi_10.5075_epfl-thesis-1174.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1174.xml) |
+| [v4.4_doi_10.5075_epfl-thesis-1333.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-1333.xml) | [v4.4_doi_10.5075_epfl-thesis-1333.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1333.xml) |
+| [v4.4_doi_10.5075_epfl-thesis-1829.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-1829.xml) | [v4.4_doi_10.5075_epfl-thesis-1829.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1829.xml) |
+| [v4.4_doi_10.5075_epfl-thesis-275.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-275.xml) | [v4.4_doi_10.5075_epfl-thesis-275.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-275.xml) |
+| [v4.4_doi_10.5075_epfl-thesis-5046.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-5046.xml) | [v4.4_doi_10.5075_epfl-thesis-5046.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-5046.xml) |
+| [v4.4_doi_10.5075_epfl-thesis-5740.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-5740.xml) | [v4.4_doi_10.5075_epfl-thesis-5740.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-5740.xml) |
+| [v4.4_doi_10.5075_epfl-thesis-923.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-923.xml) | [v4.4_doi_10.5075_epfl-thesis-923.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-923.xml) |
+
+The [validation report](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/output4.4.txt) is available.
+
 <!--
 ## Transformation Issues and Further Notes
 
 in progress-->
 
 ## Current actions
-- The XSLT transformations have been validated using our CCMM XML sample datasets and subset01-DataCite-4.6. Ongoing work focuses on evaluating the transformations against subset01-DataCite-4.4, subset01-DataCite-4.5.
 - Mapping between DataCite controlled vocabularies and CCMM controlled vocabularies in both directions, with application in XSLT transformations. Mapping of resource types from DataCite to COAR has already been implemented; mapping from COAR to DataCite is currently in progress. At present, values from controlled vocabularies are otherwise taken directly from the source metadata within the XSLT transformations.
+- We work on RDF layer and its corresponding mappings and transformations.
 
