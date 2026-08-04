@@ -2,6 +2,8 @@
 
 This repository contains materials related to the **mutual mapping** and **transformation** between **CCMM** and **DataCite** metadata standards, including the technical XSLT transformation scripts.
 
+> ⚠️ **Work in Progress:** Currently updating mappings and transformations to support CCMM v1.2.0.
+
 > [!IMPORTANT]
 > This XSLT transformation is subject to minor ongoing improvements. While it is fully available for custom modification and use, the final responsibility for the transformation results lies with the user. We highly recommend testing and fine-tuning the script against your own datasets to ensure compatibility with specific metadata profiles.
 
