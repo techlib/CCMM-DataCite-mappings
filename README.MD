@@ -111,10 +111,10 @@ For validating the XSLT transformation workflow, we employ round‑tripping test
 
 | CCMM XML input                                                                 | DataCite XML output                                                                      | CCMM XML output                                                                               |
 |---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [dataset-mini.xml](./metadata-samples-test/dataset-mini.xml)                   | [dataset-mini-datacite.xml](./metadata-samples-test/dataset-mini-datacite.xml)           | [dataset-mini-datacite-back.xml](./metadata-samples-test/dataset-mini-datacite-back.xml)       |
-| [ccmm_sample.xml](./metadata-samples-test/ccmm_sample.xml)                     | [ccmm_sample-datacite.xml](./metadata-samples-test/ccmm_sample-datacite.xml)             | [ccmm_sample-datacite-back.xml](./metadata-samples-test/ccmm_sample-datacite-back.xml)         |
-| [1m3t2-78951.xml](./metadata-samples-test/1m3t2-78951.xml)                     | [1m3t2-78951-datacite.xml](./metadata-samples-test/1m3t2-78951-datacite.xml)             | [1m3t2-78951-datacite-back.xml](./metadata-samples-test/1m3t2-78951-datacite-back.xml)         |
-| [dmq82-ed856.xml](./metadata-samples-test/dmq82-ed856.xml)                     | [dmq82-ed856-datacite.xml](./metadata-samples-test/dmq82-ed856-datacite.xml)             | [dmq82-ed856-datacite-back.xml](./metadata-samples-test/dmq82-ed856-datacite-back.xml)         |
+| [dataset-mini.xml](./metadata-samples-test/dataset-mini.xml)                   | [dataset-mini-output.xml](./metadata-samples-test/dataset-mini-output.xml)           | [dataset-mini-output-back.xml](./metadata-samples-test/dataset-mini-output-back.xml)       |
+| [ccmm_sample.xml](./metadata-samples-test/ccmm_sample.xml)                     | [ccmm_sample-output.xml](./metadata-samples-test/ccmm_sample-output.xml)             | [ccmm_sample-output-back.xml](./metadata-samples-test/ccmm_sample-output-back.xml)         |
+| [1m3t2-78951.xml](./metadata-samples-test/1m3t2-78951.xml)                     | [1m3t2-78951-output.xml](./metadata-samples-test/1m3t2-78951-output.xml)             | [1m3t2-78951-output-back.xml](./metadata-samples-test/1m3t2-78951-output-back.xml)         |
+| [dmq82-ed856.xml](./metadata-samples-test/dmq82-ed856.xml)                     | [dmq82-ed856-output.xml](./metadata-samples-test/dmq82-ed856-output.xml)             | [dmq82-ed856-output-back.xml](./metadata-samples-test/dmq82-ed856-output-back.xml)         |
 
 
 ### 4.2 Real DataCite metadata records
