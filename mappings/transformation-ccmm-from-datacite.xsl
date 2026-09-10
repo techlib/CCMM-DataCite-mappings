@@ -37,13 +37,14 @@
                 <xsl:if test="not(dc:contributors/dc:contributor[@contributorType='DataManager']) and dc:publisher">
                     <xsl:apply-templates select="dc:publisher" mode="back_to_ccmm">
                         <xsl:with-param name="forcedRole"
-                            select="'https://schema.ccmm.cz/vocabulary/role/DataManager'"/>
+                            select="'
+                            https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager'"/>
                     </xsl:apply-templates>
                 </xsl:if>
                 
                 <conforms_to_standard>
                     <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-                    <label xml:lang="">CCMM RD 1.1.0</label>
+                    <label xml:lang="en">CCMM RD 1.1.0</label>
                 </conforms_to_standard>
                 
                 <xsl:choose>
@@ -85,7 +86,6 @@
             <xsl:for-each select="dc:titles/dc:title[@titleType]">
                 <alternate_title>
                     <title>
-                        <xsl:if test="@xml:lang"><xsl:attribute name="xml:lang" select="@xml:lang"/></xsl:if>
                         <xsl:attribute name="xml:lang">
                             <xsl:choose>
                                 <xsl:when test="@xml:lang">
@@ -96,7 +96,7 @@
                         <xsl:value-of select="."/>
                     </title>
                     <alternate_title_type>
-                        <iri><xsl:value-of select="concat('https://schema.ccmm.cz/vocabulary/titleType/', @titleType)"/></iri>
+                        <iri><xsl:value-of select="concat('https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/', @titleType)"/></iri>
                     </alternate_title_type>
                 </alternate_title>
             </xsl:for-each>
@@ -188,7 +188,7 @@
                         </xsl:choose>
                     </temporal_representation>
                     <date_type>
-                        <iri><xsl:value-of select="concat('https://schema.ccmm.cz/vocabulary/dateType/', @dateType)"/></iri>
+                        <iri><xsl:value-of select="concat('https://vocabs.ccmm.cz/registry/codelist/TimeReference/', @dateType)"/></iri>
                     </date_type>
                 </time_reference>
             </xsl:for-each>
@@ -207,7 +207,7 @@
 
             <xsl:if test="dc:language">
                 <primary_language>
-                    <iri><xsl:value-of select="concat('https://schema.ccmm.cz/vocabulary/language/', dc:language)"/></iri>
+                    <iri><xsl:value-of select="concat('http://publications.europa.eu/resource/authority/language', dc:language)"/></iri>
                 </primary_language>
             </xsl:if>
 
@@ -296,7 +296,7 @@
                         <xsl:value-of select="."/>
                     </description_text>
                     <description_type>
-                        <iri><xsl:value-of select="concat('https://schema.ccmm.cz/vocabulary/descriptionType/', @descriptionType)"/></iri>
+                        <iri><xsl:value-of select="concat('https://vocabs.ccmm.cz/registry/codelist/DescriptionType/', @descriptionType)"/></iri>
                     </description_type>
                 </description>
             </xsl:for-each>
@@ -322,7 +322,7 @@
                         <relation_type>
                             <xsl:variable name="extractedType" select="substring-after($locInfo, 'LocType: ')"/>
                             <iri>
-                                <xsl:value-of select="concat('https://schema.ccmm.cz/vocabulary/locationType/', $extractedType)"/>
+                                <xsl:value-of select="concat('https://vocabs.ccmm.cz/registry/codelist/LocationRelation/', $extractedType)"/>
                             </iri>
                             <label xml:lang="en">
                                 <xsl:value-of select="$extractedType"/>
@@ -419,7 +419,7 @@
 <!--                    TODO Apply mapping from DataCite to COAR-->
                     <resource_relation_type>
                         <iri>
-                            <xsl:value-of select="concat('https://schema.ccmm.cz/vocabulary/relationType/', @relationType)"/>
+                            <xsl:value-of select="concat('https://vocabs.ccmm.cz/registry/codelist/RelationType/', @relationType)"/>
                         </iri>
                         <label xml:lang="en"><xsl:value-of select="@relationType"/></label>
                     </resource_relation_type>
@@ -536,13 +536,53 @@
                 <xsl:choose>
                     <xsl:when test="@nameType='Organizational' or self::dc:publisher">
                         <organization>
-                            <name><xsl:value-of select="(dc:creatorName, dc:contributorName, .)[1]"/></name>
+                            
+                            <!-- for dc:publisher (DataCite 4.5+) -->
+                            <xsl:if test="@publisherIdentifier">
+                                <identifier>
+                                    <iri><xsl:value-of select="@publisherIdentifier"/></iri>
+                                    <value>
+                                        <xsl:value-of select="tokenize(@publisherIdentifier, '/')[last()]"/>
+                                    </value>
+                                    <xsl:if test="@publisherIdentifierScheme or @schemeURI">
+                                        <scheme>
+                                            <xsl:if test="@schemeURI">
+                                                <iri><xsl:value-of select="@schemeURI"/></iri>
+                                            </xsl:if>
+                                            <xsl:if test="@publisherIdentifierScheme">
+                                                <label xml:lang="en">
+                                                    <xsl:value-of select="@publisherIdentifierScheme"/>
+                                                </label>
+                                            </xsl:if>
+                                        </scheme>
+                                    </xsl:if>
+                                </identifier>
+                            </xsl:if>
+                            
+                            <!-- for organization defined via dc:affiliation (Creator/Contributor) -->
                             <xsl:if test="dc:affiliation/@affiliationIdentifier">
                                 <identifier>
                                     <iri><xsl:value-of select="dc:affiliation/@affiliationIdentifier"/></iri>
-                                    <scheme><label><xsl:value-of select="dc:affiliation/@affiliationIdentifierScheme"/></label></scheme>
+                                    <value>
+                                        <xsl:value-of select="tokenize(dc:affiliation/@affiliationIdentifier, '/')[last()]"/>
+                                    </value>
+                                    <xsl:if test="dc:affiliation/@affiliationIdentifierScheme or dc:affiliation/@schemeURI">
+                                        <scheme>
+                                            <xsl:if test="dc:affiliation/@schemeURI">
+                                                <iri><xsl:value-of select="dc:affiliation/@schemeURI"/></iri>
+                                            </xsl:if>
+                                            <xsl:if test="dc:affiliation/@affiliationIdentifierScheme">
+                                                <label xml:lang="en">
+                                                    <xsl:value-of select="dc:affiliation/@affiliationIdentifierScheme"/>
+                                                </label>
+                                            </xsl:if>
+                                        </scheme>
+                                    </xsl:if>
                                 </identifier>
                             </xsl:if>
+                            
+                            <name><xsl:value-of select="(dc:creatorName, dc:contributorName, .)[1]"/></name>
+                        
                         </organization>
                     </xsl:when>
                     <xsl:otherwise>
@@ -587,9 +627,9 @@
                     <xsl:when test="$forcedRole">
                         <xsl:value-of select="$forcedRole"/>
                     </xsl:when>
-                    <xsl:when test="self::dc:creator">https://schema.ccmm.cz/vocabulary/role/Creator</xsl:when>
-                    <xsl:when test="self::dc:publisher">https://schema.ccmm.cz/vocabulary/role/Publisher</xsl:when>
-                    <xsl:otherwise><xsl:value-of select="concat('https://schema.ccmm.cz/vocabulary/role/', @contributorType)"/></xsl:otherwise>
+                    <xsl:when test="self::dc:creator">https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</xsl:when>
+                    <xsl:when test="self::dc:publisher">https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</xsl:when>
+                    <xsl:otherwise><xsl:value-of select="concat('https://vocabs.ccmm.cz/registry/codelist/AgentRole/', @contributorType)"/></xsl:otherwise>
                 </xsl:choose>
             </iri>
             </role>
