@@ -43,7 +43,7 @@ EN: Conversion JSON (dmq82-ed856) → CCMM XML
     <date_created>2025-06-16</date_created>
     <!-- Standards -->
     <conforms_to_standard>
-        <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+        <iri>https://model.ccmm.cz/research-data/1.1.0</iri>
         <label xml:lang="">CCMM RD 1.1.0</label>
     </conforms_to_standard>
     <conforms_to_standard>

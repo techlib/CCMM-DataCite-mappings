@@ -33,7 +33,7 @@
 
     <!-- (1..n) Conforms to standard: this is the minimal variant with an IRI -->
     <conforms_to_standard>
-        <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+        <iri>https://model.ccmm.cz/research-data/1.1.0</iri>
     </conforms_to_standard>
        <original_repository>
             <iri>https://data.narodni-repozitar.cz</iri>

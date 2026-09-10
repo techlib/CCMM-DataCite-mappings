@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+<dataset xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xmlns:gml="http://www.opengis.net/gml/3.2"
          xmlns:xs="http://www.w3.org/2001/XMLSchema"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="https://schema.ccmm.cz/research-data/1.1"
          xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
    <iri>https://doi.org/10.48700/datst.1m3t2-78951</iri>
    <metadata_identification>
@@ -15,12 +15,12 @@
             </person>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://data.narodni-repozitar.cz</iri>
@@ -39,7 +39,7 @@
    <alternate_title>
       <title xml:lang="en">The Czech Science Foundation Grant Application Data Set</title>
       <alternate_title_type>
-         <iri>https://schema.ccmm.cz/vocabulary/titleType/TranslatedTitle</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</iri>
       </alternate_title_type>
    </alternate_title>
    <qualified_relation>
@@ -79,7 +79,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -119,7 +119,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -159,7 +159,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -199,7 +199,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -211,17 +211,25 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/DataManager</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
       <relation>
          <organization>
+            <identifier>
+               <iri>https://ror.org/02sat5y74</iri>
+               <value>02sat5y74</value>
+               <scheme>
+                  <iri>https://ror.org/</iri>
+                  <label xml:lang="en">ROR</label>
+               </scheme>
+            </identifier>
             <name>Ústav fyzikální chemie J. Heyrovského AV ČR</name>
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2025</publication_year>
@@ -232,7 +240,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -247,7 +255,7 @@
          </time_interval>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Created</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -262,7 +270,7 @@
          </time_interval>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Collected</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -272,7 +280,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -280,7 +288,7 @@
       <label xml:lang="en">dataset</label>
    </resource_type>
    <primary_language>
-      <iri>https://schema.ccmm.cz/vocabulary/language/ENG</iri>
+      <iri>http://publications.europa.eu/resource/authority/languageENG</iri>
    </primary_language>
    <terms_of_use>
       <access_rights>
@@ -368,109 +376,109 @@
    <description>
       <description_text xml:lang="cs">Data podporující strukturu neutrofilových extracelulárních pastí pocházejících z lidských neutrofilů</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="en">Data supporting the structure of neutrophil extracellular traps generated from human neutrophils</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">Doplňující mikroskopická data</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="en">Supplementary microscopy data</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">Izolace neutrofilů ze vzorků lidské krve, stimulace neutrofilů pomocí agens indukujících NETózu, akvizice mikroskopických dat</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Methods</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="en">Isolation of neutrophils from human blood samples, neutrophil stimulation with NETosis-inducing agents, microscopy data acquisition</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Methods</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: CebecauerTkadlec_GACR2026_MindMap.pdf | FormatIRI: http://publications.europa.eu/resource/authority/file-type/PDF</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: ReadMe.txt | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TXT</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2A_NE_DNAchannel.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2A_NE_Merge_5um.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2A_NE_processedSMLM.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2B_citH3_DNAchannel.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2B_citH3_Merge_5um.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2B_citH3_processedSMLM.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2C_MPO_DNAchannel.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2C_MPO_Merge_5um.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2C_MPO_processedSMLM.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supplementary_Figures.pdf | FormatIRI: http://publications.europa.eu/resource/authority/file-type/PDF</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <distribution>

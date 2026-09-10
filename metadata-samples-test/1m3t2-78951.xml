@@ -50,7 +50,7 @@ EN: Conversion JSON → CCMM XML
         <date_created>2025-04-03</date_created>
         <!-- Standards the source record and this record conform to -->
         <conforms_to_standard>
-            <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+            <iri>https://model.ccmm.cz/research-data/1.1.0</iri>
             <label xml:lang="">CCMM RD 1.1.0</label>
         </conforms_to_standard>
         <conforms_to_standard>

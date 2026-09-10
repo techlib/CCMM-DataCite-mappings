@@ -53,7 +53,7 @@
         <date_updated>2025-07-25</date_updated>
         <date_created>2025-04-28</date_created>
         <conforms_to_standard>
-            <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
+            <iri>https://model.ccmm.cz/research-data/1.1.0</iri>
             <label xml:lang="">CCMM RD 1.1.0</label>
         </conforms_to_standard>
         <conforms_to_standard>
@@ -337,25 +337,6 @@
             <label xml:lang="en">Collected in</label>
         </relation_type>
     </location>
-    <funding_reference>
-        <iri>https://funder-org.org/grants/123456789</iri>
-        <local_identifier>https://doi.org/award-identifier</local_identifier>
-        <award_title>Program for air pollution research</award_title>
-        <funding_program>https://funder-org.org/program/abcdefgh</funding_program>
-        <funder>
-            <organization>
-                <iri>https://ror.org/01pv73b02</iri>
-                <identifier>
-                    <value>01pv73b02</value>
-                    <scheme>
-                        <iri>https://ror.org/</iri>
-                        <label xml:lang="">ROR</label>
-                    </scheme>
-                </identifier>                
-                <name>Grantová agentura České republiky</name>
-            </organization>
-        </funder>
-    </funding_reference>
     <funding_reference>
         <iri>https://funder-org.org/grants/123456789</iri>
         <local_identifier>https://doi.org/award-identifier</local_identifier>

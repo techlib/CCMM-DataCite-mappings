@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
+<dataset xmlns="https://schema.ccmm.cz/research-data/1.1"
+         xmlns:gml="http://www.opengis.net/gml/3.2"
          xmlns:xs="http://www.w3.org/2001/XMLSchema"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="https://schema.ccmm.cz/research-data/1.1"
          xsi:schemaLocation="https://schema.ccmm.cz/research-data/1.1 https://model.ccmm.cz/research-data/1.1.0/dataset/schema.xsd">
    <iri>https://doi.org/10.45321/as36sl</iri>
    <metadata_identification>
@@ -34,12 +34,12 @@
             </person>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://original-repository.cz</iri>
@@ -66,7 +66,7 @@
    <alternate_title>
       <title xml:lang="en">Air quality measurements in Central Bohemian Region in 2024.</title>
       <alternate_title_type>
-         <iri>https://schema.ccmm.cz/vocabulary/titleType/TranslatedTitle</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</iri>
       </alternate_title_type>
    </alternate_title>
    <qualified_relation>
@@ -97,7 +97,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -128,17 +128,25 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/DataManager</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
       <relation>
          <organization>
+            <identifier>
+               <iri>https://ror.org/02j46qs45</iri>
+               <value>02j46qs45</value>
+               <scheme>
+                  <iri>https://ror.org/</iri>
+                  <label xml:lang="en">ROR</label>
+               </scheme>
+            </identifier>
             <name>Masarykova Univerzita</name>
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2025</publication_year>
@@ -149,7 +157,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Collected</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -164,7 +172,7 @@
          </time_interval>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Collected</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -172,7 +180,7 @@
       <label xml:lang="en">dataset</label>
    </resource_type>
    <primary_language>
-      <iri>https://schema.ccmm.cz/vocabulary/language/CES</iri>
+      <iri>http://publications.europa.eu/resource/authority/languageCES</iri>
    </primary_language>
    <terms_of_use>
       <access_rights>
@@ -216,19 +224,19 @@
       <description_text xml:lang="cs">Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
             roce 2024.</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Kvalita ovzduší | FormatIRI: https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/GPKG</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">LocName: Středočeský kraj | LocType: Collected</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <location>
@@ -238,7 +246,7 @@
       </bounding_box>
       <name>Středočeský kraj</name>
       <relation_type>
-         <iri>https://schema.ccmm.cz/vocabulary/locationType/Collected</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/LocationRelation/Collected</iri>
          <label xml:lang="en">Collected</label>
       </relation_type>
    </location>
@@ -267,7 +275,7 @@
          <label xml:lang="en">Other</label>
       </resource_type>
       <resource_relation_type>
-         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsReferencedBy</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</iri>
          <label xml:lang="en">IsReferencedBy</label>
       </resource_relation_type>
    </related_resource>
@@ -278,7 +286,7 @@
          <label xml:lang="en">Instrument</label>
       </resource_type>
       <resource_relation_type>
-         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsCollectedBy</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy</iri>
          <label xml:lang="en">IsCollectedBy</label>
       </resource_relation_type>
    </related_resource>
@@ -289,7 +297,7 @@
          <label xml:lang="en">Dataset</label>
       </resource_type>
       <resource_relation_type>
-         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsDerivedFrom</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom</iri>
          <label xml:lang="en">IsDerivedFrom</label>
       </resource_relation_type>
    </related_resource>
@@ -301,7 +309,7 @@
          <label xml:lang="en">Other</label>
       </resource_type>
       <resource_relation_type>
-         <iri>https://schema.ccmm.cz/vocabulary/relationType/HasMetadata</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata</iri>
          <label xml:lang="en">HasMetadata</label>
       </resource_relation_type>
    </related_resource>
