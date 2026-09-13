@@ -4,6 +4,12 @@
 
 <br/>
 
+### 2026-09-10
+DataCite to CCMM XSLT transformation -- Fix CCMM 1.1.0 transformation issues and add publisherIdentifier:
+- Fix duplicate xml:lang attributes by replacing redundant xsl:if with xsl:choose
+- Update controlled vocabulary IRIs to match official CCMM 1.1.0 schemes
+- Map publisherIdentifier to organizational identifier for dc:publisher
+
 ### 2026-05-30
 DataCite to CCMM XSLT transformation:
 - Fixed a potential schema validation issue by enforcing a mandatory xml:lang attribute on alternative titles. If the source DataCite title lacks a language tag, it now defaults to 'und'.
