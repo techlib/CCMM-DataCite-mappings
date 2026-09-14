@@ -236,7 +236,7 @@
                 ccmm:metadata_identification/ccmm:qualified_attribution | 
                 ccmm:metadata_identification/ccmm:original_repository/ccmm:qualified_attribution
                 "/>-->
-            <xsl:variable name="allRelations" select="ccmm:qualified_relation | ccmm:metadata_identification/ccmm:qualified_relation"/>
+            <xsl:variable name="allRelations" select="ccmm:qualified_attribution | ccmm:metadata_identification/ccmm:qualified_attribution"/>
             <xsl:variable name="filteredContributors" select="$allRelations[
                 let $role := tokenize(ccmm:role/ccmm:iri, '/')[last()]
                 return not($role = 'Creator') and not($role = 'Publisher')

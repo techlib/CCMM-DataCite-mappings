@@ -14,6 +14,176 @@
         />
     </xsl:variable>
 
+    <!-- for identifier acronyms mapping -->
+    <xsl:variable name="identifierSchemes">
+        <schemes xmlns="">
+            <scheme type="DOI">
+                <iri>https://doi.org/</iri>
+                <label xml:lang="en">Digital Object Identifier</label>
+                <notation>DOI</notation>
+            </scheme>
+            <scheme type="DIGITAL OBJECT IDENTIFIER">
+                <iri>https://doi.org/</iri>
+                <label xml:lang="en">Digital Object Identifier</label>
+                <notation>DOI</notation>
+            </scheme>
+            <scheme type="ORCID">
+                <iri>https://orcid.org/</iri>
+                <label xml:lang="en">Open Researcher and Contributor ID</label>
+                <notation>ORCID</notation>
+            </scheme>
+            <scheme type="OPEN RESEARCH AND CONTRIBUTOR ID">
+                <iri>https://orcid.org/</iri>
+                <label xml:lang="en">Open Researcher and Contributor ID</label>
+                <notation>ORCID</notation>
+            </scheme>
+            <scheme type="ROR">
+                <iri>https://ror.org/</iri>
+                <label xml:lang="en">Research Organization Registry</label>
+                <notation>ROR</notation>
+            </scheme>
+            <scheme type="RESEARCH ORGANIZATION REGISTRY">
+                <iri>https://ror.org/</iri>
+                <label xml:lang="en">Research Organization Registry</label>
+                <notation>ROR</notation>
+            </scheme>
+            <scheme type="IČO">
+                <iri>https://www.wikidata.org/entity/Q42302581</iri>
+                <label xml:lang="en">Identification Number (IČO)</label>
+                <notation>IČO</notation>
+            </scheme>
+            <scheme type="ICO">
+                <iri>https://www.wikidata.org/entity/Q42302581</iri>
+                <label xml:lang="en">Identification Number (IČO)</label>
+                <notation>IČO</notation>
+            </scheme>
+        </schemes>
+    </xsl:variable>
+    
+    <!--    mapping to label for alternative title types -->
+    <xsl:variable name="alternateTitleTypes" >
+        <types xmlns="">
+             <type code="AlternativeTitle">
+                 <label xml:lang="en">Alternative Title</label>
+                 <label xml:lang="cs">Alternativní název</label>
+             </type>
+             <type code="TranslatedTitle">
+                 <label xml:lang="en">Translated Title</label>
+                 <label xml:lang="cs">Přeložený název</label>
+             </type>
+             <type code="Subtitle">
+                 <label xml:lang="en">Subtitle</label>
+                 <label xml:lang="cs">Podnázov</label>
+             </type>
+         </types>
+    </xsl:variable>
+    
+    <!--    mapping to label for date types -->
+    <xsl:variable name="dateTypes">
+        <types xmlns="">
+            <type code="Accepted">
+                <label xml:lang="en">Accepted</label>
+                <label xml:lang="cs">Přijato</label>
+            </type>
+            <type code="Available">
+                <label xml:lang="en">Available</label>
+                <label xml:lang="cs">Dostupné</label>
+            </type>
+            <type code="Copyrighted">
+                <label xml:lang="en">Copyrighted</label>
+                <label xml:lang="cs">Chráněno autorským právem</label>
+            </type>
+            <type code="Collected">
+                <label xml:lang="en">Collected</label>
+                <label xml:lang="cs">Shromážděno</label>
+            </type>
+            <type code="Created">
+                <label xml:lang="en">Created</label>
+                <label xml:lang="cs">Vytvořeno</label>
+            </type>
+            <type code="Issued">
+                <label xml:lang="en">Issued</label>
+                <label xml:lang="cs">Vydáno</label>
+            </type>
+            <type code="Submitted">
+                <label xml:lang="en">Submitted</label>
+                <label xml:lang="cs">Odesláno</label>
+            </type>
+            <type code="Updated">
+                <label xml:lang="en">Updated</label>
+                <label xml:lang="cs">Aktualizováno</label>
+            </type>
+            <type code="Valid">
+                <label xml:lang="en">Valid</label>
+                <label xml:lang="cs">Platné</label>
+            </type>
+        </types>
+    </xsl:variable>
+    
+    <!--    mapping to label for languages -->
+    <xsl:variable name="languages">
+        <types xmlns="">
+            <type code="CES">
+                <label xml:lang="en">Czech</label>
+                <label xml:lang="cs">čeština</label>
+            </type>
+            <type code="ENG">
+                <label xml:lang="en">English</label>
+                <label xml:lang="cs">angličtina</label>
+            </type>
+            <type code="DEU">
+                <label xml:lang="en">German</label>
+                <label xml:lang="cs">němčina</label>
+            </type>
+            <type code="SLK">
+                <label xml:lang="en">Slovak</label>
+                <label xml:lang="cs">slovenština</label>
+            </type>
+            <type code="FRA">
+                <label xml:lang="en">French</label>
+                <label xml:lang="cs">francouzština</label>
+            </type>
+            <type code="SPA">
+                <label xml:lang="en">Spanish</label>
+                <label xml:lang="cs">španělština</label>
+            </type>
+            <type code="und">
+                <label xml:lang="en">Undetermined</label>
+                <label xml:lang="cs">Neurčeno</label>
+            </type>
+        </types>
+    </xsl:variable>
+
+    <!--    mapping to label for description types -->
+    <xsl:variable name="descriptionTypes">
+        <types xmlns="">
+            <type code="Abstract">
+                <label xml:lang="en">Abstract</label>
+                <label xml:lang="cs">Abstrakt</label>
+            </type>
+            <type code="Methods">
+                <label xml:lang="en">Methods</label>
+                <label xml:lang="cs">Metody</label>
+            </type>
+            <type code="SeriesInformation">
+                <label xml:lang="en">Series Information</label>
+                <label xml:lang="cs">Informace o sérii</label>
+            </type>
+            <type code="TableOfContents">
+                <label xml:lang="en">Table of Contents</label>
+                <label xml:lang="cs">Obsah</label>
+            </type>
+            <type code="TechnicalInfo">
+                <label xml:lang="en">Technical Information</label>
+                <label xml:lang="cs">Technické informace</label>
+            </type>
+            <type code="Other">
+                <label xml:lang="en">Other</label>
+                <label xml:lang="cs">Ostatní</label>
+            </type>
+        </types>
+    </xsl:variable>
+    
     <xsl:template match="/dc:resource">
         <dataset
             xsi:schemaLocation="https://schema.ccmm.cz/research-data/2.0 https://raw.githubusercontent.com/techlib/CCMM/refs/heads/2.0.0/dataset/schema.xsd">
@@ -199,6 +369,9 @@
 
             <!--If the source DataCite title lacks a language tag, it now defaults to 'und'-->
             <xsl:for-each select="dc:titles/dc:title[@titleType]">
+                <xsl:variable name="rawType" select="normalize-space(@titleType)"/>
+                <xsl:variable name="matchedType" select="$alternateTitleTypes/types/type[@code = $rawType]"/>
+                
                 <alternate_title>
                     <title>
                         <xsl:attribute name="xml:lang">
@@ -217,6 +390,9 @@
                                 select="concat('https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/', @titleType)"
                             />
                         </iri>
+                        <label xml:lang="en">
+                            <xsl:value-of select="($matchedType/label[@xml:lang='en'], $rawType)[1]"/>
+                        </label>
                     </alternate_title_type>
                 </alternate_title>
             </xsl:for-each>
@@ -316,12 +492,17 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </temporal_representation>
+                    
+                    <xsl:variable name="rawDateType" select="normalize-space(@dateType)"/>
+                    <xsl:variable name="matchedDateType" select="$dateTypes/types/type[@code = $rawDateType]"/>
+                    
                     <date_type>
                         <iri>
-                            <xsl:value-of
-                                select="concat('https://vocabs.ccmm.cz/registry/codelist/TimeReference/', @dateType)"
-                            />
+                            <xsl:value-of select="concat('https://vocabs.ccmm.cz/registry/codelist/TimeReference/', $rawDateType)"/>
                         </iri>
+                        <label xml:lang="en">
+                            <xsl:value-of select="($matchedDateType/label[@xml:lang='en'], $rawDateType)[1]"/>
+                        </label>
                     </date_type>
                 </time_reference>
             </xsl:for-each>
@@ -342,11 +523,15 @@
 
             <xsl:if test="dc:language">
                 <primary_language>
+                    <xsl:variable name="rawLang" select="normalize-space(dc:language)"/>
+                    <xsl:variable name="matchedLang" select="$languages/types/type[@code = $rawLang]"/>
+                    
                     <iri>
-                        <xsl:value-of
-                            select="concat('http://publications.europa.eu/resource/authority/language/', dc:language)"
-                        />
+                        <xsl:value-of select="concat('http://publications.europa.eu/resource/authority/language/', upper-case($rawLang))"/>
                     </iri>
+                    <label xml:lang="en">
+                        <xsl:value-of select="($matchedLang/label[@xml:lang='en'], $rawLang)[1]"/>
+                    </label>
                 </primary_language>
             </xsl:if>
 
@@ -443,12 +628,17 @@
                         </xsl:choose>
                         <xsl:value-of select="."/>
                     </description_text>
+                    
+                    <xsl:variable name="rawDescType" select="normalize-space(@descriptionType)"/>
+                    <xsl:variable name="matchedDescType" select="$descriptionTypes/types/type[@code = $rawDescType]"/>
+                    
                     <description_type>
                         <iri>
-                            <xsl:value-of
-                                select="concat('https://vocabs.ccmm.cz/registry/codelist/DescriptionType/', @descriptionType)"
-                            />
+                            <xsl:value-of select="concat('https://vocabs.ccmm.cz/registry/codelist/DescriptionType/', $rawDescType)"/>
                         </iri>
+                        <label xml:lang="en">
+                            <xsl:value-of select="($matchedDescType/label[@xml:lang='en'], $rawDescType)[1]"/>
+                        </label>
                     </description_type>
                 </description>
             </xsl:for-each>
@@ -533,29 +723,57 @@
                                 </iri>
                             </xsl:if>
 
+                            <xsl:variable name="rawType" select="normalize-space(dc:funderIdentifier/@funderIdentifierType)"/>
+                            <xsl:variable name="type" select="upper-case($rawType)"/>
+                            <xsl:variable name="matchedScheme" select="$identifierSchemes/*[local-name()='schemes']/*[local-name()='scheme'][normalize-space(@type) = normalize-space($type)]"/>
+                            
                             <identifier>
+                                <iri>
+                                    <xsl:choose>
+                                        <xsl:when test="starts-with(dc:funderIdentifier, 'http')">
+                                            <xsl:value-of select="dc:funderIdentifier"/>
+                                        </xsl:when>
+                                        <xsl:when test="$matchedScheme/*[local-name()='iri']">
+                                            <xsl:value-of select="concat($matchedScheme/*[local-name()='iri'], dc:funderIdentifier)"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="dc:funderIdentifier"/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </iri>
+                                
                                 <value>
-                                    <xsl:value-of select="dc:funderIdentifier"/>
+                                    <xsl:value-of select="tokenize(dc:funderIdentifier, '/')[last()]"/>
                                 </value>
-                                <scheme>
-                                    <iri>
+                                
+                                <xsl:if test="dc:funderIdentifier/@funderIdentifierType or $matchedScheme">
+                                    <scheme>
+                                        <iri>
+                                            <xsl:choose>
+                                                <xsl:when test="$matchedScheme/*[local-name()='iri']">
+                                                    <xsl:value-of select="$matchedScheme/*[local-name()='iri']"/>
+                                                </xsl:when>
+                                                <xsl:otherwise/>
+                                            </xsl:choose>
+                                        </iri>
+                                        
                                         <xsl:choose>
-                                            <xsl:when
-                                                test="dc:funderIdentifier/@funderIdentifierType = 'ROR'"
-                                                >https://ror.org/</xsl:when>
-                                            <xsl:when
-                                                test="dc:funderIdentifier/@funderIdentifierType = 'Crossref Funder ID'"
-                                                >https://www.crossref.org/services/funder-registry/</xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:text/>
-                                            </xsl:otherwise>
+                                            <xsl:when test="$matchedScheme">
+                                                <label xml:lang="en">
+                                                    <xsl:value-of select="$matchedScheme/*[local-name()='label']"/>
+                                                </label>
+                                                <notation>
+                                                    <xsl:value-of select="$matchedScheme/*[local-name()='notation']"/>
+                                                </notation>
+                                            </xsl:when>
+                                            <xsl:when test="dc:funderIdentifier/@funderIdentifierType">
+                                                <label xml:lang="">
+                                                    <xsl:value-of select="dc:funderIdentifier/@funderIdentifierType"/>
+                                                </label>
+                                            </xsl:when>
                                         </xsl:choose>
-                                    </iri>
-                                    <label xml:lang="">
-                                        <xsl:value-of
-                                            select="dc:funderIdentifier/@funderIdentifierType"/>
-                                    </label>
-                                </scheme>
+                                    </scheme>
+                                </xsl:if>
                             </identifier>
                             <name>
                                 <xsl:value-of select="dc:funderName"/>
@@ -711,7 +929,11 @@
 
                 <distribution>
                     <distribution_data_service>
-                        <xsl:if test="normalize-space($serviceUrl) != ''"> </xsl:if>
+                        <xsl:if test="normalize-space($serviceUrl) != ''">
+                            <xsl:attribute name="access_url">
+                                <xsl:value-of select="normalize-space($serviceUrl)"/>
+                            </xsl:attribute>
+                        </xsl:if>
 
                         <title>
                             <xsl:variable name="tmp"
@@ -808,50 +1030,65 @@
 
         </dataset>
     </xsl:template>
-
+    
+    <!-- update identifier notation has acronym and label has full name -->
     <xsl:template match="dc:identifier | dc:alternateIdentifier | dc:relatedItemIdentifier">
-
+        <xsl:variable name="rawType" select="(@identifierType, @alternateIdentifierType, @nameIdentifierScheme, @relatedItemIdentifierType)[1]"/>
+        <xsl:variable name="type" select="upper-case($rawType)"/>
+        <xsl:variable name="matchedScheme" select="$identifierSchemes/schemes/scheme[normalize-space(@type) = normalize-space($type)]"/>
+        
         <identifier>
             <iri>
-                <xsl:variable name="type"
-                    select="upper-case((@identifierType, @alternateIdentifierType, @nameIdentifierScheme, @relatedItemIdentifierType)[1])"/>
                 <xsl:choose>
-                    <xsl:when test="$type = 'DOI' and not(starts-with(., 'http'))">
-                        <xsl:value-of select="concat('https://doi.org/', .)"/>
+                    <xsl:when test="starts-with(., 'http')">
+                        <xsl:value-of select="."/>
+                    </xsl:when>
+                    <xsl:when test="$matchedScheme/iri">
+                        <xsl:value-of select="concat($matchedScheme/*[local-name()='iri'], .)"/>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:value-of select="."/>
                     </xsl:otherwise>
                 </xsl:choose>
             </iri>
-
+            
             <value>
                 <xsl:value-of select="tokenize(., '/')[last()]"/>
             </value>
-
+            
             <scheme>
                 <iri>
-                    <xsl:variable name="type"
-                        select="upper-case((@identifierType, @alternateIdentifierType, @nameIdentifierScheme, @relatedItemIdentifierType)[1])"/>
                     <xsl:choose>
-                        <!-- either DOI -->
-                        <xsl:when test="$type = 'DOI'">https://doi.org</xsl:when>
-
-                        <!-- or something else -->
-                        <xsl:when test="starts-with(., 'http')">
-                            <xsl:value-of
-                                select="concat(tokenize(., '/')[1], '//', tokenize(., '/')[3])"/>
+                        <xsl:when test="$matchedScheme/*[local-name()='iri']">
+                            <xsl:value-of select="$matchedScheme/*[local-name()='iri']"/>
                         </xsl:when>
-
-                        <!-- Fallback -->
-                        <xsl:otherwise/>
+                        <xsl:when test="starts-with(., 'http')">
+                            <xsl:value-of select="concat(tokenize(., '/')[1], '//', tokenize(., '/')[3], '/')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+<!--                            <xsl:value-of select="concat('http://',tokenize(., '/')[1])"/>-->
+                        </xsl:otherwise>
                     </xsl:choose>
                 </iri>
-                <label xml:lang="">
-                    <xsl:value-of
-                        select="(@identifierType, @alternateIdentifierType, @nameIdentifierScheme, @relatedItemIdentifierType)[1]"
-                    />
-                </label>
+                
+                <xsl:choose>
+                    <xsl:when test="$matchedScheme">
+                        <label xml:lang="en">
+                            <xsl:value-of select="$matchedScheme/*[local-name()='label']"/>
+                        </label>
+                        <notation>
+                            <xsl:value-of select="$matchedScheme/*[local-name()='notation']"/>
+                        </notation>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <label xml:lang="cs">
+                            <xsl:value-of select="$rawType"/>
+                        </label>
+                        <notation>
+                            <xsl:value-of select="$rawType"/>
+                        </notation>
+                    </xsl:otherwise>
+                </xsl:choose>
             </scheme>
         </identifier>
 
@@ -882,27 +1119,58 @@
 
                             <!-- for dc:publisher (DataCite 4.5+) -->
                             <xsl:if test="@publisherIdentifier">
+                                <xsl:variable name="rawType" select="normalize-space(@publisherIdentifierScheme)"/>
+                                <xsl:variable name="matchedScheme" select="$identifierSchemes/*[local-name()='schemes']/*[local-name()='scheme'][normalize-space(@type) = normalize-space(upper-case($rawType))]"/>
+                                
                                 <identifier>
                                     <iri>
-                                        <xsl:value-of select="@publisherIdentifier"/>
+                                        <xsl:choose>
+                                            <xsl:when test="starts-with(@publisherIdentifier, 'http')">
+                                                <xsl:value-of select="@publisherIdentifier"/>
+                                            </xsl:when>
+                                            <xsl:when test="$matchedScheme/*[local-name()='iri']">
+                                                <xsl:value-of select="concat($matchedScheme/*[local-name()='iri'], @publisherIdentifier)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="@publisherIdentifier"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
                                     </iri>
                                     <value>
-                                        <xsl:value-of
-                                            select="tokenize(@publisherIdentifier, '/')[last()]"/>
+                                        <xsl:value-of select="tokenize(@publisherIdentifier, '/')[last()]"/>
                                     </value>
-                                    <xsl:if test="@publisherIdentifierScheme or @schemeURI">
+                                    <xsl:if test="@publisherIdentifierScheme or @schemeURI or $matchedScheme">
                                         <scheme>
-                                            <xsl:if test="@schemeURI">
+                                            <xsl:if test="@schemeURI or $matchedScheme/*[local-name()='iri']">
                                                 <iri>
-                                                  <xsl:value-of select="@schemeURI"/>
+                                                    <xsl:choose>
+                                                        <xsl:when test="@schemeURI">
+                                                            <xsl:value-of select="@schemeURI"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="$matchedScheme/*[local-name()='iri']"/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
                                                 </iri>
                                             </xsl:if>
-                                            <xsl:if test="@publisherIdentifierScheme">
-                                                <label xml:lang="en">
-                                                  <xsl:value-of select="@publisherIdentifierScheme"
-                                                  />
-                                                </label>
-                                            </xsl:if>
+                                            <xsl:choose>
+                                                <xsl:when test="$matchedScheme">
+                                                    <label xml:lang="en">
+                                                        <xsl:value-of select="$matchedScheme/*[local-name()='label']"/>
+                                                    </label>
+                                                    <notation>
+                                                        <xsl:value-of select="$matchedScheme/*[local-name()='notation']"/>
+                                                    </notation>
+                                                </xsl:when>
+                                                <xsl:when test="@publisherIdentifierScheme">
+                                                    <label xml:lang="en">
+                                                        <xsl:value-of select="@publisherIdentifierScheme"/>
+                                                    </label>
+                                                    <notation>
+                                                        <xsl:value-of select="@publisherIdentifierScheme"/>
+                                                    </notation>
+                                                </xsl:when>
+                                            </xsl:choose>
                                         </scheme>
                                     </xsl:if>
                                 </identifier>
@@ -910,32 +1178,58 @@
 
                             <!-- for organization defined via dc:affiliation (Creator/Contributor) -->
                             <xsl:if test="dc:affiliation/@affiliationIdentifier">
+                                <xsl:variable name="rawAffType" select="normalize-space(dc:affiliation/@affiliationIdentifierScheme)"/>
+                                <xsl:variable name="matchedAffScheme" select="$identifierSchemes/*[local-name()='schemes']/*[local-name()='scheme'][normalize-space(@type) = normalize-space(upper-case($rawAffType))]"/>
+                                
                                 <identifier>
                                     <iri>
-                                        <xsl:value-of select="dc:affiliation/@affiliationIdentifier"
-                                        />
+                                        <xsl:choose>
+                                            <xsl:when test="starts-with(dc:affiliation/@affiliationIdentifier, 'http')">
+                                                <xsl:value-of select="dc:affiliation/@affiliationIdentifier"/>
+                                            </xsl:when>
+                                            <xsl:when test="$matchedAffScheme/*[local-name()='iri']">
+                                                <xsl:value-of select="concat($matchedAffScheme/*[local-name()='iri'], dc:affiliation/@affiliationIdentifier)"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="dc:affiliation/@affiliationIdentifier"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
                                     </iri>
                                     <value>
-                                        <xsl:value-of
-                                            select="tokenize(dc:affiliation/@affiliationIdentifier, '/')[last()]"
-                                        />
+                                        <xsl:value-of select="tokenize(dc:affiliation/@affiliationIdentifier, '/')[last()]"/>
                                     </value>
-                                    <xsl:if
-                                        test="dc:affiliation/@affiliationIdentifierScheme or dc:affiliation/@schemeURI">
+                                    <xsl:if test="dc:affiliation/@affiliationIdentifierScheme or dc:affiliation/@schemeURI or $matchedAffScheme">
                                         <scheme>
-                                            <xsl:if test="dc:affiliation/@schemeURI">
+                                            <xsl:if test="dc:affiliation/@schemeURI or $matchedAffScheme/*[local-name()='iri']">
                                                 <iri>
-                                                  <xsl:value-of select="dc:affiliation/@schemeURI"/>
+                                                    <xsl:choose>
+                                                        <xsl:when test="dc:affiliation/@schemeURI">
+                                                            <xsl:value-of select="dc:affiliation/@schemeURI"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="$matchedAffScheme/*[local-name()='iri']"/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
                                                 </iri>
                                             </xsl:if>
-                                            <xsl:if
-                                                test="dc:affiliation/@affiliationIdentifierScheme">
-                                                <label xml:lang="en">
-                                                  <xsl:value-of
-                                                  select="dc:affiliation/@affiliationIdentifierScheme"
-                                                  />
-                                                </label>
-                                            </xsl:if>
+                                            <xsl:choose>
+                                                <xsl:when test="$matchedAffScheme">
+                                                    <label xml:lang="en">
+                                                        <xsl:value-of select="$matchedAffScheme/*[local-name()='label']"/>
+                                                    </label>
+                                                    <notation>
+                                                        <xsl:value-of select="$matchedAffScheme/*[local-name()='notation']"/>
+                                                    </notation>
+                                                </xsl:when>
+                                                <xsl:when test="dc:affiliation/@affiliationIdentifierScheme">
+                                                    <label xml:lang="en">
+                                                        <xsl:value-of select="dc:affiliation/@affiliationIdentifierScheme"/>
+                                                    </label>
+                                                    <notation>
+                                                        <xsl:value-of select="dc:affiliation/@affiliationIdentifierScheme"/>
+                                                    </notation>
+                                                </xsl:when>
+                                            </xsl:choose>
                                         </scheme>
                                     </xsl:if>
                                 </identifier>
@@ -966,27 +1260,60 @@
                             <xsl:for-each select="dc:affiliation">
                                 <affiliation>
                                     <xsl:if test="@affiliationIdentifier">
+                                        <xsl:variable name="rawType" select="normalize-space(@affiliationIdentifierScheme)"/>
+                                        <xsl:variable name="type" select="upper-case($rawType)"/>
+                                        <xsl:variable name="matchedScheme" select="$identifierSchemes/*[local-name()='schemes']/*[local-name()='scheme'][normalize-space(@type) = normalize-space($type)]"/>
+                                        
                                         <identifier>
                                             <iri>
-                                                <xsl:value-of select="@affiliationIdentifier"/>
+                                                <xsl:choose>
+                                                    <xsl:when test="starts-with(@affiliationIdentifier, 'http')">
+                                                        <xsl:value-of select="@affiliationIdentifier"/>
+                                                    </xsl:when>
+                                                    <xsl:when test="$matchedScheme/*[local-name()='iri']">
+                                                        <xsl:value-of select="concat($matchedScheme/*[local-name()='iri'], @affiliationIdentifier)"/>
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <xsl:value-of select="@affiliationIdentifier"/>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>
                                             </iri>
+                                            
                                             <value>
-                                                <xsl:value-of
-                                                  select="tokenize(@affiliationIdentifier, '/')[last()]"
-                                                />
+                                                <xsl:value-of select="tokenize(@affiliationIdentifier, '/')[last()]"/>
                                             </value>
-                                            <scheme>
-                                                <xsl:if test="@schemeURI">
-                                                  <iri>
-                                                  <xsl:value-of select="@schemeURI"/>
-                                                  </iri>
-                                                </xsl:if>
-                                                <label>
-                                                  <xsl:attribute name="xml:lang"/>
-                                                  <xsl:value-of
-                                                  select="@affiliationIdentifierScheme"/>
-                                                </label>
-                                            </scheme>
+                                            
+                                            <xsl:if test="@schemeURI or @affiliationIdentifierScheme or $matchedScheme">
+                                                <scheme>
+                                                    <iri>
+                                                        <xsl:choose>
+                                                            <xsl:when test="@schemeURI">
+                                                                <xsl:value-of select="@schemeURI"/>
+                                                            </xsl:when>
+                                                            <xsl:when test="$matchedScheme/*[local-name()='iri']">
+                                                                <xsl:value-of select="$matchedScheme/*[local-name()='iri']"/>
+                                                            </xsl:when>
+                                                            <xsl:otherwise/>
+                                                        </xsl:choose>
+                                                    </iri>
+                                                    
+                                                    <xsl:choose>
+                                                        <xsl:when test="$matchedScheme">
+                                                            <label xml:lang="en">
+                                                                <xsl:value-of select="$matchedScheme/*[local-name()='label']"/>
+                                                            </label>
+                                                            <notation>
+                                                                <xsl:value-of select="$matchedScheme/*[local-name()='notation']"/>
+                                                            </notation>
+                                                        </xsl:when>
+                                                        <xsl:when test="@affiliationIdentifierScheme">
+                                                            <label xml:lang="">
+                                                                <xsl:value-of select="@affiliationIdentifierScheme"/>
+                                                            </label>
+                                                        </xsl:when>
+                                                    </xsl:choose>
+                                                </scheme>
+                                            </xsl:if>
                                         </identifier>
                                     </xsl:if>
                                     <xsl:if test="normalize-space(.)">
@@ -1022,24 +1349,60 @@
     </xsl:template>
 
     <xsl:template match="dc:nameIdentifier">
+        <xsl:variable name="rawType" select="normalize-space(@nameIdentifierScheme)"/>
+        <xsl:variable name="type" select="upper-case($rawType)"/>
+        <xsl:variable name="matchedScheme" select="$identifierSchemes/*[local-name()='schemes']/*[local-name()='scheme'][normalize-space(@type) = normalize-space($type)]"/>
+        
         <identifier>
             <iri>
-                <xsl:value-of select="."/>
+                <xsl:choose>
+                    <xsl:when test="starts-with(., 'http')">
+                        <xsl:value-of select="."/>
+                    </xsl:when>
+                    <xsl:when test="$matchedScheme/*[local-name()='iri']">
+                        <xsl:value-of select="concat($matchedScheme/*[local-name()='iri'], .)"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="."/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </iri>
+            
             <value>
                 <xsl:value-of select="tokenize(., '/')[last()]"/>
             </value>
-            <scheme>
-                <xsl:if test="@schemeURI">
+            
+            <xsl:if test="@schemeURI or @nameIdentifierScheme or $matchedScheme">
+                <scheme>
                     <iri>
-                        <xsl:value-of select="@schemeURI"/>
+                        <xsl:choose>
+                            <xsl:when test="@schemeURI">
+                                <xsl:value-of select="@schemeURI"/>
+                            </xsl:when>
+                            <xsl:when test="$matchedScheme/*[local-name()='iri']">
+                                <xsl:value-of select="$matchedScheme/*[local-name()='iri']"/>
+                            </xsl:when>
+                            <xsl:otherwise/>
+                        </xsl:choose>
                     </iri>
-                </xsl:if>
-                <label>
-                    <xsl:attribute name="xml:lang"/>
-                    <xsl:value-of select="@nameIdentifierScheme"/>
-                </label>
-            </scheme>
+                    
+                    <xsl:choose>
+                        <xsl:when test="$matchedScheme">
+                            <label xml:lang="en">
+                                <xsl:value-of select="$matchedScheme/*[local-name()='label']"/>
+                            </label>
+                            <notation>
+                                <xsl:value-of select="$matchedScheme/*[local-name()='notation']"/>
+                            </notation>
+                        </xsl:when>
+                        <xsl:when test="@nameIdentifierScheme">
+                            <label xml:lang="">
+                                <xsl:value-of select="@nameIdentifierScheme"/>
+                            </label>
+                        </xsl:when>
+                    </xsl:choose>
+                </scheme>
+            </xsl:if>
         </identifier>
     </xsl:template>
 

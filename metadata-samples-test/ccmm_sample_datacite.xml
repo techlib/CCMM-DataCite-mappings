@@ -5,6 +5,7 @@
           xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
    <identifier identifierType="DOI">10.45321/as36sl</identifier>
    <alternateIdentifiers>
+      <alternateIdentifier alternateIdentifierType="Digital Object Identifier">10.45321/as36sl</alternateIdentifier>
       <alternateIdentifier alternateIdentifierType="Organizační identifikační schéma">air-q-cb-25-23</alternateIdentifier>
    </alternateIdentifiers>
    <creators>
@@ -12,22 +13,37 @@
          <creatorName nameType="Personal">Novák</creatorName>
          <givenName>Jan</givenName>
          <familyName>Novák</familyName>
-         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0030-04X2-2030-4X26</nameIdentifier>
+         <nameIdentifier nameIdentifierScheme="Open Research and Contributor ID"
+                         schemeURI="https://orcid.org/">https://orcid.org/0030-04X2-2030-4X26</nameIdentifier>
          <affiliation affiliationIdentifier="https://ror.org/024d6js02"
                       affiliationIdentifierScheme="ROR"
                       schemeURI="https://ror.org/">Univerzita Karlova</affiliation>
       </creator>
    </creators>
+   <contributors>
+      <contributor contributorType="DataManager">
+         <contributorName nameType="Personal">Novák</contributorName>
+         <givenName>Jan</givenName>
+         <familyName>Novák</familyName>
+         <nameIdentifier nameIdentifierScheme="Open Research and Contributor ID"
+                         schemeURI="https://orcid.org/">https://orcid.org/0030-04X2-2030-4X26</nameIdentifier>
+         <affiliation affiliationIdentifier="https://ror.org/024d6js02"
+                      affiliationIdentifierScheme="ROR"
+                      schemeURI="https://ror.org/">Univerzita Karlova</affiliation>
+      </contributor>
+   </contributors>
    <dates>
       <date dateType="Collected">2025-04-27T12:00:01+02:00</date>
       <date dateType="Collected">2024-01-01/2024-12-31</date>
+      <date dateType="Created">2025-04-28</date>
+      <date dateType="Updated">2025-07-25</date>
    </dates>
    <titles>
       <title>Kvalita ovzduší ve středních čechách 2024</title>
       <title xml:lang="en" titleType="TranslatedTitle">Air quality measurements in Central Bohemian Region in 2024.</title>
    </titles>
    <publisher publisherIdentifier="https://ror.org/02j46qs45"
-              publisherIdentifierScheme="ROR"
+              publisherIdentifierScheme="Research Organization Registry"
               schemeURI="https://ror.org/">Masarykova Univerzita</publisher>
    <publicationYear>2025</publicationYear>
    <resourceType resourceTypeGeneral="Dataset">dataset</resourceType>
@@ -75,9 +91,6 @@
    <language>CES</language>
    <relatedIdentifiers>
       <relatedIdentifier relatedIdentifierType="URL"
-                         relationType="IsVariantFormOf"
-                         resourceTypeGeneral="Other">https://original-repository.cz</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL"
                          relationType="HasPart"
                          resourceTypeGeneral="Other">https://geoportal.gov.cz/atom/CHMU/chmu_ovzdusi_AQ_data_epsg4258_2023.zip</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="URL" relationType="IsDocumentedBy">https://www.chmi.cz/o-nas/organizacni-struktura/usek-kvality-ovzdusi/oddeleni-informacniho-systemu-kvality-ovzdusi/odkazy</relatedIdentifier>
@@ -90,6 +103,14 @@
       <size>256 B</size>
    </sizes>
    <relatedItems>
+      <relatedItem relatedItemType="Other" relationType="IsVariantFormOf">
+         <relatedItemIdentifier relatedItemIdentifierType="URL">https://original-repository.cz</relatedItemIdentifier>
+         <titles>
+            <title xml:lang="cs">Původní repozitář</title>
+            <title titleType="Other">CCMM:OriginalRepository</title>
+         </titles>
+         <publisher>Univerzita Karlova</publisher>
+      </relatedItem>
       <relatedItem relationType="IsReferencedBy" relatedItemType="Other">
          <titles>
             <title>Směrnice Evropského parlamentu a Rady 2008/50/ES ze dne 21. května 2008 o kvalitě
