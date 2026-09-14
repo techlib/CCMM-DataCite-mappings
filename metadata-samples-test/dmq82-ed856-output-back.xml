@@ -357,7 +357,7 @@
       <label xml:lang="en">dataset</label>
    </resource_type>
    <primary_language>
-      <iri>http://publications.europa.eu/resource/authority/languageENG</iri>
+      <iri>http://publications.europa.eu/resource/authority/language/ENG</iri>
    </primary_language>
    <terms_of_use>
       <access_rights>

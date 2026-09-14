@@ -207,7 +207,7 @@
 
             <xsl:if test="dc:language">
                 <primary_language>
-                    <iri><xsl:value-of select="concat('http://publications.europa.eu/resource/authority/language', dc:language)"/></iri>
+                    <iri><xsl:value-of select="concat('http://publications.europa.eu/resource/authority/language/', dc:language)"/></iri>
                 </primary_language>
             </xsl:if>
 
