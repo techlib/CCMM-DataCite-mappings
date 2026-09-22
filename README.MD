@@ -134,7 +134,7 @@ Using https://oai.datacite.org/oai the following real DataCite metadata records 
 15 "randomly" selected DataCite metadata files (v 4.6) out of 17500 DataCite metadata records.
 
 > [!NOTE]
-> Not updated for new verion yet.
+> Not updated for new version yet.
 
 #### **subset01-DataCite-4.5**
 
@@ -142,14 +142,14 @@ Using https://oai.datacite.org/oai the following real DataCite metadata records 
 15 "randomly" selected DataCite metadata files (v 4.5) out of 1650 DataCite metadata records.
 
 > [!NOTE]
-> Not updated for new verion yet.
+> Not updated for new version yet.
 
 #### **subset01-DataCite-4.4**
 
 15 "randomly" selected DataCite metadata files (v 4.4) out of 750 DataCite metadata records.
 
 > [!NOTE]
-> Not updated for new verion yet.
+> Not updated for new version yet.
 
 <!--
 ## Transformation Issues and Further Notes
