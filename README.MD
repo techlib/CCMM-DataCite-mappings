@@ -102,6 +102,9 @@ Operationalize XML crosswalks using XSLT transformation aiming at transforming m
 
 For validating the XSLT transformation workflow, we employ round‑tripping tests, ensuring that the transformed output can be converted back to its original form:
 
+> [!NOTE]
+> Currently transformation between datacite and CCMM in progress.
+
 ```
 +-----------------+        XSLT        +------------------+
 |  CCMM XML (in)  |  ----------------> |  DataCite XML    |
