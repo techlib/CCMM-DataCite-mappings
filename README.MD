@@ -253,7 +253,7 @@ To CCMM metadata:
     </role>
 </qualified_relation>
 ```
-However, HEPData is not an organization, but a repository. The CCMM metadata should be corrected accordingly, and/or the transformation should be adjusted. An automated transformation generally cannot safely detect whether the publisher is an organization or a repository.
+However, HEPData is not an organization, but a repository. The CCMM metadata should be corrected accordingly, and/or the transformation should be adjusted. An automated transformation generally cannot safely detect whether the DataCite publisher element contains an organization or a repository.
 
 
 <!--
