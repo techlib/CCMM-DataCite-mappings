@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataset xmlns="https://schema.ccmm.cz/research-data/2.0"
-         xmlns:gml="http://www.opengis.net/gml/3.2"
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
          xmlns:xs="http://www.w3.org/2001/XMLSchema"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="https://schema.ccmm.cz/research-data/2.0 https://raw.githubusercontent.com/techlib/CCMM/refs/heads/2.0.0/dataset/schema.xsd">
+         xmlns="https://schema.ccmm.cz/research-data/2.0"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/2.0 https://model.ccmm.cz/research-data/dataset/schema.xsd">
    <iri>https://doi.org/10.48700/datst.1m3t2-78951</iri>
    <metadata_identification>
       <qualified_attribution>
@@ -31,9 +31,7 @@
          <description xml:lang="en">Catch-all</description>
          <qualified_attribution>
             <attributed_agent>
-               <organization>
-                  <name>Ústav fyzikální chemie J. Heyrovského AV ČR</name>
-               </organization>
+               <organization/>
             </attributed_agent>
             <role>
                <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
@@ -66,7 +64,7 @@
    <alternate_title>
       <title xml:lang="en">The Czech Science Foundation Grant Application Data Set</title>
       <alternate_title_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</iri>
          <label xml:lang="en">Translated Title</label>
       </alternate_title_type>
    </alternate_title>
@@ -97,7 +95,7 @@
             </affiliation>
             <affiliation>
                <identifier>
-                  <iri>https://ares.gov.cz/61388955</iri>
+                  <iri>https://www.wikidata.org/entity/Q4230258161388955</iri>
                   <value>61388955</value>
                   <scheme>
                      <iri>https://www.wikidata.org/entity/Q42302581</iri>
@@ -141,7 +139,7 @@
             </affiliation>
             <affiliation>
                <identifier>
-                  <iri>https://ares.gov.cz/61388955</iri>
+                  <iri>https://www.wikidata.org/entity/Q4230258161388955</iri>
                   <value>61388955</value>
                   <scheme>
                      <iri>https://www.wikidata.org/entity/Q42302581</iri>
@@ -185,7 +183,7 @@
             </affiliation>
             <affiliation>
                <identifier>
-                  <iri>https://ares.gov.cz/61388955</iri>
+                  <iri>https://www.wikidata.org/entity/Q4230258161388955</iri>
                   <value>61388955</value>
                   <scheme>
                      <iri>https://www.wikidata.org/entity/Q42302581</iri>
@@ -229,7 +227,7 @@
             </affiliation>
             <affiliation>
                <identifier>
-                  <iri>https://ares.gov.cz/61388955</iri>
+                  <iri>https://www.wikidata.org/entity/Q4230258161388955</iri>
                   <value>61388955</value>
                   <scheme>
                      <iri>https://www.wikidata.org/entity/Q42302581</iri>
@@ -287,7 +285,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/dateType/Issued</iri>
          <label xml:lang="en">Issued</label>
       </date_type>
    </time_reference>
@@ -303,7 +301,7 @@
          </time_interval>
       </temporal_representation>
       <date_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/dateType/Created</iri>
          <label xml:lang="en">Created</label>
       </date_type>
    </time_reference>
@@ -319,7 +317,7 @@
          </time_interval>
       </temporal_representation>
       <date_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/dateType/Collected</iri>
          <label xml:lang="en">Collected</label>
       </date_type>
    </time_reference>
@@ -330,7 +328,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/dateType/Available</iri>
          <label xml:lang="en">Available</label>
       </date_type>
    </time_reference>
@@ -341,7 +339,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/dateType/Created</iri>
          <label xml:lang="en">Created</label>
       </date_type>
    </time_reference>
@@ -352,7 +350,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Updated</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/dateType/Updated</iri>
          <label xml:lang="en">Updated</label>
       </date_type>
    </time_reference>
@@ -371,7 +369,7 @@
    </access_rights>
    <subject>
       <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601</iri>
-      <title xml:lang="cs">Buněčná biologie</title>
+      <label xml:lang="cs">Buněčná biologie</label>
       <classification_code>10601</classification_code>
       <subject_scheme>
          <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
@@ -380,7 +378,7 @@
    </subject>
    <subject>
       <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10601</iri>
-      <title xml:lang="en">Cell biology</title>
+      <label xml:lang="en">Cell biology</label>
       <classification_code>10601</classification_code>
       <subject_scheme>
          <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
@@ -389,7 +387,7 @@
    </subject>
    <subject>
       <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</iri>
-      <title xml:lang="cs">Mikrobiologie</title>
+      <label xml:lang="cs">Mikrobiologie</label>
       <classification_code>10606</classification_code>
       <subject_scheme>
          <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
@@ -398,7 +396,7 @@
    </subject>
    <subject>
       <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</iri>
-      <title xml:lang="en">Microbiology</title>
+      <label xml:lang="en">Microbiology</label>
       <classification_code>10606</classification_code>
       <subject_scheme>
          <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
@@ -407,7 +405,7 @@
    </subject>
    <subject>
       <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102</iri>
-      <title xml:lang="cs">Imunologie</title>
+      <label xml:lang="cs">Imunologie</label>
       <classification_code>30102</classification_code>
       <subject_scheme>
          <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
@@ -416,7 +414,7 @@
    </subject>
    <subject>
       <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30100/30102</iri>
-      <title xml:lang="en">Immunology</title>
+      <label xml:lang="en">Immunology</label>
       <classification_code>30102</classification_code>
       <subject_scheme>
          <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
@@ -425,7 +423,7 @@
    </subject>
    <subject>
       <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</iri>
-      <title xml:lang="cs">Mikrobiologie </title>
+      <label xml:lang="cs">Mikrobiologie </label>
       <classification_code>10606</classification_code>
       <subject_scheme>
          <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
@@ -434,7 +432,7 @@
    </subject>
    <subject>
       <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10600/10606</iri>
-      <title xml:lang="en">Biological sciences</title>
+      <label xml:lang="en">Biological sciences</label>
       <classification_code>10606</classification_code>
       <subject_scheme>
          <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
@@ -452,126 +450,126 @@
    <description>
       <description_text xml:lang="cs">Data podporující strukturu neutrofilových extracelulárních pastí pocházejících z lidských neutrofilů</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/Abstract</iri>
          <label xml:lang="en">Abstract</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="en">Data supporting the structure of neutrophil extracellular traps generated from human neutrophils</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/Abstract</iri>
          <label xml:lang="en">Abstract</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">Doplňující mikroskopická data</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="en">Supplementary microscopy data</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">Izolace neutrofilů ze vzorků lidské krve, stimulace neutrofilů pomocí agens indukujících NETózu, akvizice mikroskopických dat</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/Methods</iri>
          <label xml:lang="en">Methods</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="en">Isolation of neutrophils from human blood samples, neutrophil stimulation with NETosis-inducing agents, microscopy data acquisition</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Methods</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/Methods</iri>
          <label xml:lang="en">Methods</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: CebecauerTkadlec_GACR2026_MindMap.pdf | FormatIRI: http://publications.europa.eu/resource/authority/file-type/PDF | LicenceIRI: https://creativecommons.org/licenses/by/4.0/</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: ReadMe.txt | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TXT | LicenceIRI: https://creativecommons.org/licenses/by/4.0/</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2A_NE_DNAchannel.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF | LicenceIRI: https://creativecommons.org/licenses/by/4.0/</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2A_NE_Merge_5um.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF | LicenceIRI: https://creativecommons.org/licenses/by/4.0/</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2A_NE_processedSMLM.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF | LicenceIRI: https://creativecommons.org/licenses/by/4.0/</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2B_citH3_DNAchannel.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF | LicenceIRI: https://creativecommons.org/licenses/by/4.0/</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2B_citH3_Merge_5um.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF | LicenceIRI: https://creativecommons.org/licenses/by/4.0/</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2B_citH3_processedSMLM.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF | LicenceIRI: https://creativecommons.org/licenses/by/4.0/</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2C_MPO_DNAchannel.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF | LicenceIRI: https://creativecommons.org/licenses/by/4.0/</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2C_MPO_Merge_5um.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF | LicenceIRI: https://creativecommons.org/licenses/by/4.0/</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supp_Fig2C_MPO_processedSMLM.tif | FormatIRI: http://publications.europa.eu/resource/authority/file-type/TIFF | LicenceIRI: https://creativecommons.org/licenses/by/4.0/</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Supplementary_Figures.pdf | FormatIRI: http://publications.europa.eu/resource/authority/file-type/PDF | LicenceIRI: https://creativecommons.org/licenses/by/4.0/</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>

@@ -151,6 +151,85 @@ Using https://oai.datacite.org/oai the following real DataCite metadata records 
 > [!NOTE]
 > Not updated for new version yet.
 
+#### Publisher transformation
+
+##### Dataset Publisher
+
+Currently, the transformation from DataCite assumes that the publisher is an organization and transforms it into CCMM-compliant metadata accordingly. This is correct in the following example ([v4.6_doi_10.4224_40001303.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.4224_40001303.xml)):
+
+From DataCite metadata:
+
+```xml
+<datacite:publisher xml:lang="en" publisherIdentifier="https://ror.org/04mte1k06" publisherIdentifierScheme="ror" schemeURI="[https://ror.org](https://ror.org)">National Research Council Canada</datacite:publisher>
+```
+
+
+To CCMM metadata:
+
+```xml
+<qualified_relation>
+    <relation>
+        <organization>
+        <identifier>
+            <iri>https://ror.org/04mte1k06</iri>
+            <value>04mte1k06</value>
+            <scheme>
+                <iri>https://ror.org</iri>
+                <label xml:lang="en">ror</label>
+            </scheme>
+        </identifier>
+        <name>National Research Council Canada</name>
+        </organization>
+    </relation>
+    <role>
+        <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
+    </role>
+</qualified_relation>
+```
+
+**However, DataCite-compliant metadata does not always contain an organization as the publisher** ([v4.6_doi_10.17182_hepdata.79055.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79055.xml)):
+
+From DataCite metadata:
+
+```xml
+<datacite:publisher>HEPData</datacite:publisher>
+```
+
+To CCMM metadata:
+
+```xml
+<qualified_relation>
+    <relation>
+        <organization>
+        <name>HEPData</name>
+        </organization>
+    </relation>
+    <role>
+        <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
+    </role>
+</qualified_relation>
+```
+However, HEPData is not an organization, but a repository. The CCMM metadata should be corrected accordingly, and/or the transformation should be adjusted. **An automated transformation generally cannot safely detect whether the DataCite publisher element contains an organization or a repository.**
+
+##### Repository Publisher
+
+DataCite metadata records do not contain a dedicated field for the repository's publisher; the Publisher element refers specifically to the entity publishing the resource itself. Consequently, the repository’s publisher cannot be automatically extracted from the DataCite metadata alone and requires external record or account-level information. For any case, organization element is empty in the resulted CCMM metadata record to be added.
+
+DataCite metadata records do not contain a dedicated field for the repository's publisher; the Publisher element refers specifically to the entity publishing the resource itself. Consequently, the repository’s publisher cannot be automatically extracted from the DataCite metadata alone and requires external record or account-level information. As a result, the corresponding organization element in the generated CCMM metadata record (original_repository part) is left empty and needs to be provided separately.
+
+```xml
+<qualified_attribution>
+    <attributed_agent>
+        <organization/>
+    </attributed_agent>
+    <role>
+        <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
+        <label xml:lang="cs">Vydavatel</label>
+        <label xml:lang="en">Publisher</label>
+    </role>
+</qualified_attribution>
+```
+
 <!--
 ## Transformation Issues and Further Notes
 

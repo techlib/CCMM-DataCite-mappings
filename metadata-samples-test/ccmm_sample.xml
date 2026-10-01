@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataset
-    xsi:schemaLocation="https://schema.ccmm.cz/research-data/2.0 https://raw.githubusercontent.com/techlib/CCMM/refs/heads/2.0.0/dataset/schema.xsd"
+    xsi:schemaLocation="https://schema.ccmm.cz/research-data/2.0 https://model.ccmm.cz/research-data/dataset/schema.xsd"
     xmlns="https://schema.ccmm.cz/research-data/2.0" xmlns:gml="http://www.opengis.net/gml/3.2"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <iri>https://organization.cz/dataset_server/dataset_id</iri>
@@ -105,9 +105,9 @@
     <alternate_title>
         <title xml:lang="en">Air quality measurements in Central Bohemian Region in 2024.</title>
         <alternate_title_type>
-            <iri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</iri>
+            <iri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</iri>
             <label xml:lang="cs">Přeložený název</label>
-            <label xml:lang="en">Translated Title</label>
+            <label xml:lang="en">TranslatedTitle</label>
         </alternate_title_type>
     </alternate_title>
     <qualified_attribution>
@@ -154,19 +154,17 @@
     </qualified_attribution>
     <qualified_attribution>
         <attributed_agent>
-            <person>
+            <organization>
                 <identifier>
-                    <iri>https://orcid.org/0023-0802-44X6-26X0</iri>
-                    <value>0023-0802-44X6-26X0</value>
+                    <iri>https://ror.org/02j46qs45</iri>
+                    <value>02j46qs45</value>
                     <scheme>
-                        <iri>https://orcid.org/</iri>
-                        <label xml:lang="en">Open Research and Contributor ID</label>
-                        <notation>ORCID</notation>
+                        <iri>https://ror.org/</iri>
+                        <label xml:lang="en">Research Organization Registry</label>
+                        <notation>ROR</notation>
                     </scheme>
                 </identifier>
-                <name>Ivan Janouch</name>
-                <given_name>Ivan</given_name>
-                <family_name>Janouch</family_name>
+                <name>Masarykova Univerzita</name>
                 <contact_point>
                     <email>256384@muni.cz</email>
                     <phone>+420876543219</phone>
@@ -174,19 +172,7 @@
                         <full_address>Pražská 3, 60200, Brno</full_address>
                     </address>
                 </contact_point>
-                <affiliation>
-                    <identifier>
-                        <iri>https://ror.org/02j46qs45</iri>
-                        <value>02j46qs45</value>
-                        <scheme>
-                            <iri>https://ror.org/</iri>
-                            <label xml:lang="en">Research Organization Registry</label>
-                            <notation>ROR</notation>
-                        </scheme>
-                    </identifier>
-                    <name>Masarykova Univerzita</name>
-                </affiliation>
-            </person>
+            </organization>
         </attributed_agent>
         <role>
             <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
@@ -202,9 +188,9 @@
             </time_instant>
         </temporal_representation>
         <date_type>
-            <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</iri>
-            <label xml:lang="en">Date Collected</label>
-            <label xml:lang="cs">Datum sběru</label>
+            <iri>https://w3id.org/tib/datacite/vocab/dateType/Created</iri>
+            <label xml:lang="en">Created</label>
+            <label xml:lang="cs">Datum vytvoření</label>
         </date_type>
     </time_reference>
     <time_reference>
@@ -219,8 +205,8 @@
             </time_interval>
         </temporal_representation>
         <date_type>
-            <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</iri>
-            <label xml:lang="en">Date Collected</label>
+            <iri>https://w3id.org/tib/datacite/vocab/dateType/Collected</iri>
+            <label xml:lang="en">Collected</label>
             <label xml:lang="cs">Datum sběru</label>
         </date_type>
     </time_reference>
@@ -247,8 +233,8 @@
     <subject>
         <!-- Frascati Ford keyword is mandatory -->
         <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</iri>
-        <title xml:lang="cs">Meteorologie, vědy o atmosféře</title>
-        <title xml:lang="en">Meteorology and atmospheric sciences</title>
+        <label xml:lang="cs">Meteorologie, vědy o atmosféře</label>
+        <label xml:lang="en">Meteorology and atmospheric sciences</label>
         <classification_code>10509</classification_code>
         <subject_scheme>
             <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
@@ -258,7 +244,7 @@
     </subject>
     <subject>
         <iri>http://inspire.ec.europa.eu/theme/ef</iri>
-        <title xml:lang="en">Environmental monitoring facilities</title>
+        <label xml:lang="en">Environmental monitoring facilities</label>
         <definition xml:lang="en">Location and operation of environmental monitoring facilities
             includes observation and measurement of emissions, of the state of environmental media
             and of other ecosystem parameters (biodiversity, ecological conditions of vegetation,
@@ -274,7 +260,7 @@
         <description_text xml:lang="cs">Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
             roce 2024.</description_text>
         <description_type>
-            <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
+            <iri>https://w3id.org/tib/datacite/vocab/descriptionType/Abstract</iri>
             <label xml:lang="en">Abstract</label>
             <label xml:lang="cs">Abstrakt</label>
         </description_type>
@@ -383,8 +369,9 @@
             <label xml:lang="cs">text</label>
         </resource_type>
         <resource_relation_type>
-            <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</iri>
+            <iri>https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy</iri>
             <label xml:lang="cs">je na něj odkazováno z (čeho)</label>
+            <label xml:lang="en">IsReferencedBy</label>
         </resource_relation_type>
     </related_resource>
     <!-- physical tool -->
@@ -396,9 +383,9 @@
             <label xml:lang="en">research instrument</label>
         </resource_type>
         <resource_relation_type>
-            <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy</iri>
+            <iri>https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy</iri>
             <label xml:lang="cs">je sbírán (čím)</label>
-            <label xml:lang="en">is collected by</label>
+            <label xml:lang="en">isCollectedBy</label>
         </resource_relation_type>
     </related_resource>
     <!-- dataset -->
@@ -411,8 +398,8 @@
             <label xml:lang="en">observational data</label>
         </resource_type>
         <resource_relation_type>
-            <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom</iri>
-            <label xml:lang="en">is derived from</label>
+            <iri>https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom</iri>
+            <label xml:lang="en">isDerivedFrom</label>
             <label xml:lang="cs">je odvozen od (čeho)</label>
         </resource_relation_type>
     </related_resource>
@@ -424,9 +411,9 @@
         <resource_url>https://data.gov.cz/zdroj/datové-sady/00020699/c724d055011d82189bbfc3766ffd1eb7</resource_url>
         <!-- coar does not contain resource type metadata -->
         <resource_relation_type>
-            <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata</iri>
+            <iri>https://w3id.org/tib/datacite/vocab/relationType/HasMetadata</iri>
             <label xml:lang="cs">má metadata</label>
-            <label xml:lang="en">has metadata</label>
+            <label xml:lang="en">hasMetadata</label>
         </resource_relation_type>
     </related_resource>
     <distribution>

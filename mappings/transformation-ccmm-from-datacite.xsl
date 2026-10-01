@@ -186,7 +186,7 @@
     
     <xsl:template match="/dc:resource">
         <dataset
-            xsi:schemaLocation="https://schema.ccmm.cz/research-data/2.0 https://raw.githubusercontent.com/techlib/CCMM/refs/heads/2.0.0/dataset/schema.xsd">
+            xsi:schemaLocation="https://schema.ccmm.cz/research-data/2.0 https://model.ccmm.cz/research-data/dataset/schema.xsd">
             <iri>
                 <xsl:value-of select="concat('https://doi.org/', dc:identifier)"/>
             </iri>
@@ -227,12 +227,12 @@
                     </date_updated>
                 </xsl:if>
 
-                <!--for optional data_created but it cannot contain comma meaning an interval-->
-                <xsl:variable name="createdDate"
-                    select="dc:dates/dc:date[@dateType = 'Created'][not(contains(., '/'))][1]"/>
-                <xsl:if test="$createdDate">
+                <!--for optional data_created but it cannot contain comma meaning an interval and it must be xs:date type -->
+                <xsl:variable name="validDate" select="(dc:dates/dc:date[@dateType = 'Created']/tokenize(normalize-space(.), '\s+'))[. castable as xs:date][1]"/>
+                
+                <xsl:if test="$validDate">
                     <date_created>
-                        <xsl:value-of select="normalize-space($createdDate)"/>
+                        <xsl:value-of select="$validDate"/>
                     </date_created>
                 </xsl:if>
 
@@ -328,15 +328,76 @@
                             </xsl:choose>
                         </description>
 
-                        <!-- Publisher if information available -->
-                        <xsl:variable name="itemPublisher" select="$origRelatedItem/dc:publisher"/>
-                        <xsl:if test="$itemPublisher">
+                        <!-- Publisher if information available. UPDATE Publisher of dataset cannot be used here. -->
+<!--                        <xsl:variable name="itemPublisher" select="$origRelatedItem/dc:publisher"/>-->
+<!--                        <xsl:if test="$itemPublisher">-->
                             <qualified_attribution>
                                 <attributed_agent>
                                     <organization>
+<!--                                        <!-\- we cannot take information from dc:publisher\
+                                                  DataCite metadata records do not contain a dedicated field for the repository's publisher; the Publisher element refers specifically to the entity publishing the resource itself. /->
+                                        <xsl:for-each select="/*/*[local-name()='publisher' or name()='dc:publisher']">
+                                            <xsl:if test="@publisherIdentifier">
+                                                <xsl:variable name="rawType" select="normalize-space(@publisherIdentifierScheme)"/>
+                                                <xsl:variable name="matchedScheme" select="$identifierSchemes/*[local-name()='schemes']/*[local-name()='scheme'][normalize-space(@type) = normalize-space(upper-case($rawType))]"/>
+                                                
+                                                <identifier>
+                                                    <iri>
+                                                        <xsl:choose>
+                                                            <xsl:when test="starts-with(@publisherIdentifier, 'http')">
+                                                                <xsl:value-of select="@publisherIdentifier"/>
+                                                            </xsl:when>
+                                                            <xsl:when test="$matchedScheme/*[local-name()='iri']">
+                                                                <xsl:value-of select="concat($matchedScheme/*[local-name()='iri'], @publisherIdentifier)"/>
+                                                            </xsl:when>
+                                                            <xsl:otherwise>
+                                                                <xsl:value-of select="@publisherIdentifier"/>
+                                                            </xsl:otherwise>
+                                                        </xsl:choose>
+                                                    </iri>
+                                                    <value>
+                                                        <xsl:value-of select="tokenize(@publisherIdentifier, '/')[last()]"/>
+                                                    </value>
+                                                    <xsl:if test="@publisherIdentifierScheme or @schemeURI or $matchedScheme">
+                                                        <scheme>
+                                                            <xsl:if test="@schemeURI or $matchedScheme/*[local-name()='iri']">
+                                                                <iri>
+                                                                    <xsl:choose>
+                                                                        <xsl:when test="@schemeURI">
+                                                                            <xsl:value-of select="@schemeURI"/>
+                                                                        </xsl:when>
+                                                                        <xsl:otherwise>
+                                                                            <xsl:value-of select="$matchedScheme/*[local-name()='iri']"/>
+                                                                        </xsl:otherwise>
+                                                                    </xsl:choose>
+                                                                </iri>
+                                                            </xsl:if>
+                                                            <xsl:choose>
+                                                                <xsl:when test="$matchedScheme">
+                                                                    <label xml:lang="en">
+                                                                        <xsl:value-of select="$matchedScheme/*[local-name()='label']"/>
+                                                                    </label>
+                                                                    <notation>
+                                                                        <xsl:value-of select="$matchedScheme/*[local-name()='notation']"/>
+                                                                    </notation>
+                                                                </xsl:when>
+                                                                <xsl:when test="@publisherIdentifierScheme">
+                                                                    <label xml:lang="en">
+                                                                        <xsl:value-of select="@publisherIdentifierScheme"/>
+                                                                    </label>
+                                                                    <notation>
+                                                                        <xsl:value-of select="@publisherIdentifierScheme"/>
+                                                                    </notation>
+                                                                </xsl:when>
+                                                            </xsl:choose>
+                                                        </scheme>
+                                                    </xsl:if>
+                                                </identifier>
+                                            </xsl:if>
+                                        </xsl:for-each>
                                         <name>
-                                            <xsl:value-of select="$itemPublisher"/>
-                                        </name>
+                                            <xsl:value-of select="/*/*[local-name()='publisher' or name()='dc:publisher']"/>
+                                        </name>-->
                                     </organization>
                                 </attributed_agent>
                                 <role>
@@ -345,7 +406,7 @@
                                     <label xml:lang="en">Publisher</label>
                                 </role>
                             </qualified_attribution>
-                        </xsl:if>
+                        <!--</xsl:if>-->
                     </original_repository>
                 </xsl:if>
             </metadata_identification>
@@ -387,7 +448,7 @@
                     <alternate_title_type>
                         <iri>
                             <xsl:value-of
-                                select="concat('https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/', @titleType)"
+                                select="concat('https://w3id.org/tib/datacite/vocab/titleType/', @titleType)"
                             />
                         </iri>
                         <label xml:lang="en">
@@ -498,7 +559,7 @@
                     
                     <date_type>
                         <iri>
-                            <xsl:value-of select="concat('https://vocabs.ccmm.cz/registry/codelist/TimeReference/', $rawDateType)"/>
+                            <xsl:value-of select="concat('https://w3id.org/tib/datacite/vocab/dateType/', $rawDateType)"/>
                         </iri>
                         <label xml:lang="en">
                             <xsl:value-of select="($matchedDateType/label[@xml:lang='en'], $rawDateType)[1]"/>
@@ -571,7 +632,7 @@
                                     <xsl:value-of select="@valueURI"/>
                                 </iri>
                             </xsl:if>
-                            <title>
+                            <label>
                                 <xsl:choose>
                                     <xsl:when test="@xml:lang">
                                         <xsl:attribute name="xml:lang" select="@xml:lang"/>
@@ -581,7 +642,7 @@
                                     </xsl:otherwise>
                                 </xsl:choose>
                                 <xsl:value-of select="."/>
-                            </title>
+                            </label>
                             <xsl:if test="@classificationCode">
                                 <classification_code>
                                     <xsl:value-of select="@classificationCode"/>
@@ -634,7 +695,7 @@
                     
                     <description_type>
                         <iri>
-                            <xsl:value-of select="concat('https://vocabs.ccmm.cz/registry/codelist/DescriptionType/', $rawDescType)"/>
+                            <xsl:value-of select="concat('https://w3id.org/tib/datacite/vocab/descriptionType/', $rawDescType)"/>
                         </iri>
                         <label xml:lang="en">
                             <xsl:value-of select="($matchedDescType/label[@xml:lang='en'], $rawDescType)[1]"/>
@@ -832,7 +893,7 @@
                     <resource_relation_type>
                         <iri>
                             <xsl:value-of
-                                select="concat('https://vocabs.ccmm.cz/registry/codelist/RelationType/', @relationType)"
+                                select="concat(' https://w3id.org/tib/datacite/vocab/relationType/', @relationType)"
                             />
                         </iri>
                         <label xml:lang="en">

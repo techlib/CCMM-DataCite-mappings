@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataset xmlns="https://schema.ccmm.cz/research-data/2.0"
-         xmlns:gml="http://www.opengis.net/gml/3.2"
+<dataset xmlns:gml="http://www.opengis.net/gml/3.2"
          xmlns:xs="http://www.w3.org/2001/XMLSchema"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="https://schema.ccmm.cz/research-data/2.0 https://raw.githubusercontent.com/techlib/CCMM/refs/heads/2.0.0/dataset/schema.xsd">
+         xmlns="https://schema.ccmm.cz/research-data/2.0"
+         xsi:schemaLocation="https://schema.ccmm.cz/research-data/2.0 https://model.ccmm.cz/research-data/dataset/schema.xsd">
    <iri>https://doi.org/10.45321/as36sl</iri>
    <metadata_identification>
       <qualified_attribution>
@@ -52,9 +52,7 @@
          <description xml:lang="cs">Původní repozitář</description>
          <qualified_attribution>
             <attributed_agent>
-               <organization>
-                  <name>Univerzita Karlova</name>
-               </organization>
+               <organization/>
             </attributed_agent>
             <role>
                <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
@@ -96,7 +94,7 @@
    <alternate_title>
       <title xml:lang="en">Air quality measurements in Central Bohemian Region in 2024.</title>
       <alternate_title_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/AlternateTitle/TranslatedTitle</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/titleType/TranslatedTitle</iri>
          <label xml:lang="en">Translated Title</label>
       </alternate_title_type>
    </alternate_title>
@@ -196,8 +194,8 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</iri>
-         <label xml:lang="en">Collected</label>
+         <iri>https://w3id.org/tib/datacite/vocab/dateType/Created</iri>
+         <label xml:lang="en">Created</label>
       </date_type>
    </time_reference>
    <time_reference>
@@ -212,7 +210,7 @@
          </time_interval>
       </temporal_representation>
       <date_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Collected</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/dateType/Collected</iri>
          <label xml:lang="en">Collected</label>
       </date_type>
    </time_reference>
@@ -223,7 +221,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/dateType/Created</iri>
          <label xml:lang="en">Created</label>
       </date_type>
    </time_reference>
@@ -234,7 +232,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Updated</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/dateType/Updated</iri>
          <label xml:lang="en">Updated</label>
       </date_type>
    </time_reference>
@@ -253,7 +251,7 @@
    </access_rights>
    <subject>
       <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</iri>
-      <title xml:lang="cs">Meteorologie, vědy o atmosféře</title>
+      <label xml:lang="cs">Meteorologie, vědy o atmosféře</label>
       <classification_code>10509</classification_code>
       <subject_scheme>
          <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
@@ -262,7 +260,7 @@
    </subject>
    <subject>
       <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/10000/10500/10509</iri>
-      <title xml:lang="en">Meteorology and atmospheric sciences</title>
+      <label xml:lang="en">Meteorology and atmospheric sciences</label>
       <classification_code>10509</classification_code>
       <subject_scheme>
          <iri>https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/</iri>
@@ -271,7 +269,7 @@
    </subject>
    <subject>
       <iri>http://inspire.ec.europa.eu/theme/ef</iri>
-      <title xml:lang="en">Environmental monitoring facilities</title>
+      <label xml:lang="en">Environmental monitoring facilities</label>
       <classification_code>EF</classification_code>
       <subject_scheme>
          <iri>https://inspire.ec.europa.eu/theme/</iri>
@@ -283,28 +281,28 @@
       <description_text xml:lang="cs">Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
             roce 2024.</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/Abstract</iri>
          <label xml:lang="en">Abstract</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">DistTitle: Kvalita ovzduší | FormatIRI: https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/GPKG | LicenceIRI: http://link-to-license-statement.com</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">ServiceTitle: Služba WMS pro prohlížení dat o kvalitě ovzduší | ServiceURL: https://gis.cenia.gov.cz/id/service/wms/chmu_ovzdusi | LicenceIRI: http://link-to-license-statement.com</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="cs">LocName: Středočeský kraj | LocType: Collected</description_text>
       <description_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
+         <iri>https://w3id.org/tib/datacite/vocab/descriptionType/TechnicalInfo</iri>
          <label xml:lang="en">Technical Information</label>
       </description_type>
    </description>
@@ -345,7 +343,7 @@
          <label xml:lang="en">Other</label>
       </resource_type>
       <resource_relation_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsReferencedBy</iri>
+         <iri> https://w3id.org/tib/datacite/vocab/relationType/IsReferencedBy</iri>
          <label xml:lang="en">IsReferencedBy</label>
       </resource_relation_type>
    </related_resource>
@@ -356,7 +354,7 @@
          <label xml:lang="en">Instrument</label>
       </resource_type>
       <resource_relation_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsCollectedBy</iri>
+         <iri> https://w3id.org/tib/datacite/vocab/relationType/IsCollectedBy</iri>
          <label xml:lang="en">IsCollectedBy</label>
       </resource_relation_type>
    </related_resource>
@@ -367,7 +365,7 @@
          <label xml:lang="en">Dataset</label>
       </resource_type>
       <resource_relation_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsDerivedFrom</iri>
+         <iri> https://w3id.org/tib/datacite/vocab/relationType/IsDerivedFrom</iri>
          <label xml:lang="en">IsDerivedFrom</label>
       </resource_relation_type>
    </related_resource>
@@ -379,7 +377,7 @@
          <label xml:lang="en">Other</label>
       </resource_type>
       <resource_relation_type>
-         <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/HasMetadata</iri>
+         <iri> https://w3id.org/tib/datacite/vocab/relationType/HasMetadata</iri>
          <label xml:lang="en">HasMetadata</label>
       </resource_relation_type>
    </related_resource>

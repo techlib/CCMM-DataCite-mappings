@@ -324,44 +324,89 @@
                 </xsl:for-each>
             </titles>
             
-            <xsl:for-each 
-                select="ccmm:qualified_attribution[tokenize(ccmm:role/ccmm:iri, '/')[last()] = 'Publisher']">
-<!--            <xsl:for-each select="(ccmm:qualified_attribution[ccmm:role/ccmm:label[@xml:lang='en']='Publisher'])[1]">-->
-                <publisher>
-                    <xsl:variable name="org" select="ccmm:attributed_agent/ccmm:organization"/>
-                    <xsl:variable name="aff" select="ccmm:attributed_agent/ccmm:person/ccmm:affiliation"/>
-                    
-                    <xsl:variable name="idNode" select="($aff/ccmm:identifier | $org/ccmm:identifier)[ccmm:iri][1]"/>
-                    
-                    <xsl:if test="$idNode/ccmm:iri">
-                        <xsl:attribute name="publisherIdentifier">
-                            <xsl:value-of select="$idNode/ccmm:iri"/>
-                        </xsl:attribute>
+            <!-- Publisher detection -->
+            <xsl:variable name="primaryPublisher" select="ccmm:qualified_attribution[tokenize(ccmm:role/ccmm:iri, '/')[last()] = 'Publisher'][1]"/>
+            <xsl:variable name="repoPublisher" select="ccmm:metadata_identification/ccmm:original_repository/ccmm:qualified_attribution[tokenize(ccmm:role/ccmm:iri, '/')[last()] = 'Publisher'][1]"/>
+            <xsl:variable name="origRepo" select="ccmm:metadata_identification/ccmm:original_repository[1]"/>
+            
+            <xsl:choose>
+                <!-- 1. Publisher detection - priority has organization or person with the Publisher role -->
+                <xsl:when test="exists($primaryPublisher)">
+                    <publisher>
+                        <xsl:variable name="org" select="$primaryPublisher/ccmm:attributed_agent/ccmm:organization"/>
+                        <xsl:variable name="aff" select="$primaryPublisher/ccmm:attributed_agent/ccmm:person/ccmm:affiliation"/>
+                        <xsl:variable name="idNode" select="($aff/ccmm:identifier | $org/ccmm:identifier)[ccmm:iri][1]"/>
                         
-                        <xsl:attribute name="publisherIdentifierScheme">
-                            <xsl:value-of select="($idNode/ccmm:scheme/ccmm:label[@xml:lang='en'], $idNode/ccmm:scheme/ccmm:label, 'ROR')[1]"/>
-                        </xsl:attribute>
-                        
-                        <xsl:if test="$idNode/ccmm:scheme/ccmm:iri">
-                            <xsl:attribute name="schemeURI">
-                                <xsl:value-of select="$idNode/ccmm:scheme/ccmm:iri"/>
+                        <xsl:if test="$idNode/ccmm:iri">
+                            <xsl:attribute name="publisherIdentifier">
+                                <xsl:value-of select="$idNode/ccmm:iri"/>
                             </xsl:attribute>
+                            <xsl:attribute name="publisherIdentifierScheme">
+                                <xsl:value-of select="($idNode/ccmm:scheme/ccmm:label[@xml:lang='en'], $idNode/ccmm:scheme/ccmm:label, 'ROR')[1]"/>
+                            </xsl:attribute>
+                            <xsl:if test="$idNode/ccmm:scheme/ccmm:iri">
+                                <xsl:attribute name="schemeURI">
+                                    <xsl:value-of select="$idNode/ccmm:scheme/ccmm:iri"/>
+                                </xsl:attribute>
+                            </xsl:if>
                         </xsl:if>
-                    </xsl:if>
-                    
-                    <xsl:choose>
-                        <xsl:when test="$aff/ccmm:name">
-                            <xsl:value-of select="$aff/ccmm:name"/>
-                        </xsl:when>
-                        <xsl:when test="$org/ccmm:name">
-                            <xsl:value-of select="$org/ccmm:name"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of select="$org/ccmm:label"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </publisher>
-            </xsl:for-each>
+                        
+                        <xsl:choose>
+                            <xsl:when test="$aff/ccmm:name">
+                                <xsl:value-of select="$aff/ccmm:name"/>
+                            </xsl:when>
+                            <xsl:when test="$org/ccmm:name">
+                                <xsl:value-of select="$org/ccmm:name"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="$org/ccmm:label"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </publisher>
+                </xsl:when>
+                
+                <!-- 2. If publisher dataset is missing, publisher from original repository will be taken -->
+                <xsl:when test="exists($repoPublisher)">
+                    <publisher>
+                        <xsl:variable name="org" select="$repoPublisher/ccmm:attributed_agent/ccmm:organization"/>
+                        <xsl:variable name="aff" select="$repoPublisher/ccmm:attributed_agent/ccmm:person/ccmm:affiliation"/>
+                        <xsl:variable name="idNode" select="($aff/ccmm:identifier | $org/ccmm:identifier)[ccmm:iri][1]"/>
+                        
+                        <xsl:if test="$idNode/ccmm:iri">
+                            <xsl:attribute name="publisherIdentifier">
+                                <xsl:value-of select="$idNode/ccmm:iri"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="publisherIdentifierScheme">
+                                <xsl:value-of select="($idNode/ccmm:scheme/ccmm:label[@xml:lang='en'], $idNode/ccmm:scheme/ccmm:label, 'ROR')[1]"/>
+                            </xsl:attribute>
+                            <xsl:if test="$idNode/ccmm:scheme/ccmm:iri">
+                                <xsl:attribute name="schemeURI">
+                                    <xsl:value-of select="$idNode/ccmm:scheme/ccmm:iri"/>
+                                </xsl:attribute>
+                            </xsl:if>
+                        </xsl:if>
+                        
+                        <xsl:choose>
+                            <xsl:when test="$org/ccmm:name">
+                                <xsl:value-of select="$org/ccmm:name"/>
+                            </xsl:when>
+                            <xsl:when test="$org/ccmm:label">
+                                <xsl:value-of select="$org/ccmm:label"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="$repoPublisher/ccmm:attributed_agent/ccmm:person/ccmm:name"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </publisher>
+                </xsl:when>
+                
+                <!-- 3. If there explicit Publisher attribution is missing in original_repository then resitory label is taken -->
+                <xsl:when test="exists($origRepo/ccmm:label)">
+                    <publisher>
+                        <xsl:value-of select="$origRepo/ccmm:label"/>
+                    </publisher>
+                </xsl:when>
+            </xsl:choose>
             
             <publicationYear>
                 <xsl:value-of select="ccmm:publication_year"/>
@@ -374,7 +419,7 @@
             <!-- more subjects based on language variants-->
             <subjects>
                 <xsl:for-each select="ccmm:subject">
-                    <xsl:for-each select="ccmm:title">
+                    <xsl:for-each select="ccmm:label">
                         <subject>
                             <xsl:if test="../ccmm:classification_code">
                                 <xsl:attribute name="classificationCode">
