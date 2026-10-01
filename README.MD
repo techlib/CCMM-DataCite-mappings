@@ -231,7 +231,7 @@ To CCMM metadata:
 </qualified_relation>
 ```
 
-However, DataCite-compliant metadata does not always contain an organization as the publisher ([v4.6_doi_10.17182_hepdata.79055.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79055.xml)):
+**However, DataCite-compliant metadata does not always contain an organization as the publisher** ([v4.6_doi_10.17182_hepdata.79055.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79055.xml)):
 
 From DataCite metadata:
 
@@ -253,7 +253,7 @@ To CCMM metadata:
     </role>
 </qualified_relation>
 ```
-However, HEPData is not an organization, but a repository. The CCMM metadata should be corrected accordingly, and/or the transformation should be adjusted. An automated transformation generally cannot safely detect whether the DataCite publisher element contains an organization or a repository.
+However, HEPData is not an organization, but a repository. The CCMM metadata should be corrected accordingly, and/or the transformation should be adjusted. **An automated transformation generally cannot safely detect whether the DataCite publisher element contains an organization or a repository.**
 
 
 <!--
