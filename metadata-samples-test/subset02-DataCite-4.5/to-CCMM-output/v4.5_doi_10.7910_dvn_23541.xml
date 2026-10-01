@@ -13,7 +13,7 @@
             </person>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/ContactPerson</iri>
          </role>
       </qualified_relation>
       <qualified_relation>
@@ -23,12 +23,12 @@
             </organization>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://doi.org/10.7910/DVN/23541</iri>
@@ -53,7 +53,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -65,7 +65,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -75,7 +75,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Producer</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Producer</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -85,7 +85,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Distributor</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Distributor</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -95,7 +95,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/ContactPerson</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -105,7 +105,7 @@
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2014</publication_year>
@@ -116,7 +116,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -126,7 +126,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Created</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -136,7 +136,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Submitted</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Submitted</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -146,7 +146,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -190,7 +190,7 @@
    <description>
       <description_text xml:lang="en">De noviembre de 2012 a Diciembre del 2012 PASMO/PSI realizó una encuesta TRaC en cinco ciudades de Guatemala, entre trabajadoras sexuales femeninas (TSF). Dicha encuesta aborda temas de VIH/SIDA, comportamientos de riesgo y determinantes de uso del condón. Por primera vez en la serie de estudios, durante el 2012 se abordan indicadores de violencia basada en género. La encuesta es un seguimiento a la realizada en el año 2007 y 2009, busca: 1) monitorear las tendencias en el comportamiento y otros determinantes claves de Oportunidad, Habilidad y Motivación (OHM) entre TSF; e 2) Identificar los factores que caracterizan a las TSF que usan condones con sus parejas afectivas y con todos sus clientes. El estudio se llevó a cabo en Guatemala, Suchitepéquez, Quetzaltenango, Escuintla e Izabal.</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
    <location>

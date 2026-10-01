@@ -15,7 +15,7 @@
             </person>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/ContactPerson</iri>
          </role>
       </qualified_relation>
       <qualified_relation>
@@ -27,12 +27,12 @@
             </person>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://doi.org/10.34847/nkl.b92c64f1</iri>
@@ -63,7 +63,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -75,7 +75,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/ContactPerson</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -87,17 +87,25 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/DataManager</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
       <relation>
          <organization>
+            <identifier>
+               <iri>https://ror.org/04ces3204</iri>
+               <value>04ces3204</value>
+               <scheme>
+                  <iri>https://ror.org/</iri>
+                  <label xml:lang="en">ROR</label>
+               </scheme>
+            </identifier>
             <name>NAKALA - https://nakala.fr (Huma-Num - CNRS)</name>
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2026</publication_year>
@@ -108,7 +116,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Created</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</iri>
       </date_type>
    </time_reference>
    <resource_type>

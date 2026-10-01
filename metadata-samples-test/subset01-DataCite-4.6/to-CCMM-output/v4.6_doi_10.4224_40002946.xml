@@ -9,16 +9,24 @@
       <qualified_relation>
          <relation>
             <organization>
+               <identifier>
+                  <iri>https://ror.org/04mte1k06</iri>
+                  <value>04mte1k06</value>
+                  <scheme>
+                     <iri>https://ror.org</iri>
+                     <label xml:lang="en">ror</label>
+                  </scheme>
+               </identifier>
                <name>National Research Council Canada</name>
             </organization>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://doi.org/10.4224/40002946</iri>
@@ -48,7 +56,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -66,7 +74,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -84,7 +92,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -102,17 +110,25 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
       <relation>
          <organization>
+            <identifier>
+               <iri>https://ror.org/04mte1k06</iri>
+               <value>04mte1k06</value>
+               <scheme>
+                  <iri>https://ror.org</iri>
+                  <label xml:lang="en">ror</label>
+               </scheme>
+            </identifier>
             <name>National Research Council Canada</name>
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2022</publication_year>
@@ -123,7 +139,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -131,7 +147,7 @@
       <label xml:lang="en">Software</label>
    </resource_type>
    <primary_language>
-      <iri>https://schema.ccmm.cz/vocabulary/language/en</iri>
+      <iri>http://publications.europa.eu/resource/authority/language/en</iri>
    </primary_language>
    <terms_of_use>
       <license>
@@ -168,13 +184,13 @@
    <description>
       <description_text xml:lang="en">This project contains codes and information to help reproduce, verify and improve results as reported in our paper "Improving Accuracy and Explainability of Handwriting Recognition Models" available at https://arxiv.org/abs/2209.09102</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="fr">Ce projet contient des codes et des informations pour aider à reproduire, vérifier et améliorer les résultats, comme indiqué dans notre article "Améliorer la précision et l'explicabilité des modèles de reconnaissance de l'écriture manuscrite" disponible sur https://arxiv.org/abs/2209.09102</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
    <related_resource>
@@ -192,7 +208,7 @@
          <label xml:lang="en">Text</label>
       </resource_type>
       <resource_relation_type>
-         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsSupplementTo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsSupplementTo</iri>
          <label xml:lang="en">IsSupplementTo</label>
       </resource_relation_type>
    </related_resource>

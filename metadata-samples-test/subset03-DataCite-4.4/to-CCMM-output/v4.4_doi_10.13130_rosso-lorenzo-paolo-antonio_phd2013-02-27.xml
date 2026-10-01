@@ -13,12 +13,12 @@
             </organization>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://doi.org/10.13130/ROSSO-LORENZO-PAOLO-ANTONIO_PHD2013-02-27</iri>
@@ -50,7 +50,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -60,7 +60,7 @@
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2013</publication_year>
@@ -71,7 +71,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -81,7 +81,7 @@
 </label>
    </resource_type>
    <primary_language>
-      <iri>https://schema.ccmm.cz/vocabulary/language/ita</iri>
+      <iri>http://publications.europa.eu/resource/authority/language/ita</iri>
    </primary_language>
    <terms_of_use/>
    <description>
@@ -99,7 +99,7 @@ Conclusioni
 I risultati ottenuti dal nostro studio sembrano promuovere l?utilizzo del gel piastrinico e dei suoi fattori di crescita nei processi riparativi del tessuto pleurico, inoltre sembra stimolare lo sviluppo di aderenze pleuriche, particolarmente utili nella gestione delle perdite prolungate.
 Ipotizziamo che il gel piastrinico giochi un duplice ruolo rilasciando citochine e fattori di crescita che promuovono un processo riparativo pi� rapido e di conseguenza riducono la flogosi.</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
 </dataset>

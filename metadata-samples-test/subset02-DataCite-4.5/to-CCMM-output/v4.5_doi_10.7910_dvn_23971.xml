@@ -18,7 +18,7 @@
             </person>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/ContactPerson</iri>
          </role>
       </qualified_relation>
       <qualified_relation>
@@ -28,12 +28,12 @@
             </organization>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://doi.org/10.7910/DVN/23971</iri>
@@ -61,7 +61,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -76,7 +76,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Producer</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Producer</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -91,7 +91,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/ContactPerson</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -101,7 +101,7 @@
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2013</publication_year>
@@ -112,7 +112,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Created</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -122,7 +122,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Submitted</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Submitted</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -132,7 +132,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -161,7 +161,7 @@
    <description>
       <description_text xml:lang="en">Servico Internacional para a Populcao (PSI) e uma Organizcao nao- governamental (ONG) sem fins lucrativos especializada em marketing social de produtos e servicos para a prevencao de VIH, Malaria, Doencas Diarreicas, Planeamento Familiar e Saude Materno-Infantil. PSI/Angola trabalha no pais desde 2000. Com financiamento da USAID, a PSI Angola implementa um projecto de marketing social, conhecido como OUAKULA. Alem de comercializar e distribuir as marcas dos seus produtos (Legal, Sensual, Mosquiteiros Seguro Salvo e Joia), a PSI/Angola tambem desenvolve campanhas para incentivar a adopcao de comportamentos saudaveis em relacao a prevencao do VIH e Malaria. A essas actividades estao incluidas o uso de spots de Radio e TV, Bilboards, Comunicaco Interpessoal (IPC) e Teatro. Neste contesto, a PSI esta levando a cabo a transmissao de Setembro - Novembro de 2013 de uma campanha publicitaria para o uso do preservativo &amp;apos;Legal&amp;apos; para o combate do VIH e outras doencas sexualmente transmissiveis. O objectivo do estudo Reach and Recall e medir o nivel de exposicao atingido pela campanha de publicidade sobre o uso del preservativo &amp;apos;Legal&amp;apos; divulgada pelos medios de comunicao e estabelecer como as mensagens foram apercebidas e posicionadas pelos expostos.</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
    <location>

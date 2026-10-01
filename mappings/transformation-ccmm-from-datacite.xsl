@@ -37,8 +37,7 @@
                 <xsl:if test="not(dc:contributors/dc:contributor[@contributorType='DataManager']) and dc:publisher">
                     <xsl:apply-templates select="dc:publisher" mode="back_to_ccmm">
                         <xsl:with-param name="forcedRole"
-                            select="'
-                            https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager'"/>
+                            select="'https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager'"/>
                     </xsl:apply-templates>
                 </xsl:if>
                 

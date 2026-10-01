@@ -4,6 +4,11 @@
 
 <br/>
 
+### 2026-10-01
+DataCite to CCMM XSLT transformation
+- Typo correction in the link for languages controlled vocabulary
+- Typo correction in empty spaces
+
 ### 2026-09-10
 DataCite to CCMM XSLT transformation -- Fix CCMM 1.1.0 transformation issues and add publisherIdentifier:
 - Fix duplicate xml:lang attributes by replacing redundant xsl:if with xsl:choose

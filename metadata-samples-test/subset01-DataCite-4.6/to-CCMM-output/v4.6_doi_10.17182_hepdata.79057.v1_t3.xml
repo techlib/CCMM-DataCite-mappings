@@ -13,12 +13,12 @@
             </organization>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://doi.org/10.17182/HEPDATA.79057.V1/T3</iri>
@@ -57,7 +57,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -67,7 +67,7 @@
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2018</publication_year>
@@ -78,7 +78,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Updated</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Updated</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -86,7 +86,7 @@
       <label xml:lang="en">Dataset</label>
    </resource_type>
    <primary_language>
-      <iri>https://schema.ccmm.cz/vocabulary/language/eng</iri>
+      <iri>http://publications.europa.eu/resource/authority/language/eng</iri>
    </primary_language>
    <terms_of_use>
       <license>
@@ -109,14 +109,14 @@
    <description>
       <description_text xml:lang="en">Leading ($\alpha$ = 1) and subleading ($\alpha$ = 2) elliptic flow, $v^{(\alpha)}_2$, as a function of $p_T$ in 0-10% centrality PbPb collisions.</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="en">CERN-LHC. Measurement of leading and subleading modes using PCA and two-particle correlations for PbPb and pPb at centre-mass energy 2.76 TeV and 5.02 TeV respectively.
 </description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Other</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Other</iri>
       </description_type>
    </description>
 </dataset>

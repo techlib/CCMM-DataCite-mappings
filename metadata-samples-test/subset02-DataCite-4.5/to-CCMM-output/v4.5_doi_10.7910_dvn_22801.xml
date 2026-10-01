@@ -16,7 +16,7 @@
             </person>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/ContactPerson</iri>
          </role>
       </qualified_relation>
       <qualified_relation>
@@ -26,12 +26,12 @@
             </organization>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://doi.org/10.7910/DVN/22801</iri>
@@ -57,7 +57,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -72,7 +72,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -87,7 +87,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -100,7 +100,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/ContactPerson</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -110,7 +110,7 @@
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2013</publication_year>
@@ -121,7 +121,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Submitted</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Submitted</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -131,7 +131,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -151,7 +151,7 @@
    <description>
       <description_text xml:lang="en">Volume 95, Issue 4</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/SeriesInformation</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/SeriesInformation</iri>
       </description_type>
    </description>
    <distribution>

@@ -16,7 +16,7 @@
             </person>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/ContactPerson</iri>
          </role>
       </qualified_relation>
       <qualified_relation>
@@ -26,12 +26,12 @@
             </organization>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://doi.org/10.7910/DVN/24201</iri>
@@ -59,7 +59,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -72,7 +72,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Producer</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Producer</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -82,7 +82,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Distributor</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Distributor</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -95,7 +95,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/ContactPerson</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/ContactPerson</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -105,7 +105,7 @@
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2014</publication_year>
@@ -116,7 +116,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -126,7 +126,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Created</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Created</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -136,7 +136,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Submitted</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Submitted</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -146,7 +146,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -156,7 +156,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Updated</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Updated</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -219,25 +219,25 @@
       <description_text xml:lang="en">This dataset was produced to study market participation of smallholders in the upper west region of Ghana. This study was undertaken by Benjamin Musah Abu, a student in Department of Agricultural Economics and Agribusiness at the University of Ghana, as a part of requirements toward Master of Philosophy Degree in Agricultural Economics. This dataset contains information about age gender, level of education, household size, farming exper
 ience, market access and constraints in market access and participation for small farmers. This dataset contains information for maize and groundnuts. A total of 400 smallholders cultivating at most in 2 ha of land were interviewed. This includes 200 groundnuts growing households and 200 maize growing households.</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="en">18, 18</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="en">12, 12</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/TechnicalInfo</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/TechnicalInfo</iri>
       </description_type>
    </description>
    <description>
       <description_text xml:lang="en">Subject: null  Type: &lt;h2&gt;Acknowledgements&lt;/h2&gt;  Notes: This study was made possible through the support of the Ghana Strategy Support Program (GSSP). GSSP is funded by the US Agency for International Development (USAID). The author is also thankful to all the survey participants, who generously shared their experiences.;</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Other</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Other</iri>
       </description_type>
    </description>
    <location>

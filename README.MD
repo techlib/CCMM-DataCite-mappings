@@ -197,6 +197,66 @@ The [validation report](./metadata-samples-test/subset02-DataCite-4.5/output_4.5
 
 The [validation report](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/output4.4.txt) is available.
 
+#### Publisher transformation
+
+Currently, the transformation from DataCite assumes that the publisher is an organization and transforms it into CCMM-compliant metadata accordingly. This is correct in the following example ([v4.6_doi_10.4224_40001303.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.4224_40001303.xml)):
+
+From DataCite metadata:
+
+```xml
+<datacite:publisher xml:lang="en" publisherIdentifier="[https://ror.org/04mte1k06](https://ror.org/04mte1k06)" publisherIdentifierScheme="ror" schemeURI="[https://ror.org](https://ror.org)">National Research Council Canada</datacite:publisher>
+```
+
+
+To CCMM metadata:
+
+```xml
+<qualified_relation>
+    <relation>
+        <organization>
+        <identifier>
+            <iri>https://ror.org/04mte1k06</iri>
+            <value>04mte1k06</value>
+            <scheme>
+                <iri>https://ror.org</iri>
+                <label xml:lang="en">ror</label>
+            </scheme>
+        </identifier>
+        <name>National Research Council Canada</name>
+        </organization>
+    </relation>
+    <role>
+        <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
+    </role>
+</qualified_relation>
+```
+
+However, DataCite-compliant metadata does not always contain an organization as the publisher ([v4.6_doi_10.17182_hepdata.79055.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79055.xml)):
+
+From DataCite metadata:
+
+```xml
+<datacite:publisher>HEPData</datacite:publisher>
+```
+
+To CCMM metadata:
+
+```
+<qualified_relation>
+    <relation>
+        <organization>
+        <name>HEPData</name>
+        </organization>
+    </relation>
+    <role>
+        <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
+    </role>
+</qualified_relation>
+```
+
+However, HEPData is not an organization, but a repository. The CCMM metadata should be corrected accordingly. An automated transformation generally cannot safely detect whether the publisher is an organization or a repository.
+
+
 <!--
 ## Transformation Issues and Further Notes
 
@@ -204,6 +264,6 @@ in progress-->
 
 ## Current actions
 - Mapping between DataCite controlled vocabularies and CCMM controlled vocabularies in both directions, with application in XSLT transformations. Mapping of resource types from DataCite to COAR has already been implemented; mapping from COAR to DataCite is currently in progress. At present, values from controlled vocabularies are otherwise taken directly from the source metadata within the XSLT transformations.
-- We work on mappings and transformations for CCMM version 1.2.0.
+- We work on mappings and transformations for CCMM version 2.0.0.
 - We work on RDF layer and its corresponding mappings and transformations.
 

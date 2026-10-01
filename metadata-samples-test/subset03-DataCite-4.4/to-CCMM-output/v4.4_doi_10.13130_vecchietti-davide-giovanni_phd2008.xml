@@ -13,12 +13,12 @@
             </organization>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://doi.org/10.13130/VECCHIETTI-DAVIDE-GIOVANNI_PHD2008</iri>
@@ -43,7 +43,7 @@ in depth structural characterization to understand their different biological pr
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -53,7 +53,7 @@ in depth structural characterization to understand their different biological pr
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2008</publication_year>
@@ -64,7 +64,7 @@ in depth structural characterization to understand their different biological pr
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -74,7 +74,7 @@ in depth structural characterization to understand their different biological pr
 </label>
    </resource_type>
    <primary_language>
-      <iri>https://schema.ccmm.cz/vocabulary/language/eng</iri>
+      <iri>http://publications.europa.eu/resource/authority/language/eng</iri>
    </primary_language>
    <terms_of_use/>
    <description>
@@ -92,7 +92,7 @@ By combining information obtained by NMR (G-A* content) and the chain length (ca
 Preliminary data on biological activity in vitro indicated that the different anti-Xa activities were directly related to the degree of AT affinity and the overall structural considerations.
 The present work represents the first insight into the detailed and comparative structural characterization of three commercial LMWHs differing in manufacturing process. Important and characteristic structural parameters were defined, including the precise oligomeric composition, the relative content of AT interacting species, and their molecular weight, together with the relative content of variously substituted monosaccharide components. Further studies are required to unravel the correlation of structural features with LMWH functional properties.</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
 </dataset>

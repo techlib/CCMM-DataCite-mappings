@@ -13,12 +13,12 @@
             </organization>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://doi.org/10.7910/DVN/24017</iri>
@@ -46,7 +46,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -61,7 +61,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -76,7 +76,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -88,7 +88,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Producer</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Producer</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -98,7 +98,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Distributor</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Distributor</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -108,7 +108,7 @@
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2014</publication_year>
@@ -119,7 +119,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -129,7 +129,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Submitted</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Submitted</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -139,7 +139,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -149,7 +149,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Updated</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Updated</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -169,7 +169,7 @@
    <description>
       <description_text xml:lang="en">How do episodes of intergroup violence affect political opinions toward out-group members? Recent studies offer divergent answers. Some suggest violence deepens antagonism and reduces support for compromise, while others contend it encourages moderation and concessions to prevent further conflict. We argue that violence can fuel both hostility toward the out-group and acceptance of out-group objectives, and provide evidence from a unique survey of 1380 respondents implemented by the authors in greater Khartoum in Sudan in 2010 and 2011. We find that Northerners who experienced rioting by Southerners in Khartoum in 2005 were more likely to support Southern independence, but less likely to support citizenship for Southerners remaining in the North. In combination, these results suggest that political violence hardens negative intergroup attitudes and makes individuals willing to concede separation to avoid living alongside out-group members.</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
    <distribution>

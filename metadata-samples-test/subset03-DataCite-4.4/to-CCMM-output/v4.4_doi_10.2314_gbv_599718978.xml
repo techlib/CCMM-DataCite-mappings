@@ -13,12 +13,12 @@
             </person>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://doi.org/10.2314/GBV:599718978</iri>
@@ -97,7 +97,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -107,7 +107,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/HostingInstitution</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/HostingInstitution</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -117,7 +117,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/DataManager</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -135,7 +135,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Other</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Other</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -145,7 +145,7 @@
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2006</publication_year>
@@ -156,7 +156,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Issued</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Issued</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -164,7 +164,7 @@
       <label xml:lang="en">Electronic Resource</label>
    </resource_type>
    <primary_language>
-      <iri>https://schema.ccmm.cz/vocabulary/language/en</iri>
+      <iri>http://publications.europa.eu/resource/authority/language/en</iri>
    </primary_language>
    <terms_of_use>
       <access_rights>
@@ -203,7 +203,7 @@
          <label xml:lang="en">Text</label>
       </resource_type>
       <resource_relation_type>
-         <iri>https://schema.ccmm.cz/vocabulary/relationType/IsVariantFormOf</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/RelationType/IsVariantFormOf</iri>
          <label xml:lang="en">IsVariantFormOf</label>
       </resource_relation_type>
    </related_resource>

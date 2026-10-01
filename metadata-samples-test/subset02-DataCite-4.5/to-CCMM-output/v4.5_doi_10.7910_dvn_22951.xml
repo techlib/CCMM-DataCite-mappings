@@ -13,12 +13,12 @@
             </organization>
          </relation>
          <role>
-            <iri>https://schema.ccmm.cz/vocabulary/role/DataManager</iri>
+            <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Contributor/DataManager</iri>
          </role>
       </qualified_relation>
       <conforms_to_standard>
          <iri>https://schema.ccmm.cz/research-data/1.1.0</iri>
-         <label xml:lang="">CCMM RD 1.1.0</label>
+         <label xml:lang="en">CCMM RD 1.1.0</label>
       </conforms_to_standard>
       <original_repository>
          <iri>https://doi.org/10.7910/DVN/22951</iri>
@@ -44,7 +44,7 @@
          </person>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Creator</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Creator</iri>
       </role>
    </qualified_relation>
    <qualified_relation>
@@ -54,7 +54,7 @@
          </organization>
       </relation>
       <role>
-         <iri>https://schema.ccmm.cz/vocabulary/role/Publisher</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
       </role>
    </qualified_relation>
    <publication_year>2013</publication_year>
@@ -65,7 +65,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Submitted</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Submitted</iri>
       </date_type>
    </time_reference>
    <time_reference>
@@ -75,7 +75,7 @@
          </time_instant>
       </temporal_representation>
       <date_type>
-         <iri>https://schema.ccmm.cz/vocabulary/dateType/Available</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/TimeReference/Available</iri>
       </date_type>
    </time_reference>
    <resource_type>
@@ -104,7 +104,7 @@
    <description>
       <description_text xml:lang="en">The data contained in these files (one in Excel, the other in JSON format) consists of full text download numbers through the ADS during the year 2011. Every row is a journal, indicated by the journal name and the ADS abbreviation (&amp;quot;bibstem&amp;quot;, see: http://adsabs.harvard.edu/abs_doc/journals2.html). For each journal, we present the download numbers split up by publication year (with the first data column being the range &amp;quot;pre 1998&amp;quot;). Full text downloads within the ADS service are defined as &amp;apos;clicks&amp;apos; on either of the links within an ADS record that provide access to full text in one form or other. Specifically, these are the &amp;apos;E&amp;apos;, &amp;apos;F&amp;apos;, &amp;apos;L&amp;apos;, &amp;apos;G&amp;apos; or &amp;apos;X&amp;apos; links (see http://doc.adsabs.harvard.edu/abs_doc/help_pages/results.html#List_of_Links definitions). The data contained in these files had been released under the CC-BY License (see: http://creativecommons.org/licenses/by/3.0/us/). Please acknowledge the ADS in a publication that makes us of these data by the phrase: ``This research has made use of NASA&amp;apos;s Astrophysics Data System.&amp;quot;</description_text>
       <description_type>
-         <iri>https://schema.ccmm.cz/vocabulary/descriptionType/Abstract</iri>
+         <iri>https://vocabs.ccmm.cz/registry/codelist/DescriptionType/Abstract</iri>
       </description_type>
    </description>
    <funding_reference>
