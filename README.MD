@@ -204,7 +204,7 @@ Currently, the transformation from DataCite assumes that the publisher is an org
 From DataCite metadata:
 
 ```xml
-<datacite:publisher xml:lang="en" publisherIdentifier="[https://ror.org/04mte1k06](https://ror.org/04mte1k06)" publisherIdentifierScheme="ror" schemeURI="[https://ror.org](https://ror.org)">National Research Council Canada</datacite:publisher>
+<datacite:publisher xml:lang="en" publisherIdentifier="https://ror.org/04mte1k06" publisherIdentifierScheme="ror" schemeURI="[https://ror.org](https://ror.org)">National Research Council Canada</datacite:publisher>
 ```
 
 
