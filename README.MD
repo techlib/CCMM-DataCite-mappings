@@ -213,9 +213,7 @@ However, HEPData is not an organization, but a repository. The CCMM metadata sho
 
 ##### Repository Publisher
 
-DataCite metadata records do not contain a dedicated field for the repository's publisher; the Publisher element refers specifically to the entity publishing the resource itself. Consequently, the repository’s publisher cannot be automatically extracted from the DataCite metadata alone and requires external record or account-level information. For any case, organization element is empty in the resulted CCMM metadata record to be added.
-
-DataCite metadata records do not contain a dedicated field for the repository's publisher; the Publisher element refers specifically to the entity publishing the resource itself. Consequently, the repository’s publisher cannot be automatically extracted from the DataCite metadata alone and requires external record or account-level information. As a result, the corresponding organization element in the generated CCMM metadata record (original_repository part) is left empty and needs to be provided separately.
+DataCite metadata records do not contain a dedicated field for the repository's publisher; the Publisher element refers specifically to the entity publishing the resource itself. Consequently, the repository’s publisher cannot be automatically extracted from the DataCite metadata alone and requires external record or account-level information. As a result, the corresponding organization element in the generated CCMM metadata record (**original_repository** part) is left empty and needs to be provided separately.
 
 ```xml
 <qualified_attribution>
