@@ -241,7 +241,7 @@ From DataCite metadata:
 
 To CCMM metadata:
 
-```
+```xml
 <qualified_relation>
     <relation>
         <organization>
