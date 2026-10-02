@@ -24,7 +24,7 @@ This document describes the background and the methodology for the design of CCM
 - XML Schema: https://model.ccmm.cz/research-data/dataset/schema.xsd
 - Examples: https://github.com/techlib/CCMM/tree/main/_metadata-samples/xml
 - Visualization of the schema along with emphasizing mandatory parts:
-![diagram](https://github.com/techlib/CCMM-utils/blob/main/ceCCMM/output/1.1.0/diagram.png)
+![diagram](https://github.com/techlib/CCMM-utils/blob/main/ceCCMM/output/2.0.0/diagram.png)
 
 ### DataCite (version 4.7 and 4.6)
 
