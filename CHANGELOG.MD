@@ -4,6 +4,10 @@
 
 <br/>
 
+### 2026-02-10
+Updates towards CCMM version 2
+Commit messages available: https://github.com/techlib/CCMM-DataCite-mappings/compare/main...feature/update-transform-mapping-2.0.0
+
 ### 2026-05-30
 DataCite to CCMM XSLT transformation:
 - Fixed a potential schema validation issue by enforcing a mandatory xml:lang attribute on alternative titles. If the source DataCite title lacks a language tag, it now defaults to 'und'.
