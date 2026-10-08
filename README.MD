@@ -96,64 +96,37 @@ Operationalize XML crosswalks using XSLT transformation aiming at transforming m
 - [XSLT transformation](./mappings/transformation-ccmm-from-datacite.xsl) for transforming **DataCite metadata to CCMM metadata**, i.e. CCMM-compliant representation of DataCite metadata
 
 
-## 4. Testing
+## 4. Transformation Issues: Discrepancies between DataCite and CCMM (Examples)
 
-### 4.1 CCMM XML samples
+### Licenses and Access Rights
 
-For validating the XSLT transformation workflow, we employ round‑tripping tests, ensuring that the transformed output can be converted back to its original form:
+DataCite mostly contains licenses, whereas CCMM requires both licenses and access rights.
 
-> [!NOTE]
-> Currently transformation between datacite and CCMM in progress.
+In the new version, a heuristic is still used when transforming DataCite to CCMM to separate access rights from licenses by filtering out terms related to licenses or copyrights. Access rights are mapped to <access_rights>, including Czech labels for Open Access where applicable.
 
-```
-+-----------------+        XSLT        +------------------+
-|  CCMM XML (in)  |  ----------------> |  DataCite XML    |
-+-----------------+                    +------------------+
-                                             |
-                                             |  XSLT
-                                             v
-                                       +------------------+
-                                       | CCMM XML (out)  |
-                                       +------------------+
-```
+Furthermore, in CCMM, licenses are now managed directly at the distribution level (within downloadable files and data services) rather than under a centralized terms_of_use element. When transforming CCMM records to DataCite, all unique licenses from distributions are aggregated into the rightsList and automatically mapped to standard SPDX identifiers.
 
-| CCMM XML input                                                                 | DataCite XML output                                                                      | CCMM XML output                                                                               |
-|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [dataset-mini.xml](./metadata-samples-test/dataset-mini.xml)                   | [dataset-mini-datacite.xml](./metadata-samples-test/dataset-mini-datacite.xml)           | [dataset-mini-datacite-back.xml](./metadata-samples-test/dataset-mini-datacite-back.xml)       |
-| [ccmm_sample.xml](./metadata-samples-test/ccmm_sample.xml)                     | [ccmm_sample-datacite.xml](./metadata-samples-test/ccmm_sample-datacite.xml)             | [ccmm_sample-datacite-back.xml](./metadata-samples-test/ccmm_sample-datacite-back.xml)         |
-| [1m3t2-78951.xml](./metadata-samples-test/1m3t2-78951.xml)                     | [1m3t2-78951-datacite.xml](./metadata-samples-test/1m3t2-78951-datacite.xml)             | [1m3t2-78951-datacite-back.xml](./metadata-samples-test/1m3t2-78951-datacite-back.xml)         |
-| [dmq82-ed856.xml](./metadata-samples-test/dmq82-ed856.xml)                     | [dmq82-ed856-datacite.xml](./metadata-samples-test/dmq82-ed856-datacite.xml)             | [dmq82-ed856-datacite-back.xml](./metadata-samples-test/dmq82-ed856-datacite-back.xml)         |
+DataCite allows free text for both licenses and access rights. In CCMM, access rights use IRIs and labels, while licenses leverage standardized IRIs and SPDX schema mapping when mapped to DataCite.
 
+### Metadata Identification
 
-### 4.2 Real DataCite metadata records
+CCMM 2.0.0 requires specifying the original_repository. If a dedicated related item (CCMM:OriginalRepository or IsVariantFormOf) is present in DataCite, its identifier and label are used; otherwise, the dataset's DOI identifier is used as a fallback. CCMM requires at least one agent with the DataManager role within metadata_identification. The transformation selects agents from DataCite contributors of types DataManager, ContactPerson, or DataCurator. If none are found, the dataset's publisher is used as a fallback and explicitly assigned the DataManager role IRI (.../AgentRole/Contributor/DataManager).
 
-Using https://oai.datacite.org/oai the following real DataCite metadata records have been gathered for XSLT transformation testing:
+### Agents Related to the Metadata Record
 
-#### **subset01-DataCite-4.6**
+DataCite splits agents across separate elements (contributor, creator, and publisher). CCMM 2.0.0 uses a unified model where all agents are represented via <qualified_attribution> containing an <attributed_agent> (person or organization) and a role mapped to a controlled vocabulary IRI.
 
-15 "randomly" selected DataCite metadata files (v 4.6) out of 17500 DataCite metadata records.
+### Distributions
 
-> [!NOTE]
-> Not updated for new version yet.
+In CCMM 2.0.0, distributions are explicitly defined as either a distribution_data_service or a distribution_downloadable_file.
 
-#### **subset01-DataCite-4.5**
+DataCite still lacks explicit schema elements for data distributions. Therefore, when converting CCMM records to DataCite, a heuristic transfers distribution details (titles, format IRIs, access URLs, and licence IRIs) by serializing them into structured description elements of type TechnicalInfo, while also creating corresponding relatedIdentifier entries (e.g., HasPart or IsDocumentedBy).
 
+When transforming DataCite to CCMM 2.0.0, distributions are reconstructed by parsing these TechnicalInfo descriptions. If no TechnicalInfo descriptions are found, a fallback heuristic compiles a basic downloadable file distribution from available DataCite elements (dc:formats, dc:sizes, dc:rightsList, and dc:relatedIdentifiers). However, file download URLs cannot always be retrieved if they are missing in DataCite's related identifiers.
 
-15 "randomly" selected DataCite metadata files (v 4.5) out of 1650 DataCite metadata records.
+### Publisher transformation
 
-> [!NOTE]
-> Not updated for new version yet.
-
-#### **subset01-DataCite-4.4**
-
-15 "randomly" selected DataCite metadata files (v 4.4) out of 750 DataCite metadata records.
-
-> [!NOTE]
-> Not updated for new version yet.
-
-#### Publisher transformation
-
-##### Dataset Publisher
+#### Dataset Publisher
 
 Currently, the transformation from DataCite assumes that the publisher is an organization and transforms it into CCMM-compliant metadata accordingly. This is correct in the following example ([v4.6_doi_10.4224_40001303.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.4224_40001303.xml)):
 
@@ -211,7 +184,7 @@ To CCMM metadata:
 ```
 However, HEPData is not an organization, but a repository. The CCMM metadata should be corrected accordingly, and/or the transformation should be adjusted. **An automated transformation generally cannot safely detect whether the DataCite publisher element contains an organization or a repository.**
 
-##### Repository Publisher
+#### Repository Publisher
 
 DataCite metadata records do not contain a dedicated field for the repository's publisher; the Publisher element refers specifically to the entity publishing the resource itself. Consequently, the repository’s publisher cannot be automatically extracted from the DataCite metadata alone and requires external record or account-level information. As a result, the corresponding organization element in the generated CCMM metadata record (**original_repository** part) is left empty and needs to be provided separately.
 
@@ -233,8 +206,68 @@ DataCite metadata records do not contain a dedicated field for the repository's 
 
 in progress-->
 
+## 5. Controlled Vocabularies Mapping
+
+Mapping of Resource Type Items from DataCite to COAR (Used in CCMM): [mapping-datacite-coar-resource-types.csv](https://github.com/techlib/CCMM-DataCite-mappings/blob/dev/exhaustive-mapping/mappings/mapping-datacite-coar-resource-types.csv)
+
+## 6. Testing
+
+### 6.1 CCMM XML samples
+
+For validating the XSLT transformation workflow, we employ round‑tripping tests, ensuring that the transformed output can be converted back to its original form:
+
+> [!NOTE]
+> Currently transformation between datacite and CCMM in progress.
+
+```
++-----------------+        XSLT        +------------------+
+|  CCMM XML (in)  |  ----------------> |  DataCite XML    |
++-----------------+                    +------------------+
+                                             |
+                                             |  XSLT
+                                             v
+                                       +------------------+
+                                       | CCMM XML (out)  |
+                                       +------------------+
+```
+
+| CCMM XML input                                                                 | DataCite XML output                                                                      | CCMM XML output                                                                               |
+|---------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| [dataset-mini.xml](./metadata-samples-test/dataset-mini.xml)                   | [dataset-mini-datacite.xml](./metadata-samples-test/dataset-mini-datacite.xml)           | [dataset-mini-datacite-back.xml](./metadata-samples-test/dataset-mini-datacite-back.xml)       |
+| [ccmm_sample.xml](./metadata-samples-test/ccmm_sample.xml)                     | [ccmm_sample-datacite.xml](./metadata-samples-test/ccmm_sample-datacite.xml)             | [ccmm_sample-datacite-back.xml](./metadata-samples-test/ccmm_sample-datacite-back.xml)         |
+| [1m3t2-78951.xml](./metadata-samples-test/1m3t2-78951.xml)                     | [1m3t2-78951-datacite.xml](./metadata-samples-test/1m3t2-78951-datacite.xml)             | [1m3t2-78951-datacite-back.xml](./metadata-samples-test/1m3t2-78951-datacite-back.xml)         |
+| [dmq82-ed856.xml](./metadata-samples-test/dmq82-ed856.xml)                     | [dmq82-ed856-datacite.xml](./metadata-samples-test/dmq82-ed856-datacite.xml)             | [dmq82-ed856-datacite-back.xml](./metadata-samples-test/dmq82-ed856-datacite-back.xml)         |
+
+
+### 6.2 Real DataCite metadata records
+
+Using https://oai.datacite.org/oai the following real DataCite metadata records have been gathered for XSLT transformation testing:
+
+#### **subset01-DataCite-4.6**
+
+15 "randomly" selected DataCite metadata files (v 4.6) out of 17500 DataCite metadata records.
+
+> [!NOTE]
+> Not updated for new version yet.
+
+#### **subset01-DataCite-4.5**
+
+
+15 "randomly" selected DataCite metadata files (v 4.5) out of 1650 DataCite metadata records.
+
+> [!NOTE]
+> Not updated for new version yet.
+
+#### **subset01-DataCite-4.4**
+
+15 "randomly" selected DataCite metadata files (v 4.4) out of 750 DataCite metadata records.
+
+> [!NOTE]
+> Not updated for new version yet.
+
 ## Current actions
-- Mapping between DataCite controlled vocabularies and CCMM controlled vocabularies in both directions, with application in XSLT transformations. Mapping of resource types from DataCite to COAR has already been implemented; mapping from COAR to DataCite is currently in progress. At present, values from controlled vocabularies are otherwise taken directly from the source metadata within the XSLT transformations.
-- We work on mappings and transformations for CCMM version 2.0.0.
+<!-- - Mapping between DataCite controlled vocabularies and CCMM controlled vocabularies in both directions, with application in XSLT transformations. Mapping of resource types from DataCite to COAR has already been implemented; mapping from COAR to DataCite is currently in progress. At present, values from controlled vocabularies are otherwise taken directly from the source metadata within the XSLT transformations. -->
+<!-- - We work on mappings and transformations for CCMM version 2.0.0. -->
+- We work on polishing mappings between controlled vocabularies.
 - We work on RDF layer and its corresponding mappings and transformations.
 
