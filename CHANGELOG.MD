@@ -4,16 +4,9 @@
 
 <br/>
 
-### 2026-10-01
-DataCite to CCMM XSLT transformation
-- Typo correction in the link for languages controlled vocabulary
-- Typo correction in empty spaces
-
-### 2026-09-10
-DataCite to CCMM XSLT transformation -- Fix CCMM 1.1.0 transformation issues and add publisherIdentifier:
-- Fix duplicate xml:lang attributes by replacing redundant xsl:if with xsl:choose
-- Update controlled vocabulary IRIs to match official CCMM 1.1.0 schemes
-- Map publisherIdentifier to organizational identifier for dc:publisher
+### 2026-02-10
+Updates towards CCMM version 2
+Commit messages available: https://github.com/techlib/CCMM-DataCite-mappings/compare/main...feature/update-transform-mapping-2.0.0
 
 ### 2026-05-30
 DataCite to CCMM XSLT transformation:

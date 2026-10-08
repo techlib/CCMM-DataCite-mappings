@@ -14,41 +14,46 @@
    </creators>
    <contributors>
       <contributor contributorType="DataManager">
-         <contributorName nameType="Personal">:unkn</contributorName>
-         <givenName>:unkn</givenName>
-         <familyName>:unkn</familyName>
+         <contributorName nameType="Personal">Pavel Steklý</contributorName>
+         <givenName>Pavel</givenName>
+         <familyName>Steklý</familyName>
       </contributor>
    </contributors>
    <dates>
       <date dateType="Created">2024-05-01</date>
+      <date dateType="Updated">2025-07-25</date>
    </dates>
    <titles>
       <title>Datová sada pro Údaje o zdravotní gramotnosti a depresi seniorů ve věku 65 a více let</title>
    </titles>
-   <publisher>:unkn</publisher>
+   <publisher>Nějaká organizace</publisher>
    <publicationYear>2026</publicationYear>
    <resourceType resourceTypeGeneral="Dataset"/>
    <subjects>
-      <subject valueURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304"
+      <subject classificationCode="10509"
+               valueURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/30000/30300/30304"
                subjectScheme=""
                schemeURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/"
                xml:lang="cs">Veřejné a environmentální zdraví</subject>
    </subjects>
-   <descriptions/>
+   <descriptions>
+      <description descriptionType="Other" xml:lang="cs">Toto je jen ukázka metadat pro neexistující datovou sadu.</description>
+   </descriptions>
    <formats/>
    <fundingReferences/>
    <version/>
    <rightsList>
-      <rights rightsURI="https://creativecommons.org/licenses/by/4.0/"
-              rightsIdentifierScheme="SPDX"
-              schemeURI="https://spdx.org/licenses/"/>
-      <rights rightsURI="http://purl.org/coar/access_right/c_f1cf" xml:lang="en"/>
+      <rights rightsURI="http://purl.org/coar/access_right/c_f1cf" xml:lang="en">embargoed access</rights>
    </rightsList>
-   <relatedIdentifiers>
-      <relatedIdentifier relatedIdentifierType="URL"
-                         relationType="IsVariantFormOf"
-                         resourceTypeGeneral="Other">https://data.narodni-repozitar.cz</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsDocumentedBy"/>
-   </relatedIdentifiers>
-   <relatedItems/>
+   <relatedIdentifiers/>
+   <relatedItems>
+      <relatedItem relatedItemType="Other" relationType="IsVariantFormOf">
+         <relatedItemIdentifier relatedItemIdentifierType="URL">https://data.narodni-repozitar.cz</relatedItemIdentifier>
+         <titles>
+            <title xml:lang="cs">Původní repozitář</title>
+            <title titleType="Other">CCMM:OriginalRepository</title>
+         </titles>
+         <publisher>Univerzita Karlova</publisher>
+      </relatedItem>
+   </relatedItems>
 </resource>

@@ -2,6 +2,8 @@
 
 This repository contains materials related to the **mutual mapping** and **transformation** between **CCMM** and **DataCite** metadata standards, including the technical XSLT transformation scripts.
 
+> ⚠️ **Work in Progress:** Currently updating mappings and transformations to support CCMM v2.0.0.
+
 > [!IMPORTANT]
 > This XSLT transformation is subject to minor ongoing improvements. While it is fully available for custom modification and use, the final responsibility for the transformation results lies with the user. We highly recommend testing and fine-tuning the script against your own datasets to ensure compatibility with specific metadata profiles.
 
@@ -14,7 +16,7 @@ This document describes the background and the methodology for the design of CCM
 
 ## Background
 
-### CCMM (version 1.1.0)
+### CCMM (version 2.0.0)
 
 "The Czech Core Metadata Model for Research Data (abbreviated as CCMM) is a core metadata model for research data description in the Czech Republic, it is an output of the Czech Academic and Research Discovery Services project, hereinafter referred to as CARDS." [https://www.ccmm.cz/en/core-model-ccmm/model-purpose-and-objectives/]
 
@@ -22,7 +24,7 @@ This document describes the background and the methodology for the design of CCM
 - XML Schema: https://model.ccmm.cz/research-data/dataset/schema.xsd
 - Examples: https://github.com/techlib/CCMM/tree/main/_metadata-samples/xml
 - Visualization of the schema along with emphasizing mandatory parts:
-![diagram](https://github.com/techlib/CCMM-utils/blob/main/ceCCMM/output/1.1.0/diagram.png)
+![diagram](https://github.com/techlib/CCMM-utils/blob/main/ceCCMM/output/2.0.0/diagram.png)
 
 ### DataCite (version 4.7 and 4.6)
 
@@ -80,7 +82,7 @@ Partly documented in the initial-mapping branch.
 Once the initial mapping and XML crosswalks were completed, we shifted to an exhaustive search that began with DataCite elements and attributes (queried via XPath) to identify the corresponding CCMM nodes.
 
 > [!NOTE]
-> Currently, XML crosswalks are not fully up-to-date with XSLT transformations. It will be updated.
+> Currently, XML crosswalks are not up-to-date with XSLT transformations. It will be updated.
 
 Complete list of [XML crosswalks in one table](./mappings/DataCite-from-CCMM-XML-crosswalks.md) or in [TSV file](./mappings/DataCite-from-CCMM-XML-crosswalks.tsv)
 
@@ -95,41 +97,37 @@ Operationalize XML crosswalks using XSLT transformation aiming at transforming m
 
 ## Transformation Issues: Discrepancies between DataCite and CCMM (Examples)
 
+## Transformation Issues: Discrepancies between DataCite and CCMM (Examples)
+
 ### Licenses and Access Rights
 
 DataCite mostly contains licenses, whereas CCMM requires both licenses and access rights.
 
-A heuristic is currently used to distinguish between licenses and access rights in DataCite records. Access rights are usually missing.
+In the new version, a heuristic is still used when transforming DataCite to CCMM to separate access rights from licenses by filtering out terms related to licenses or copyrights. Access rights are mapped to <access_rights>, including Czech labels for Open Access where applicable.
 
-Furthermore, DataCite includes copyrights within the rights field, whereas in CCMM these belong under license instead.
+Furthermore, in CCMM, licenses are now managed directly at the distribution level (within downloadable files and data services) rather than under a centralized terms_of_use element. When transforming CCMM records to DataCite, all unique licenses from distributions are aggregated into the rightsList and automatically mapped to standard SPDX identifiers.
 
-DataCite allows free text for both licenses and access rights. In CCMM, access rights must be identified using an IRI. Additionally, a controlled vocabulary should be used for access_rights.
-
-### Subject and Its Scheme
-
-The scheme for subject is specified, but without an identifier—for example: <ns0:subject subjectScheme="cmenergies">2760.0</ns0:subject>.
-
-DataCite frequently lacks a schemeURI for subjectScheme.
+DataCite allows free text for both licenses and access rights. In CCMM, access rights use IRIs and labels, while licenses leverage standardized IRIs and SPDX schema mapping when mapped to DataCite.
 
 ### Metadata Identification
 
-CCMM requires specifying the original_repository, which DataCite lacks. Currently, the DOI identifier is used as a fallback.
-
-CCMM requires at least one agent with the DataManager role. If a DataCite record does not contain a contributor of type DataManager, the publisher is used instead (although it often contains only a string name).
-
-Agents are selected from DataCite contributors of types DataManager, ContactPerson, and DataCurator.
+CCMM 2.0.0 requires specifying the original_repository. If a dedicated related item (CCMM:OriginalRepository or IsVariantFormOf) is present in DataCite, its identifier and label are used; otherwise, the dataset's DOI identifier is used as a fallback. CCMM requires at least one agent with the DataManager role within metadata_identification. The transformation selects agents from DataCite contributors of types DataManager, ContactPerson, or DataCurator. If none are found, the dataset's publisher is used as a fallback and explicitly assigned the DataManager role IRI (.../AgentRole/Contributor/DataManager).
 
 ### Agents Related to the Metadata Record
 
-DataCite distributes agents across different elements: contributor, creator, and publisher.
-
-CCMM uses a unified approach via qualified relations and a controlled vocabulary for Agent Roles.
+DataCite splits agents across separate elements (contributor, creator, and publisher). CCMM 2.0.0 uses a unified model where all agents are represented via <qualified_attribution> containing an <attributed_agent> (person or organization) and a role mapped to a controlled vocabulary IRI.
 
 ### Distributions
 
-In CCMM, distributions are explicitly categorized either as a data_service or a downloadable_file. A heuristic approach is used to transfer as much information as possible from CCMM to DataCite. DataCite is still awaiting explicit support for representing data distributions. Currently, distributions are compiled from DataCite records using heuristics. However, certain mandatory elements in CCMM cannot be retrieved, such as file URLs.
+In CCMM 2.0.0, distributions are explicitly defined as either a distribution_data_service or a distribution_downloadable_file.
+
+DataCite still lacks explicit schema elements for data distributions. Therefore, when converting CCMM records to DataCite, a heuristic transfers distribution details (titles, format IRIs, access URLs, and licence IRIs) by serializing them into structured description elements of type TechnicalInfo, while also creating corresponding relatedIdentifier entries (e.g., HasPart or IsDocumentedBy).
+
+When transforming DataCite to CCMM 2.0.0, distributions are reconstructed by parsing these TechnicalInfo descriptions. If no TechnicalInfo descriptions are found, a fallback heuristic compiles a basic downloadable file distribution from available DataCite elements (dc:formats, dc:sizes, dc:rightsList, and dc:relatedIdentifiers). However, file download URLs cannot always be retrieved if they are missing in DataCite's related identifiers.
 
 ### Publisher transformation
+
+#### Dataset Publisher
 
 Currently, the transformation from DataCite assumes that the publisher is an organization and transforms it into CCMM-compliant metadata accordingly. This is correct in the following example ([v4.6_doi_10.4224_40001303.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.4224_40001303.xml)):
 
@@ -187,15 +185,40 @@ To CCMM metadata:
 ```
 However, HEPData is not an organization, but a repository. The CCMM metadata should be corrected accordingly, and/or the transformation should be adjusted. **An automated transformation generally cannot safely detect whether the DataCite publisher element contains an organization or a repository.**
 
-## Mappings
+#### Repository Publisher
 
-Mapping of Resource Types from DataCite to COAR (Used in CCMM): [mapping-datacite-coar-resource-types.csv](https://github.com/techlib/CCMM-DataCite-mappings/blob/dev/exhaustive-mapping/mappings/mapping-datacite-coar-resource-types.csv)
+DataCite metadata records do not contain a dedicated field for the repository's publisher; the Publisher element refers specifically to the entity publishing the resource itself. Consequently, the repository’s publisher cannot be automatically extracted from the DataCite metadata alone and requires external record or account-level information. As a result, the corresponding organization element in the generated CCMM metadata record (**original_repository** part) is left empty and needs to be provided separately.
+
+```xml
+<qualified_attribution>
+    <attributed_agent>
+        <organization/>
+    </attributed_agent>
+    <role>
+        <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
+        <label xml:lang="cs">Vydavatel</label>
+        <label xml:lang="en">Publisher</label>
+    </role>
+</qualified_attribution>
+```
+
+<!--
+## Transformation Issues and Further Notes
+
+in progress-->
+
+## Controlled Vocabularies Mapping
+
+Mapping of Resource Type Items from DataCite to COAR (Used in CCMM): [mapping-datacite-coar-resource-types.csv](https://github.com/techlib/CCMM-DataCite-mappings/blob/dev/exhaustive-mapping/mappings/mapping-datacite-coar-resource-types.csv)
 
 ## Testing
 
 ### CCMM XML samples
 
 For validating the XSLT transformation workflow, we employ round‑tripping tests, ensuring that the transformed output can be converted back to its original form:
+
+> [!NOTE]
+> Currently transformation between datacite and CCMM in progress.
 
 ```
 +-----------------+        XSLT        +------------------+
@@ -225,80 +248,27 @@ Using https://oai.datacite.org/oai the following real DataCite metadata records 
 
 15 "randomly" selected DataCite metadata files (v 4.6) out of 17500 DataCite metadata records.
 
-| DataCite XML input (v4.6) | CCMM XML output |
-| :--- | :--- |
-| [v4.6_doi_10.17182_hepdata.79055.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79055.xml) | [v4.6_doi_10.17182_hepdata.79055.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79055.xml) |
-| [v4.6_doi_10.17182_hepdata.79057.v1_t28.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79057.v1_t28.xml) | [v4.6_doi_10.17182_hepdata.79057.v1_t28.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79057.v1_t28.xml) |
-| [v4.6_doi_10.17182_hepdata.79057.v1_t3.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79057.v1_t3.xml) | [v4.6_doi_10.17182_hepdata.79057.v1_t3.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79057.v1_t3.xml) |
-| [v4.6_doi_10.17182_hepdata.79666.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79666.xml) | [v4.6_doi_10.17182_hepdata.79666.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79666.xml) |
-| [v4.6_doi_10.17182_hepdata.79667.v1_t6.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79667.v1_t6.xml) | [v4.6_doi_10.17182_hepdata.79667.v1_t6.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79667.v1_t6.xml) |
-| [v4.6_doi_10.17182_hepdata.79667.v1_t8.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79667.v1_t8.xml) | [v4.6_doi_10.17182_hepdata.79667.v1_t8.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79667.v1_t8.xml) |
-| [v4.6_doi_10.17182_hepdata.79668.v1_t4.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79668.v1_t4.xml) | [v4.6_doi_10.17182_hepdata.79668.v1_t4.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.79668.v1_t4.xml) |
-| [v4.6_doi_10.17182_hepdata.80817.v1_t2.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.80817.v1_t2.xml) | [v4.6_doi_10.17182_hepdata.80817.v1_t2.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.80817.v1_t2.xml) |
-| [v4.6_doi_10.17182_hepdata.82637.v1_t48.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.82637.v1_t48.xml) | [v4.6_doi_10.17182_hepdata.82637.v1_t48.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.82637.v1_t48.xml) |
-| [v4.6_doi_10.17182_hepdata.82637.v1_t78.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.82637.v1_t78.xml) | [v4.6_doi_10.17182_hepdata.82637.v1_t78.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.82637.v1_t78.xml) |
-| [v4.6_doi_10.17182_hepdata.83196.v1_t10.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.83196.v1_t10.xml) | [v4.6_doi_10.17182_hepdata.83196.v1_t10.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.17182_hepdata.83196.v1_t10.xml) |
-| [v4.6_doi_10.34847_nkl.b92c64f1.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.34847_nkl.b92c64f1.xml) | [v4.6_doi_10.34847_nkl.b92c64f1.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.34847_nkl.b92c64f1.xml) |
-| [v4.6_doi_10.4224_40001303.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.4224_40001303.xml) | [v4.6_doi_10.4224_40001303.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.4224_40001303.xml) |
-| [v4.6_doi_10.4224_40002712.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.4224_40002712.xml) | [v4.6_doi_10.4224_40002712.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.4224_40002712.xml) |
-| [v4.6_doi_10.4224_40002946.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.4224_40002946.xml) | [v4.6_doi_10.4224_40002946.xml](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/v4.6_doi_10.4224_40002946.xml) |
-
-We can see that HEPData repository dominates (11 times). At least, next records from different repositories (Nakala and National Research Council Canada).
-
-The [validation report](./metadata-samples-test/subset01-DataCite-4.6/to-CCMM-output/final-validation-report.txt) is available.
+> [!NOTE]
+> Not updated for new version yet.
 
 #### **subset01-DataCite-4.5**
 
 
 15 "randomly" selected DataCite metadata files (v 4.5) out of 1650 DataCite metadata records.
 
-
-| DataCite XML input (v4.5) | CCMM XML output |
-| :--- | :--- |
-| [v4.5_doi_10.7910_dvn_22801.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_22801.xml) | [v4.5_doi_10.7910_dvn_22801.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_22801.xml) |
-| [v4.5_doi_10.7910_dvn_22951.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_22951.xml) | [v4.5_doi_10.7910_dvn_22951.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_22951.xml) |
-| [v4.5_doi_10.7910_dvn_23102.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_23102.xml) | [v4.5_doi_10.7910_dvn_23102.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_23102.xml) |
-| [v4.5_doi_10.7910_dvn_23251.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_23251.xml) | [v4.5_doi_10.7910_dvn_23251.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_23251.xml) |
-| [v4.5_doi_10.7910_dvn_23314.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_23314.xml) | [v4.5_doi_10.7910_dvn_23314.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_23314.xml) |
-| [v4.5_doi_10.7910_dvn_23541.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_23541.xml) | [v4.5_doi_10.7910_dvn_23541.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_23541.xml) |
-| [v4.5_doi_10.7910_dvn_23624.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_23624.xml) | [v4.5_doi_10.7910_dvn_23624.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_23624.xml) |
-| [v4.5_doi_10.7910_dvn_23971.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_23971.xml) | [v4.5_doi_10.7910_dvn_23971.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_23971.xml) |
-| [v4.5_doi_10.7910_dvn_24017.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24017.xml) | [v4.5_doi_10.7910_dvn_24017.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24017.xml) |
-| [v4.5_doi_10.7910_dvn_24201.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24201.xml) | [v4.5_doi_10.7910_dvn_24201.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24201.xml) |
-| [v4.5_doi_10.7910_dvn_24235.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24235.xml) | [v4.5_doi_10.7910_dvn_24235.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24235.xml) |
-| [v4.5_doi_10.7910_dvn_24481.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24481.xml) | [v4.5_doi_10.7910_dvn_24481.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24481.xml) |
-| [v4.5_doi_10.7910_dvn_24651.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24651.xml) | [v4.5_doi_10.7910_dvn_24651.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24651.xml) |
-| [v4.5_doi_10.7910_dvn_24846.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24846.xml) | [v4.5_doi_10.7910_dvn_24846.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24846.xml) |
-| [v4.5_doi_10.7910_dvn_24939.xml](./metadata-samples-test/subset02-DataCite-4.5/v4.5_doi_10.7910_dvn_24939.xml) | [v4.5_doi_10.7910_dvn_24939.xml](./metadata-samples-test/subset02-DataCite-4.5/to-CCMM-output/v4.5_doi_10.7910_dvn_24939.xml) |
-
-The [validation report](./metadata-samples-test/subset02-DataCite-4.5/output_4.5.txt) is available.
+> [!NOTE]
+> Not updated for new version yet.
 
 #### **subset01-DataCite-4.4**
 
 15 "randomly" selected DataCite metadata files (v 4.4) out of 750 DataCite metadata records.
 
-| DataCite XML input (v4.4) | CCMM XML output |
-| :--- | :--- |
-| [v4.4_doi_10.13130_guidotti-gianluigi_phd2013-01-18.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.13130_guidotti-gianluigi_phd2013-01-18.xml) | [v4.4_doi_10.13130_guidotti-gianluigi_phd2013-01-18.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.13130_guidotti-gianluigi_phd2013-01-18.xml) |
-| [v4.4_doi_10.13130_rosso-lorenzo-paolo-antonio_phd2013-02-27.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.13130_rosso-lorenzo-paolo-antonio_phd2013-02-27.xml) | [v4.4_doi_10.13130_rosso-lorenzo-paolo-antonio_phd2013-02-27.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.13130_rosso-lorenzo-paolo-antonio_phd2013-02-27.xml) |
-| [v4.4_doi_10.13130_tempestini-alessia_phd2010-12-16.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.13130_tempestini-alessia_phd2010-12-16.xml) | [v4.4_doi_10.13130_tempestini-alessia_phd2010-12-16.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.13130_tempestini-alessia_phd2010-12-16.xml) |
-| [v4.4_doi_10.13130_vecchietti-davide-giovanni_phd2008.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.13130_vecchietti-davide-giovanni_phd2008.xml) | [v4.4_doi_10.13130_vecchietti-davide-giovanni_phd2008.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.13130_vecchietti-davide-giovanni_phd2008.xml) |
-| [v4.4_doi_10.2314_gbv_487404599.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.2314_gbv_487404599.xml) | [v4.4_doi_10.2314_gbv_487404599.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.2314_gbv_487404599.xml) |
-| [v4.4_doi_10.2314_gbv_599718978.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.2314_gbv_599718978.xml) | [v4.4_doi_10.2314_gbv_599718978.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.2314_gbv_599718978.xml) |
-| [v4.4_doi_10.2314_gbv_728994283.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.2314_gbv_728994283.xml) | [v4.4_doi_10.2314_gbv_728994283.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.2314_gbv_728994283.xml) |
-| [v4.4_doi_10.2314_gbv_768230314.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.2314_gbv_768230314.xml) | [v4.4_doi_10.2314_gbv_768230314.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.2314_gbv_768230314.xml) |
-| [v4.4_doi_10.5075_epfl-thesis-1174.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-1174.xml) | [v4.4_doi_10.5075_epfl-thesis-1174.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1174.xml) |
-| [v4.4_doi_10.5075_epfl-thesis-1333.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-1333.xml) | [v4.4_doi_10.5075_epfl-thesis-1333.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1333.xml) |
-| [v4.4_doi_10.5075_epfl-thesis-1829.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-1829.xml) | [v4.4_doi_10.5075_epfl-thesis-1829.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-1829.xml) |
-| [v4.4_doi_10.5075_epfl-thesis-275.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-275.xml) | [v4.4_doi_10.5075_epfl-thesis-275.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-275.xml) |
-| [v4.4_doi_10.5075_epfl-thesis-5046.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-5046.xml) | [v4.4_doi_10.5075_epfl-thesis-5046.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-5046.xml) |
-| [v4.4_doi_10.5075_epfl-thesis-5740.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-5740.xml) | [v4.4_doi_10.5075_epfl-thesis-5740.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-5740.xml) |
-| [v4.4_doi_10.5075_epfl-thesis-923.xml](./metadata-samples-test/subset03-DataCite-4.4/v4.4_doi_10.5075_epfl-thesis-923.xml) | [v4.4_doi_10.5075_epfl-thesis-923.xml](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/v4.4_doi_10.5075_epfl-thesis-923.xml) |
-
-The [validation report](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/output4.4.txt) is available.
+> [!NOTE]
+> Not updated for new version yet.
 
 ## Current actions
-- We work on polishing mappings between controlled vocabularies.
+<!-- - Mapping between DataCite controlled vocabularies and CCMM controlled vocabularies in both directions, with application in XSLT transformations. Mapping of resource types from DataCite to COAR has already been implemented; mapping from COAR to DataCite is currently in progress. At present, values from controlled vocabularies are otherwise taken directly from the source metadata within the XSLT transformations. -->
 <!-- - We work on mappings and transformations for CCMM version 2.0.0. -->
+- We work on polishing mappings between controlled vocabularies.
 - We work on RDF layer and its corresponding mappings and transformations.
 

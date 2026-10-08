@@ -5,6 +5,7 @@
           xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4.7/metadata.xsd">
    <identifier identifierType="DOI">10.45321/as36sl</identifier>
    <alternateIdentifiers>
+      <alternateIdentifier alternateIdentifierType="Digital Object Identifier">10.45321/as36sl</alternateIdentifier>
       <alternateIdentifier alternateIdentifierType="Organizační identifikační schéma">air-q-cb-25-23</alternateIdentifier>
    </alternateIdentifiers>
    <creators>
@@ -12,7 +13,8 @@
          <creatorName nameType="Personal">Novák</creatorName>
          <givenName>Jan</givenName>
          <familyName>Novák</familyName>
-         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0030-04X2-2030-4X26</nameIdentifier>
+         <nameIdentifier nameIdentifierScheme="Open Research and Contributor ID"
+                         schemeURI="https://orcid.org/">https://orcid.org/0030-04X2-2030-4X26</nameIdentifier>
          <affiliation affiliationIdentifier="https://ror.org/024d6js02"
                       affiliationIdentifierScheme="ROR"
                       schemeURI="https://ror.org/">Univerzita Karlova</affiliation>
@@ -23,22 +25,25 @@
          <contributorName nameType="Personal">Novák</contributorName>
          <givenName>Jan</givenName>
          <familyName>Novák</familyName>
-         <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="https://orcid.org/">https://orcid.org/0030-04X2-2030-4X26</nameIdentifier>
+         <nameIdentifier nameIdentifierScheme="Open Research and Contributor ID"
+                         schemeURI="https://orcid.org/">https://orcid.org/0030-04X2-2030-4X26</nameIdentifier>
          <affiliation affiliationIdentifier="https://ror.org/024d6js02"
                       affiliationIdentifierScheme="ROR"
                       schemeURI="https://ror.org/">Univerzita Karlova</affiliation>
       </contributor>
    </contributors>
    <dates>
-      <date dateType="Collected">2025-04-27T12:00:01+02:00</date>
+      <date dateType="Created">2025-04-27T12:00:01+02:00</date>
       <date dateType="Collected">2024-01-01/2024-12-31</date>
+      <date dateType="Created">2025-04-28</date>
+      <date dateType="Updated">2025-07-25</date>
    </dates>
    <titles>
       <title>Kvalita ovzduší ve středních čechách 2024</title>
       <title xml:lang="en" titleType="TranslatedTitle">Air quality measurements in Central Bohemian Region in 2024.</title>
    </titles>
    <publisher publisherIdentifier="https://ror.org/02j46qs45"
-              publisherIdentifierScheme="ROR"
+              publisherIdentifierScheme="Research Organization Registry"
               schemeURI="https://ror.org/">Masarykova Univerzita</publisher>
    <publicationYear>2025</publicationYear>
    <resourceType resourceTypeGeneral="Dataset">dataset</resourceType>
@@ -53,17 +58,18 @@
                subjectScheme="OECD FORD Subject Category (Frascati)"
                schemeURI="https://vocabs.ccmm.cz/registry/codelist/SubjectCategory/"
                xml:lang="en">Meteorology and atmospheric sciences</subject>
-      <subject xml:lang="cs">kvalita ovzduší</subject>
       <subject classificationCode="EF"
                valueURI="http://inspire.ec.europa.eu/theme/ef"
                subjectScheme="INSPIRE theme register"
                schemeURI="https://inspire.ec.europa.eu/theme/"
                xml:lang="en">Environmental monitoring facilities</subject>
+      <subject xml:lang="cs">kvalita ovzduší</subject>
    </subjects>
    <descriptions>
       <description descriptionType="Abstract" xml:lang="cs">Tato datová sada obsahuje měření kvality ovzduší ve středních Čechách v
             roce 2024.</description>
-      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Kvalita ovzduší | FormatIRI: https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/GPKG</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">DistTitle: Kvalita ovzduší | FormatIRI: https://op.europa.eu/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/file-type/GPKG | LicenceIRI: http://link-to-license-statement.com</description>
+      <description descriptionType="TechnicalInfo" xml:lang="cs">ServiceTitle: Služba WMS pro prohlížení dat o kvalitě ovzduší | ServiceURL: https://gis.cenia.gov.cz/id/service/wms/chmu_ovzdusi | LicenceIRI: http://link-to-license-statement.com</description>
       <description descriptionType="TechnicalInfo" xml:lang="cs">LocName: Středočeský kraj | LocType: Collected</description>
    </descriptions>
    <formats>
@@ -79,27 +85,32 @@
    </fundingReferences>
    <version>1.0.23</version>
    <rightsList>
-      <rights rightsURI="https://creativecommons.org/licenses/by/4.0/"
-              rightsIdentifier="CC-BY-4.0"
-              rightsIdentifierScheme="SPDX"
-              schemeURI="https://spdx.org/licenses/"
-              xml:lang="en">Attribution 4.0 International</rights>
       <rights rightsURI="http://purl.org/coar/access_right/c_abf2" xml:lang="en">open access</rights>
+      <rights rightsURI="http://link-to-license-statement.com"/>
    </rightsList>
    <language>CES</language>
    <relatedIdentifiers>
       <relatedIdentifier relatedIdentifierType="URL"
-                         relationType="IsVariantFormOf"
-                         resourceTypeGeneral="Other">https://original-repository.cz</relatedIdentifier>
+                         relationType="HasPart"
+                         resourceTypeGeneral="Other">https://geoportal.gov.cz/atom/CHMU/chmu_ovzdusi_AQ_data_epsg4258_2023.zip</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsDocumentedBy">https://www.chmi.cz/o-nas/organizacni-struktura/usek-kvality-ovzdusi/oddeleni-informacniho-systemu-kvality-ovzdusi/odkazy</relatedIdentifier>
       <relatedIdentifier relatedIdentifierType="URL"
                          relationType="HasPart"
-                         resourceTypeGeneral="Dataset">https://geoportal.gov.cz/atom/CHMU/chmu_ovzdusi_AQ_data_epsg4258_2023.zip</relatedIdentifier>
-      <relatedIdentifier relatedIdentifierType="URL" relationType="IsDocumentedBy">https://www.chmi.cz/o-nas/organizacni-struktura/usek-kvality-ovzdusi/oddeleni-informacniho-systemu-kvality-ovzdusi/odkazy</relatedIdentifier>
+                         resourceTypeGeneral="Service">https://gis.cenia.gov.cz/id/service/wms/chmu_ovzdusi</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL" relationType="IsDocumentedBy">https://geoportal.gov.cz/web/guest/catalogue-client;jsessionid=F54A364E040A9D2184E42D94D288851C/</relatedIdentifier>
    </relatedIdentifiers>
    <sizes>
       <size>256 B</size>
    </sizes>
    <relatedItems>
+      <relatedItem relatedItemType="Other" relationType="IsVariantFormOf">
+         <relatedItemIdentifier relatedItemIdentifierType="URL">https://original-repository.cz</relatedItemIdentifier>
+         <titles>
+            <title xml:lang="cs">Původní repozitář</title>
+            <title titleType="Other">CCMM:OriginalRepository</title>
+         </titles>
+         <publisher>Univerzita Karlova</publisher>
+      </relatedItem>
       <relatedItem relationType="IsReferencedBy" relatedItemType="Other">
          <titles>
             <title>Směrnice Evropského parlamentu a Rady 2008/50/ES ze dne 21. května 2008 o kvalitě
@@ -125,7 +136,6 @@
    </relatedItems>
    <geoLocations>
       <geoLocation>
-         <geoLocationPlace>Středočeský kraj</geoLocationPlace>
          <geoLocationBox>
             <westBoundLongitude>49.50127042751268</westBoundLongitude>
             <southBoundLatitude>13.394972457505816</southBoundLatitude>
