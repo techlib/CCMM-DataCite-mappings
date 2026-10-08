@@ -77,17 +77,17 @@ Documented in the initial-mapping branch.
 
 Partly documented in the initial-mapping branch.
 
-### 2.2. XML crosswalks -- an exhaustive mapping
+### XML crosswalks -- an exhaustive mapping
 
 Once the initial mapping and XML crosswalks were completed, we shifted to an exhaustive search that began with DataCite elements and attributes (queried via XPath) to identify the corresponding CCMM nodes.
 
 > [!NOTE]
-> Currently, XML crosswalks are not uptodate with XSLT transformations. It will be updated.
+> Currently, XML crosswalks are not up-to-date with XSLT transformations. It will be updated.
 
 Complete list of [XML crosswalks in one table](./mappings/DataCite-from-CCMM-XML-crosswalks.md) or in [TSV file](./mappings/DataCite-from-CCMM-XML-crosswalks.tsv)
 
 
-## 3. XSLT transformation
+## XSLT transformation
 
 Operationalize XML crosswalks using XSLT transformation aiming at transforming metadata:
 
@@ -96,7 +96,7 @@ Operationalize XML crosswalks using XSLT transformation aiming at transforming m
 - [XSLT transformation](./mappings/transformation-ccmm-from-datacite.xsl) for transforming **DataCite metadata to CCMM metadata**, i.e. CCMM-compliant representation of DataCite metadata
 
 
-## 4. Transformation Issues: Discrepancies between DataCite and CCMM (Examples)
+## Transformation Issues: Discrepancies between DataCite and CCMM (Examples)
 
 ### Licenses and Access Rights
 
@@ -206,13 +206,13 @@ DataCite metadata records do not contain a dedicated field for the repository's 
 
 in progress-->
 
-## 5. Controlled Vocabularies Mapping
+## Controlled Vocabularies Mapping
 
 Mapping of Resource Type Items from DataCite to COAR (Used in CCMM): [mapping-datacite-coar-resource-types.csv](https://github.com/techlib/CCMM-DataCite-mappings/blob/dev/exhaustive-mapping/mappings/mapping-datacite-coar-resource-types.csv)
 
-## 6. Testing
+## Testing
 
-### 6.1 CCMM XML samples
+### CCMM XML samples
 
 For validating the XSLT transformation workflow, we employ round‑tripping tests, ensuring that the transformed output can be converted back to its original form:
 
@@ -239,7 +239,7 @@ For validating the XSLT transformation workflow, we employ round‑tripping test
 | [dmq82-ed856.xml](./metadata-samples-test/dmq82-ed856.xml)                     | [dmq82-ed856-datacite.xml](./metadata-samples-test/dmq82-ed856-datacite.xml)             | [dmq82-ed856-datacite-back.xml](./metadata-samples-test/dmq82-ed856-datacite-back.xml)         |
 
 
-### 6.2 Real DataCite metadata records
+### Real DataCite metadata records
 
 Using https://oai.datacite.org/oai the following real DataCite metadata records have been gathered for XSLT transformation testing:
 
