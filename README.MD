@@ -75,14 +75,14 @@ Documented in the initial-mapping branch.
 
 Partly documented in the initial-mapping branch.
 
-### 2.2. XML crosswalks -- an exhaustive mapping
+### XML crosswalks -- an exhaustive mapping
 
 Once the initial mapping and XML crosswalks were completed, we shifted to an exhaustive search that began with DataCite elements and attributes (queried via XPath) to identify the corresponding CCMM nodes.
 
 Complete list of [XML crosswalks in one table](./mappings/DataCite-from-CCMM-XML-crosswalks.md) or in [TSV file](./mappings/DataCite-from-CCMM-XML-crosswalks.tsv)
 
 
-## 3. XSLT transformation
+## XSLT transformation
 
 Operationalize XML crosswalks using XSLT transformation aiming at transforming metadata:
 
@@ -90,10 +90,107 @@ Operationalize XML crosswalks using XSLT transformation aiming at transforming m
 
 - [XSLT transformation](./mappings/transformation-ccmm-from-datacite.xsl) for transforming **DataCite metadata to CCMM metadata**, i.e. CCMM-compliant representation of DataCite metadata
 
+## Transformation Issues: Discrepancies between DataCite and CCMM (Examples)
 
-## 4. Testing
+### Licenses and Access Rights
 
-### 4.1 CCMM XML samples
+DataCite mostly contains licenses, whereas CCMM requires both licenses and access rights.
+
+A heuristic is currently used to distinguish between licenses and access rights in DataCite records. Access rights are usually missing.
+
+Furthermore, DataCite includes copyrights within the rights field, whereas in CCMM these belong under license instead.
+
+DataCite allows free text for both licenses and access rights. In CCMM, access rights must be identified using an IRI. Additionally, a controlled vocabulary should be used for access_rights.
+
+### Subject and Its Scheme
+
+The scheme for subject is specified, but without an identifier—for example: <ns0:subject subjectScheme="cmenergies">2760.0</ns0:subject>.
+
+DataCite frequently lacks a schemeURI for subjectScheme.
+
+### Metadata Identification
+
+CCMM requires specifying the original_repository, which DataCite lacks. Currently, the DOI identifier is used as a fallback.
+
+CCMM requires at least one agent with the DataManager role. If a DataCite record does not contain a contributor of type DataManager, the publisher is used instead (although it often contains only a string name).
+
+Agents are selected from DataCite contributors of types DataManager, ContactPerson, and DataCurator.
+
+### Agents Related to the Metadata Record
+
+DataCite distributes agents across different elements: contributor, creator, and publisher.
+
+CCMM uses a unified approach via qualified relations and a controlled vocabulary for Agent Roles.
+
+### Distributions
+
+In CCMM, distributions are explicitly categorized either as a data_service or a downloadable_file. A heuristic approach is used to transfer as much information as possible from CCMM to DataCite. DataCite is still awaiting explicit support for representing data distributions. Currently, distributions are compiled from DataCite records using heuristics. However, certain mandatory elements in CCMM cannot be retrieved, such as file URLs.
+
+### Publisher transformation
+
+Currently, the transformation from DataCite assumes that the publisher is an organization and transforms it into CCMM-compliant metadata accordingly. This is correct in the following example ([v4.6_doi_10.4224_40001303.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.4224_40001303.xml)):
+
+From DataCite metadata:
+
+```xml
+<datacite:publisher xml:lang="en" publisherIdentifier="https://ror.org/04mte1k06" publisherIdentifierScheme="ror" schemeURI="[https://ror.org](https://ror.org)">National Research Council Canada</datacite:publisher>
+```
+
+
+To CCMM metadata:
+
+```xml
+<qualified_relation>
+    <relation>
+        <organization>
+        <identifier>
+            <iri>https://ror.org/04mte1k06</iri>
+            <value>04mte1k06</value>
+            <scheme>
+                <iri>https://ror.org</iri>
+                <label xml:lang="en">ror</label>
+            </scheme>
+        </identifier>
+        <name>National Research Council Canada</name>
+        </organization>
+    </relation>
+    <role>
+        <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
+    </role>
+</qualified_relation>
+```
+
+**However, DataCite-compliant metadata does not always contain an organization as the publisher** ([v4.6_doi_10.17182_hepdata.79055.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79055.xml)):
+
+From DataCite metadata:
+
+```xml
+<datacite:publisher>HEPData</datacite:publisher>
+```
+
+To CCMM metadata:
+
+```xml
+<qualified_relation>
+    <relation>
+        <organization>
+        <name>HEPData</name>
+        </organization>
+    </relation>
+    <role>
+        <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
+    </role>
+</qualified_relation>
+```
+However, HEPData is not an organization, but a repository. The CCMM metadata should be corrected accordingly, and/or the transformation should be adjusted. **An automated transformation generally cannot safely detect whether the DataCite publisher element contains an organization or a repository.**
+
+## Mappings
+
+Mapping of Resource Types from DataCite to COAR (Used in CCMM): [mapping-datacite-coar-resource-types.csv](https://github.com/techlib/CCMM-DataCite-mappings/blob/dev/exhaustive-mapping/mappings/mapping-datacite-coar-resource-types.csv)
+
+## Testing
+
+### CCMM XML samples
 
 For validating the XSLT transformation workflow, we employ round‑tripping tests, ensuring that the transformed output can be converted back to its original form:
 
@@ -117,7 +214,7 @@ For validating the XSLT transformation workflow, we employ round‑tripping test
 | [dmq82-ed856.xml](./metadata-samples-test/dmq82-ed856.xml)                     | [dmq82-ed856-datacite.xml](./metadata-samples-test/dmq82-ed856-datacite.xml)             | [dmq82-ed856-datacite-back.xml](./metadata-samples-test/dmq82-ed856-datacite-back.xml)         |
 
 
-### 4.2 Real DataCite metadata records
+### Real DataCite metadata records
 
 Using https://oai.datacite.org/oai the following real DataCite metadata records have been gathered for XSLT transformation testing:
 
@@ -197,72 +294,8 @@ The [validation report](./metadata-samples-test/subset02-DataCite-4.5/output_4.5
 
 The [validation report](./metadata-samples-test/subset03-DataCite-4.4/to-CCMM-output/output4.4.txt) is available.
 
-#### Publisher transformation
-
-Currently, the transformation from DataCite assumes that the publisher is an organization and transforms it into CCMM-compliant metadata accordingly. This is correct in the following example ([v4.6_doi_10.4224_40001303.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.4224_40001303.xml)):
-
-From DataCite metadata:
-
-```xml
-<datacite:publisher xml:lang="en" publisherIdentifier="https://ror.org/04mte1k06" publisherIdentifierScheme="ror" schemeURI="[https://ror.org](https://ror.org)">National Research Council Canada</datacite:publisher>
-```
-
-
-To CCMM metadata:
-
-```xml
-<qualified_relation>
-    <relation>
-        <organization>
-        <identifier>
-            <iri>https://ror.org/04mte1k06</iri>
-            <value>04mte1k06</value>
-            <scheme>
-                <iri>https://ror.org</iri>
-                <label xml:lang="en">ror</label>
-            </scheme>
-        </identifier>
-        <name>National Research Council Canada</name>
-        </organization>
-    </relation>
-    <role>
-        <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
-    </role>
-</qualified_relation>
-```
-
-**However, DataCite-compliant metadata does not always contain an organization as the publisher** ([v4.6_doi_10.17182_hepdata.79055.xml](./metadata-samples-test/subset01-DataCite-4.6/v4.6_doi_10.17182_hepdata.79055.xml)):
-
-From DataCite metadata:
-
-```xml
-<datacite:publisher>HEPData</datacite:publisher>
-```
-
-To CCMM metadata:
-
-```xml
-<qualified_relation>
-    <relation>
-        <organization>
-        <name>HEPData</name>
-        </organization>
-    </relation>
-    <role>
-        <iri>https://vocabs.ccmm.cz/registry/codelist/AgentRole/Publisher</iri>
-    </role>
-</qualified_relation>
-```
-However, HEPData is not an organization, but a repository. The CCMM metadata should be corrected accordingly, and/or the transformation should be adjusted. **An automated transformation generally cannot safely detect whether the DataCite publisher element contains an organization or a repository.**
-
-
-<!--
-## Transformation Issues and Further Notes
-
-in progress-->
-
 ## Current actions
-- Mapping between DataCite controlled vocabularies and CCMM controlled vocabularies in both directions, with application in XSLT transformations. Mapping of resource types from DataCite to COAR has already been implemented; mapping from COAR to DataCite is currently in progress. At present, values from controlled vocabularies are otherwise taken directly from the source metadata within the XSLT transformations.
-- We work on mappings and transformations for CCMM version 2.0.0.
+- We work on polishing mappings between controlled vocabularies.
+<!-- - We work on mappings and transformations for CCMM version 2.0.0. -->
 - We work on RDF layer and its corresponding mappings and transformations.
 
