@@ -2,8 +2,9 @@
 
 This repository contains materials related to the **mutual mapping** and **transformation** between **CCMM** and **DataCite** metadata standards, including the technical XSLT transformation scripts.
 
-> [!NOTE] This branch contains mapping and transformation between DataCite (4.7) and CCMM 2.0.0.
-> [!NOTE] Mapping and transformation between DataCite 4.7 and CCMM v1.1.0 is also [available](https://github.com/techlib/CCMM-DataCite-mappings/tree/release-ccmm-1.1.0-datacite-4.7-alpha1.2.1).
+> [!NOTE] 
+> This branch contains mapping and transformation between DataCite (4.7) and CCMM 2.0.0.
+> Mapping and transformation between DataCite 4.7 and CCMM v1.1.0 is also [available](https://github.com/techlib/CCMM-DataCite-mappings/tree/release-ccmm-1.1.0-datacite-4.7-alpha1.2.1).
 
 
 > [!IMPORTANT]
