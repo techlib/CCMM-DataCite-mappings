@@ -79,6 +79,9 @@ Partly documented in the initial-mapping branch.
 
 Once the initial mapping and XML crosswalks were completed, we shifted to an exhaustive search that began with DataCite elements and attributes (queried via XPath) to identify the corresponding CCMM nodes.
 
+> [!NOTE]
+> Currently, XML crosswalks are not fully up-to-date with XSLT transformations. It will be updated.
+
 Complete list of [XML crosswalks in one table](./mappings/DataCite-from-CCMM-XML-crosswalks.md) or in [TSV file](./mappings/DataCite-from-CCMM-XML-crosswalks.tsv)
 
 
