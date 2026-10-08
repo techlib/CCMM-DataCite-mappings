@@ -2,7 +2,9 @@
 
 This repository contains materials related to the **mutual mapping** and **transformation** between **CCMM** and **DataCite** metadata standards, including the technical XSLT transformation scripts.
 
-> ⚠️ **Work in Progress:** Currently updating mappings and transformations to support CCMM v2.0.0.
+> [!NOTE] This branch contains mapping and transformation between DataCite (4.7) and CCMM 2.0.0.
+> [!NOTE] Mapping and transformation between DataCite 4.7 and CCMM v1.1.0 is also [available](https://github.com/techlib/CCMM-DataCite-mappings/tree/release-ccmm-1.1.0-datacite-4.7-alpha1.2.1).
+
 
 > [!IMPORTANT]
 > This XSLT transformation is subject to minor ongoing improvements. While it is fully available for custom modification and use, the final responsibility for the transformation results lies with the user. We highly recommend testing and fine-tuning the script against your own datasets to ensure compatibility with specific metadata profiles.
@@ -94,8 +96,6 @@ Operationalize XML crosswalks using XSLT transformation aiming at transforming m
 - [XSLT transformation](./mappings/transformation-datacite-from-ccmm.xsl) for transforming **CCMM metadata to DataCite metadata**, i.e. DataCite-compliant representation of CCMM metadata
 
 - [XSLT transformation](./mappings/transformation-ccmm-from-datacite.xsl) for transforming **DataCite metadata to CCMM metadata**, i.e. CCMM-compliant representation of DataCite metadata
-
-## Transformation Issues: Discrepancies between DataCite and CCMM (Examples)
 
 ## Transformation Issues: Discrepancies between DataCite and CCMM (Examples)
 
@@ -216,9 +216,6 @@ Mapping of Resource Type Items from DataCite to COAR (Used in CCMM): [mapping-da
 ### CCMM XML samples
 
 For validating the XSLT transformation workflow, we employ round‑tripping tests, ensuring that the transformed output can be converted back to its original form:
-
-> [!NOTE]
-> Currently transformation between datacite and CCMM in progress.
 
 ```
 +-----------------+        XSLT        +------------------+
